@@ -7,8 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
-  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
   <style>
     body,
@@ -16,7 +18,6 @@
       height: 100%;
       font-family: "Inconsolata", sans-serif;
     }
-
   </style>
 </head>
 
@@ -48,7 +49,7 @@
   </header>-->
 
   <!-- Add a background color and large text to the whole page -->
-  <div class="w3-sand w3-large">
+  <div class="w3-sand ">
 
     <!-- About Container -->
     <div class="w3-container" id="about">
@@ -61,23 +62,89 @@
       </div>
     </div>
 
-    <!-- Map Container -->
+    <!-- Historic Map Container -->
     <div class="w3-container">
-      <div class="w3-content" style="max-height:700px">
+      <div class="w3-content">
         <h5 class="w3-center">
-          <span class="w3-tag w3-wide">Eine OpenStreetMap-Karte des modernen Florenz</span>
+          <span class="w3-tag w3-wide">Florenz 1400-1450</span>
         </h5>
-        <div class="w3-center" id="map" style="height:600px">
-
+        <div class="w3-cell-row">
+          <div class="w3-cell">
+            <img id="oldmap" src="" style="max-width:100%">
+          </div>
+          <div class="w3-cell w3-cell-top">
+            <span class="w3-tag w3-wide">Welche Daten sollen sichtbar sein?</span>
+            <span class="w3-wide">Catasto-Jahre</span>
+            <form style="min-width:100px">
+              <input type="checkbox" id="plan6" name="plan6">
+              <label for="plan6"> Wohnungen der Maler um 1400</label><br>
+              <input type="checkbox" id="plan7" name="plan7">
+              <label for="plan7"> Wohnungen der Maler um 1410/12</label><br>
+              <input type="checkbox" id="plan8" name="plan8">
+              <label for="plan8"> Wohnungen der Maler um 1427</label><br>
+              <input type="checkbox" id="plan9" name="plan9">
+              <label for="plan9"> Wohnungen der Maler um 1431</label><br>
+              <input type="checkbox" id="plan10" name="plan10">
+              <label for="plan10"> Wohnungen der Maler um 1433</label><br>
+              <input type="checkbox" id="plan11" name="plan11">
+              <label for="plan11"> Wohnungen der Maler um 1442</label><br>
+              <input type="checkbox" id="plan12" name="plan12">
+              <label for="plan12"> Wohnungen der Maler um 1447</label><br>
+              <input type="checkbox" id="plan13" name="plan13">
+              <label for="plan13"> Wohnungen der Maler um 1451</label><br>
+              <input type="checkbox" id="plan14" name="plan14">
+              <label for="plan14"> Wohnungen der Maler um 1458</label><br>
+              <input type="checkbox" id="plan15" name="plan15">
+              <label for="plan15"> Werkstätten der Maler um 1427</label><br>
+              <input type="checkbox" id="plan16" name="plan16">
+              <label for="plan16"> Werkstätten der Maler um 1431</label><br>
+              <input type="checkbox" id="plan17" name="plan17">
+              <label for="plan17"> Werkstätten der Maler um 1433</label><br>
+            </form><br>
+            <span class="w3-wide">Maler</span>
+            <form style="min-width:100px">
+              <input type="checkbox" id="tafelmaler" name="tafelmaler">
+              <label for="tafelmaler"> Wand- und Tafelmaler</label><br>
+              <input type="checkbox" id="moebelmaler" name="moebelmaler">
+              <label for="moebelmaler"> Möbelmaler</label><br>
+              <input type="checkbox" id="waffenmaler" name="waffenmaler">
+              <label for="waffenmaler"> Waffenmaler</label><br>
+              <input type="checkbox" id="glasmaler" name="glasmaler">
+              <label for="glasmaler"> Glasmaler</label><br>
+              <input type="checkbox" id="naibi" name="naibi">
+              <label for="naibi"> Naibi (Spielkartenmaler)</label><br>
+              <input type="checkbox" id="ceri" name="ceri">
+              <label for="ceri"> Ceri (Kerzenmaler)</label><br>
+              <input type="checkbox" id="stoffmaler" name="stoffmaler">
+              <label for="stoffmaler"> Stoffmaler</label><br>
+              <input type="checkbox" id="zimmermaler" name="zimmermaler">
+              <label for="zimmermaler"> Zimmermaler</label><br>
+              <input type="checkbox" id="gipstafeln" name="gipstafeln">
+              <label for="gipstafeln"> Hersteller von Gipstafeln</label><br>
+              <input type="checkbox" id="miniaturisten" name="steinmetze">
+              <label for="steinmetze"> Miniaturisten</label><br>
+              <input type="checkbox" id="hobby" name="hobby">
+              <label for="hobby"> Hobbymaler</label><br>
+              <input type="checkbox" id="unspezifizierbar" name="unspezifizierbar">
+              <label for="unspezifizierbar"> unspezifizierbare Maler</label><br>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-    <!-- HIER WEITERMACHEN: https://leafletjs.com/examples/quick-start/
-HIER FÜR CHOROPLETH: https://leafletjs.com/examples/choropleth/ 
-Time slider: https://github.com/dwilhelm89/LeafletSlider-->
 
+    <!-- Modern Map Container -->
+    <div class="w3-container">
+      <div class="w3-content" style="max-height:700px">
+        <h5 class="w3-center">
+          <span class="w3-tag w3-wide">Eine Karte des modernen Florenz</span>
+        </h5>
+        <div class="w3-center" id="modernmap" style="height:600px">
+        </div>
+      </div>
+    </div>
 
-    <!-- End page content -->
+  <!-- End page content -->
   </div>
 
 
@@ -89,16 +156,8 @@ Time slider: https://github.com/dwilhelm89/LeafletSlider-->
         class="w3-hover-text-green">MA Cultural Data Studies.</a></p>
   </footer>
 
-  <!-- JavaScript for Leaflet -->
-  <script>
-    var map = L.map('map').setView([43.7677,11.2463], 14);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
-
-  </script>
-
+  <!-- Extern JavaScript file  -->
+  <script src="assets/map.js"></script>
 </body>
 
 </html>
