@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Florentiner Maler 1400-1450 - Planteil</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+  <style>
+    body,
+    html {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Links (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+      <div class="w3-col s3">
+        <a href="index.html" class="w3-button w3-block w3-black">Einführung</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="network.html" class="w3-button w3-block w3-black">Netzwerk</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="map.html" class="w3-button w3-block w3-black">Karten</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="statistics.html" class="w3-button w3-block w3-black">Statistik</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header with image 
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+      <div class="w3-display-middle w3-center">
+        <span class="w3-text-black" style="font-size:80px">Florentiner Maler <br> 1400-1450</span>
+      </div>
+  </header>-->
+
+  <!-- Add a background color and large text to the whole page -->
+  <div class="w3-sand w3-large">
+
+    <!-- About Container -->
+    <div class="w3-container" id="about">
+      <div class="w3-content" style="max-height:700px">
+        <h5 class="w3-center w3-padding-64">
+          <span class="w3-tag w3-wide">Planteil</span>
+        </h5>
+        <p>Coming soon!</p>
+        <p>Hierher kommt eine Erklärung.</p>
+      </div>
+    </div>
+
+    <!-- Map Container -->
+    <div class="w3-container">
+      <div class="w3-content" style="max-height:700px">
+        <h5 class="w3-center">
+          <span class="w3-tag w3-wide">Eine OpenStreetMap-Karte des modernen Florenz</span>
+        </h5>
+        <div class="w3-center" id="map" style="height:600px">
+
+        </div>
+      </div>
+    </div>
+    <!-- HIER WEITERMACHEN: https://leafletjs.com/examples/quick-start/
+HIER FÜR CHOROPLETH: https://leafletjs.com/examples/choropleth/ 
+Time slider: https://github.com/dwilhelm89/LeafletSlider-->
+
+
+    <!-- End page content -->
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+    <p>Website zur Masterarbeit von <a href="https://github.com/ToniMassenberg" title="Toni Massenberg auf Github"
+        target="_blank" class="w3-hover-text-green">Toni Massenberg</a> im <a
+        href="https://www.uni-marburg.de/de/mcdci/studium/ma-cds" title="Philipps-Universität Marburg" target="_blank"
+        class="w3-hover-text-green">MA Cultural Data Studies.</a></p>
+  </footer>
+
+  <!-- JavaScript for Leaflet -->
+  <script>
+    var map = L.map('map').setView([43.7677,11.2463], 14);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+  </script>
+
+</body>
+
+</html>
