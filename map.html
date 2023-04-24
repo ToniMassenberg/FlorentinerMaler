@@ -5,12 +5,16 @@
   <title>Florentiner Maler 1400-1450 - Planteil</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Stylesheet for W3 (responsive design framework) -->
   <link rel="stylesheet" href="assets/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  <!-- Stylesheet for Leaflet modern map integration -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <!-- Stylesheet for icons -->
+  <script src="https://kit.fontawesome.com/e7a8b386f3.js" crossorigin="anonymous"></script>
 
   <style>
     body,
@@ -18,6 +22,18 @@
       height: 100%;
       font-family: "Inconsolata", sans-serif;
     }
+
+    .container img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .container {
+      position: relative;
+      width: 100%;
+    }
+
   </style>
 </head>
 
@@ -70,10 +86,30 @@
         </h5>
         <div class="w3-cell-row">
           <div class="w3-cell">
-            <img id="oldmap" src="" style="max-width:100%">
+            <!--<div class="diagram" id="oldmap-container">
+              <img id="oldmap" src="" style="max-width:100%"/>
+              <div class="annotations">
+               <div class="annotation"></div>
+              </div>
+                
+            </div>-->
+            <div class="container">
+              <img id="oldmap" src="">
+            </div>
+            
           </div>
           <div class="w3-cell w3-cell-top">
             <span class="w3-tag w3-wide">Welche Daten sollen sichtbar sein?</span>
+            <span class="w3-wide">Kartenannotationen</span>
+            <form style="min-width:100px">
+              <input type="checkbox" id="plan2" name="plan2">
+              <label for="plan2"> Quarteri und Gonfalioni</label><br>
+              <input type="checkbox" id="plan3" name="plan3">
+              <label for="plan3"> Kirchliche Gliederung (Popoli)</label><br>
+              <input type="checkbox" id="einkommen" name="einkommen">
+              <label for="einkommen"> Einkommensstarke Quartieri</label><br>
+            </form><br>
+
             <span class="w3-wide">Catasto-Jahre</span>
             <form style="min-width:100px">
               <input type="checkbox" id="plan6" name="plan6">
