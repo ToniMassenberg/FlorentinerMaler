@@ -1,0 +1,25 @@
+{
+    "plan6": {
+      "painter1" : {
+        "label": "Masaccio",
+        "iconTop": "10",
+        "iconLeft": "20"}, 
+      "painter2" : {
+        "label": "Masolino",
+        "iconTop": "30",
+        "iconLeft": "40"
+      }
+  },
+    "plan7": {
+      "painter3": {
+        "label": "Masaccio2",
+        "iconTop": "70",
+        "iconLeft": "80"
+      },
+      "painter4":{
+        "label": "Masolino2",
+        "iconTop": "80",
+        "iconLeft": "90"
+      }
+    }
+  }
