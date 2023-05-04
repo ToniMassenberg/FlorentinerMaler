@@ -11,7 +11,7 @@ $(document).ready(() => {
   // to run this page in local server right-click HTML and select Launch in Browser (intro to extension in VSCode: https://marketplace.visualstudio.com/items?itemName=yuichinukiyama.vscode-preview-server&ssr=false#overview)
 
   // function to add annotation regions based on coordinates in map-annotation-gonfaloni.json
-  
+
 
 
 
@@ -45,7 +45,6 @@ $(document).ready(() => {
             // place position as percentage
             icon.style.top = iconTop + '%';
             icon.style.left = iconLeft + '%';
-            console.log(icon)
           });
         });
   
