@@ -3,25 +3,11 @@
 // jQuery wrapper to only load JavaScript when HTML is fully loaded
 $(document).ready(() => {
 
-
+  
+  
   // insert image in html ("prepend" puts the entity first in the container)
   //$('#oldmap-container').prepend($('<img>', { id: 'oldmap', src: 'images/basicmap.jpg' }))
-  // load image with canvas: https://www.encodedna.com/html5/canvas/add-image-to-html5-canvas-using-javascript.htm
-  let img = new Image();
-  img.src = '/images/basicmap.jpg';
-  
-  img.onload = function () { // wait until the image is loaded
-      fill_canvas(img);       // fill canvas with the image
-  }
 
-  function fill_canvas(img) {
-      // create canvas context.
-      let canvas = document.getElementById('oldmap-canvas');
-      let ctx = canvas.getContext('2d');
-      canvas.width = img.width;
-      canvas.height = img.height;
-      ctx.drawImage(img, 0, 0); // draw the image to the canvas.
-  }
 
 
   // as soon as I use another file i get an error in the browser. To solve I set up a local testing server: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server
@@ -32,23 +18,18 @@ $(document).ready(() => {
     $('input[id="' + planNr + '"]').click(function () {
       // if the checkbox is checked: 
       if ($(this).prop("checked") == true) {
-        // get data for icon position from JSON
+        // get data for annotations from JSON
         //$.getJSON(jsonFilePath, function (data) {};
-        var canvas = document.getElementById("oldmap-canvas");
-        var ctx = canvas.getContext("2d");
+        // jQuery can't be used directly on SVG elements because of different name spaces, discussion here: https://stackoverflow.com/questions/3642035/jquerys-append-not-working-with-svg-element - method here is the one suggested by forresto
+        $('#oldmap-svg-container').append($('<svg><polygon points="200,10 250,190 160,210" style="fill:lime;opacity:0.5" /></svg>'))
+        $('#oldmap-svg-container').append($('<svg><polygon points="200,100 250,200 160,220" style="fill:none;stroke:black;stroke-width:2" /></svg>'))
+        
 
-        ctx.fillStyle = "#FF0000";
-        ctx.fillRect(30, 30, 150, 75);
-
-
-        ctx.font = "30px Arial";
-        //ctx.drawImage(img, 50, 50);
-        ctx.fillText("Hello World",20,90);
     
 
       // when the checkbox is unchecked again:  
       } else if ($(this).prop("checked") == false) {
-        $('.' + planNr + 'icon').remove();
+        $('#oldmap-svg-container').empty();
       }
     });
   }
