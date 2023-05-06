@@ -29,15 +29,15 @@
     }
 
     .container img {
-      display: block;
+      display: inline;
       max-width: 100%;
       height: auto;
     }
 
-    .container svg { 
-        display: inline-block;
+    .svg-container { 
+      display: inline;
         position: absolute;
-        max-width: 100%;
+        width: 100%;
         height: 100%;
         top: 0; 
         left: 0;
@@ -99,7 +99,10 @@
  
             <div class="container" id="oldmap-container">
               <img id="oldmap" src="images/basicmap.jpg"></img>
-              <div id="oldmap-svg-container"></div>
+              
+              <div class="svg-container" id="oldmap-svg-plan2"></div>
+              <div class="svg-container" id="oldmap-svg-choropleth"></div>
+              
             </div>
             
           </div>
@@ -111,8 +114,8 @@
               <label for="plan2"> Quarteri und Gonfalioni</label><br>
               <input type="checkbox" id="plan3" name="plan3">
               <label for="plan3"> Kirchliche Gliederung (Popoli)</label><br>
-              <input type="checkbox" id="einkommen" name="einkommen">
-              <label for="einkommen"> Einkommensstarke Quartieri</label><br>
+              <input type="checkbox" id="choropleth" name="choropleth">
+              <label for="choropleth"> Einkommensstarke Quartieri</label><br>
             </form><br>
 
             <span class="w3-wide">Catasto-Jahre</span>
