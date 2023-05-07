@@ -37,7 +37,6 @@ $(document).ready(() => {
         points: pointsString,
         middle: middlePoint
       };
-      console.log(regionObj.type)
 
       // Add the region object to the array
       regionObjects.push(regionObj);
@@ -62,36 +61,45 @@ $(document).ready(() => {
       if ($(this).prop("checked") == true) {
         // Initialize container for all region overlays so it can be emptied later
         $('#oldmap-container').append(`<div class="svg-container" id="${idGenerated}"></div>`)
-  
+
         // get the region object array and loop over each regionObject to make one overlay each
         // Every city quarter has its own overlay which means they properties can be changed individually. Here they have different name tags, if needed they could have eg. different colors or line patterns.
         regionObjects.forEach(obj => {
           const nameString = obj.name;
           const pointsString = obj.points;
+          console.log(nameString)
+          console.log(pointsString)
           const middle = obj.middle;
           const avgWealth = obj.avgWealth;
-  
-          if (planNr === "choropleth") {
-            if (avgWealth > 250){
-              var styleString = "fill:green;opacity:0.5";
-            }if(avgWealth > 200 && avgWealth < 250) { 
-              var styleString = "fill:yellow;opacity:0.5";
-            }if (avgWealth < 200){ 
-              var styleString = "fill:red;opacity:0.5";
-            }
 
-            $(`#${idGenerated}`).append(`
+          // Define the colors in the wealth map based on average wealth of each region's citizens
+          if (planNr === "choropleth") {
+            if (obj.type === "Gonfaloni") {
+              if (avgWealth > 250) {
+                var styleString = "fill:green;opacity:0.4";
+              } if (avgWealth >= 200 && avgWealth <= 250) {
+                var styleString = "fill:yellow;opacity:0.4";
+              } if (avgWealth < 200) {
+                var styleString = "fill:red;opacity:0.4";
+              }
+
+
+              // Append SVG overlay as its own container since HTML can't handle SVG containers themselves, since they use different namespaces.
+              // The viewbox defines the SVG's size as the image size, preserveAspectRatio="none" means that the SVG overlay can be scaled and squished like the raster image instead of being cut off. 
+              // Explanation for the use of SVGs: https://css-tricks.com/scale-svg/
+              $(`#${idGenerated}`).append(`
             <div class="svg-container">
                 <svg viewBox="0 0 2178 2121" preserveAspectRatio="none">
                   <polygon points="${pointsString}" style="${styleString}" />
                 </svg>
               </div>
             `);
+            } else {
+              // do nothing, because we log the wealth of Gonfaloni, not of the Quartieri.
+            };
 
-
-            console.log("choropleth");
           } else {
-  
+            // Condition if it is for plan2 or plan3
             // Define the style of the line.
             if (obj.type === "Quartieri") {
               var styleString = "fill:none;stroke:black;stroke-width:5"
@@ -101,9 +109,7 @@ $(document).ready(() => {
               var styleString = "fill:none;stroke:black;stroke-dasharray:5,10;stroke-width:4"
               var textSize = "3em"
             }
-            // Insert SVG overlay as its own container since HTML can't handle SVG containers themselves, since they use different namespaces.
-            // The viewbox defines the SVG's size as the image size, preserveAspectRatio="none" means that the SVG overlay can be scaled and squished like the raster image instead of being cut off. 
-            // Explanation for the use of SVGs: https://css-tricks.com/scale-svg/
+            // Append SVG overlays for each region border
             $(`#${idGenerated}`).append(`
             <div class="svg-container">
                 <svg viewBox="0 0 2178 2121" preserveAspectRatio="none">
@@ -114,99 +120,98 @@ $(document).ready(() => {
             `);
           }
         });
-  
         // end for plan2 and plan3
       }
-  
+
       // when the checkbox is unchecked again remove overlays
       else if ($(this).prop("checked") == false) {
         $(`#${idGenerated}`).empty();
       }
     });
   }
-  
-
-
-function mapChoropleth(planNr, jsonFilePath) {
-  $('input[id="' + planNr + '"]').click(function () {
-    // if the checkbox is checked: 
-    if ($(this).prop("checked") == true) {
-      // get data for annotations from JSON
-      //$.getJSON(jsonFilePath, function (data) {};
-
-      var points = "'709,341 765,551 819,823 901,894 873,927 876,943 851,966 919,987 909,1035'"
-
-      // fill polygon for avg wealth map
-      $('#oldmap-svg-choropleth').append($('<svg viewBox="0 0 2178 2121" preserveAspectRatio="none"><polygon points=' + points + 'style="fill:lime;opacity:0.5" /></svg>'))
-
-
-      // when the checkbox is unchecked again:  
-    } else if ($(this).prop("checked") == false) {
-      $('#oldmap-svg-choropleth').empty();
-    }
-  });
-}
-
-mapChoropleth("choropleth", "assets/map-annotation-gonfaloni.json")
 
 
 
-// function to add icons to the map image based on coordinates in a JSON file. For checkbox use with jQuery: https://www.w3docs.com/snippets/javascript/how-to-test-if-a-checkbox-is-checked-with-jquery.html
-function mapIcons(planNr, jsonFilePath) {
-  $('input[id="' + planNr + '"]').click(function () {
-    // if the checkbox is checked: 
-    if ($(this).prop("checked") == true) {
-      // get data for icon position from JSON
-      $.getJSON(jsonFilePath, function (data) {
-        var selectedPlan = planNr;
-        // Get the painters for the selected plan
-        var painters = data[selectedPlan];
-        // Iterate over each painter
-        $.each(painters, function (painter, painterData) {
-          // Access the painter's data
-          var label = painterData.label;
-          var iconTop = painterData.iconTop;
-          var iconLeft = painterData.iconLeft;
+  function mapChoropleth(planNr, jsonFilePath) {
+    $('input[id="' + planNr + '"]').click(function () {
+      // if the checkbox is checked: 
+      if ($(this).prop("checked") == true) {
+        // get data for annotations from JSON
+        //$.getJSON(jsonFilePath, function (data) {};
 
-          // create icon based on data
-          var container = document.querySelector('#oldmap-container');
-          // create the icon element
-          var icon = document.createElement('i');
-          icon.classList.add('fa', 'fa-circle', planNr + 'icon');
-          icon.style.position = 'absolute';
-          icon.style.width = '10px';
-          icon.style.height = '10px';
-          // append the icon element to the container element
-          container.appendChild(icon);
-          // place position as percentage
-          icon.style.top = iconTop + '%';
-          icon.style.left = iconLeft + '%';
+        var points = "'709,341 765,551 819,823 901,894 873,927 876,943 851,966 919,987 909,1035'"
+
+        // fill polygon for avg wealth map
+        $('#oldmap-svg-choropleth').append($('<svg viewBox="0 0 2178 2121" preserveAspectRatio="none"><polygon points=' + points + 'style="fill:lime;opacity:0.5" /></svg>'))
+
+
+        // when the checkbox is unchecked again:  
+      } else if ($(this).prop("checked") == false) {
+        $('#oldmap-svg-choropleth').empty();
+      }
+    });
+  }
+
+  mapChoropleth("choropleth", "assets/map-annotation-gonfaloni.json")
+
+
+
+  // function to add icons to the map image based on coordinates in a JSON file. For checkbox use with jQuery: https://www.w3docs.com/snippets/javascript/how-to-test-if-a-checkbox-is-checked-with-jquery.html
+  function mapIcons(planNr, jsonFilePath) {
+    $('input[id="' + planNr + '"]').click(function () {
+      // if the checkbox is checked: 
+      if ($(this).prop("checked") == true) {
+        // get data for icon position from JSON
+        $.getJSON(jsonFilePath, function (data) {
+          var selectedPlan = planNr;
+          // Get the painters for the selected plan
+          var painters = data[selectedPlan];
+          // Iterate over each painter
+          $.each(painters, function (painter, painterData) {
+            // Access the painter's data
+            var label = painterData.label;
+            var iconTop = painterData.iconTop;
+            var iconLeft = painterData.iconLeft;
+
+            // create icon based on data
+            var container = document.querySelector('#oldmap-container');
+            // create the icon element
+            var icon = document.createElement('i');
+            icon.classList.add('fa', 'fa-circle', planNr + 'icon');
+            icon.style.position = 'absolute';
+            icon.style.width = '10px';
+            icon.style.height = '10px';
+            // append the icon element to the container element
+            container.appendChild(icon);
+            // place position as percentage
+            icon.style.top = iconTop + '%';
+            icon.style.left = iconLeft + '%';
+          });
         });
-      });
 
-      // when the checkbox is unchecked again:  
-    } else if ($(this).prop("checked") == false) {
-      $('.' + planNr + 'icon').remove();
-    }
-  });
-}
+        // when the checkbox is unchecked again:  
+      } else if ($(this).prop("checked") == false) {
+        $('.' + planNr + 'icon').remove();
+      }
+    });
+  }
 
-// call the function for each checkbox 
-mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
-mapAnnotations("choropleth", "assets/map-annotation-gonfaloni.json")
-mapIcons("plan6", "assets/examplejson.json");
-mapIcons("plan7", "assets/examplejson.json");
-
-
-// place text: https://www.w3schools.com/howto/howto_css_image_text.asp
+  // call the function for each checkbox 
+  mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
+  mapAnnotations("choropleth", "assets/map-annotation-gonfaloni.json")
+  mapIcons("plan6", "assets/examplejson.json");
+  mapIcons("plan7", "assets/examplejson.json");
 
 
-// Code for the Leaflat map of modern Florence. Edited version of: Agafonkin, Volodymyr. "Quick Start Guide - Leaflet - a JavaScript library for interactive maps". Accessed 22. April 2023. https://leafletjs.com/examples/quick-start/.
-var modernmap = L.map('modernmap').setView([43.7703, 11.2574], 14);
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(modernmap);
+  // place text: https://www.w3schools.com/howto/howto_css_image_text.asp
+
+
+  // Code for the Leaflat map of modern Florence. Edited version of: Agafonkin, Volodymyr. "Quick Start Guide - Leaflet - a JavaScript library for interactive maps". Accessed 22. April 2023. https://leafletjs.com/examples/quick-start/.
+  var modernmap = L.map('modernmap').setView([43.7703, 11.2574], 14);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(modernmap);
 
 
 
