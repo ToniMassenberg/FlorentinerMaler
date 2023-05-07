@@ -67,22 +67,38 @@ $(document).ready(() => {
         regionObjects.forEach(obj => {
           const nameString = obj.name;
           const pointsString = obj.points;
-          console.log(nameString)
-          console.log(pointsString)
           const middle = obj.middle;
           const avgWealth = obj.avgWealth;
 
           // Define the colors in the wealth map based on average wealth of each region's citizens
           if (planNr === "choropleth") {
             if (obj.type === "Gonfaloni") {
-              if (avgWealth > 250) {
-                var styleString = "fill:green;opacity:0.4";
-              } if (avgWealth >= 200 && avgWealth <= 250) {
-                var styleString = "fill:yellow;opacity:0.4";
-              } if (avgWealth < 200) {
-                var styleString = "fill:red;opacity:0.4";
+              console.log(avgWealth)
+              switch(true) {
+                case avgWealth < 120:
+                  var styleString = "fill:#f81010;opacity:0.6";
+                  break; 
+                case avgWealth <= 150:
+                  var styleString = "fill:#ec5400;opacity:0.5";
+                  break;
+                case avgWealth <= 200:
+                  var styleString = "fill:#d97900;opacity:0.5";
+                  break;
+                case avgWealth <= 230:
+                  var styleString = "fill:#bf9700;opacity:0.5";
+                  break;
+                case avgWealth <= 260:
+                  var styleString = "fill:#9fb000;opacity:0.5";
+                  break;
+                case avgWealth <= 300:
+                  var styleString = "fill:#76c500;opacity:0.5";
+                  break;
+                case avgWealth > 300:
+                  var styleString = "fill:#2bd83b;opacity:0.6";
+                  break;
+                default:
+                  console.log("default")
               }
-
 
               // Append SVG overlay as its own container since HTML can't handle SVG containers themselves, since they use different namespaces.
               // The viewbox defines the SVG's size as the image size, preserveAspectRatio="none" means that the SVG overlay can be scaled and squished like the raster image instead of being cut off. 
@@ -129,31 +145,6 @@ $(document).ready(() => {
       }
     });
   }
-
-
-
-  function mapChoropleth(planNr, jsonFilePath) {
-    $('input[id="' + planNr + '"]').click(function () {
-      // if the checkbox is checked: 
-      if ($(this).prop("checked") == true) {
-        // get data for annotations from JSON
-        //$.getJSON(jsonFilePath, function (data) {};
-
-        var points = "'709,341 765,551 819,823 901,894 873,927 876,943 851,966 919,987 909,1035'"
-
-        // fill polygon for avg wealth map
-        $('#oldmap-svg-choropleth').append($('<svg viewBox="0 0 2178 2121" preserveAspectRatio="none"><polygon points=' + points + 'style="fill:lime;opacity:0.5" /></svg>'))
-
-
-        // when the checkbox is unchecked again:  
-      } else if ($(this).prop("checked") == false) {
-        $('#oldmap-svg-choropleth').empty();
-      }
-    });
-  }
-
-  mapChoropleth("choropleth", "assets/map-annotation-gonfaloni.json")
-
 
 
   // function to add icons to the map image based on coordinates in a JSON file. For checkbox use with jQuery: https://www.w3docs.com/snippets/javascript/how-to-test-if-a-checkbox-is-checked-with-jquery.html
