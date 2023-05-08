@@ -3,8 +3,18 @@
 // jQuery wrapper to only load JavaScript when HTML is fully loaded
 $(document).ready(() => {
 
+  // How to log objects so you can see the content:
+  //console.log('regionObjects: ' + JSON.stringify(regionObjects)) 
+
+  // as soon as I use another file i get an error in the browser. To solve I set up a local testing server: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server
+  // to run this page in local server right-click HTML and select Launch in Browser (intro to extension in VSCode: https://marketplace.visualstudio.com/items?itemName=yuichinukiyama.vscode-preview-server&ssr=false#overview)
+
+  // insert image in html ("prepend" puts the entity first in the container)
+  //$('#oldmap-container').prepend($('<img>', { id: 'oldmap', src: 'images/basicmap.jpg' }))
+
+
   // Get data for annotations from JSON here so it runs just once, not every time a checkbox is checked. The code to access the JSON file and reformat the pointsString was partly written by ChatGPT and edited by me.    
-  // Array with the Objects holding gonfaloni info so it can be accessed when checkboxes
+  // Array with the objects holding gonfaloni info so it can be accessed when checkboxes are checked
   const regionObjects = [];
   $.getJSON('assets/map-annotation-gonfaloni.json', function (data) {
     // Loop through each region in the JSON file
@@ -35,31 +45,17 @@ $(document).ready(() => {
 
       // Add the region object to the array
       regionObjects.push(regionObj);
-
     }
   });
-
-
-
-  // How to log objects so you can see the content:
-  //console.log('regionObjects: ' + JSON.stringify(regionObjects)) 
-
-  // as soon as I use another file i get an error in the browser. To solve I set up a local testing server: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server
-  // to run this page in local server right-click HTML and select Launch in Browser (intro to extension in VSCode: https://marketplace.visualstudio.com/items?itemName=yuichinukiyama.vscode-preview-server&ssr=false#overview)
-
-
-  // insert image in html ("prepend" puts the entity first in the container)
-  //$('#oldmap-container').prepend($('<img>', { id: 'oldmap', src: 'images/basicmap.jpg' }))
-
 
   // function to add annotation regions based on coordinates in map-annotation-gonfaloni.json
   function mapAnnotations(planNr, jsonFilePath) {
 
-    $('input[id="' + planNr + '"]').click(function () {
+    $(`input[id="${planNr}"]`).click(function () {
       // initialize ID for the region overlay container
       let idGenerated = planNr + "Generated"
       // if the checkbox is checked: 
-      if ($(this).prop("checked") == true) {
+      if ($(this).prop("checked") === true) {
         // Initialize container for all region overlays so it can be emptied later
         $('#oldmap-container').append(`<div class="svg-container" id="${idGenerated}"></div>`)
 
@@ -140,99 +136,80 @@ $(document).ready(() => {
       }
 
       // when the checkbox is unchecked again remove overlays
-      else if ($(this).prop("checked") == false) {
+      else if ($(this).prop("checked") === false) {
         $(`#${idGenerated}`).empty();
       }
     });
   }
 
   // Function to display the icons based on plan6-17
-  function mapAnnotationIcons(planNr, jsonFilePath) {
+  function mapIcons(planNr, jsonFilePath) {
 
-    $('input[id="' + planNr + '"]').click(function () {
+    $(`input[id="${planNr}"]`).click(function () {
       // if the checkbox is checked: 
-      let idGenerated = planNr + "Generated"
-      if ($(this).prop("checked") == true) {
+      let idGenerated = planNr + "Generated";
+      if ($(this).prop("checked") === true) {
         // initialize ID for the region overlay container, so each plan gets its own container and can be stacked
         const locationObjects = [];
+        // Initialize container for all region overlays so it can be emptied later
+        $('#oldmap-container').append(`<div class="svg-container" id="${idGenerated}"></div>`);
+
+        // Define one symbol for every job group Jacobsen has a symbol for
+        // Use of SVG HTML-native symbols: https://wiki.selfhtml.org/wiki/SVG/Tutorials/Icons#SVG_in_HTML
+        // SVG paths from Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License Icons: CC BY 4.0. Copyright 2023 Fonticons, Inc., taken from https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs
+        const symbolPaths = {
+          wandmaler: 'M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z', // circle.svg
+          moebelmaler: 'M464 48V464H48V48H464zM48 0H0V48 464v48H48 464h48V464 48 0H464 48z', // square-full.svg
+          waffenmaler: 'M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256-96a96 96 0 1 1 0 192 96 96 0 1 1 0-192z',
+          glasmaler: 'M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z', // circle-xmark.svg
+          miniaturisten: 'M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z', // bookmark.svg
+        };
+        // For rare job groups use text as a symbol to keep the more common symbols easily recognizeable
+        const symbolTexts = {
+          wandmaler: '',
+          moebelmaler: '',
+          waffenmaler: '',
+          glasmaler: '',
+          miniaturisten: '',
+          naibi: 'N',
+          ceri: 'C',
+          stoffmaler: 'S',
+          zimmermaler: 'Z',
+          gips: 'G',
+          steinmetz: 'ST',
+          hobby: 'H',
+          undefined: 'U'
+        }
+
         $.getJSON(jsonFilePath, function (data) {
           // Loop through each region in the JSON file
           for (const region of data.regions) {
+
             var job = region.region_attributes.job;
-            // Initialize container for all region overlays so it can be emptied later
-            $('#oldmap-container').append(`<div class="svg-container" id="${idGenerated}"></div>`);
-            // Use of SVG HTML-native symbols: https://wiki.selfhtml.org/wiki/SVG/Tutorials/Icons#SVG_in_HTML
-            switch (true) {
-              case job === "wandmaler":
-                var symbolPath = '<path d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V448c0 17.7 14.3 32 32 32s32-14.3 32-32V64zm128 0c0-17.7-14.3-32-32-32s-32 14.3-32 32V448c0 17.7 14.3 32 32 32s32-14.3 32-32V64z" stroke="black" stroke-width="2" />'
-                break;
-              case job === "moebelmaler":
-                var symbolPath = '<path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" stroke="black" stroke-width="2" />'
-                break;
 
-              default:
-                console.log(`Icon for ${planNr} went to default option`)
-            }
+            // Define color of symbol based on certainty of information: black if the street can be identified, gray if only the parish is known
+            if (region.region_attributes.certainty === 'street') {
+              var color = "black";
+            } else {
+              var color = "gray";
+            };
 
-
+            // Insert a div container with the symbol appropriate to the job group for every marker.
             $(`#${idGenerated}`).append(`
-                        <div class="svg-container">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2178 2121" preserveAspectRatio="none">
-                            <defs>
-                              <symbol id="location" viewBox="0 0 512 512">${symbolPath}</symbol>
-                            </defs>
-                            <use href="#location" x="${region.shape_attributes.cx - 5}" y="${region.shape_attributes.cy - 5}" width="40" height="40" />
-                          </svg>
-                        </div>
-                    `);
+              <div class="svg-container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2178 2121" preserveAspectRatio="none">
+                  <defs><symbol id="${job}" viewBox="0 0 512 512">'<path d="${symbolPaths[job]}" stroke="${color}" stroke-width="2" /></symbol></defs>
+                  <use href="#${job}" x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" width="40" height="40" />
+                  <text x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" font-size="50" fill="${color}">${symbolTexts[job]}</text>
+                </svg>
+              </div>
+            `);
           }
         });
 
-        // when the checkbox is unchecked again:  
-      } else if ($(this).prop("checked") == false) {
+        // when the checkbox is unchecked again delete all symbols:  
+      } else if ($(this).prop("checked") === false) {
         $(`#${idGenerated}`).empty();
-      }
-    });
-  }
-
-
-
-  // function to add icons to the map image based on coordinates in a JSON file. For checkbox use with jQuery: https://www.w3docs.com/snippets/javascript/how-to-test-if-a-checkbox-is-checked-with-jquery.html
-  function mapIcons(planNr, jsonFilePath) {
-    $('input[id="' + planNr + '"]').click(function () {
-      // if the checkbox is checked: 
-      if ($(this).prop("checked") == true) {
-        // get data for icon position from JSON
-        $.getJSON(jsonFilePath, function (data) {
-          var selectedPlan = planNr;
-          // Get the painters for the selected plan
-          var painters = data[selectedPlan];
-          // Iterate over each painter
-          $.each(painters, function (painter, painterData) {
-            // Access the painter's data
-            var label = painterData.label;
-            var iconTop = painterData.iconTop;
-            var iconLeft = painterData.iconLeft;
-
-            // create icon based on data
-            var container = document.querySelector('#oldmap-container');
-            // create the icon element
-            var icon = document.createElement('i');
-            icon.classList.add('fa', 'fa-circle', planNr + 'icon');
-            icon.style.position = 'absolute';
-            icon.style.width = '10px';
-            icon.style.height = '10px';
-            // append the icon element to the container element
-            container.appendChild(icon);
-            // place position as percentage
-            icon.style.top = iconTop + '%';
-            icon.style.left = iconLeft + '%';
-          });
-        });
-
-        // when the checkbox is unchecked again:  
-      } else if ($(this).prop("checked") == false) {
-        $('.' + planNr + 'icon').remove();
       }
     });
   }
@@ -240,11 +217,7 @@ $(document).ready(() => {
   // call the function for each checkbox 
   mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
   mapAnnotations("choropleth", "assets/map-annotation-gonfaloni.json")
-  mapAnnotationIcons("plan6", "assets/map-annotation-1410-trial.json");
-  mapIcons("plan7", "assets/examplejson.json");
-
-
-  // place text: https://www.w3schools.com/howto/howto_css_image_text.asp
+  mapIcons("plan6", "assets/map-annotation-1410-trial.json");
 
 
   // Code for the Leaflat map of modern Florence. Edited version of: Agafonkin, Volodymyr. "Quick Start Guide - Leaflet - a JavaScript library for interactive maps". Accessed 22. April 2023. https://leafletjs.com/examples/quick-start/.
@@ -253,9 +226,6 @@ $(document).ready(() => {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(modernmap);
-
-
-
 })
 
 
