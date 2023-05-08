@@ -3,15 +3,10 @@
 // jQuery wrapper to only load JavaScript when HTML is fully loaded
 $(document).ready(() => {
 
-  // Global array with the Objects holding gonfaloni info so it can be accessed later
+  // Get data for annotations from JSON here so it runs just once, not every time a checkbox is checked. The code to access the JSON file and reformat the pointsString was partly written by ChatGPT and edited by me.    
+  // Array with the Objects holding gonfaloni info so it can be accessed when checkboxes
   const regionObjects = [];
-  // How to log objects so you can see the content:
-  //console.log('regionObjects: ' + JSON.stringify(regionObjects)) 
-
-  // Get data for annotations from JSON here so it runs just once, not every time a checkbox is checked. The code to access the JSON file and reformat the pointsString was partly written by ChatGPT and edited by me.
   $.getJSON('assets/map-annotation-gonfaloni.json', function (data) {
-
-
     // Loop through each region in the JSON file
     for (const region of data.regions) {
       const allPointsX = region.shape_attributes.all_points_x;
@@ -43,6 +38,12 @@ $(document).ready(() => {
 
     }
   });
+
+
+
+  // How to log objects so you can see the content:
+  //console.log('regionObjects: ' + JSON.stringify(regionObjects)) 
+
   // as soon as I use another file i get an error in the browser. To solve I set up a local testing server: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server
   // to run this page in local server right-click HTML and select Launch in Browser (intro to extension in VSCode: https://marketplace.visualstudio.com/items?itemName=yuichinukiyama.vscode-preview-server&ssr=false#overview)
 
@@ -51,9 +52,9 @@ $(document).ready(() => {
   //$('#oldmap-container').prepend($('<img>', { id: 'oldmap', src: 'images/basicmap.jpg' }))
 
 
-
   // function to add annotation regions based on coordinates in map-annotation-gonfaloni.json
   function mapAnnotations(planNr, jsonFilePath) {
+
     $('input[id="' + planNr + '"]').click(function () {
       // initialize ID for the region overlay container
       let idGenerated = planNr + "Generated"
@@ -70,14 +71,13 @@ $(document).ready(() => {
           const middle = obj.middle;
           const avgWealth = obj.avgWealth;
 
-          // Define the colors in the wealth map based on average wealth of each region's citizens
+          // Define the colors and opacity in the wealth map based on average wealth of each region's citizens (Jacobsen p.28)
           if (planNr === "choropleth") {
             if (obj.type === "Gonfaloni") {
-              console.log(avgWealth)
-              switch(true) {
+              switch (true) {
                 case avgWealth < 120:
                   var styleString = "fill:#f81010;opacity:0.6";
-                  break; 
+                  break;
                 case avgWealth <= 150:
                   var styleString = "fill:#ec5400;opacity:0.5";
                   break;
@@ -97,7 +97,7 @@ $(document).ready(() => {
                   var styleString = "fill:#2bd83b;opacity:0.6";
                   break;
                 default:
-                  console.log("default")
+                  console.log("Choropleth map went to default option")
               }
 
               // Append SVG overlay as its own container since HTML can't handle SVG containers themselves, since they use different namespaces.
@@ -111,11 +111,11 @@ $(document).ready(() => {
               </div>
             `);
             } else {
-              // do nothing, because we log the wealth of Gonfaloni, not of the Quartieri.
+              // do nothing, because we log the wealth of Gonfaloni, not of the Quartieri. Add here if something should happen.
             };
+            // end of choropleth map
 
-          } else {
-            // Condition if it is for plan2 or plan3
+          } else { // Condition if it is for plan2 or plan3
             // Define the style of the line.
             if (obj.type === "Quartieri") {
               var styleString = "fill:none;stroke:black;stroke-width:5"
@@ -145,6 +145,56 @@ $(document).ready(() => {
       }
     });
   }
+
+  // Function to display the icons based on plan6-17
+  function mapAnnotationIcons(planNr, jsonFilePath) {
+
+    $('input[id="' + planNr + '"]').click(function () {
+      // if the checkbox is checked: 
+      let idGenerated = planNr + "Generated"
+      if ($(this).prop("checked") == true) {
+        // initialize ID for the region overlay container, so each plan gets its own container and can be stacked
+        const locationObjects = [];
+        $.getJSON(jsonFilePath, function (data) {
+          // Loop through each region in the JSON file
+          for (const region of data.regions) {
+            var job = region.region_attributes.job;
+            // Initialize container for all region overlays so it can be emptied later
+            $('#oldmap-container').append(`<div class="svg-container" id="${idGenerated}"></div>`);
+            // Use of SVG HTML-native symbols: https://wiki.selfhtml.org/wiki/SVG/Tutorials/Icons#SVG_in_HTML
+            switch (true) {
+              case job === "wandmaler":
+                var symbolPath = '<path d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V448c0 17.7 14.3 32 32 32s32-14.3 32-32V64zm128 0c0-17.7-14.3-32-32-32s-32 14.3-32 32V448c0 17.7 14.3 32 32 32s32-14.3 32-32V64z" stroke="black" stroke-width="2" />'
+                break;
+              case job === "moebelmaler":
+                var symbolPath = '<path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" stroke="black" stroke-width="2" />'
+                break;
+
+              default:
+                console.log(`Icon for ${planNr} went to default option`)
+            }
+
+
+            $(`#${idGenerated}`).append(`
+                        <div class="svg-container">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2178 2121" preserveAspectRatio="none">
+                            <defs>
+                              <symbol id="location" viewBox="0 0 512 512">${symbolPath}</symbol>
+                            </defs>
+                            <use href="#location" x="${region.shape_attributes.cx - 5}" y="${region.shape_attributes.cy - 5}" width="40" height="40" />
+                          </svg>
+                        </div>
+                    `);
+          }
+        });
+
+        // when the checkbox is unchecked again:  
+      } else if ($(this).prop("checked") == false) {
+        $(`#${idGenerated}`).empty();
+      }
+    });
+  }
+
 
 
   // function to add icons to the map image based on coordinates in a JSON file. For checkbox use with jQuery: https://www.w3docs.com/snippets/javascript/how-to-test-if-a-checkbox-is-checked-with-jquery.html
@@ -190,7 +240,7 @@ $(document).ready(() => {
   // call the function for each checkbox 
   mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
   mapAnnotations("choropleth", "assets/map-annotation-gonfaloni.json")
-  mapIcons("plan6", "assets/examplejson.json");
+  mapAnnotationIcons("plan6", "assets/map-annotation-1410-trial.json");
   mapIcons("plan7", "assets/examplejson.json");
 
 
