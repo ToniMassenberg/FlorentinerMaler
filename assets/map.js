@@ -16,7 +16,7 @@ $(document).ready(() => {
   // Get data for annotations from JSON here so it runs just once, not every time a checkbox is checked. The code to access the JSON file and reformat the pointsString was partly written by ChatGPT and edited by me.    
   // Array with the objects holding gonfaloni info so it can be accessed when checkboxes are checked
   
-
+  // Function which accepts the JSON files for all kinds of border annotation and adding the annotation information to a regionObject that will be called in mapAnnotations()
   function makeRegionObjects(jsonFilePath) {
     var regionObjects = [];
     $.getJSON(jsonFilePath, function (data) {
@@ -225,7 +225,7 @@ $(document).ready(() => {
   // call the appropriate function with the corresponding JSON file for each checkbox 
   mapAnnotations("plan1", "assets/map-annotation-walls.json")
   mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
-  mapAnnotations("plan3", "assets/map-annotation-churches.json")
+  mapAnnotations("plan3", "assets/map-annotation-popoli.json")
   mapAnnotations("choropleth", "assets/map-annotation-gonfaloni.json")
   mapIcons("plan6", "assets/map-annotation-1410-trial.json");
 
