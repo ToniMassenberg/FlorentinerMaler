@@ -1,0 +1,147 @@
+{
+    "filename": "basicmap.jpg",
+    "size": 958830,
+    "regions": [
+        {
+            "shape_attributes": {
+                "name": "polygon",
+                "all_points_x": [
+                    681,
+                    708,
+                    811,
+                    849,
+                    952,
+                    1008,
+                    999,
+                    1089,
+                    1096,
+                    1040,
+                    1022,
+                    7,
+                    7
+                ],
+                "all_points_y": [
+                    7,
+                    343,
+                    800,
+                    843,
+                    939,
+                    941,
+                    1109,
+                    1102,
+                    1248,
+                    1369,
+                    1400,
+                    896,
+                    0
+                ]
+            },
+            "region_attributes": {
+                "name": "",
+                "type": "Churches",
+                "avg-wealth": ""
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "polygon",
+                "all_points_x": [
+                    2156,
+                    1992,
+                    1746,
+                    1468,
+                    1223,
+                    1093,
+                    1091,
+                    999,
+                    1006,
+                    950,
+                    813,
+                    706,
+                    683,
+                    2169
+                ],
+                "all_points_y": [
+                    1347,
+                    1315,
+                    1264,
+                    1176,
+                    1174,
+                    1156,
+                    1105,
+                    1107,
+                    941,
+                    939,
+                    804,
+                    343,
+                    7,
+                    20
+                ]
+            },
+            "region_attributes": {
+                "name": "",
+                "type": "Churches",
+                "avg-wealth": ""
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "polygon",
+                "all_points_x": [
+                    2144,
+                    2156,
+                    1755,
+                    1470,
+                    1093,
+                    1100,
+                    1029,
+                    1347
+                ],
+                "all_points_y": [
+                    1625,
+                    1340,
+                    1268,
+                    1174,
+                    1161,
+                    1246,
+                    1398,
+                    1575
+                ]
+            },
+            "region_attributes": {
+                "name": "",
+                "type": "Churches",
+                "avg-wealth": ""
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "polygon",
+                "all_points_x": [
+                    74,
+                    2140,
+                    2144,
+                    1340,
+                    1022,
+                    7,
+                    43
+                ],
+                "all_points_y": [
+                    2102,
+                    2118,
+                    1622,
+                    1575,
+                    1403,
+                    901,
+                    2091
+                ]
+            },
+            "region_attributes": {
+                "name": "",
+                "type": "Churches",
+                "avg-wealth": ""
+            }
+        }
+    ],
+    "file_attributes": {}
+}
