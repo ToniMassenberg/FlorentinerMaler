@@ -1,0 +1,1476 @@
+{
+    "filename": "basicmap.jpg",
+    "size": 958830,
+    "regions": [
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 418,
+                "cy": 1937
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 426,
+                "cy": 1902
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 438,
+                "cy": 1904
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 460,
+                "cy": 1852
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 553,
+                "cy": 1777
+            },
+            "region_attributes": {
+                "job": "waffenmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1105,
+                "cy": 1628
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1151,
+                "cy": 1650
+            },
+            "region_attributes": {
+                "job": "zimmermaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1345,
+                "cy": 1668
+            },
+            "region_attributes": {
+                "job": "zimmermaler",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1341,
+                "cy": 1688
+            },
+            "region_attributes": {
+                "job": "zimmermaler",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 870,
+                "cy": 1535
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 594,
+                "cy": 1658
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 608,
+                "cy": 1638
+            },
+            "region_attributes": {
+                "job": "zimmermaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 634,
+                "cy": 1601
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 515,
+                "cy": 1616
+            },
+            "region_attributes": {
+                "job": "glasmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 527,
+                "cy": 1585
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 345,
+                "cy": 1521
+            },
+            "region_attributes": {
+                "job": "waffenmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 396,
+                "cy": 1486
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 359,
+                "cy": 1466
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 305,
+                "cy": 1440
+            },
+            "region_attributes": {
+                "job": "stoffmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 347,
+                "cy": 1343
+            },
+            "region_attributes": {
+                "job": "ceri",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 479,
+                "cy": 1311
+            },
+            "region_attributes": {
+                "job": "stoffmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 475,
+                "cy": 1252
+            },
+            "region_attributes": {
+                "job": "ceri",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 398,
+                "cy": 1232
+            },
+            "region_attributes": {
+                "job": "waffenmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 263,
+                "cy": 1286
+            },
+            "region_attributes": {
+                "job": "stoffmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 267,
+                "cy": 1230
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 285,
+                "cy": 1224
+            },
+            "region_attributes": {
+                "job": "waffenmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 287,
+                "cy": 1242
+            },
+            "region_attributes": {
+                "job": "waffenmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 404,
+                "cy": 885
+            },
+            "region_attributes": {
+                "job": "miniaturist",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 404,
+                "cy": 915
+            },
+            "region_attributes": {
+                "job": "hobby",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 420,
+                "cy": 931
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 436,
+                "cy": 947
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 458,
+                "cy": 925
+            },
+            "region_attributes": {
+                "job": "ceri",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 525,
+                "cy": 996
+            },
+            "region_attributes": {
+                "job": "glasmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 608,
+                "cy": 1038
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 630,
+                "cy": 1082
+            },
+            "region_attributes": {
+                "job": "miniaturist",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 652,
+                "cy": 1010
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 681,
+                "cy": 973
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 719,
+                "cy": 1082
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 763,
+                "cy": 1107
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 780,
+                "cy": 1056
+            },
+            "region_attributes": {
+                "job": "zimmermaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 806,
+                "cy": 858
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 519,
+                "cy": 723
+            },
+            "region_attributes": {
+                "job": "naibi",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 529,
+                "cy": 755
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 535,
+                "cy": 739
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 547,
+                "cy": 725
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "year": "1400",
+                "certainty": "street",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 563,
+                "cy": 775
+            },
+            "region_attributes": {
+                "job": "naibi",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 854,
+                "cy": 491
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 891,
+                "cy": 521
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 874,
+                "cy": 531
+            },
+            "region_attributes": {
+                "job": "zimmermaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 858,
+                "cy": 539
+            },
+            "region_attributes": {
+                "job": "zimmermaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 899,
+                "cy": 612
+            },
+            "region_attributes": {
+                "job": "zimmermaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 983,
+                "cy": 739
+            },
+            "region_attributes": {
+                "job": "zimmermaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1052,
+                "cy": 927
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1048,
+                "cy": 898
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1028,
+                "cy": 899
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 953,
+                "cy": 955
+            },
+            "region_attributes": {
+                "job": "naibi",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 963,
+                "cy": 965
+            },
+            "region_attributes": {
+                "job": "naibi",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 994,
+                "cy": 949
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1012,
+                "cy": 953
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1006,
+                "cy": 965
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1002,
+                "cy": 981
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 998,
+                "cy": 996
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1050,
+                "cy": 1122
+            },
+            "region_attributes": {
+                "job": "stoffmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1061,
+                "cy": 1096
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1072,
+                "cy": 1105
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1086,
+                "cy": 1108
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1164,
+                "cy": 1138
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1081,
+                "cy": 830
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1203,
+                "cy": 1099
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1168,
+                "cy": 1087
+            },
+            "region_attributes": {
+                "job": "steinmetz",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1171,
+                "cy": 1102
+            },
+            "region_attributes": {
+                "job": "steinmetz",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1223,
+                "cy": 1033
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1213,
+                "cy": 1043
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1274,
+                "cy": 915
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1295,
+                "cy": 928
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1123,
+                "cy": 936
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1136,
+                "cy": 877
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1161,
+                "cy": 950
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1164,
+                "cy": 926
+            },
+            "region_attributes": {
+                "job": "gips",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1175,
+                "cy": 931
+            },
+            "region_attributes": {
+                "job": "gips",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1178,
+                "cy": 915
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1179,
+                "cy": 886
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1189,
+                "cy": 895
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1200,
+                "cy": 872
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1208,
+                "cy": 855
+            },
+            "region_attributes": {
+                "job": "miniaturist",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1092,
+                "cy": 721
+            },
+            "region_attributes": {
+                "job": "stoffmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1155,
+                "cy": 653
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1144,
+                "cy": 616
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1199,
+                "cy": 586
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1215,
+                "cy": 448
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1229,
+                "cy": 457
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1207,
+                "cy": 705
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1224,
+                "cy": 718
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1428,
+                "cy": 800
+            },
+            "region_attributes": {
+                "job": "miniaturist",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1440,
+                "cy": 786
+            },
+            "region_attributes": {
+                "job": "miniaturist",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1456,
+                "cy": 822
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1466,
+                "cy": 804
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1586,
+                "cy": 895
+            },
+            "region_attributes": {
+                "job": "glasmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1663,
+                "cy": 865
+            },
+            "region_attributes": {
+                "job": "moebelmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1640,
+                "cy": 895
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1658,
+                "cy": 898
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1713,
+                "cy": 1094
+            },
+            "region_attributes": {
+                "job": "undefined",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1777,
+                "cy": 1180
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1765,
+                "cy": 1216
+            },
+            "region_attributes": {
+                "job": "zimmermaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1621,
+                "cy": 1169
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1616,
+                "cy": 1184
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1510,
+                "cy": 1136
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1431,
+                "cy": 1262
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1274,
+                "cy": 1284
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1278,
+                "cy": 1268
+            },
+            "region_attributes": {
+                "job": "wandmaler",
+                "certainty": "parish",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1380,
+                "cy": 1125
+            },
+            "region_attributes": {
+                "job": "glasmaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1325,
+                "cy": 1147
+            },
+            "region_attributes": {
+                "job": "zimmermaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1342,
+                "cy": 1157
+            },
+            "region_attributes": {
+                "job": "zimmermaler",
+                "certainty": "street",
+                "year": "1400",
+                "type": "home"
+            }
+        }
+    ],
+    "file_attributes": {}
+}
