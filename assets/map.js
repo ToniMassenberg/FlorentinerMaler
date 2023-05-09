@@ -227,7 +227,8 @@ $(document).ready(() => {
   mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
   mapAnnotations("plan3", "assets/map-annotation-popoli.json")
   mapAnnotations("choropleth", "assets/map-annotation-gonfaloni.json")
-  mapIcons("plan6", "assets/map-annotation-1410.json");
+  mapIcons("plan6", "assets/map-annotation-1400.json");
+  mapIcons("plan7", "assets/map-annotation-1410.json");
 
 
   // Code for the Leaflat map of modern Florence. Edited version of: Agafonkin, Volodymyr. "Quick Start Guide - Leaflet - a JavaScript library for interactive maps". Accessed 22. April 2023. https://leafletjs.com/examples/quick-start/.
