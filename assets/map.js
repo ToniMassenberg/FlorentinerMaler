@@ -15,42 +15,46 @@ $(document).ready(() => {
 
   // Get data for annotations from JSON here so it runs just once, not every time a checkbox is checked. The code to access the JSON file and reformat the pointsString was partly written by ChatGPT and edited by me.    
   // Array with the objects holding gonfaloni info so it can be accessed when checkboxes are checked
-  const regionObjects = [];
-  $.getJSON('assets/map-annotation-gonfaloni.json', function (data) {
-    // Loop through each region in the JSON file
-    for (const region of data.regions) {
-      const allPointsX = region.shape_attributes.all_points_x;
-      const allPointsY = region.shape_attributes.all_points_y;
+  
 
-      // Calculate the middle point of a region so we can put descriptive text there.
-      let avgX = 0, avgY = 0, length = allPointsX.length;
-      for (let i = 0; i < length; i++) {
-        avgX += allPointsX[i];
-        avgY += allPointsY[i];
+  function makeRegionObjects(jsonFilePath) {
+    var regionObjects = [];
+    $.getJSON(jsonFilePath, function (data) {
+      // Loop through each region in the JSON file
+      for (const region of data.regions) {
+        const allPointsX = region.shape_attributes.all_points_x;
+        const allPointsY = region.shape_attributes.all_points_y;
+
+        // Calculate the middle point of a region so we can put descriptive text there.
+        let avgX = 0, avgY = 0, length = allPointsX.length;
+        for (let i = 0; i < length; i++) {
+          avgX += allPointsX[i];
+          avgY += allPointsY[i];
+        }
+        var middlePoint = `x="${avgX / length}" y="${avgY / length}"`;
+        // XX figure out better placement some other time
+        // Combine the all_points_x and all_points_y arrays into a single string. 
+        const pointsString = allPointsX.map((x, i) => `${x},${allPointsY[i]}`).join(' ');
+
+        // Create an object for the region with its name and formatted points string
+        const regionObj = {
+          name: region.region_attributes.name,
+          type: region.region_attributes.type,
+          avgWealth: region.region_attributes.avgwealth,
+          points: pointsString,
+          middle: middlePoint
+        };
+
+        // Add the region object to the array
+        regionObjects.push(regionObj);
       }
-      var middlePoint = `x="${avgX / length}" y="${avgY / length}"`;
-      // XX figure out better placement some other time
-
-      // Combine the all_points_x and all_points_y arrays into a single string. 
-      const pointsString = allPointsX.map((x, i) => `${x},${allPointsY[i]}`).join(' ');
-
-      // Create an object for the region with its name and formatted points string
-      const regionObj = {
-        name: region.region_attributes.name,
-        type: region.region_attributes.type,
-        avgWealth: region.region_attributes.avgwealth,
-        points: pointsString,
-        middle: middlePoint
-      };
-
-      // Add the region object to the array
-      regionObjects.push(regionObj);
-    }
-  });
+    });
+    return regionObjects;
+  }
 
   // function to add annotation regions based on coordinates in map-annotation-gonfaloni.json
   function mapAnnotations(planNr, jsonFilePath) {
-
+    let regionObjects = makeRegionObjects(jsonFilePath);
     $(`input[id="${planNr}"]`).click(function () {
       // initialize ID for the region overlay container
       let idGenerated = planNr + "Generated"
@@ -114,12 +118,16 @@ $(document).ready(() => {
           } else { // Condition if it is for plan2 or plan3
             // Define the style of the line.
             if (obj.type === "Quartieri") {
-              var styleString = "fill:none;stroke:black;stroke-width:5"
-              var textSize = "5em"
-            } else {
+              var styleString = "fill:none;stroke:black;stroke-width:5";
+              var textSize = "5em";
+            } else if (obj.type === "Gonfaloni") {
               // Different line style for Gonfaloni: thinner, dashed line (stroke-dasharray)
-              var styleString = "fill:none;stroke:black;stroke-dasharray:5,10;stroke-width:4"
-              var textSize = "3em"
+              var styleString = "fill:none;stroke:black;stroke-dasharray:5,10;stroke-width:4";
+              var textSize = "3em";
+            } else {
+              // Different line style for walls
+              var styleString = "fill:none;stroke:black;stroke-dasharray:10,10;stroke-width:5";
+              var textSize = "3em";
             }
             // Append SVG overlays for each region border
             $(`#${idGenerated}`).append(`
@@ -214,8 +222,10 @@ $(document).ready(() => {
     });
   }
 
-  // call the function for each checkbox 
+  // call the appropriate function with the corresponding JSON file for each checkbox 
+  mapAnnotations("plan1", "assets/map-annotation-walls.json")
   mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
+  mapAnnotations("plan3", "assets/map-annotation-churches.json")
   mapAnnotations("choropleth", "assets/map-annotation-gonfaloni.json")
   mapIcons("plan6", "assets/map-annotation-1410-trial.json");
 
