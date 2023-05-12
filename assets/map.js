@@ -76,25 +76,25 @@ $(document).ready(() => {
             if (obj.type === "Gonfaloni") {
               switch (true) {
                 case avgWealth < 120:
-                  var styleString = "fill:#f81010;opacity:0.6";
+                  var styleString = "fill:#c51b7d;opacity:0.6";
                   break;
                 case avgWealth <= 150:
-                  var styleString = "fill:#ec5400;opacity:0.5";
+                  var styleString = "fill:#e9a3c9;opacity:0.7";
                   break;
                 case avgWealth <= 200:
-                  var styleString = "fill:#d97900;opacity:0.5";
+                  var styleString = "fill:#fde0ef;opacity:0.7";
                   break;
                 case avgWealth <= 230:
-                  var styleString = "fill:#bf9700;opacity:0.5";
+                  var styleString = "fill:#f7f7f7;opacity:0.7";
                   break;
                 case avgWealth <= 260:
-                  var styleString = "fill:#9fb000;opacity:0.5";
+                  var styleString = "fill:#e6f5d0;opacity:0.7";
                   break;
                 case avgWealth <= 300:
-                  var styleString = "fill:#76c500;opacity:0.5";
+                  var styleString = "fill:#a1d76a;opacity:0.7";
                   break;
                 case avgWealth > 300:
-                  var styleString = "fill:#2bd83b;opacity:0.6";
+                  var styleString = "fill:#4d9221;opacity:0.6";
                   break;
                 default:
                   console.log("Choropleth map went to default option")
@@ -222,13 +222,48 @@ $(document).ready(() => {
     });
   }
 
+
+
+
+
   // call the appropriate function with the corresponding JSON file for each checkbox 
   mapAnnotations("plan1", "assets/map-annotation-walls.json")
   mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
   mapAnnotations("plan3", "assets/map-annotation-popoli.json")
   mapAnnotations("choropleth", "assets/map-annotation-gonfaloni.json")
-  mapIcons("plan6", "assets/map-annotation-1400.json");
+  mapIcons("plan6", "assets/map-annotation-1400.json"); 
   mapIcons("plan7", "assets/map-annotation-1410.json");
+
+
+  // Function which toggles the legends depending on which checkboxes are checked. Basic functionality written by ChatGPT, edited by me. 
+  $(document).ready(function() {
+    var $explanationDiv = $('#oldmap-explanation');
+    var $regionInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Grenzen</span><br>Durchgehende Linie: Quartieri <br>Gestrichelte Linie: Gonfaloni</div>');
+    var $iconInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Icons</span><br>Kreis: Wandmaler <br>Quadrat: Waffenmaler</div>');
+    var $choroplethInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Besitz</span><br><img src="images/choroplethInfo.jpg"></div>');
+  
+    $('input[type="checkbox"]').change(function() {
+      $explanationDiv.empty(); // clear any previously added elements
+      var $checked = $('input[type="checkbox"]:checked');
+      if ($checked.length === 0) {
+        $explanationDiv.hide();
+      } else {
+        if ($checked.is('#plan6') || $checked.is('#plan7')) {
+          $explanationDiv.append($iconInfo).fadeIn('slow');
+
+        }
+        if ($checked.is('#plan1') || $checked.is('#plan2')) {
+          $explanationDiv.append($regionInfo).fadeIn('slow');
+        }
+        if ($checked.is('#choropleth')) {
+          $explanationDiv.append($choroplethInfo).fadeIn('slow');
+        }
+        $explanationDiv.show();
+      }
+    });
+  });
+  
+  
 
 
   // Code for the Leaflat map of modern Florence. Edited version of: Agafonkin, Volodymyr. "Quick Start Guide - Leaflet - a JavaScript library for interactive maps". Accessed 22. April 2023. https://leafletjs.com/examples/quick-start/.
