@@ -51,7 +51,8 @@
             "region_attributes": {
                 "name": "S. Maria Novella",
                 "type": "Quartieri",
-                "avgwealth": "225"
+                "avgWealth": "225",
+                "middlePoint": "x='222' y='629'"
             }
         },
         {
@@ -119,7 +120,8 @@
             "region_attributes": {
                 "name": "S. Giovanni",
                 "type": "Quartieri",
-                "avgwealth": "186"
+                "avgWealth": "186",
+                "middlePoint": "x='1098' y='260'"
             }
         },
         {
@@ -161,7 +163,8 @@
             "region_attributes": {
                 "name": "S. Croce",
                 "type": "Quartieri",
-                "avgwealth": "223"
+                "avgWealth": "223",
+                "middlePoint": "x='1651' y='1505'"
             }
         },
         {
@@ -195,7 +198,8 @@
             "region_attributes": {
                 "name": "S. Spirito",
                 "type": "Quartieri",
-                "avgwealth": "167"
+                "avgWealth": "167",
+                "middlePoint": "x='518' y='1998'"
             }
         },
         {
@@ -229,7 +233,8 @@
             "region_attributes": {
                 "name": "Ferza (1-3)",
                 "type": "Gonfaloni",
-                "avgwealth": "110"
+                "avgWealth": "110",
+                "middlePoint": "x='729' y='1762'"
             }
         },
         {
@@ -257,7 +262,8 @@
             "region_attributes": {
                 "name": "Drago Verde (1-4)",
                 "type": "Gonfaloni",
-                "avgwealth": "103"
+                "avgWealth": "103",
+                "middlePoint": "x='284' y='1418'"
             }
         },
         {
@@ -309,7 +315,8 @@
             "region_attributes": {
                 "name": "Scala (1-1)",
                 "type": "Gonfaloni",
-                "avgwealth": "243"
+                "avgWealth": "243",
+                "middlePoint": "x='1266' y='1787'"
             }
         },
         {
@@ -363,7 +370,8 @@
             "region_attributes": {
                 "name": "Nicchio (1-2)",
                 "type": "Gonfaloni",
-                "avgwealth": "292"
+                "avgWealth": "292",
+                "middlePoint": "x='949' y='1586'"
             }
         },
         {
@@ -397,7 +405,8 @@
             "region_attributes": {
                 "name": "Vipera (3-1)",
                 "type": "Gonfaloni",
-                "avgwealth": "209"
+                "avgWealth": "209",
+                "middlePoint": "x='968' y='1329'"
             }
         },
         {
@@ -463,7 +472,8 @@
             "region_attributes": {
                 "name": "Lion Bianco (3-4)",
                 "type": "Gonfaloni",
-                "avgwealth": "221"
+                "avgWealth": "221",
+                "middlePoint": "x='645' y='800'"
             }
         },
         {
@@ -501,7 +511,8 @@
             "region_attributes": {
                 "name": "Lion Rosso (3-3)",
                 "type": "Gonfaloni",
-                "avgwealth": "219"
+                "avgWealth": "219",
+                "middlePoint": "x='778' y='1076'"
             }
         },
         {
@@ -557,7 +568,8 @@
             "region_attributes": {
                 "name": "Unicorno (3-2)",
                 "type": "Gonfaloni",
-                "avgwealth": "240"
+                "avgWealth": "240",
+                "middlePoint": "x='463' y='943'"
             }
         },
         {
@@ -589,7 +601,8 @@
             "region_attributes": {
                 "name": "Lion d'Oro (4-1)",
                 "type": "Gonfaloni",
-                "avgwealth": "149"
+                "avgWealth": "149",
+                "middlePoint": "x='930' y='648'"
             }
         },
         {
@@ -647,7 +660,8 @@
             "region_attributes": {
                 "name": "Drago (4-2)",
                 "type": "Gonfaloni",
-                "avgwealth": "271"
+                "avgWealth": "271",
+                "middlePoint": "x='1242' y='729'"
             }
         },
         {
@@ -709,7 +723,8 @@
             "region_attributes": {
                 "name": "Vaio (4-4)",
                 "type": "Gonfaloni",
-                "avgwealth": "245"
+                "avgWealth": "245",
+                "middlePoint": "x='1445' y='810'"
             }
         },
         {
@@ -747,7 +762,8 @@
             "region_attributes": {
                 "name": "Chiavi (4-3)",
                 "type": "Gonfaloni",
-                "avgwealth": "133"
+                "avgWealth": "133",
+                "middlePoint": "x='1706' y='946'"
             }
         },
         {
@@ -793,7 +809,8 @@
             "region_attributes": {
                 "name": "Carro (2-1)",
                 "type": "Gonfaloni",
-                "avgwealth": "251"
+                "avgWealth": "251",
+                "middlePoint": "x='1093' y='1375'"
             }
         },
         {
@@ -833,7 +850,8 @@
             "region_attributes": {
                 "name": "Lion Nero (2-3)",
                 "type": "Gonfaloni",
-                "avgwealth": "361"
+                "avgWealth": "361",
+                "middlePoint": "x='1266' y='1464'"
             }
         },
         {
@@ -883,7 +901,8 @@
             "region_attributes": {
                 "name": "Bue (2-2)",
                 "type": "Gonfaloni",
-                "avgwealth": "175"
+                "avgWealth": "175",
+                "middlePoint": "x='1339' y='1301'"
             }
         },
         {
@@ -917,7 +936,8 @@
             "region_attributes": {
                 "name": "Route (2-4)",
                 "type": "Gonfaloni",
-                "avgwealth": "137"
+                "avgWealth": "137",
+                "middlePoint": "x='1624' y='1320'"
             }
         }
     ],

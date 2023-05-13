@@ -25,24 +25,16 @@ $(document).ready(() => {
         const allPointsX = region.shape_attributes.all_points_x;
         const allPointsY = region.shape_attributes.all_points_y;
 
-        // Calculate the middle point of a region so we can put descriptive text there.
-        let avgX = 0, avgY = 0, length = allPointsX.length;
-        for (let i = 0; i < length; i++) {
-          avgX += allPointsX[i];
-          avgY += allPointsY[i];
-        }
-        var middlePoint = `x="${avgX / length}" y="${avgY / length}"`;
-        // XX figure out better placement some other time
-        // Combine the all_points_x and all_points_y arrays into a single string. 
+        // Combine the all_points_x and all_points_y arrays into a single string to get SVG path. 
         const pointsString = allPointsX.map((x, i) => `${x},${allPointsY[i]}`).join(' ');
 
         // Create an object for the region with its name and formatted points string
         const regionObj = {
           name: region.region_attributes.name,
           type: region.region_attributes.type,
-          avgWealth: region.region_attributes.avgwealth,
+          avgWealth: region.region_attributes.avgWealth,
           points: pointsString,
-          middle: middlePoint
+          middle: region.region_attributes.middlePoint // this coordinate is not the actual middle, it's the placement for the text.
         };
 
         // Add the region object to the array
@@ -127,7 +119,7 @@ $(document).ready(() => {
             } else {
               // Different line style for walls
               var styleString = "fill:none;stroke:black;stroke-dasharray:10,10;stroke-width:5";
-              var textSize = "3em";
+              var textSize = "5em";
             }
             // Append SVG overlays for each region border
             $(`#${idGenerated}`).append(`
@@ -184,7 +176,7 @@ $(document).ready(() => {
           stoffmaler: 'S',
           zimmermaler: 'Z',
           gips: 'G',
-          steinmetz: 'ST',
+          steinmetz: 'M',
           hobby: 'H',
           undefined: 'U'
         }
@@ -222,10 +214,6 @@ $(document).ready(() => {
     });
   }
 
-
-
-
-
   // call the appropriate function with the corresponding JSON file for each checkbox 
   mapAnnotations("plan1", "assets/map-annotation-walls.json")
   mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
@@ -239,7 +227,7 @@ $(document).ready(() => {
   $(document).ready(function() {
     var $explanationDiv = $('#oldmap-explanation');
     var $regionInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Grenzen</span><br>Durchgehende Linie: Quartieri <br>Gestrichelte Linie: Gonfaloni</div>');
-    var $iconInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Icons</span><br>Kreis: Wandmaler <br>Quadrat: Waffenmaler</div>');
+    var $iconInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Icons</span><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Kreis mit X: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
     var $choroplethInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Besitz</span><br><img src="images/choroplethInfo.jpg"></div>');
   
     $('input[type="checkbox"]').change(function() {
@@ -252,7 +240,7 @@ $(document).ready(() => {
           $explanationDiv.append($iconInfo).fadeIn('slow');
 
         }
-        if ($checked.is('#plan1') || $checked.is('#plan2')) {
+        if ($checked.is('#plan2')) {
           $explanationDiv.append($regionInfo).fadeIn('slow');
         }
         if ($checked.is('#choropleth')) {

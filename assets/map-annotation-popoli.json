@@ -37,9 +37,10 @@
                 ]
             },
             "region_attributes": {
-                "name": "",
+                "name": "S. Maria Novella",
                 "type": "Churches",
-                "avg-wealth": ""
+                "avgWealth": "",
+                "middlePoint": "x='222' y='629'"
             }
         },
         {
@@ -79,9 +80,10 @@
                 ]
             },
             "region_attributes": {
-                "name": "",
+                "name": "S. Giovanni",
                 "type": "Churches",
-                "avg-wealth": ""
+                "avgWealth": "",
+                "middlePoint": "x='1098' y='260'"
             }
         },
         {
@@ -109,9 +111,10 @@
                 ]
             },
             "region_attributes": {
-                "name": "",
+                "name": "S. Croce",
                 "type": "Churches",
-                "avg-wealth": ""
+                "avgWealth": "",
+                "middlePoint": "x='1651' y='1505'"
             }
         },
         {
@@ -137,9 +140,10 @@
                 ]
             },
             "region_attributes": {
-                "name": "",
+                "name": "S. Spirito",
                 "type": "Churches",
-                "avg-wealth": ""
+                "avgWealth": "",
+                "middlePoint": "x='518' y='1998'"
             }
         }
     ],

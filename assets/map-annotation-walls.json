@@ -61,7 +61,8 @@
             "region_attributes": {
                 "name": "Mauer 1299-1330",
                 "type": "Wall",
-                "avg-wealth": ""
+                "avgWealth": "",
+                "middlePoint": "x='1122' y='444'"
             }
         },
         {
@@ -119,7 +120,8 @@
             "region_attributes": {
                 "name": "Mauer 1173",
                 "type": "Wall",
-                "avg-wealth": ""
+                "avgWealth": "",
+                "middlePoint": "x='745' y='1410'"
             }
         },
         {
@@ -159,7 +161,8 @@
             "region_attributes": {
                 "name": "römisches Castrum",
                 "type": "Wall",
-                "avg-wealth": ""
+                "avgWealth": "",
+                "middlePoint": "x='941' y='1114'"
             }
         }
     ],
