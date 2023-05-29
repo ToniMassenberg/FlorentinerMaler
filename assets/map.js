@@ -15,7 +15,7 @@ $(document).ready(() => {
 
   // Get data for annotations from JSON here so it runs just once, not every time a checkbox is checked. The code to access the JSON file and reformat the pointsString was partly written by ChatGPT and edited by me.    
   // Array with the objects holding gonfaloni info so it can be accessed when checkboxes are checked
-  
+
   // Function which accepts the JSON files for all kinds of border annotation and adding the annotation information to a regionObject that will be called in mapAnnotations()
   function makeRegionObjects(jsonFilePath) {
     var regionObjects = [];
@@ -142,15 +142,23 @@ $(document).ready(() => {
     });
   }
 
+  let idGenerated;
   // Function to display the icons based on plan6-17
   function mapIcons(planNr, jsonFilePath) {
-
+    idGenerated = planNr + "Generated";
     $(`input[id="${planNr}"]`).click(function () {
-      // if the checkbox is checked: 
-      let idGenerated = planNr + "Generated";
+      // Get the ID of the currently selected checkbox
+      const currentCheckboxId = $(this).attr("id");
+      // Generate the ID for the region overlay container based on the current checkbox
+      
+
+      // Clear all other checkbox selections
+      $(`input[id^="plan"]:not(#${currentCheckboxId})`).prop("checked", false);
+
+
       if ($(this).prop("checked") === true) {
-        // initialize ID for the region overlay container, so each plan gets its own container and can be stacked
-        const locationObjects = [];
+        // Delete old icons before new ones are added
+        $(".svg-container").empty();
         // Initialize container for all region overlays so it can be emptied later
         $('#oldmap-container').append(`<div class="svg-container" id="${idGenerated}"></div>`);
 
@@ -158,10 +166,10 @@ $(document).ready(() => {
         // Use of SVG HTML-native symbols: https://wiki.selfhtml.org/wiki/SVG/Tutorials/Icons#SVG_in_HTML
         // SVG paths from Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License Icons: CC BY 4.0. Copyright 2023 Fonticons, Inc., taken from https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs
         const symbolPaths = {
-          wandmaler: 'M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z', // circle.svg
+          wandmaler: 'M 466.13724,257.3093 A 209.73077,208.82791 0 0 1 256.40646,466.13721 209.73077,208.82791 0 0 1 46.67569,257.3093 209.73077,208.82791 0 0 1 256.40646,48.481384 209.73077,208.82791 0 0 1 466.13724,257.3093 Z', // circle.svg
           moebelmaler: 'M464 48V464H48V48H464zM48 0H0V48 464v48H48 464h48V464 48 0H464 48z', // square-full.svg
           waffenmaler: 'M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256-96a96 96 0 1 1 0 192 96 96 0 1 1 0-192z', // circle-dot.svg
-          glasmaler: 'M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z', // circle-xmark.svg
+          glasmaler: 'M 481.2135,176.95654 395.1916,439.80987 118.621,439.22433 33.712867,176.00912 257.80736,13.91871 Z', // Pentagon
           miniaturist: 'M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z', // bookmark.svg
         };
         // For rare job groups use text as a symbol to keep the more common symbols easily recognizeable
@@ -189,16 +197,16 @@ $(document).ready(() => {
 
             // Define color of symbol based on certainty of information: black if the street can be identified, gray if only the parish is known
             if (region.region_attributes.certainty === 'street') {
-              var color = "black";
+              var color = "darkblue";
             } else {
-              var color = "gray";
-            };
+              var color = "blue";
+            }
 
             // Insert a div container with the symbol appropriate to the job group for every marker.
             $(`#${idGenerated}`).append(`
               <div class="svg-container">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2178 2121" preserveAspectRatio="none">
-                  <defs><symbol id="${job}" viewBox="0 0 512 512">'<path d="${symbolPaths[job]}" stroke="${color}" stroke-width="2" /></symbol></defs>
+                  <defs><symbol id="${job}" viewBox="0 0 512 512">'<path d="${symbolPaths[job]}" stroke="${color}" stroke-width="1" fill:"${color}"/></symbol></defs>
                   <use href="#${job}" x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" width="40" height="40" />
                   <text x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" font-size="50" fill="${color}">${symbolTexts[job]}</text>
                 </svg>
@@ -207,30 +215,31 @@ $(document).ready(() => {
           }
         });
 
-        // when the checkbox is unchecked again delete all symbols:  
       } else if ($(this).prop("checked") === false) {
         $(`#${idGenerated}`).empty();
       }
     });
   }
 
+
+
   // call the appropriate function with the corresponding JSON file for each checkbox 
   mapAnnotations("plan1", "assets/map-annotation-walls.json")
   mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
   mapAnnotations("plan3", "assets/map-annotation-popoli.json")
   mapAnnotations("choropleth", "assets/map-annotation-gonfaloni.json")
-  mapIcons("plan6", "assets/map-annotation-1400.json"); 
+  mapIcons("plan6", "assets/map-annotation-1400.json");
   mapIcons("plan7", "assets/map-annotation-1410.json");
 
 
   // Function which toggles the legends depending on which checkboxes are checked. Basic functionality written by ChatGPT, edited by me. 
-  $(document).ready(function() {
+  $(document).ready(function () {
     var $explanationDiv = $('#oldmap-explanation');
     var $regionInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Grenzen</span><br>Durchgehende Linie: Quartieri <br>Gestrichelte Linie: Gonfaloni</div>');
     var $iconInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Icons</span><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Kreis mit X: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
     var $choroplethInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Besitz</span><br><img src="images/choroplethInfo.jpg"></div>');
-  
-    $('input[type="checkbox"]').change(function() {
+
+    $('input[type="checkbox"]').change(function () {
       $explanationDiv.empty(); // clear any previously added elements
       var $checked = $('input[type="checkbox"]:checked');
       if ($checked.length === 0) {
@@ -250,8 +259,8 @@ $(document).ready(() => {
       }
     });
   });
-  
-  
+
+
 
 
   // Code for the Leaflat map of modern Florence. Edited version of: Agafonkin, Volodymyr. "Quick Start Guide - Leaflet - a JavaScript library for interactive maps". Accessed 22. April 2023. https://leafletjs.com/examples/quick-start/.
