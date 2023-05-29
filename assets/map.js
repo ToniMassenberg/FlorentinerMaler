@@ -142,15 +142,15 @@ $(document).ready(() => {
     });
   }
 
-  let idGenerated;
+  
   // Function to display the icons based on plan6-17
   function mapIcons(planNr, jsonFilePath) {
-    idGenerated = planNr + "Generated";
+    
     $(`input[id="${planNr}"]`).click(function () {
       // Get the ID of the currently selected checkbox
       const currentCheckboxId = $(this).attr("id");
       // Generate the ID for the region overlay container based on the current checkbox
-      
+      let idGenerated = planNr + "Generated";
 
       // Clear all other checkbox selections
       $(`input[id^="plan"]:not(#${currentCheckboxId})`).prop("checked", false);
@@ -166,10 +166,10 @@ $(document).ready(() => {
         // Use of SVG HTML-native symbols: https://wiki.selfhtml.org/wiki/SVG/Tutorials/Icons#SVG_in_HTML
         // SVG paths from Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License Icons: CC BY 4.0. Copyright 2023 Fonticons, Inc., taken from https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs
         const symbolPaths = {
-          wandmaler: 'M 466.13724,257.3093 A 209.73077,208.82791 0 0 1 256.40646,466.13721 209.73077,208.82791 0 0 1 46.67569,257.3093 209.73077,208.82791 0 0 1 256.40646,48.481384 209.73077,208.82791 0 0 1 466.13724,257.3093 Z', // circle.svg
+          wandmaler: 'M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z', // circle.svg
           moebelmaler: 'M464 48V464H48V48H464zM48 0H0V48 464v48H48 464h48V464 48 0H464 48z', // square-full.svg
           waffenmaler: 'M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256-96a96 96 0 1 1 0 192 96 96 0 1 1 0-192z', // circle-dot.svg
-          glasmaler: 'M 481.2135,176.95654 395.1916,439.80987 118.621,439.22433 33.712867,176.00912 257.80736,13.91871 Z', // Pentagon
+          glasmaler: 'M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z', // star.svg
           miniaturist: 'M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z', // bookmark.svg
         };
         // For rare job groups use text as a symbol to keep the more common symbols easily recognizeable
@@ -192,7 +192,6 @@ $(document).ready(() => {
         $.getJSON(jsonFilePath, function (data) {
           // Loop through each region in the JSON file
           for (const region of data.regions) {
-
             var job = region.region_attributes.job;
 
             // Define color of symbol based on certainty of information: black if the street can be identified, gray if only the parish is known
@@ -206,7 +205,7 @@ $(document).ready(() => {
             $(`#${idGenerated}`).append(`
               <div class="svg-container">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2178 2121" preserveAspectRatio="none">
-                  <defs><symbol id="${job}" viewBox="0 0 512 512">'<path d="${symbolPaths[job]}" stroke="${color}" stroke-width="1" fill:"${color}"/></symbol></defs>
+                  <defs><symbol id="${job}" viewBox="0 0 512 512">'<path d="${symbolPaths[job]}" stroke="${color}" stroke-width="1" fill="${color}"/></symbol></defs>
                   <use href="#${job}" x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" width="40" height="40" />
                   <text x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" font-size="50" fill="${color}">${symbolTexts[job]}</text>
                 </svg>
@@ -215,6 +214,7 @@ $(document).ready(() => {
           }
         });
 
+      // Empty container when no checkbox is checked
       } else if ($(this).prop("checked") === false) {
         $(`#${idGenerated}`).empty();
       }
@@ -236,7 +236,7 @@ $(document).ready(() => {
   $(document).ready(function () {
     var $explanationDiv = $('#oldmap-explanation');
     var $regionInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Grenzen</span><br>Durchgehende Linie: Quartieri <br>Gestrichelte Linie: Gonfaloni</div>');
-    var $iconInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Icons</span><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Kreis mit X: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
+    var $iconInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Icons</span><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Stern: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
     var $choroplethInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Besitz</span><br><img src="images/choroplethInfo.jpg"></div>');
 
     $('input[type="checkbox"]').change(function () {
