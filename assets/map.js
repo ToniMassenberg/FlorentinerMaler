@@ -194,7 +194,7 @@ $(document).ready(() => {
           for (const region of data.regions) {
             var job = region.region_attributes.job;
 
-            // Define color of symbol based on certainty of information: black if the street can be identified, gray if only the parish is known
+            // Define color of symbol based on certainty of information: dark blue if the street can be identified, lighter blue if only the parish is known OR if the icon is for an assistant
             color = (region.region_attributes.certainty === 'street') ? "darkblue" : "blue";
 
             // Insert a div container with the symbol appropriate to the job group for every marker.
@@ -217,8 +217,6 @@ $(document).ready(() => {
     });
   }
 
-
-
   // call the appropriate function with the corresponding JSON file for each checkbox 
   mapAnnotations("plan1", "assets/map-annotation-walls.json")
   mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
@@ -233,13 +231,17 @@ $(document).ready(() => {
   mapIcons("plan12", "assets/map-annotation-1447.json");
   mapIcons("plan13", "assets/map-annotation-1451.json");
   mapIcons("plan14", "assets/map-annotation-1458.json");
+  mapIcons("plan15", "assets/map-annotation-1427-workshop.json");
+  mapIcons("plan16", "assets/map-annotation-1431-workshop.json");
+  mapIcons("plan17", "assets/map-annotation-1433-workshop.json");
 
 
   // Function which toggles the legends depending on which checkboxes are checked. Basic functionality written by ChatGPT, edited by me. 
   $(document).ready(function () {
     var $explanationDiv = $('#oldmap-explanation');
     var $regionInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Grenzen</span><br>Durchgehende Linie: Quartieri <br>Gestrichelte Linie: Gonfaloni</div>');
-    var $iconInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Icons</span><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Stern: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
+    var $iconInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Icons</span><br>Dunkelblau: Straße bekannt<br>Hellblau: Nur Pfarrsprengel bekannt<br><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Stern: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
+    var $iconInfoWorkshop = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Icons</span><br>Dunkelblau: Meister<br>Hellblau: Assistent (Lehrling oder Gehilfe)<br><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Stern: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');    
     var $choroplethInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Besitz</span><br><img src="images/choroplethInfo.jpg"></div>');
 
     $('input[type="checkbox"]').change(function () {
@@ -248,10 +250,12 @@ $(document).ready(() => {
       if ($checked.length === 0) {
         $explanationDiv.hide();
       } else {
-        if ($checked.is('#plan6') || $checked.is('#plan7')) {
+        if ($checked.is('[id^="plan"][id$="6"], [id^="plan"][id$="7"], [id^="plan"][id$="8"], [id^="plan"][id$="9"], [id^="plan"][id$="10"], [id^="plan"][id$="11"], [id^="plan"][id$="12"], [id^="plan"][id$="13"], [id^="plan"][id$="14"]')) {
           $explanationDiv.append($iconInfo).fadeIn('slow');
-
         }
+        if ($checked.is('#plan15') || $checked.is('#plan16') || $checked.is('#plan17')) {
+          $explanationDiv.append($iconInfoWorkshop).fadeIn('slow');
+        }        
         if ($checked.is('#plan2')) {
           $explanationDiv.append($regionInfo).fadeIn('slow');
         }
