@@ -195,11 +195,7 @@ $(document).ready(() => {
             var job = region.region_attributes.job;
 
             // Define color of symbol based on certainty of information: black if the street can be identified, gray if only the parish is known
-            if (region.region_attributes.certainty === 'street') {
-              var color = "darkblue";
-            } else {
-              var color = "blue";
-            }
+            color = (region.region_attributes.certainty === 'street') ? "darkblue" : "blue";
 
             // Insert a div container with the symbol appropriate to the job group for every marker.
             $(`#${idGenerated}`).append(`
@@ -230,6 +226,13 @@ $(document).ready(() => {
   mapAnnotations("choropleth", "assets/map-annotation-gonfaloni.json")
   mapIcons("plan6", "assets/map-annotation-1400.json");
   mapIcons("plan7", "assets/map-annotation-1410.json");
+  mapIcons("plan8", "assets/map-annotation-1427.json");
+  mapIcons("plan9", "assets/map-annotation-1431.json");
+  mapIcons("plan10", "assets/map-annotation-1433.json");
+  mapIcons("plan11", "assets/map-annotation-1442.json");
+  mapIcons("plan12", "assets/map-annotation-1447.json");
+  mapIcons("plan13", "assets/map-annotation-1451.json");
+  mapIcons("plan14", "assets/map-annotation-1458.json");
 
 
   // Function which toggles the legends depending on which checkboxes are checked. Basic functionality written by ChatGPT, edited by me. 
