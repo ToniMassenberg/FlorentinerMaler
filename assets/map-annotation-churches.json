@@ -1,0 +1,777 @@
+{
+    "filename": "basicmap.jpg",
+    "size": 958830,
+    "regions": [
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1214,
+                "cy": 973
+            },
+            "region_attributes": {
+                "name": "S. Reparata (Duomo)",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1118,
+                "cy": 966
+            },
+            "region_attributes": {
+                "name": "S. Giovanni",
+                "type": "mainChurch"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 787,
+                "cy": 846
+            },
+            "region_attributes": {
+                "name": "S. Maria Novella",
+                "type": "mainChurch"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1552,
+                "cy": 1364
+            },
+            "region_attributes": {
+                "name": "S. Croce",
+                "type": "mainChurch"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 713,
+                "cy": 1467
+            },
+            "region_attributes": {
+                "name": "S. Spirito",
+                "type": "mainChurch"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 163,
+                "cy": 1190
+            },
+            "region_attributes": {
+                "name": "S. Maria in Verzaia",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 257,
+                "cy": 1400
+            },
+            "region_attributes": {
+                "name": "S. Salvatore di Camaldoli",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 459,
+                "cy": 1390
+            },
+            "region_attributes": {
+                "name": "S. Maria del Carmine",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 512,
+                "cy": 1345
+            },
+            "region_attributes": {
+                "name": "S. Frediano",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 483,
+                "cy": 1798
+            },
+            "region_attributes": {
+                "name": "S. Pier Gattolini",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 691,
+                "cy": 1640
+            },
+            "region_attributes": {
+                "name": "S. Felice in Piazza",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 847,
+                "cy": 1376
+            },
+            "region_attributes": {
+                "name": "S. Iacopo oltr'Arno",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 976,
+                "cy": 1496
+            },
+            "region_attributes": {
+                "name": "S. Felicita",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1078,
+                "cy": 1475
+            },
+            "region_attributes": {
+                "name": "S. Maria sopr'Arno",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1097,
+                "cy": 1628
+            },
+            "region_attributes": {
+                "name": "S. Giorgio",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1216,
+                "cy": 1584
+            },
+            "region_attributes": {
+                "name": "S. Lucia de Magnoli",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1336,
+                "cy": 1659
+            },
+            "region_attributes": {
+                "name": "S. Gregorio",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1487,
+                "cy": 1691
+            },
+            "region_attributes": {
+                "name": "S. Niccolò oltr'Arno",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 438,
+                "cy": 844
+            },
+            "region_attributes": {
+                "name": "S. Lucia sul Prato",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 573,
+                "cy": 1007
+            },
+            "region_attributes": {
+                "name": "Ognissanti",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 696,
+                "cy": 983
+            },
+            "region_attributes": {
+                "name": "S. Paolo",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 814,
+                "cy": 1065
+            },
+            "region_attributes": {
+                "name": "S. Pancrazio",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 879,
+                "cy": 1220
+            },
+            "region_attributes": {
+                "name": "S. Trinita",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 949,
+                "cy": 1294
+            },
+            "region_attributes": {
+                "name": "SS. Apostoli",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1046,
+                "cy": 1255
+            },
+            "region_attributes": {
+                "name": "S. Maria sopra Porta",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 972,
+                "cy": 1140
+            },
+            "region_attributes": {
+                "name": "S. Maria degli Ughi",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1015,
+                "cy": 1146
+            },
+            "region_attributes": {
+                "name": "S. Miniato fra le Torri",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1036,
+                "cy": 1104
+            },
+            "region_attributes": {
+                "name": "S. Pier Buonconsiglio",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1080,
+                "cy": 1121
+            },
+            "region_attributes": {
+                "name": "S. Andrea",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 973,
+                "cy": 1073
+            },
+            "region_attributes": {
+                "name": "S. Donato de'Vecchietti",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 919,
+                "cy": 1016
+            },
+            "region_attributes": {
+                "name": "S. Michele Berteldi",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1121,
+                "cy": 1167
+            },
+            "region_attributes": {
+                "name": "Orsanmichele",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1193,
+                "cy": 1172
+            },
+            "region_attributes": {
+                "name": "S. Martino",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1154,
+                "cy": 1226
+            },
+            "region_attributes": {
+                "name": "S. Romolo",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1121,
+                "cy": 1259
+            },
+            "region_attributes": {
+                "name": "S. Cecilia",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1072,
+                "cy": 1338
+            },
+            "region_attributes": {
+                "name": "S. Stefano al Ponte",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1185,
+                "cy": 1325
+            },
+            "region_attributes": {
+                "name": "S. Pier Scheraggio",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1308,
+                "cy": 1383
+            },
+            "region_attributes": {
+                "name": "S. Remigio",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1375,
+                "cy": 1409
+            },
+            "region_attributes": {
+                "name": "S. Iacopo tra Fossi",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1256,
+                "cy": 1176
+            },
+            "region_attributes": {
+                "name": "Badia",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1310,
+                "cy": 1179
+            },
+            "region_attributes": {
+                "name": "S. Procolo",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1285,
+                "cy": 1237
+            },
+            "region_attributes": {
+                "name": "S. Apollinare",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1280,
+                "cy": 1263
+            },
+            "region_attributes": {
+                "name": "S. Firenze",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1429,
+                "cy": 1260
+            },
+            "region_attributes": {
+                "name": "S. Simone",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1805,
+                "cy": 1111
+            },
+            "region_attributes": {
+                "name": "S. Ambrogio",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1500,
+                "cy": 1129
+            },
+            "region_attributes": {
+                "name": "S. Pier Maggiore",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1239,
+                "cy": 1127
+            },
+            "region_attributes": {
+                "name": "S. Margherita",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1150,
+                "cy": 1133
+            },
+            "region_attributes": {
+                "name": "S. Bartolomeo al Corso",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1148,
+                "cy": 1094
+            },
+            "region_attributes": {
+                "name": "S. Maria Nipotecosa",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1162,
+                "cy": 1085
+            },
+            "region_attributes": {
+                "name": "S. Michele delle Trombe (S. Elisabetta)",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1200,
+                "cy": 1105
+            },
+            "region_attributes": {
+                "name": "S. Maria degli Alberighi",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1094,
+                "cy": 1078
+            },
+            "region_attributes": {
+                "name": "S. Tommaso",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1292,
+                "cy": 1055
+            },
+            "region_attributes": {
+                "name": "S. Maria in Campo",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1223,
+                "cy": 1039
+            },
+            "region_attributes": {
+                "name": "S. Benedetto",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1188,
+                "cy": 1032
+            },
+            "region_attributes": {
+                "name": "S. Pier Coelorum",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1113,
+                "cy": 1015
+            },
+            "region_attributes": {
+                "name": "S. Cristofano degli Adimari",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1020,
+                "cy": 1063
+            },
+            "region_attributes": {
+                "name": "S. Maria in Campidoglio",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1026,
+                "cy": 1022
+            },
+            "region_attributes": {
+                "name": "S. Leo",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1068,
+                "cy": 974
+            },
+            "region_attributes": {
+                "name": "S. Salvatore",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1036,
+                "cy": 968
+            },
+            "region_attributes": {
+                "name": "S. Ruffillo",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 999,
+                "cy": 949
+            },
+            "region_attributes": {
+                "name": "S. Maria Maggiore",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1391,
+                "cy": 957
+            },
+            "region_attributes": {
+                "name": "S. Egidio",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1270,
+                "cy": 907
+            },
+            "region_attributes": {
+                "name": "S. Michele Visdomini",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1117,
+                "cy": 825
+            },
+            "region_attributes": {
+                "name": "S. Pier Murrone",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1068,
+                "cy": 825
+            },
+            "region_attributes": {
+                "name": "S. Lorenzo",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 923,
+                "cy": 687
+            },
+            "region_attributes": {
+                "name": "S. Iacopo in Campo Corbolini",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1038,
+                "cy": 567
+            },
+            "region_attributes": {
+                "name": "S. Barnaba in Campo Corbolini",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1184,
+                "cy": 616
+            },
+            "region_attributes": {
+                "name": "S. Basilio",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1467,
+                "cy": 643
+            },
+            "region_attributes": {
+                "name": "SS. Annunziata",
+                "type": "church"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1338,
+                "cy": 521
+            },
+            "region_attributes": {
+                "name": "S. Marco",
+                "type": "church"
+            }
+        }
+    ],
+    "file_attributes": {}
+}

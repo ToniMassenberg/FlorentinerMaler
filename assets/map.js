@@ -142,25 +142,28 @@ $(document).ready(() => {
     });
   }
 
-  
+
   // Function to display the icons based on plan6-17
   function mapIcons(planNr, jsonFilePath) {
-    
+
     $(`input[id="${planNr}"]`).click(function () {
       // Get the ID of the currently selected checkbox
       const currentCheckboxId = $(this).attr("id");
       // Generate the ID for the region overlay container based on the current checkbox
-      let idGenerated = planNr + "Generated";
+      let idIconsGenerated = planNr + "IconsGenerated";
 
-      // Clear all other checkbox selections
-      $(`input[id^="plan"]:not(#${currentCheckboxId})`).prop("checked", false);
-
+      // Clear all other checkboxes with IDs plan6-plan17 when one of them is checked. These 4 lines were written by ChatGPT.
+      $(`input[id^="plan"]:not(#${currentCheckboxId})`).filter((index, element) => {
+        const idNumber = parseInt(element.id.slice(4));
+        return idNumber >= 6 && idNumber <= 17;
+      }).not(`#${currentCheckboxId}`).prop("checked", false);
+      
 
       if ($(this).prop("checked") === true) {
-        // Delete old icons before new ones are added
-        $(".svg-container").empty();
+        // Delete old icons before new ones are added by emptying the container for icon overlays
+        $("[id*='IconsGenerated']").empty();
         // Initialize container for all region overlays so it can be emptied later
-        $('#oldmap-container').append(`<div class="svg-container" id="${idGenerated}"></div>`);
+        $('#oldmap-container').append(`<div class="svg-container" id="${idIconsGenerated}"></div>`);
 
         // Define one symbol for every job group Jacobsen has a symbol for
         // Use of SVG HTML-native symbols: https://wiki.selfhtml.org/wiki/SVG/Tutorials/Icons#SVG_in_HTML
@@ -198,7 +201,7 @@ $(document).ready(() => {
             color = (region.region_attributes.certainty === 'street') ? "darkblue" : "blue";
 
             // Insert a div container with the symbol appropriate to the job group for every marker.
-            $(`#${idGenerated}`).append(`
+            $(`#${idIconsGenerated}`).append(`
               <div class="svg-container">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2178 2121" preserveAspectRatio="none">
                   <defs><symbol id="${job}" viewBox="0 0 512 512">'<path d="${symbolPaths[job]}" stroke="${color}" stroke-width="1" fill="${color}"/></symbol></defs>
@@ -210,9 +213,45 @@ $(document).ready(() => {
           }
         });
 
-      // Empty container when no checkbox is checked
+        // Empty container when no checkbox is checked
       } else if ($(this).prop("checked") === false) {
-        $(`#${idGenerated}`).empty();
+        $(`#${idIconsGenerated}`).empty();
+      }
+    });
+  }
+
+  // Function to display the icons for church locations
+  function mapChurches(planNr, jsonFilePath) {
+    $(`input[id="${planNr}"]`).click(function () {
+      if ($(this).prop("checked") === true) {
+        // Initialize container for this region overlay so it can be emptied later
+        $('#oldmap-container').append('<div class="svg-container" id="churchContainer"></div>');
+
+        // Define symbol paths for the church and cross symbols
+        const symbolPaths = {
+          mainChurch: 'M344 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V48H264c-13.3 0-24 10.7-24 24s10.7 24 24 24h32v46.4L183.3 210c-14.5 8.7-23.3 24.3-23.3 41.2V512h96V416c0-35.3 28.7-64 64-64s64 28.7 64 64v96h96V251.2c0-16.9-8.8-32.5-23.3-41.2L344 142.4V96h32c13.3 0 24-10.7 24-24s-10.7-24-24-24H344V24zM24.9 330.3C9.5 338.8 0 354.9 0 372.4V464c0 26.5 21.5 48 48 48h80V273.6L24.9 330.3zM592 512c26.5 0 48-21.5 48-48V372.4c0-17.5-9.5-33.6-24.9-42.1L512 273.6V512h80z',
+          church: 'M176 0c-26.5 0-48 21.5-48 48v80H48c-26.5 0-48 21.5-48 48v32c0 26.5 21.5 48 48 48h80V464c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V256h80c26.5 0 48-21.5 48-48V176c0-26.5-21.5-48-48-48H256V48c0-26.5-21.5-48-48-48H176z'
+        };
+
+        $.getJSON(jsonFilePath, function (data) {
+          // Loop through each region in the JSON file
+          for (const region of data.regions) {
+            var name = region.region_attributes.name;
+            var type = region.region_attributes.type;
+
+            // Insert a div container with the church symbols for every marker.
+            $("#churchContainer").append(`
+              <div class="svg-container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2178 2121" preserveAspectRatio="none">
+                  <defs><symbol id="${type}" viewBox="0 0 512 512"><path d="${symbolPaths[type]}" stroke="black" stroke-width="1" fill="black"/></symbol></defs>
+                  <use xlink:href="#${type}" x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" width="40" height="40"/>
+                </svg>
+              </div>
+            `);
+          }
+        });
+      } else if ($(this).prop("checked") === false) {
+        $("#churchContainer").empty();
       }
     });
   }
@@ -222,6 +261,7 @@ $(document).ready(() => {
   mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
   mapAnnotations("plan3", "assets/map-annotation-popoli.json")
   mapAnnotations("choropleth", "assets/map-annotation-gonfaloni.json")
+  mapChurches("churches", "assets/map-annotation-churches.json")
   mapIcons("plan6", "assets/map-annotation-1400.json");
   mapIcons("plan7", "assets/map-annotation-1410.json");
   mapIcons("plan8", "assets/map-annotation-1427.json");
@@ -237,36 +277,43 @@ $(document).ready(() => {
 
 
   // Function which toggles the legends depending on which checkboxes are checked. Basic functionality written by ChatGPT, edited by me. 
-  $(document).ready(function () {
-    var $explanationDiv = $('#oldmap-explanation');
-    var $regionInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Grenzen</span><br>Durchgehende Linie: Quartieri <br>Gestrichelte Linie: Gonfaloni</div>');
-    var $iconInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Icons</span><br>Dunkelblau: Straße bekannt<br>Hellblau: Nur Pfarrsprengel bekannt<br><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Stern: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
-    var $iconInfoWorkshop = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Icons</span><br>Dunkelblau: Meister<br>Hellblau: Assistent (Lehrling oder Gehilfe)<br><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Stern: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');    
-    var $choroplethInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Besitz</span><br><img src="images/choroplethInfo.jpg"></div>');
+  function mapLegend() {
+    $(document).ready(function () {
+      var $explanationDiv = $('#oldmap-explanation');
+      var $regionInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Grenzen</span><br>Durchgehende Linie: Quartieri <br>Gestrichelte Linie: Gonfaloni</div>');
+      var $churchInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Kirchen</span><br>Kirche: Hauptkirche der Viertel<br>Kreuz: Kirche mit Pfarrfunktion</div>');
+      var $iconInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Wohnungen</span><br>Dunkelblau: Straße bekannt<br>Hellblau: Nur Pfarrsprengel bekannt<br><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Stern: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
+      var $iconInfoWorkshop = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Werkstätten</span><br>Dunkelblau: Meister<br>Hellblau: Assistent (Lehrling oder Gehilfe)<br><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Stern: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
+      var $choroplethInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Besitz</span><br><img src="images/choroplethInfo.jpg"></div>');
 
-    $('input[type="checkbox"]').change(function () {
-      $explanationDiv.empty(); // clear any previously added elements
-      var $checked = $('input[type="checkbox"]:checked');
-      if ($checked.length === 0) {
-        $explanationDiv.hide();
-      } else {
-        if ($checked.is('[id^="plan"][id$="6"], [id^="plan"][id$="7"], [id^="plan"][id$="8"], [id^="plan"][id$="9"], [id^="plan"][id$="10"], [id^="plan"][id$="11"], [id^="plan"][id$="12"], [id^="plan"][id$="13"], [id^="plan"][id$="14"]')) {
-          $explanationDiv.append($iconInfo).fadeIn('slow');
+      $('input[type="checkbox"]').change(function () {
+        $explanationDiv.empty(); // clear any previously added elements
+        var $checked = $('input[type="checkbox"]:checked');
+        if ($checked.length === 0) {
+          $explanationDiv.hide();
+        } else {
+          if ($checked.is('#plan6') || $checked.is('#plan7') || $checked.is('#plan8') || $checked.is('#plan9') || $checked.is('#plan10') || $checked.is('#plan11') || $checked.is('#plan12') || $checked.is('#plan13') || $checked.is('#plan14')) {
+            $explanationDiv.append($iconInfo).fadeIn('slow');
+          }
+          if ($checked.is('#plan15') || $checked.is('#plan16') || $checked.is('#plan17')) {
+            $explanationDiv.append($iconInfoWorkshop).fadeIn('slow');
+          }
+          if ($checked.is('#churches')) {
+            $explanationDiv.append($churchInfo).fadeIn('slow');
+          }
+          if ($checked.is('#plan2')) {
+            $explanationDiv.append($regionInfo).fadeIn('slow');
+          }
+          if ($checked.is('#choropleth')) {
+            $explanationDiv.append($choroplethInfo).fadeIn('slow');
+          }
+          $explanationDiv.show();
         }
-        if ($checked.is('#plan15') || $checked.is('#plan16') || $checked.is('#plan17')) {
-          $explanationDiv.append($iconInfoWorkshop).fadeIn('slow');
-        }        
-        if ($checked.is('#plan2')) {
-          $explanationDiv.append($regionInfo).fadeIn('slow');
-        }
-        if ($checked.is('#choropleth')) {
-          $explanationDiv.append($choroplethInfo).fadeIn('slow');
-        }
-        $explanationDiv.show();
-      }
+      });
     });
-  });
-
+  }
+  // call legend function (it doesn't have to be a function, it is for modularity)
+  mapLegend()
 
 
 
