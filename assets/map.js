@@ -1,23 +1,28 @@
 // This file contains all code for the map.html subpage.
 
-// jQuery wrapper to only load JavaScript when HTML is fully loaded
+// Function to toggle the dropdown akkordeon with the explanation. Edited version of a function from https://www.w3schools.com/w3css/w3css_accordions.asp.
+function akkordeon(id) {
+  let x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// jQuery wrapper to only load rest of the JavaScript when HTML is fully loaded
 $(document).ready(() => {
 
   // How to log objects so you can see the content:
   //console.log('regionObjects: ' + JSON.stringify(regionObjects)) 
 
-  // as soon as I use another file i get an error in the browser. To solve I set up a local testing server: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server
+  // as soon as I use another file I get an error in the browser. To solve I set up a local testing server: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server
   // to run this page in local server right-click HTML and select Launch in Browser (intro to extension in VSCode: https://marketplace.visualstudio.com/items?itemName=yuichinukiyama.vscode-preview-server&ssr=false#overview)
 
-  // insert image in html ("prepend" puts the entity first in the container)
-  //$('#oldmap-container').prepend($('<img>', { id: 'oldmap', src: 'images/basicmap.jpg' }))
-
-
-  // Get data for annotations from JSON here so it runs just once, not every time a checkbox is checked. The code to access the JSON file and reformat the pointsString was partly written by ChatGPT and edited by me.    
-  // Array with the objects holding gonfaloni info so it can be accessed when checkboxes are checked
-
   // Function which accepts the JSON files for all kinds of border annotation and adding the annotation information to a regionObject that will be called in mapAnnotations()
+  // Get data for annotations from JSON here so it runs just once, not every time a checkbox is checked. The code to access the JSON file and reformat the pointsString was partly written by ChatGPT and edited by me.
   function makeRegionObjects(jsonFilePath) {
+    // Array with the objects holding gonfaloni info so it can be accessed when checkboxes are checked
     var regionObjects = [];
     $.getJSON(jsonFilePath, function (data) {
       // Loop through each region in the JSON file
@@ -157,7 +162,7 @@ $(document).ready(() => {
         const idNumber = parseInt(element.id.slice(4));
         return idNumber >= 6 && idNumber <= 17;
       }).not(`#${currentCheckboxId}`).prop("checked", false);
-      
+
 
       if ($(this).prop("checked") === true) {
         // Delete old icons before new ones are added by emptying the container for icon overlays
@@ -257,23 +262,23 @@ $(document).ready(() => {
   }
 
   // call the appropriate function with the corresponding JSON file for each checkbox 
-  mapAnnotations("plan1", "assets/map-annotation-walls.json")
-  mapAnnotations("plan2", "assets/map-annotation-gonfaloni.json")
-  mapAnnotations("plan3", "assets/map-annotation-popoli.json")
-  mapAnnotations("choropleth", "assets/map-annotation-gonfaloni.json")
-  mapChurches("churches", "assets/map-annotation-churches.json")
-  mapIcons("plan6", "assets/map-annotation-1400.json");
-  mapIcons("plan7", "assets/map-annotation-1410.json");
-  mapIcons("plan8", "assets/map-annotation-1427.json");
-  mapIcons("plan9", "assets/map-annotation-1431.json");
-  mapIcons("plan10", "assets/map-annotation-1433.json");
-  mapIcons("plan11", "assets/map-annotation-1442.json");
-  mapIcons("plan12", "assets/map-annotation-1447.json");
-  mapIcons("plan13", "assets/map-annotation-1451.json");
-  mapIcons("plan14", "assets/map-annotation-1458.json");
-  mapIcons("plan15", "assets/map-annotation-1427-workshop.json");
-  mapIcons("plan16", "assets/map-annotation-1431-workshop.json");
-  mapIcons("plan17", "assets/map-annotation-1433-workshop.json");
+  mapAnnotations("plan1", "assets/data/map-annotation-walls.json")
+  mapAnnotations("plan2", "assets/data/map-annotation-gonfaloni.json")
+  mapAnnotations("plan3", "assets/data/map-annotation-popoli.json")
+  mapAnnotations("choropleth", "assets/data/map-annotation-gonfaloni.json")
+  mapChurches("churches", "assets/data/map-annotation-churches.json")
+  mapIcons("plan6", "assets/data/map-annotation-1400.json");
+  mapIcons("plan7", "assets/data/map-annotation-1410.json");
+  mapIcons("plan8", "assets/data/map-annotation-1427.json");
+  mapIcons("plan9", "assets/data/map-annotation-1431.json");
+  mapIcons("plan10", "assets/data/map-annotation-1433.json");
+  mapIcons("plan11", "assets/data/map-annotation-1442.json");
+  mapIcons("plan12", "assets/data/map-annotation-1447.json");
+  mapIcons("plan13", "assets/data/map-annotation-1451.json");
+  mapIcons("plan14", "assets/data/map-annotation-1458.json");
+  mapIcons("plan15", "assets/data/map-annotation-1427-workshop.json");
+  mapIcons("plan16", "assets/data/map-annotation-1431-workshop.json");
+  mapIcons("plan17", "assets/data/map-annotation-1433-workshop.json");
 
 
   // Function which toggles the legends depending on which checkboxes are checked. Basic functionality written by ChatGPT, edited by me. 
@@ -284,7 +289,7 @@ $(document).ready(() => {
       var $churchInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Kirchen</span><br>Kirche: Hauptkirche der Viertel<br>Kreuz: Kirche mit Pfarrfunktion</div>');
       var $iconInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Wohnungen</span><br>Dunkelblau: Straße bekannt<br>Hellblau: Nur Pfarrsprengel bekannt<br><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Stern: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
       var $iconInfoWorkshop = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Werkstätten</span><br>Dunkelblau: Meister<br>Hellblau: Assistent (Lehrling oder Gehilfe)<br><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Stern: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
-      var $choroplethInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Besitz</span><br><img src="images/choroplethInfo.jpg"></div>');
+      var $choroplethInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Besitz</span><br><img src="assets/images/choroplethInfo.jpg"></div>');
 
       $('input[type="checkbox"]').change(function () {
         $explanationDiv.empty(); // clear any previously added elements
@@ -315,14 +320,11 @@ $(document).ready(() => {
   // call legend function (it doesn't have to be a function, it is for modularity)
   mapLegend()
 
-
-
   // Code for the Leaflat map of modern Florence. Edited version of: Agafonkin, Volodymyr. "Quick Start Guide - Leaflet - a JavaScript library for interactive maps". Accessed 22. April 2023. https://leafletjs.com/examples/quick-start/.
   var modernmap = L.map('modernmap').setView([43.7703, 11.2574], 14);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(modernmap);
+
 })
-
-

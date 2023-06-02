@@ -14,7 +14,7 @@
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
-
+  <!-- The main stylesheet is assets/w3.css, these are additions specific to the map.html page -->
   <style>
     body,
     html {
@@ -33,45 +33,36 @@
       height: auto;
     }
 
-    .svg-container { 
+    .svg-container {
       display: inline;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0; 
-        left: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
     }
-
-
   </style>
 </head>
 
 <body>
 
-  <!-- Links (sit on top) -->
+  <!-- Link border for site navigation -->
   <div class="w3-top">
     <div class="w3-row w3-padding w3-black">
       <div class="w3-col s3">
         <a href="index.html" class="w3-button w3-block w3-black">Einführung</a>
       </div>
       <div class="w3-col s3">
-        <a href="network.html" class="w3-button w3-block w3-black">Netzwerk</a>
+        <a href="statistics.html" class="w3-button w3-block w3-black">Statistik</a>
       </div>
       <div class="w3-col s3">
         <a href="map.html" class="w3-button w3-block w3-black">Karten</a>
       </div>
       <div class="w3-col s3">
-        <a href="statistics.html" class="w3-button w3-block w3-black">Statistik</a>
+        <a href="network.html" class="w3-button w3-block w3-black">Netzwerk</a>
       </div>
     </div>
   </div>
-
-  <!-- Header with image 
-<header class="bgimg w3-display-container w3-grayscale-min" id="home">
-      <div class="w3-display-middle w3-center">
-        <span class="w3-text-black" style="font-size:80px">Florentiner Maler <br> 1400-1450</span>
-      </div>
-  </header>-->
 
   <!-- Add a background color and large text to the whole page -->
   <div class="w3-sand ">
@@ -82,8 +73,17 @@
         <h5 class="w3-center w3-padding-64">
           <span class="w3-tag w3-wide">Planteil</span>
         </h5>
-        <p>Coming soon!</p>
-        <p>Hierher kommt eine Erklärung.</p>
+        <button onclick="akkordeon('explanation1')" class="w3-btn w3-block w3-gray w3-left-align">Einführung zum
+          Planteil</button>
+        <div id="explanation1" class="w3-container w3-hide">
+          <h4>Section 1</h4>
+          <p>Some text..</p>
+        </div>
+        <button onclick="akkordeon('explanation2')" class="w3-btn w3-block w3-gray w3-left-align">Fußnoten</button>
+        <div id="explanation2" class="w3-container w3-hide">
+          <h4>Section 2</h4>
+          <p>Some text..</p>
+        </div>
       </div>
     </div>
 
@@ -95,15 +95,14 @@
         </h5>
         <div class="w3-cell-row">
           <div class="w3-cell">
- 
+
             <div class="container" id="oldmap-container">
-              <img id="oldmap" src="images/basicmap.svg"></img>
-              <!-- When the SVG overlays are generated they are added to this container -->
+              <img id="oldmap" src="assets/images/basicmap.svg"></img>
+              <!-- When the SVG overlays are generated they are added to the "oldmap" container -->
             </div>
-            
+
           </div>
           <div class="w3-cell w3-cell-top">
-            <span class="w3-tag w3-wide">Welche Daten sollen sichtbar sein?</span>
             <span class="w3-wide">Kartenannotationen</span>
             <form style="min-width:100px">
               <input type="checkbox" id="plan1" name="plan1">
@@ -194,27 +193,21 @@
       </div>
     </div>
 
-    <div class="w3-container">
-      <div class="w3-content">
-        <h5 class="w3-center">
-          <span class="w3-tag w3-wide">Fußnoten</span>
-        </h5>
-        <div class="w3-center">Fußnoten</div>
-      </div>
-    </div>
 
-
-
-  <!-- End page content -->
+    <!-- End page content -->
   </div>
-
 
   <!-- Footer -->
   <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-    <p>Website zur Masterarbeit von <a href="https://github.com/ToniMassenberg" title="Toni Massenberg auf Github"
-        target="_blank" class="w3-hover-text-green">Toni Massenberg</a> im <a
-        href="https://www.uni-marburg.de/de/mcdci/studium/ma-cds" title="Philipps-Universität Marburg" target="_blank"
-        class="w3-hover-text-green">MA Cultural Data Studies.</a></p>
+    <p>Website zur Masterarbeit im <a href="https://www.uni-marburg.de/de/mcdci/studium/ma-cds"
+        title="MA Cultural Data Studies" target="_blank" class="w3-hover-text-green">MA Cultural Data Studies</a> der <a
+        href="https://www.uni-marburg.de/de/" title="Philipps-Universität Marburg" target="_blank"
+        class="w3-hover-text-green">Philipps-Universität Marburg</a>, 2023.<br>
+      Anmerkungen und Fehlermeldungen bitte an <a href="https://github.com/ToniMassenberg"
+        title="Toni Massenberg auf Github" target="_blank" class="w3-hover-text-green">Toni Massenberg</a>, <a
+        href="mailto:massenbe@uni-marburg.de" title="Mailadresse Toni Massenberg" target="_blank"
+        class="w3-hover-text-green">antonia.massenberg@students.uni-marburg.de</a>.
+    </p>
   </footer>
 
   <!-- External JavaScript files  -->

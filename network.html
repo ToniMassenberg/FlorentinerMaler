@@ -2,24 +2,19 @@
 <html>
 
 <head>
-  <title>Florentiner Maler 1400-1450</title>
+  <title>Florentiner Maler 1400-1450 - Netzwerk</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Stylesheet for W3 (responsive design framework) -->
   <link rel="stylesheet" href="assets/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-  <!-- Based on the W3Schools W3 template "Cafe": https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cafe -->
+
+  <!-- The main stylesheet is assets/w3.css, these are additions specific to the network.html page -->
   <style>
     body,
     html {
       height: 100%;
       font-family: "Inconsolata", sans-serif;
-    }
-
-    .bgimg {
-      background-position: center;
-      background-size: cover;
-      background-image: url("assets/images/firenze-openstreetmap.jpg");
-      min-height: 75%;
     }
   </style>
 </head>
@@ -44,25 +39,34 @@
     </div>
   </div>
 
-  <!-- Header with image -->
-  <header class="bgimg w3-display-container w3-grayscale-min" id="home">
-    <div class="w3-display-middle w3-center">
-      <span class="w3-text-black" style="font-size:80px">Florentiner Maler <br> 1400-1450</span>
-    </div>
-  </header>
-
   <!-- Add a background color and large text to the whole page -->
-  <div class="w3-sand w3-large">
+  <div class="w3-sand ">
 
     <!-- About Container -->
     <div class="w3-container" id="about">
-      <div class="w3-content" style="max-width:700px">
-        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Einleitung</span></h5>
-        <p>Coming soon!</p>
-        <p>Diese Seite ist Proof of Concept für meine Masterarbeit, die sich noch in Arbeit befindet. Der vollständige
-          Inhalt wird ab Mitte September 2023 an dieser Stelle verfügbar sein.</p>
+      <div class="w3-content" style="max-height:700px">
+        <h5 class="w3-center w3-padding-64">
+          <span class="w3-tag w3-wide">Planteil</span>
+        </h5>
+        <button onclick="akkordeon('explanation1')" class="w3-btn w3-block w3-gray w3-left-align">Einführung zum
+          Netzwerk</button>
+        <div id="explanation1" class="w3-container w3-hide">
+          <h4>Section 1</h4>
+          <p>Some text..</p>
+        </div>
+        <button onclick="akkordeon('explanation2')" class="w3-btn w3-block w3-gray w3-left-align">Fußnoten</button>
+        <div id="explanation2" class="w3-container w3-hide">
+          <h4>Section 2</h4>
+          <p>Some text..</p>
+        </div>
       </div>
     </div>
+
+    <!-- Network container -->
+    <div>
+
+    </div>
+
 
     <!-- End page content -->
   </div>
@@ -80,7 +84,9 @@
     </p>
   </footer>
 
+  <!-- External JavaScript files  -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="assets/network.js"></script>
 </body>
 
 </html>
