@@ -1,3 +1,10 @@
+/* Addition to the W3 framework based on the "Café" Template: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cafe */
+body,
+    html {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+    }
+
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 html {
     box-sizing: border-box
