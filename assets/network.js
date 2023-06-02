@@ -1,181 +1,82 @@
 // This file contains all code for the map.html subpage.
 
-
-
 // Function to toggle the dropdown akkordeon with the explanation. Edited version of a function from https://www.w3schools.com/w3css/w3css_accordions.asp.
 function akkordeon(id) {
-    let x = document.getElementById(id);
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
+  let x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
 }
 
+// Code for the Force Directed Graph by Michael Bostock, published under the GPL-3.0 License.
+// https://gist.github.com/mbostock/2675ff61ea5e063ede2b5d63c08020c7
+var svg = d3.select("svg"),
+  width = +svg.attr("width"),
+  height = +svg.attr("height");
 
-// Copyright 2021 Observable, Inc.
-// Released under the ISC license.
-// https://observablehq.com/@d3/force-directed-graph
-function ForceGraph({
-    nodes, // an iterable of node objects (typically [{id}, …])
-    links // an iterable of link objects (typically [{source, target}, …])
-}, {
-    nodeId = d => d.id, // given d in nodes, returns a unique identifier (string)
-    nodeGroup, // given d in nodes, returns an (ordinal) value for color
-    nodeGroups, // an array of ordinal values representing the node groups
-    nodeTitle, // given d in nodes, a title string
-    nodeFill = "currentColor", // node stroke fill (if not using a group color encoding)
-    nodeStroke = "#fff", // node stroke color
-    nodeStrokeWidth = 1.5, // node stroke width, in pixels
-    nodeStrokeOpacity = 1, // node stroke opacity
-    nodeRadius = 5, // node radius, in pixels
-    nodeStrength,
-    linkSource = ({ source }) => source, // given d in links, returns a node identifier string
-    linkTarget = ({ target }) => target, // given d in links, returns a node identifier string
-    linkStroke = "#999", // link stroke color
-    linkStrokeOpacity = 0.6, // link stroke opacity
-    linkStrokeWidth = 1.5, // given d in links, returns a stroke width in pixels
-    linkStrokeLinecap = "round", // link stroke linecap
-    linkStrength,
-    colors = d3.schemeTableau10, // an array of color strings, for the node groups
-    width = 640, // outer width, in pixels
-    height = 400, // outer height, in pixels
-    invalidation // when this promise resolves, stop the simulation
-} = {}) {
-    // Compute values.
-    const N = d3.map(nodes, nodeId).map(intern);
-    const LS = d3.map(links, linkSource).map(intern);
-    const LT = d3.map(links, linkTarget).map(intern);
-    if (nodeTitle === undefined) nodeTitle = (_, i) => N[i];
-    const T = nodeTitle == null ? null : d3.map(nodes, nodeTitle);
-    const G = nodeGroup == null ? null : d3.map(nodes, nodeGroup).map(intern);
-    const W = typeof linkStrokeWidth !== "function" ? null : d3.map(links, linkStrokeWidth);
-    const L = typeof linkStroke !== "function" ? null : d3.map(links, linkStroke);
+var simulation = d3.forceSimulation()
+  .force("link", d3.forceLink().id(function (d) { return d.id; }))
+  .force("charge", d3.forceManyBody())
+  .force("center", d3.forceCenter(width / 2, height / 2));
 
-    // Replace the input nodes and links with mutable objects for the simulation.
-    nodes = d3.map(nodes, (_, i) => ({ id: N[i] }));
-    links = d3.map(links, (_, i) => ({ source: LS[i], target: LT[i] }));
+d3.json("assets/data/miserables.json", function (error, graph) {
+  if (error) throw error;
 
-    // Compute default domains.
-    if (G && nodeGroups === undefined) nodeGroups = d3.sort(G);
+  var link = svg.append("g")
+    .attr("class", "links")
+    .selectAll("line")
+    .data(graph.links)
+    .enter().append("line");
 
-    // Construct the scales.
-    const color = nodeGroup == null ? null : d3.scaleOrdinal(nodeGroups, colors);
+  var node = svg.append("g")
+    .attr("class", "nodes")
+    .selectAll("circle")
+    .data(graph.nodes)
+    .enter().append("circle")
+    .attr("r", 2.5)
+    .call(d3.drag()
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended));
 
-    // Construct the forces.
-    const forceNode = d3.forceManyBody();
-    const forceLink = d3.forceLink(links).id(({ index: i }) => N[i]);
-    if (nodeStrength !== undefined) forceNode.strength(nodeStrength);
-    if (linkStrength !== undefined) forceLink.strength(linkStrength);
+  node.append("title")
+    .text(function (d) { return d.id; });
 
-    const simulation = d3.forceSimulation(nodes)
-        .force("link", forceLink)
-        .force("charge", forceNode)
-        .force("center", d3.forceCenter())
-        .on("tick", ticked);
+  simulation
+    .nodes(graph.nodes)
+    .on("tick", ticked);
 
-    const svg = d3.create("svg")
-        .attr("width", width)
-        .attr("height", height)
-        .attr("viewBox", [-width / 2, -height / 2, width, height])
-        .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
+  simulation.force("link")
+    .links(graph.links);
 
-    const link = svg.append("g")
-        .attr("stroke", typeof linkStroke !== "function" ? linkStroke : null)
-        .attr("stroke-opacity", linkStrokeOpacity)
-        .attr("stroke-width", typeof linkStrokeWidth !== "function" ? linkStrokeWidth : null)
-        .attr("stroke-linecap", linkStrokeLinecap)
-        .selectAll("line")
-        .data(links)
-        .join("line");
+  function ticked() {
+    link
+      .attr("x1", function (d) { return d.source.x; })
+      .attr("y1", function (d) { return d.source.y; })
+      .attr("x2", function (d) { return d.target.x; })
+      .attr("y2", function (d) { return d.target.y; });
 
-    const node = svg.append("g")
-        .attr("fill", nodeFill)
-        .attr("stroke", nodeStroke)
-        .attr("stroke-opacity", nodeStrokeOpacity)
-        .attr("stroke-width", nodeStrokeWidth)
-        .selectAll("circle")
-        .data(nodes)
-        .join("circle")
-        .attr("r", nodeRadius)
-        .call(drag(simulation));
+    node
+      .attr("cx", function (d) { return d.x; })
+      .attr("cy", function (d) { return d.y; });
+  }
+});
 
-    if (W) link.attr("stroke-width", ({ index: i }) => W[i]);
-    if (L) link.attr("stroke", ({ index: i }) => L[i]);
-    if (G) node.attr("fill", ({ index: i }) => color(G[i]));
-    if (T) node.append("title").text(({ index: i }) => T[i]);
-    if (invalidation != null) invalidation.then(() => simulation.stop());
-
-    function intern(value) {
-        return value !== null && typeof value === "object" ? value.valueOf() : value;
-    }
-
-    function ticked() {
-        link
-            .attr("x1", d => d.source.x)
-            .attr("y1", d => d.source.y)
-            .attr("x2", d => d.target.x)
-            .attr("y2", d => d.target.y);
-
-        node
-            .attr("cx", d => d.x)
-            .attr("cy", d => d.y);
-    }
-
-    function drag(simulation) {
-        function dragstarted(event) {
-            if (!event.active) simulation.alphaTarget(0.3).restart();
-            event.subject.fx = event.subject.x;
-            event.subject.fy = event.subject.y;
-        }
-
-        function dragged(event) {
-            event.subject.fx = event.x;
-            event.subject.fy = event.y;
-        }
-
-        function dragended(event) {
-            if (!event.active) simulation.alphaTarget(0);
-            event.subject.fx = null;
-            event.subject.fy = null;
-        }
-
-        return d3.drag()
-            .on("start", dragstarted)
-            .on("drag", dragged)
-            .on("end", dragended);
-    }
-
-    return Object.assign(svg.node(), { scales: { color } });
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
 }
 
-//miserables = FileAttachment("assets/data/miserables.json").json()
-var miserables;
-var chart;
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
 
-// Read data file
-d3.json("assets/data/miserables.json", function(error, data) {
-    if (error) {
-      // Handle error if the file fails to load
-      console.error("Error loading the file:", error);
-    } else {
-      // Data is loaded, and you can work with it here
-      miserables = data;
-      //console.log('data: ' + JSON.stringify(data)) 
-      chart = ForceGraph(miserables, {
-        nodeId: d => d.id,
-        nodeGroup: d => d.group,
-        nodeTitle: d => `${d.id}\n${d.group}`,
-        linkStrokeWidth: l => Math.sqrt(l.value),
-        width: 600,
-        height: 600,
-        //invalidation // a promise to stop the simulation when the cell is re-run
-    })
-    }
-  });
-  
-
-
-
-d3.select("#network").append(chart); 
-
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
