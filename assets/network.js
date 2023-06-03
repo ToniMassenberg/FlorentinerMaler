@@ -4,11 +4,11 @@
 function akkordion(id) {
     let x = document.getElementById(id);
     if (x.className.indexOf("w3-show") == -1) {
-      x.className += " w3-show";
+        x.className += " w3-show";
     } else {
-      x.className = x.className.replace(" w3-show", "");
+        x.className = x.className.replace(" w3-show", "");
     }
-  }
+}
 
 // The following function ForceGraph is based on code by Bruno Laranjeira from 2021 here: https://observablehq.com/@brunolaranjeira/d3-v6-force-directed-graph-with-directional-straight-arrow.
 // It was then adapted from Observable to vanilla JavaScript using ChatGPT.
@@ -24,9 +24,23 @@ function ForceGraph() {
         .attr("width", width)
         .attr("height", height);
 
+    // Define the arrowhead marker
+    svg.append("defs").append("marker")
+        .attr("id", "arrowhead")
+        .attr("viewBox", "-5 -5 10 10")
+        .attr("refX", 8)
+        .attr("refY", 0)
+        .attr("markerWidth", 8)
+        .attr("markerHeight", 8)
+        .attr("orient", "auto")
+        .append("path")
+        .attr("d", "M -5,-5 L 0,0 L -5,5")
+        .attr("class", "arrowhead");
+
+
     d3.csv("assets/data.csv").then(function (data) {
         const nodes = data.map((d) => ({ id: d.id, type: d.type }));
-        const links = data.map((d) => ({ source: d.source, target: d.target }));
+        const links = data.map((d) => ({ source: d.source, target: d.target, type: d.type, lineType: d.lineType }));
 
         const simulation = d3.forceSimulation(nodes)
             .force("link", d3.forceLink(links).id((d) => d.id))
@@ -38,9 +52,10 @@ function ForceGraph() {
             .enter()
             .append("line")
             .attr("class", "link")
-            .attr("stroke", "#999")
+            .attr("stroke", (d) => getLineColor(d.lineType))
             .attr("stroke-opacity", 0.6)
-            .attr("stroke-width", 1.5);
+            .attr("stroke-width", 1.5)
+            .attr("marker-end", "url(#arrowhead)");
 
         const node = svg.selectAll(".node")
             .data(nodes)
@@ -48,7 +63,7 @@ function ForceGraph() {
             .append("circle")
             .attr("class", "node")
             .attr("r", 10)
-            .attr("fill", (d) => getColor(d.type))
+            .attr("fill", (d) => getNodeColor(d.type))
             .call(drag(simulation));
 
         node.append("title")
@@ -88,11 +103,22 @@ function ForceGraph() {
                 .on("end", dragended);
         }
 
-        function getColor(type) {
-            // Define colors based on type
+        function getNodeColor(type) {
+            // Define colors based on type / job
             if (type === "TypeA") {
                 return "red";
             } else if (type === "TypeB") {
+                return "blue";
+            } else {
+                return "green";
+            }
+        }
+
+        function getLineColor(lineType) {
+            // Define colors based on lineType / relationship
+            if (lineType === "TypeA") {
+                return "red";
+            } else if (lineType === "TypeB") {
                 return "blue";
             } else {
                 return "green";
@@ -104,5 +130,7 @@ function ForceGraph() {
 }
 
 ForceGraph();
+
+
 
 

@@ -15,6 +15,21 @@
             width: 100%;
             height: 100vh;
         }
+
+        .link {
+            fill: none;
+        }
+
+        .link-arrow {
+            fill: none;
+            stroke-opacity: 0.6;
+            stroke-width: 1.5;
+            marker-end: url(#arrowhead);
+        }
+
+        .arrowhead {
+            fill: #999;
+        }
     </style>
 </head>
 
@@ -47,14 +62,14 @@
                 <h5 class="w3-center w3-padding-64">
                     <span class="w3-tag w3-wide">Netzwerk der Maler</span>
                 </h5>
-                <button onclick="akkordeon('explanation1')"
+                <button onclick="akkordion('explanation1')"
                     class="w3-btn w3-block w3-light-gray w3-left-align">Einführung zum
                     Netzwerk</button>
                 <div id="explanation1" class="w3-container w3-hide">
                     <h4>Section 1</h4>
                     <p>Some text..</p>
                 </div>
-                <button onclick="akkordeon('explanation2')"
+                <button onclick="akkordion('explanation2')"
                     class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
                 <div id="explanation2" class="w3-container w3-hide">
                     <h4>Section 2</h4>
@@ -66,6 +81,7 @@
         <!-- Network container -->
         <div class="w3-container">
             <div class="w3-content" id="network-container">
+                <!-- Container the network graph is generated into -->
                 <div id="graph"></div>
             </div>
         </div>
