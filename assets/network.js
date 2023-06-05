@@ -1,22 +1,12 @@
 // This file contains all code for the network.html subpage.
 
-// Function to toggle the dropdown akkordion with the explanation. Edited version of a function from https://www.w3schools.com/w3css/w3css_accordions.asp.
-function akkordion(id) {
-    let x = document.getElementById(id);
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
 // The following function ForceGraph is based on code by Bruno Laranjeira from 2021 here: https://observablehq.com/@brunolaranjeira/d3-v6-force-directed-graph-with-directional-straight-arrow.
 // It was then adapted from Observable to vanilla JavaScript and heavily edited using ChatGPT.
 // I edited it to work with my specific data, filter types, add colors, etc.
 
 // Code for the force-directed graph
 function ForceGraph() {
-    const width = 800;
+    const width = 1000;
     const height = 1000;
 
     // Add the SVG container for the network graph

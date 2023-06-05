@@ -1,14 +1,4 @@
-// This file contains all code for the map.html subpage.
-
-// Function to toggle the dropdown akkordion with the explanation. Edited version of a function from https://www.w3schools.com/w3css/w3css_accordions.asp.
-function akkordion(id) {
-  let x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
+// This file contains all code for the map.html subpage.}
 
 // jQuery wrapper to only load rest of the JavaScript when HTML is fully loaded
 $(document).ready(() => {
