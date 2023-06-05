@@ -63,23 +63,61 @@
 
     <!-- About Container -->
     <div class="w3-container" id="about">
-      <div class="w3-content" style="max-height:700px">
-        <h5 class="w3-center w3-padding-32">
-          <span class="w3-tag w3-wide">Planteil</span>
-        </h5>
-        <button onclick="akkordion('explanation1')" class="w3-btn w3-block w3-light-gray w3-left-align">Einführung zum
-          Planteil</button>
-        <div id="explanation1" class="w3-container w3-hide">
-          <h4>Section 1</h4>
-          <p>Some text..</p>
+      <div class="w3-content">
+        <div class="w3-container" id="about">
+          <div class="w3-content">
+              <h5 class="w3-center w3-padding-64">
+                  <span class="w3-tag w3-wide">Planteil</span>
+              </h5>
+              <button onclick="akkordion('explanation1')"
+                  class="w3-btn w3-block w3-light-gray w3-left-align">Einführung zur Karte</button>
+              <div id="explanation1" class="w3-container w3-hide">
+        <div>
+          Wenn es darum gehen soll, wie Maler lebten und arbeiteten, stellt sich die Frage, <i>wo</i> sie lebten und
+          arbeiteten. In ihren Steuererklärungen gaben die Bürger von Florenz an, wie viel Miete sie für ihre Wohnungen
+          und Werkstätten zahlen oder wie hoch der jeweilige Kaufpreis ausfiel, aus Zahlungsnotizen und Verträgen gehen
+          außerdem Sonderregelungen vorrübergehender Mitarbeit hervor. Zur Identifizierung der Orte sind meist der
+          Straßenname, manchmal auch nur der Pfarrsprengel oder die nächstliegende Kirche angegeben.<br><br>
+
+          „Die Maler von Florenz“ enthält einen darauf aufbauenden Planteil. Wie die Karte dort basiert die Karte in
+          diesem Projekt auf einem Kupferstich des Stadtplans des Ruggero Ricci von 1831, ergänzt um wenige Korrekturen
+          zu Gebäuden, die im 14. Jahrhundert noch nicht existierten.<br>
+
+          Auf dieser Stadtkarte werden die Maler aufgeschlüsselt nach ihrer Berufsgruppe und dem Jahr der Steuererhebung
+          (die Prestanzen von 1400 und 1412 und die Catasto-Erhebungen von 1427 bis 1458) platziert. Für drei Jahre sind
+          außerdem die Orte der Werkstätten angeführt. Diese Platzierungen wurden in der Kartenvisualisierung übernommen
+          und können einzeln eingeblendet werden.<br><br>
+
+          Zusätzlich bietet der Planteil von „Die Maler von Florenz“ Markierungen zur räumlichen Entwicklung der Stadt
+          im Laufe ihrer Geschichte, zu den Grenzen der städtischen Vierteln (Quartieri) und Nachbarschaften (Gonfaloni)
+          und zu der kirchlichen Einteilung der Stadt. Für das vorliegende Projekt ergänzt wurde eine Einfärbung der
+          Gonfaloni nach Steueraufkommen im Jahr 1427, das im Buch in einer Tabelle wiedergegeben wird.<a
+            href="#footnote1" onclick="akkordion('footnotes')">[1]</a> Die Zahlen basieren auf der bisher einzigen
+          umfassenden computergestützten Aufarbeitung des Catasto-Materials des Jahres 1427.<a href="#footnote2"
+            onclick="akkordion('footnotes')">[2]</a> <a href="#footnote3" onclick="akkordion('footnotes')">[3]</a>
+
         </div>
-        <button onclick="akkordion('explanation2')" class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
-        <div id="explanation2" class="w3-container w3-hide">
-          <h4>Section 2</h4>
-          <p>Some text..</p>
+      </div>
+      <!-- Footnotes drop-down -->
+      <div class="w3-content  w3-padding-16">
+        <button onclick="akkordion('footnotes')" class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
+        <div id="footnotes" class="w3-container w3-hide">
+          <p id="footnote1">[1] Jacobsen, Werner. „Die Maler von Florenz zu Beginn der Renaissance“. Deutscher
+            Kunstverlag, 2001. S. 28</p>
+          <p id="footnote2">[2] Durch David Herlihy 1978, online zugänglich über den Online-Catasto: Herlihy, David /
+            Klapisch-Zuber, Christiane / Litchfield, R. Burr / Molho, Anthony (Hg.): Online Catasto of 1427. Machine
+            readable data file based on D. Herlihy and C. Klapisch-Zuber, Census and Property Survey of Florentine
+            Domains in the Province of Tuscany, 1427-1480. Version 1.3. Florentine Renaissance Resources/STG: Brown
+            University, Providence, R.I., 2002. Zugegriffen 05. Juni 2023.
+            <a href="https://cds.library.brown.edu/projects/catasto/">https://cds.library.brown.edu/projects/catasto/</a>.</p>
+          <p id="footnote3">[3] Das Farbschema der Choropleth-Karte wurde generiert mit folgendem Tool: Brewer, Cynthia
+            A. „ColorBrewer: Color Advice for Maps“. Zugegriffen 12. Mai 2023. <a href="https://colorbrewer2.org/">https://colorbrewer2.org/</a> ".</p>
+
+
         </div>
       </div>
     </div>
+
 
     <!-- Historic Map Container -->
     <div class="w3-container w3-padding-32">
@@ -170,12 +208,12 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Container that map legends are appended to -->
     <div class="w3-container">
       <div class="w3-content" id="oldmap-explanation"></div>
     </div>
-    
+
     <!-- Modern Map Container -->
     <div class="w3-container">
       <div class="w3-content" style="max-height:700px">
