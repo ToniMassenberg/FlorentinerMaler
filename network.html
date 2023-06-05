@@ -42,7 +42,7 @@
                 <a href="index.html" class="w3-button w3-block w3-black">Einführung</a>
             </div>
             <div class="w3-col s3">
-                <a href="statistics.html" class="w3-button w3-block w3-black">Übersicht</a>
+                <a href="overview.html" class="w3-button w3-block w3-black">Übersicht</a>
             </div>
             <div class="w3-col s3">
                 <a href="map.html" class="w3-button w3-block w3-black">Karten</a>
@@ -58,54 +58,60 @@
 
         <!-- About Container -->
         <div class="w3-container" id="about">
-            <div class="w3-content" style="max-height:700px">
+            <div class="w3-content">
                 <h5 class="w3-center w3-padding-64">
-                    <span class="w3-tag w3-wide">Netzwerk der Maler</span>
+                    <span class="w3-tag w3-wide">Netzwerk der Florentiner Maler</span>
                 </h5>
-                <button onclick="akkordion('explanation1')"
-                    class="w3-btn w3-block w3-light-gray w3-left-align">Einführung zum
-                    Netzwerk</button>
-                <div id="explanation1" class="w3-container w3-hide">
-                    <h4>Section 1</h4>
-                    <p>Some text..</p>
+                <button onclick="akkordion('explanation')"
+                    class="w3-btn w3-block w3-light-gray w3-left-align">Einführung zum Netzwerk</button>
+                <div id="explanation" class="w3-container w3-hide">
+                    <div>
+                        Hier wird der Text zum Netzwerk erscheinen.<a href="#footnote1"
+                            onclick="akkordion('footnotes')">[1]</a>
+
+                    </div>
                 </div>
-                <button onclick="akkordion('explanation2')"
-                    class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
-                <div id="explanation2" class="w3-container w3-hide">
-                    <h4>Section 2</h4>
-                    <p>Some text..</p>
+                <!-- Footnotes drop-down -->
+                <div class="w3-content  w3-padding-16">
+                    <button onclick="akkordion('footnotes')"
+                        class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
+                    <div id="footnotes" class="w3-container w3-hide">
+                        <p id="footnote1">[1] Erste Fußnote.</p>
+
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Network container -->
-        <div class="w3-container">
+
+
+            <!-- Network container -->
+            <div class="w3-container">
                 <!-- Container the network graph is generated into -->
                 <div class="w3-content" id="graph"></div>
+            </div>
+
+
+            <!-- End page content -->
         </div>
 
+        <!-- Footer -->
+        <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+            <p>Website zur Masterarbeit im <a href="https://www.uni-marburg.de/de/mcdci/studium/ma-cds"
+                    title="MA Cultural Data Studies" target="_blank" class="w3-hover-text-green">MA Cultural Data
+                    Studies</a> der <a href="https://www.uni-marburg.de/de/" title="Philipps-Universität Marburg"
+                    target="_blank" class="w3-hover-text-green">Philipps-Universität Marburg</a>, 2023.<br>
+                Anmerkungen und Fehlermeldungen bitte an <a href="https://github.com/ToniMassenberg"
+                    title="Toni Massenberg auf Github" target="_blank" class="w3-hover-text-green">Toni Massenberg</a>,
+                <a href="mailto:massenbe@uni-marburg.de" title="Mailadresse Toni Massenberg" target="_blank"
+                    class="w3-hover-text-green">antonia.massenberg@students.uni-marburg.de</a>.
+            </p>
+        </footer>
 
-        <!-- End page content -->
-    </div>
-
-    <!-- Footer -->
-    <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-        <p>Website zur Masterarbeit im <a href="https://www.uni-marburg.de/de/mcdci/studium/ma-cds"
-                title="MA Cultural Data Studies" target="_blank" class="w3-hover-text-green">MA Cultural Data
-                Studies</a> der <a href="https://www.uni-marburg.de/de/" title="Philipps-Universität Marburg"
-                target="_blank" class="w3-hover-text-green">Philipps-Universität Marburg</a>, 2023.<br>
-            Anmerkungen und Fehlermeldungen bitte an <a href="https://github.com/ToniMassenberg"
-                title="Toni Massenberg auf Github" target="_blank" class="w3-hover-text-green">Toni Massenberg</a>, <a
-                href="mailto:massenbe@uni-marburg.de" title="Mailadresse Toni Massenberg" target="_blank"
-                class="w3-hover-text-green">antonia.massenberg@students.uni-marburg.de</a>.
-        </p>
-    </footer>
-
-    <!-- External JavaScript files  -->
-    <script src="https://d3js.org/d3.v6.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="assets/network.js"></script>
-    <script src="assets/main.js"></script>
+        <!-- External JavaScript files  -->
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="assets/network.js"></script>
+        <script src="assets/main.js"></script>
 </body>
 
 </html>
