@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Florentiner Maler 1400-1450 - Übersicht</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Stylesheet for W3 (responsive design framework) -->
+  <link rel="stylesheet" href="assets/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  
+  <!-- The main stylesheet is assets/w3.css, these are additions specific to this page -->
+  <style>
+    .container {
+      position: relative;
+      width: 100%;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Link border for site navigation -->
+  <div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+      <div class="w3-col s3">
+        <a href="index.html" class="w3-button w3-block w3-black">Einführung</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="statistics.html" class="w3-button w3-block w3-black">Übersicht</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="map.html" class="w3-button w3-block w3-black">Karten</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="network.html" class="w3-button w3-block w3-black">Netzwerk</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add a background color and large text to the whole page -->
+  <div class="w3-sand w3-padding-32">
+
+    <!-- About Container -->
+    <div class="w3-container" id="about">
+      <div class="w3-content" style="max-height:700px">
+        <h5 class="w3-center w3-padding-32">
+          <span class="w3-tag w3-wide">Übersicht über die Maler</span>
+        </h5>
+        <button onclick="akkordion('explanation1')" class="w3-btn w3-block w3-light-gray w3-left-align">Platzhalter</button>
+        <div id="explanation1" class="w3-container w3-hide">
+          <h4>Section 1</h4>
+          <p>Text & Inhalte folgen!</p>
+        </div>
+        <button onclick="akkordion('footnotes')" class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
+        <div id="footnotes" class="w3-container w3-hide">
+          <h4>Section 2</h4>
+          <p>Some text..</p>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- End page content -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+    <p>Website zur Masterarbeit im <a href="https://www.uni-marburg.de/de/mcdci/studium/ma-cds"
+        title="MA Cultural Data Studies" target="_blank" class="w3-hover-text-green">MA Cultural Data Studies</a> der <a
+        href="https://www.uni-marburg.de/de/" title="Philipps-Universität Marburg" target="_blank"
+        class="w3-hover-text-green">Philipps-Universität Marburg</a>, 2023.<br>
+      Anmerkungen und Fehlermeldungen bitte an <a href="https://github.com/ToniMassenberg"
+        title="Toni Massenberg auf Github" target="_blank" class="w3-hover-text-green">Toni Massenberg</a>, <a
+        href="mailto:massenbe@uni-marburg.de" title="Mailadresse Toni Massenberg" target="_blank"
+        class="w3-hover-text-green">antonia.massenberg@students.uni-marburg.de</a>.
+    </p>
+  </footer>
+
+  <!-- External JavaScript files  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+
+</html>
