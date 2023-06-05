@@ -45,26 +45,56 @@
     </div>
   </header>
 
-  <!-- Add a background color and large text to the whole page -->
-  <div class="w3-sand w3-large">
+  <!-- Add a background color to the whole page -->
+  <div class="w3-sand">
 
     <!-- About Container -->
     <div class="w3-container" id="about">
-      <div class="w3-content" style="max-height:700px">
-        <h5 class="w3-center w3-padding-64">
-          <span class="w3-tag w3-wide">Netzwerk der Maler</span>
+      <div class="w3-content" >
+        <h5 class="w3-center w3-padding-16">
+          <span class="w3-tag w3-wide">Einführung zum Projekt</span>
         </h5>
-        <p>Coming soon!</p>
-        <p>Diese Seite ist die langsam wachsende Projektwebsite für meine Masterarbeit, die sich noch in Entstehung
-          befindet. Der vollständige
-          Inhalt wird ab September 2023 an dieser Stelle verfügbar sein.</p>
+        <div>1427 führte der Stadtstaat Florenz ein neues Steuersystem ein, den Catasto. Damit sollte das Steuersystem
+          gerechter und zuverlässiger werden, indem Steuern nicht mehr auf Schätzungen basierten, sondern aufgrund
+          genauer Angaben, die das jeweilige Familienoberhaupt schriftlich zum Stichtag einreichen musste und die genau
+          überprüft wurden. Die Unterlagen sind noch vorhanden und bieten eine große Menge an Daten, die im Archiv von
+          Florenz bewahrt werden. Im 20. Jahrhundert setzte ein großes Interesse zur historischen Forschung über diese
+          Catasto-Daten ein, die als zuverlässige Daten zum Leben in Florenz des 14. Jahrhunderts gelten. Aus
+          kunstgeschichtlicher Sicht ist Florenz zu dieser Zeit von besonderer Bedeutung, da hier der Übergang von der
+          Malerei des Spätmittelalters zur Renaissance und damit zur Frühen Neuzeit einsetzte.<br><br>
+          Als bedeutendste kunsthistorische Arbeit auf Basis des Catasto-Materials gilt Werner Jacobsens
+          Habilitationsschrift „Die Maler von Florenz zu Beginn der Renaissance“ von 2001.<a href="#footnote1"
+            onclick="akkordion('footnotes')">[1]</a> Das Buch beinhaltet detaillierte Erklärungen zu den Umständen
+          des Malerberufs besonders im Zeitraum 1400-1450, erweitert um Einführungen in den historischen Hintergrund und
+          die Lebensverhältnisse sowie die Entwicklung der Malerei in diesem Zeitraum. Außerdem finden sich in diesem
+          Buch ein Bildteil, der den Anspruch hat ein Kompendium aller sicher zugeschriebenen Bilder der behandelten
+          Maler <a href="#footnote2" onclick="akkordion('footnotes')">[2]</a> zu sein, sowie zahlreiche Tabellen zu
+          Maßen, Währungen und anderen Aspekten des Lebens und einen Planteil, der das Gebiet von Florenz sowie die
+          Wohn- und Arbeitsorte der Maler illustriert. Herzstück der Arbeit bieten 313 Regesten, die für jeden der
+          behandelten Maler die jeweiligen Einträge in den Gildenbüchern ab 1501 sowie aller Catasto-Erklärungen bis
+          1580 aufbereiten. Sie beinhalten Informationen zu den Familienangehörigen, Besitztümern und Schulden, die für
+          die Errechnung der Steuerabgaben relevant waren. <br><br>
+          Große Datensätze sind spannend für die Forschung, aber sperrig zu verarbeiten. Es gab einzelne Versuche die
+          Catasto-Daten oder einen Teil davon zu digitalisieren, die in dieser Arbeit noch angesprochen werden, jedoch
+          existieren Jacobsens für den kunsthistorischen Gebrauch aufbereiteten Regesten der Maler bisher nur in
+          analoger Form. Eine Digitalisierung erlaubt sowohl einen schnelleren Zugriff auf einzelne Informationen, wie
+          eine Auflistung der Familienangehörigen oder des Besitzes einzelner Maler, als auch die Erstellung
+          verschiedener Visualisierungen, die zur Übersichtlichkeit der Daten beitragen und damit neue Forschungsansätze
+          ermöglichen. <br><br>
+          Das vorliegende Projekt versucht, Jacobsens Arbeit zugänglicher und für weitere Forschung nutzbarer zu machen
+          sowie die Lektüre von „Die Maler von Florenz“ durch Visualisierungen und eine digitale Nachschlagemöglichkeit
+          zu stützen. Der zugrunde liegende Datensatz steht auch zur Nutzung in weiteren Projekten zur Verfügung.
+        </div>
       </div>
-
+      <!-- Footnotes drop-down -->
       <div class="w3-content  w3-padding-16">
-        <button onclick="akkordion('explanation1')"
+        <button onclick="akkordion('footnotes')"
           class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
-        <div id="explanation1" class="w3-container w3-hide">
-          <p>Some text..</p>
+        <div id="footnotes" class="w3-container w3-hide">
+          <p id="footnote1">[1] Jacobsen, Werner. „Die Maler von Florenz zu Beginn der Renaissance“. Deutscher
+            Kunstverlag, 2001.</p>
+          <p id="footnote2">[2] „Maler“ ist in dieser Arbeit nicht im generischen Maskulinum zu verstehen, es handelt
+            sich an diesem Ort zu diesem Zeitpunkt um eine rein männliche Gruppe.</p>
         </div>
       </div>
     </div>
