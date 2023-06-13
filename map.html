@@ -35,6 +35,10 @@
       top: 0;
       left: 0;
     }
+
+    #oldmap {
+      opacity: 0.5; /* make the map SVG lighter */
+    }
   </style>
 </head>
 
@@ -64,117 +68,128 @@
     <!-- About Container -->
     <div class="w3-container" id="about">
       <div class="w3-content">
-              <h5 class="w3-center w3-padding-64">
-                  <span class="w3-tag w3-wide">Planteil</span>
-              </h5>
-              <button onclick="akkordion('explanation')"
-                  class="w3-btn w3-block w3-light-gray w3-left-align">Einführung zur Karte</button>
-              <div id="explanation" class="w3-container w3-hide">
-        <div>
-          Wenn es darum gehen soll, wie Maler lebten und arbeiteten, stellt sich die Frage, <i>wo</i> sie lebten und
-          arbeiteten. In ihren Steuererklärungen gaben die Bürger von Florenz an, wie viel Miete sie für ihre Wohnungen
-          und Werkstätten zahlen oder wie hoch der jeweilige Kaufpreis ausfiel, aus Zahlungsnotizen und Verträgen gehen
-          außerdem Sonderregelungen vorrübergehender Mitarbeit hervor. Zur Identifizierung der Orte sind meist der
-          Straßenname, manchmal auch nur der Pfarrsprengel oder die nächstliegende Kirche angegeben.<br><br>
-
-          „Die Maler von Florenz“ enthält einen darauf aufbauenden Planteil. Wie die Karte dort basiert die Karte in
-          diesem Projekt auf einem Kupferstich des Stadtplans des Ruggero Ricci von 1831, ergänzt um wenige Korrekturen
-          zu Gebäuden, die im 14. Jahrhundert noch nicht existierten.<br>
-
-          Auf dieser Stadtkarte werden die Maler aufgeschlüsselt nach ihrer Berufsgruppe und dem Jahr der Steuererhebung
-          (die Prestanzen von 1400 und 1412 und die Catasto-Erhebungen von 1427 bis 1458) platziert. Für drei Jahre sind
-          außerdem die Orte der Werkstätten angeführt. Diese Platzierungen wurden in der Kartenvisualisierung übernommen
-          und können einzeln eingeblendet werden.<br><br>
-
-          Zusätzlich bietet der Planteil von „Die Maler von Florenz“ Markierungen zur räumlichen Entwicklung der Stadt
-          im Laufe ihrer Geschichte, zu den Grenzen der städtischen Vierteln (Quartieri) und Nachbarschaften (Gonfaloni)
-          und zu der kirchlichen Einteilung der Stadt. Für das vorliegende Projekt ergänzt wurde eine Einfärbung der
-          Gonfaloni nach Steueraufkommen im Jahr 1427, das im Buch in einer Tabelle wiedergegeben wird.<a
-            href="#footnote1" onclick="akkordion('footnotes')">[1]</a> Die Zahlen basieren auf der bisher einzigen
-          umfassenden computergestützten Aufarbeitung des Catasto-Materials des Jahres 1427.<a href="#footnote2"
-            onclick="akkordion('footnotes')">[2]</a> <a href="#footnote3" onclick="akkordion('footnotes')">[3]</a>
-
-        </div>
-      </div>
-      <!-- Footnotes drop-down -->
-      <div class="w3-content  w3-padding-16">
-        <button onclick="akkordion('footnotes')" class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
-        <div id="footnotes" class="w3-container w3-hide">
-          <p id="footnote1">[1] Jacobsen, Werner. „Die Maler von Florenz zu Beginn der Renaissance“. Deutscher
-            Kunstverlag, 2001. S. 28</p>
-          <p id="footnote2">[2] Durch David Herlihy 1978, online zugänglich über den Online-Catasto: Herlihy, David /
-            Klapisch-Zuber, Christiane / Litchfield, R. Burr / Molho, Anthony (Hg.): Online Catasto of 1427. Machine
-            readable data file based on D. Herlihy and C. Klapisch-Zuber, Census and Property Survey of Florentine
-            Domains in the Province of Tuscany, 1427-1480. Version 1.3. Florentine Renaissance Resources/STG: Brown
-            University, Providence, R.I., 2002. Zugegriffen 05. Juni 2023.
-            <a href="https://cds.library.brown.edu/projects/catasto/">https://cds.library.brown.edu/projects/catasto/</a>.</p>
-          <p id="footnote3">[3] Das Farbschema der Choropleth-Karte wurde generiert mit folgendem Tool: Brewer, Cynthia
-            A. „ColorBrewer: Color Advice for Maps“. Zugegriffen 12. Mai 2023. <a href="https://colorbrewer2.org/">https://colorbrewer2.org/</a> ".</p>
-
-
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Historic Map Container -->
-    <div class="w3-container w3-padding-32">
-      <div class="w3-content">
-        <h5 class="w3-center">
-          <span class="w3-tag w3-wide">Florenz 1400-1450</span>
+        <h5 class="w3-center w3-padding-64">
+          <span class="w3-tag w3-wide">Planteil</span>
         </h5>
-        <div class="w3-cell-row">
-          <div class="w3-cell">
+        <button onclick="akkordion('explanation')" class="w3-btn w3-block w3-light-gray w3-left-align">Einführung zur
+          Karte</button>
+        <div id="explanation" class="w3-container w3-hide">
+          <div>
+            Wenn es darum gehen soll, wie Maler lebten und arbeiteten, stellt sich die Frage, <i>wo</i> sie lebten und
+            arbeiteten. In ihren Steuererklärungen gaben die Bürger von Florenz an, wie viel Miete sie für ihre
+            Wohnungen
+            und Werkstätten zahlen oder wie hoch der jeweilige Kaufpreis ausfiel, aus Zahlungsnotizen und Verträgen
+            gehen
+            außerdem Sonderregelungen vorrübergehender Mitarbeit hervor. Zur Identifizierung der Orte sind meist der
+            Straßenname, manchmal auch nur der Pfarrsprengel oder die nächstliegende Kirche angegeben.<br><br>
 
-            <div class="container" id="oldmap-container">
-              <img id="oldmap" src="assets/images/basicmap.svg"></img>
-              <!-- When the SVG overlays are generated they are added to the "oldmap" container -->
-            </div>
+            „Die Maler von Florenz“ enthält einen darauf aufbauenden Planteil. Wie die Karte dort basiert die Karte in
+            diesem Projekt auf einem Kupferstich des Stadtplans des Ruggero Ricci von 1831, ergänzt um wenige
+            Korrekturen
+            zu Gebäuden, die im 14. Jahrhundert noch nicht existierten.<br>
+
+            Auf dieser Stadtkarte werden die Maler aufgeschlüsselt nach ihrer Berufsgruppe und dem Jahr der
+            Steuererhebung
+            (die Prestanzen von 1400 und 1412 und die Catasto-Erhebungen von 1427 bis 1458) platziert. Für drei Jahre
+            sind
+            außerdem die Orte der Werkstätten angeführt. Diese Platzierungen wurden in der Kartenvisualisierung
+            übernommen
+            und können einzeln eingeblendet werden.<br><br>
+
+            Zusätzlich bietet der Planteil von „Die Maler von Florenz“ Markierungen zur räumlichen Entwicklung der Stadt
+            im Laufe ihrer Geschichte, zu den Grenzen der städtischen Vierteln (Quartieri) und Nachbarschaften
+            (Gonfaloni)
+            und zu der kirchlichen Einteilung der Stadt. Für das vorliegende Projekt ergänzt wurde eine Einfärbung der
+            Gonfaloni nach Steueraufkommen im Jahr 1427, das im Buch in einer Tabelle wiedergegeben wird.<a
+              href="#footnote1" onclick="akkordion('footnotes')">[1]</a> Die Zahlen basieren auf der bisher einzigen
+            umfassenden computergestützten Aufarbeitung des Catasto-Materials des Jahres 1427.<a href="#footnote2"
+              onclick="akkordion('footnotes')">[2]</a> <a href="#footnote3" onclick="akkordion('footnotes')">[3]</a>
 
           </div>
-          <div class="w3-cell w3-cell-top">
-            <span class="w3-wide">Kartenannotationen</span>
-            <form style="min-width:100px">
-              <input type="checkbox" id="plan1" name="plan1">
-              <label for="plan1"> Räumliche Entwicklung / Stadtkerngrenzen</label><br>
-              <input type="checkbox" id="plan2" name="plan2">
-              <label for="plan2"> Quarteri und Gonfalioni</label><br>
-              <input type="checkbox" id="plan3" name="plan3">
-              <label for="plan3"> Kirchliche Gliederung um 1400 (Popoli)</label><br>
-              <input type="checkbox" id="churches" name="churches">
-              <label for="churches"> Lage der Kirchen um 1400</label><br>
-              <input type="checkbox" id="choropleth" name="choropleth">
-              <label for="choropleth">Durchschnittlicher Besitz um 1427</label><br>
-            </form><br>
+        </div>
+        <!-- Footnotes drop-down -->
+        <div class="w3-content  w3-padding-16">
+          <button onclick="akkordion('footnotes')" class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
+          <div id="footnotes" class="w3-container w3-hide">
+            <p id="footnote1">[1] Jacobsen, Werner. „Die Maler von Florenz zu Beginn der Renaissance“. Deutscher
+              Kunstverlag, 2001. S. 28</p>
+            <p id="footnote2">[2] Durch David Herlihy 1978, online zugänglich über den Online-Catasto: Herlihy, David /
+              Klapisch-Zuber, Christiane / Litchfield, R. Burr / Molho, Anthony (Hg.): Online Catasto of 1427. Machine
+              readable data file based on D. Herlihy and C. Klapisch-Zuber, Census and Property Survey of Florentine
+              Domains in the Province of Tuscany, 1427-1480. Version 1.3. Florentine Renaissance Resources/STG: Brown
+              University, Providence, R.I., 2002. Zugegriffen 05. Juni 2023.
+              <a
+                href="https://cds.library.brown.edu/projects/catasto/">https://cds.library.brown.edu/projects/catasto/</a>.
+            </p>
+            <p id="footnote3">[3] Das Farbschema der Choropleth-Karte wurde generiert mit folgendem Tool: Brewer,
+              Cynthia
+              A. „ColorBrewer: Color Advice for Maps“. Zugegriffen 12. Mai 2023. <a
+                href="https://colorbrewer2.org/">https://colorbrewer2.org/</a> ".</p>
 
-            <span class="w3-wide">Catasto-Jahre</span>
-            <form style="min-width:100px">
-              <input type="checkbox" id="plan6" name="plan6">
-              <label for="plan6"> Wohnungen der Maler um 1400</label><br>
-              <input type="checkbox" id="plan7" name="plan7">
-              <label for="plan7"> Wohnungen der Maler um 1410/12</label><br>
-              <input type="checkbox" id="plan8" name="plan8">
-              <label for="plan8"> Wohnungen der Maler um 1427</label><br>
-              <input type="checkbox" id="plan9" name="plan9">
-              <label for="plan9"> Wohnungen der Maler um 1431</label><br>
-              <input type="checkbox" id="plan10" name="plan10">
-              <label for="plan10"> Wohnungen der Maler um 1433</label><br>
-              <input type="checkbox" id="plan11" name="plan11">
-              <label for="plan11"> Wohnungen der Maler um 1442</label><br>
-              <input type="checkbox" id="plan12" name="plan12">
-              <label for="plan12"> Wohnungen der Maler um 1447</label><br>
-              <input type="checkbox" id="plan13" name="plan13">
-              <label for="plan13"> Wohnungen der Maler um 1451</label><br>
-              <input type="checkbox" id="plan14" name="plan14">
-              <label for="plan14"> Wohnungen der Maler um 1458</label><br>
-              <input type="checkbox" id="plan15" name="plan15">
-              <label for="plan15"> Werkstätten der Maler um 1427</label><br>
-              <input type="checkbox" id="plan16" name="plan16">
-              <label for="plan16"> Werkstätten der Maler um 1431</label><br>
-              <input type="checkbox" id="plan17" name="plan17">
-              <label for="plan17"> Werkstätten der Maler um 1433</label><br>
-            </form><br>
-            <!-- 
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Historic Map Container -->
+      <div class="w3-container w3-padding-32">
+        <div class="w3-content">
+          <h5 class="w3-center">
+            <span class="w3-tag w3-wide">Florenz 1400-1450</span>
+          </h5>
+          <div class="w3-cell-row">
+            <div class="w3-cell">
+
+              <div class="container" id="oldmap-container">
+                <img id="oldmap" src="assets/images/basicmap.svg"></img>
+                <!-- When the SVG overlays are generated they are added to the "oldmap" container -->
+              </div>
+
+            </div>
+            <div class="w3-cell w3-cell-top">
+              <span class="w3-wide">Kartenannotationen</span>
+              <form style="min-width:100px">
+                <input type="checkbox" id="plan1" name="plan1">
+                <label for="plan1"> Räumliche Entwicklung / Stadtkerngrenzen</label><br>
+                <input type="checkbox" id="plan2" name="plan2">
+                <label for="plan2"> Quarteri und Gonfalioni</label><br>
+                <input type="checkbox" id="plan3" name="plan3">
+                <label for="plan3"> Kirchliche Gliederung um 1400 (Popoli)</label><br>
+                <input type="checkbox" id="churches" name="churches">
+                <label for="churches"> Lage der Kirchen um 1400</label><br>
+                <input type="checkbox" id="choropleth" name="choropleth">
+                <label for="choropleth">Durchschnittlicher Besitz um 1427</label><br>
+              </form><br>
+
+              <span class="w3-wide">Catasto-Jahre</span>
+              <form style="min-width:100px">
+                <input type="checkbox" id="plan6" name="plan6">
+                <label for="plan6"> Wohnungen der Maler um 1400</label><br>
+                <input type="checkbox" id="plan7" name="plan7">
+                <label for="plan7"> Wohnungen der Maler um 1410/12</label><br>
+                <input type="checkbox" id="plan8" name="plan8">
+                <label for="plan8"> Wohnungen der Maler um 1427</label><br>
+                <input type="checkbox" id="plan9" name="plan9">
+                <label for="plan9"> Wohnungen der Maler um 1431</label><br>
+                <input type="checkbox" id="plan10" name="plan10">
+                <label for="plan10"> Wohnungen der Maler um 1433</label><br>
+                <input type="checkbox" id="plan11" name="plan11">
+                <label for="plan11"> Wohnungen der Maler um 1442</label><br>
+                <input type="checkbox" id="plan12" name="plan12">
+                <label for="plan12"> Wohnungen der Maler um 1447</label><br>
+                <input type="checkbox" id="plan13" name="plan13">
+                <label for="plan13"> Wohnungen der Maler um 1451</label><br>
+                <input type="checkbox" id="plan14" name="plan14">
+                <label for="plan14"> Wohnungen der Maler um 1458</label><br>
+                <input type="checkbox" id="plan15" name="plan15">
+                <label for="plan15"> Werkstätten der Maler um 1427</label><br>
+                <input type="checkbox" id="plan16" name="plan16">
+                <label for="plan16"> Werkstätten der Maler um 1431</label><br>
+                <input type="checkbox" id="plan17" name="plan17">
+                <label for="plan17"> Werkstätten der Maler um 1433</label><br>
+              </form><br>
+              <!-- 
             <span class="w3-wide">Maler</span>
             <form style="min-width:100px">
               <input type="checkbox" id="tafelmaler" name="tafelmaler">
@@ -202,47 +217,47 @@
               <input type="checkbox" id="unspezifizierbar" name="unspezifizierbar">
               <label for="unspezifizierbar"> unspezifizierbare Maler</label><br>
             </form> -->
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Container that map legends are appended to -->
-    <div class="w3-container">
-      <div class="w3-content" id="oldmap-explanation"></div>
-    </div>
+      <!-- Container that map legends are appended to -->
+      <div class="w3-container">
+        <div class="w3-content" id="oldmap-explanation"></div>
+      </div>
 
-    <!-- Modern Map Container -->
-    <div class="w3-container">
-      <div class="w3-content" style="max-height:700px">
-        <h5 class="w3-center">
-          <span class="w3-tag w3-wide">Eine Karte des modernen Florenz</span>
-        </h5>
-        <div class="w3-center" id="modernmap" style="height:600px">
+      <!-- Modern Map Container -->
+      <div class="w3-container">
+        <div class="w3-content" style="max-height:700px">
+          <h5 class="w3-center">
+            <span class="w3-tag w3-wide">Eine Karte des modernen Florenz</span>
+          </h5>
+          <div class="w3-center" id="modernmap" style="height:600px">
+          </div>
         </div>
       </div>
+
+      <!-- End page content -->
     </div>
 
-    <!-- End page content -->
-  </div>
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+      <p>Website zur Masterarbeit im <a href="https://www.uni-marburg.de/de/mcdci/studium/ma-cds"
+          title="MA Cultural Data Studies" target="_blank" class="w3-hover-text-green">MA Cultural Data Studies</a> der
+        <a href="https://www.uni-marburg.de/de/" title="Philipps-Universität Marburg" target="_blank"
+          class="w3-hover-text-green">Philipps-Universität Marburg</a>, 2023.<br>
+        Anmerkungen und Fehlermeldungen bitte an <a href="https://github.com/ToniMassenberg"
+          title="Toni Massenberg auf Github" target="_blank" class="w3-hover-text-green">Toni Massenberg</a>, <a
+          href="mailto:massenbe@uni-marburg.de" title="Mailadresse Toni Massenberg" target="_blank"
+          class="w3-hover-text-green">antonia.massenberg@students.uni-marburg.de</a>.
+      </p>
+    </footer>
 
-  <!-- Footer -->
-  <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-    <p>Website zur Masterarbeit im <a href="https://www.uni-marburg.de/de/mcdci/studium/ma-cds"
-        title="MA Cultural Data Studies" target="_blank" class="w3-hover-text-green">MA Cultural Data Studies</a> der <a
-        href="https://www.uni-marburg.de/de/" title="Philipps-Universität Marburg" target="_blank"
-        class="w3-hover-text-green">Philipps-Universität Marburg</a>, 2023.<br>
-      Anmerkungen und Fehlermeldungen bitte an <a href="https://github.com/ToniMassenberg"
-        title="Toni Massenberg auf Github" target="_blank" class="w3-hover-text-green">Toni Massenberg</a>, <a
-        href="mailto:massenbe@uni-marburg.de" title="Mailadresse Toni Massenberg" target="_blank"
-        class="w3-hover-text-green">antonia.massenberg@students.uni-marburg.de</a>.
-    </p>
-  </footer>
-
-  <!-- External JavaScript files  -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="assets/main.js"></script>
-  <script src="assets/map.js"></script>
+    <!-- External JavaScript files  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assets/main.js"></script>
+    <script src="assets/map.js"></script>
 </body>
 
 </html>

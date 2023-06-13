@@ -1,0 +1,98 @@
+id,type,source,target,lineType
+,,Antonio di Iacopo,Iacopo d’Antonio di Iacopo,fatherSonWorkshop
+,,Iacopo di Cione,Cione di Iacopo di Cione,fatherSonWorkshop
+,,Lorenzo di Bicci,Bicci di Lorenzo di Bicci,fatherSonWorkshop
+,,Bicci di Lorenzo di Bicci,Neri di Bicci di Lorenzo di Bicci,fatherSonWorkshop
+,,Lorenzo di Niccolò,Piero di Lorenzo di Niccolò,fatherSonWorkshop
+,,Niccolò di Piero Gerini,Bindo di Niccolò di Piero Gerini,fatherSonWorkshop
+,,Rosello di Iacopo,Gimirante di Rosello di Iacopo,fatherSonWorkshop
+,,Spinello di Luca da Arezzo,Guasparre di Spinello di Luca da Arezzo,fatherSonWorkshop
+,,Andrea di Nuto,Cristofano di Andrea di Nuto,fatherSonWorkshop
+,,Cristofano di Andrea di Nuto,Iacopo di Cristofano di Andrea di Nuto,fatherSonWorkshop
+,,Andrea di Stagio,Antonio d’Andrea di Stagio,fatherSonWorkshop
+,,Domenico di Guido,Guido di Domenico di Guido,fatherSonWorkshop
+,,Domenico di Guido,Tommaso di Domenico di Guido,fatherSonWorkshop
+,,Domenico di Guido,Andrea di Domenico di Guido,fatherSonWorkshop
+,,Tommaso di Domenico di Guido,Bartolomeo di Tommaso di Domenico di Guido,fatherSonWorkshop
+,,Guasparre di Bonaccorso,Giovanni di Guasparre di Bonaccorso,fatherSonWorkshop
+,,Iacopo di Piero di Guido,Domenico di Iacopo di Piero di Guido,fatherSonWorkshop
+,,Michele di Guiovanni Stracchi,Alberto di Michele di Guiovanni Stracchi,fatherSonWorkshop
+,,Niccolò di ser Lapo,Giovanni di Niccolò di ser Lapo,fatherSonWorkshop
+,,Piero d’Andrea,Antonio di Piero d’Andrea,fatherSonWorkshop
+,,Antonio di Piero d’Andrea,Iacopo d’Antonio di Piero d’Andrea,fatherSonWorkshop
+,,Stefano di Lorenzo,Francesco di Stefano di Lorenzo,fatherSonWorkshop
+,,Agnolo di Filippo,Biagio di Agnolo di Filippo,fatherSonWorkshop
+,,Matteo di Filippo Torelli,Antonio di Matteo di Filippo Torelli,fatherSonWorkshop
+,,Matteo di Filippo Torelli,Filippo di Matteo di Filippo Torelli,fatherSonWorkshop
+,,Lorenco di Bindo,Bindo di Lorenco di Bindo,fatherSonWorkshop
+,,Donnino di Giovanni,Giovanni di Donnino di Giovanni,fatherSonWorkshop
+,,Donnino di Giovanni,Piero di Donnino di Giovanni,fatherSonWorkshop
+,,Franco di Piero,Giovanni di Franco di Piero,fatherSonWorkshop
+,,Massaio di Iacopo,Piero di Massaio di Iacopo,fatherSonWorkshop
+,,Piero d’Antonio di Baldo,Baldo di Piero d’Antonio di Baldo,fatherSonWorkshop
+,,Piero d’Antonio di Baldo,Iacopo di Piero d’Antonio di Baldo,fatherSonWorkshop
+,,Andrea di Giovanni di Francesco Mangiabotti,Francesco di Andrea di Giovanni di Francesco Mangiabotti,fatherSonWorkshop
+,,Dino di Giovanni Amici,Giovanni di Dino di Giovanni Amici,fatherSonWorkshop
+,,Dino di Giovanni Amici,Silvestro di Dino di Giovanni Amici,fatherSonWorkshop
+,,Dino di Giovanni Amici,Bernardo di Dino di Giovanni Amici,fatherSonWorkshop
+,,Agnolo di Baldino,Michele di Agnolo di Baldino,fatherSonWorkshop
+,,Cristofano di Fino,Tommaso di Cristofano di Fino,fatherSonWorkshop
+,,Domenico di Stefano,Stefano di Domenico di Stefano,fatherSonWorkshop
+,,Giovanni di Scolaio,Scolaio di Giovanni di Scolaio,fatherSonWorkshop
+,,Guccio d’Aghinetto,Giovanni di Guccio d’Aghinetto,fatherSonWorkshop
+,,Barnaba di Michele,Giovanni di Barnaba di Michele,fatherSonWorkshop
+,,Antonio di Michele,Bartolomeo di Antonio di Michele,fatherSonWorkshop
+,,Antonio di Michele,Cola di Antonio di Michele,fatherSonWorkshop
+,,Domenico di Nuccio,Iacopo di Domenico di Nuccio,fatherSonWorkshop
+,,Donnino di Cino,Iacopo di Donnino di Cino,fatherSonWorkshop
+,,Iacopo di Lorino,Antonio di Iacopo di Lorino,fatherSonWorkshop
+,,Iacopo di Lorino,Giuliano di Iacopo di Lorino,fatherSonWorkshop
+,,Stefano di Francesco Borgoli,Francesco di Stefano di Francesco Borgoli,fatherSonWorkshop
+,,Giovanni di Francesco Toscani,Domenico di Francesco Toscani,brotherWorkshop
+,,Piero di Miniato,Antonio di Miniato,brotherWorkshop
+,,Antonio di Miniato,Piero di Miniato,brotherWorkshop
+,,Rosello di Iacopo,Giunta di Iacopo,brotherWorkshop
+,,Giunta di Iacopo,Rosello di Iacopo,brotherWorkshop
+,,Tommaso di ser Giovanni da San Giovanni Valdarno,Giovanni di ser Giovanni da San Giovanni Valdarno,brotherWorkshop
+,,Giovanni di ser Giovanni da San Giovanni Valdarno,Tommaso di ser Giovanni da San Giovanni Valdarno,brotherWorkshop
+,,Gherardo di Giovanni,Vittorio di Giovanni,brotherWorkshop
+,,Vittorio di Giovanni,Gherardo di Giovanni,brotherWorkshop
+,,Giovanni di Dino,Silvestro di Dino,brotherWorkshop
+,,Giovanni di Dino,Bernardo di Dino,brotherWorkshop
+,,Bernardo di Dino,Giovanni di Dino,brotherWorkshop
+,,Bernardo di Dino,Silvestro di Dino,brotherWorkshop
+,,Silvestro di Dino,Bernardo di Dino,brotherWorkshop
+,,Silvestro di Dino,Giovanni di Dino,brotherWorkshop
+,,Guido di Domenico di Guido,Tommaso di Domenico di Guido,brotherWorkshop
+,,Guido di Domenico di Guido,Andrea di Domenico di Guido,brotherWorkshop
+,,Tommaso di Domenico di Guido,Guido di Domenico di Guido,brotherWorkshop
+,,Tommaso di Domenico di Guido,Andrea di Domenico di Guido,brotherWorkshop
+,,Andrea di Domenico di Guido,Guido di Domenico di Guido,brotherWorkshop
+,,Andrea di Domenico di Guido,Tommaso di Domenico di Guido,brotherWorkshop
+,,Michele di Benedetto,Andrea di Benedetto,brotherWorkshop
+,,Michele di Benedetto,Piero di Benedetto,brotherWorkshop
+,,Andrea di Benedetto,Michele di Benedetto,brotherWorkshop
+,,Andrea di Benedetto,Piero di Benedetto,brotherWorkshop
+,,Piero di Benedetto,Michele di Benedetto,brotherWorkshop
+,,Piero di Benedetto,Andrea di Benedetto,brotherWorkshop
+,,Lapo di Bonaccorso,Iacopo di Bonaccorso,brotherWorkshop
+,,Iacopo di Bonaccorso,Lapo di Bonaccorso,brotherWorkshop
+,,Bartolomeo d’Antonio Varnucci,Giovanni d’Antonio Varnucci,brotherWorkshop
+,,Giovanni d’Antonio Varnucci,Bartolomeo d’Antonio Varnucci,brotherWorkshop
+,,Matteo di Filippo Torelli,Bartolomeo di Filippo Torelli,brotherWorkshop
+,,Bartolomeo di Filippo Torelli,Matteo di Filippo Torelli,brotherWorkshop
+,,Giovanni di Donnino,Piero di Donnino,brotherWorkshop
+,,Piero di Donnino,Giovanni di Donnino,brotherWorkshop
+,,Francesco di Piero,Franco di Piero,brotherWorkshop
+,,Franco di Piero,Francesco di Piero,brotherWorkshop
+,,Giovanni di Scolaio,Francesco di Scolaio,brotherWorkshop
+,,Francesco di Scolaio,Giovanni di Scolaio,brotherWorkshop
+,,Matteo di Iacopo,Berto di Iacopo,brotherWorkshop
+,,Berto di Iacopo,Matteo di Iacopo,brotherWorkshop
+,,Dello di Niccolò,Niccolò di Niccolò,brotherWorkshop
+,,Niccolò di Niccolò,Dello di Niccolò,brotherWorkshop
+,,Giovanni di Tommaso,Giusto di Tommaso,brotherWorkshop
+,,Giusto di Tommaso,Giovanni di Tommaso,brotherWorkshop
+,,,,
+,angefangen auf S. 133,Giovanni d’Antonio di ser Niccolò,Benedetto di Tommaso,"ab 1458, garzone"
+,angefangen auf S. 133,Giuliano d’Arrigo,Cipriano di Simone,eigener meister
