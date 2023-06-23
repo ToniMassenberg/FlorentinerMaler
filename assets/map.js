@@ -147,16 +147,9 @@ $(document).ready(() => {
       // Generate the ID for the region overlay container based on the current checkbox
       let idIconsGenerated = planNr + "IconsGenerated";
 
-      // Clear all other checkboxes with IDs plan6-plan17 when one of them is checked. These 4 lines were written by ChatGPT.
-      $(`input[id^="plan"]:not(#${currentCheckboxId})`).filter((index, element) => {
-        const idNumber = parseInt(element.id.slice(4));
-        return idNumber >= 6 && idNumber <= 17;
-      }).not(`#${currentCheckboxId}`).prop("checked", false);
-
-
       if ($(this).prop("checked") === true) {
         // Delete old icons before new ones are added by emptying the container for icon overlays
-        $("[id*='IconsGenerated']").empty();
+        // $("[id*='IconsGenerated']").empty();
         // Initialize container for all region overlays so it can be emptied later
         $('#oldmap-container').append(`<div class="svg-container" id="${idIconsGenerated}"></div>`);
 
