@@ -180,26 +180,42 @@ $(document).ready(() => {
           undefined: 'U'
         }
 
+        const symbolColors = {
+          home: 'blue',
+          workshop: 'green',
+        }
+
         $.getJSON(jsonFilePath, function (data) {
           // Loop through each region in the JSON file
           for (const region of data.regions) {
             var job = region.region_attributes.job;
+            var type = region.region_attributes.type;
+            var certainty = region.region_attributes.certainty;
+            var opacity;
+            var color = symbolColors[type];
 
-            // Define color of symbol based on certainty of information: dark blue if the street can be identified, lighter blue if only the parish is known OR if the icon is for an assistant
-            color = (region.region_attributes.certainty === 'street') ? "darkblue" : "blue";
+            // Make parish certainty and assistants lighter
+            if (certainty === "street") {
+              opacity = 'opacity: 1'
+            } else {
+              opacity = 'opacity: 0.3'
+            }
 
             // Insert a div container with the symbol appropriate to the job group for every marker.
             $(`#${idIconsGenerated}`).append(`
               <div class="svg-container">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2178 2121" preserveAspectRatio="none">
-                  <defs><symbol id="${job}" viewBox="0 0 512 512">'<path d="${symbolPaths[job]}" stroke="${color}" stroke-width="1" fill="${color}"/></symbol></defs>
-                  <use href="#${job}" x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" width="40" height="40" />
+                  <defs>
+                    <symbol id="${job}" viewBox="0 0 512 512"><path d="${symbolPaths[job]}" /></symbol>
+                  </defs>
+                  <use href="#${job}" x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" width="40" height="40" style="stroke: ${color}; fill: ${color}; ${opacity}" />
                   <text x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" font-size="50" fill="${color}">${symbolTexts[job]}</text>
                 </svg>
               </div>
             `);
           }
         });
+
 
         // Empty container when no checkbox is checked
       } else if ($(this).prop("checked") === false) {
