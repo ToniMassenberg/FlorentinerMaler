@@ -1,0 +1,172 @@
+{
+    "filename": "basicmap.jpg",
+    "size": 958830,
+    "regions": [
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 320,
+                "cy": 1250
+            },
+            "region_attributes": {
+                "name": "Benozzo di Lese (1412)",
+                "type": "painter"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 464,
+                "cy": 1390
+            },
+            "region_attributes": {
+                "name": "Fra Filippo (ca. 1405)",
+                "type": "painter"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 585,
+                "cy": 1415
+            },
+            "region_attributes": {
+                "name": "Francesco di Stefano \"Pesellino\" (1422)",
+                "type": "painter"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 621,
+                "cy": 1457
+            },
+            "region_attributes": {
+                "name": "Bernardo di Piero Ciuffagni (1381)",
+                "type": "sculptor"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 789,
+                "cy": 853
+            },
+            "region_attributes": {
+                "name": "Paolo di Dono (1397)",
+                "type": "painter"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 932,
+                "cy": 1020
+            },
+            "region_attributes": {
+                "name": "Filippo di ser Brunellesco (1377)",
+                "type": "architect"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1148,
+                "cy": 1079
+            },
+            "region_attributes": {
+                "name": "Donato di Niccolò (1386)",
+                "type": "sculptor"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1289,
+                "cy": 1289
+            },
+            "region_attributes": {
+                "name": "Tommaso di Cristofano \"Masolino\" (1384)",
+                "type": "painter"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1271,
+                "cy": 745
+            },
+            "region_attributes": {
+                "name": "Zanobi di Iacopo Machiavelli (1418)",
+                "type": "painter"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1310,
+                "cy": 881
+            },
+            "region_attributes": {
+                "name": "Tommaso di ser Giovanni \"Masaccio\" (1401)",
+                "type": "painter"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1347,
+                "cy": 809
+            },
+            "region_attributes": {
+                "name": "Michelozzo di Bartolomeo (1396)",
+                "type": "architect"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1456,
+                "cy": 1053
+            },
+            "region_attributes": {
+                "name": "Luca di Simone della Robbia (1399/1400)",
+                "type": "sculptor"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1747,
+                "cy": 1151
+            },
+            "region_attributes": {
+                "name": "Giovanni di Franceso del Cervelliera (1412)",
+                "type": "painter"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1823,
+                "cy": 1106
+            },
+            "region_attributes": {
+                "name": "Nanni d'Antonio di Banco",
+                "type": "sculptor"
+            }
+        },
+        {
+            "shape_attributes": {
+                "name": "point",
+                "cx": 1700,
+                "cy": 1201
+            },
+            "region_attributes": {
+                "name": "Lorenzo di Cione Ghiberti",
+                "type": "sculptor"
+            }
+        }
+    ],
+    "file_attributes": {}
+}

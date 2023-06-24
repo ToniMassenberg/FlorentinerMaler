@@ -227,21 +227,32 @@ $(document).ready(() => {
   // Function to display the icons for church locations
   function mapChurches(planNr, jsonFilePath) {
     $(`input[id="${planNr}"]`).click(function () {
+      let idIconsGenerated = planNr + "IconsGenerated";
+
       if ($(this).prop("checked") === true) {
-        $('#oldmap-container').append('<div class="svg-container" id="churchContainer"></div>');
+        
+        $('#oldmap-container').append(`<div class="svg-container" id="${idIconsGenerated}"></div>`);
 
         const symbolPaths = {
           mainChurch: 'M344 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V48H264c-13.3 0-24 10.7-24 24s10.7 24 24 24h32v46.4L183.3 210c-14.5 8.7-23.3 24.3-23.3 41.2V512h96V416c0-35.3 28.7-64 64-64s64 28.7 64 64v96h96V251.2c0-16.9-8.8-32.5-23.3-41.2L344 142.4V96h32c13.3 0 24-10.7 24-24s-10.7-24-24-24H344V24zM24.9 330.3C9.5 338.8 0 354.9 0 372.4V464c0 26.5 21.5 48 48 48h80V273.6L24.9 330.3zM592 512c26.5 0 48-21.5 48-48V372.4c0-17.5-9.5-33.6-24.9-42.1L512 273.6V512h80z',
-          church: 'M176 0c-26.5 0-48 21.5-48 48v80H48c-26.5 0-48 21.5-48 48v32c0 26.5 21.5 48 48 48h80V464c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V256h80c26.5 0 48-21.5 48-48V176c0-26.5-21.5-48-48-48H256V48c0-26.5-21.5-48-48-48H176z'
+          church: 'M176 0c-26.5 0-48 21.5-48 48v80H48c-26.5 0-48 21.5-48 48v32c0 26.5 21.5 48 48 48h80V464c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V256h80c26.5 0 48-21.5 48-48V176c0-26.5-21.5-48-48-48H256V48c0-26.5-21.5-48-48-48H176z',
+          painter: 'M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z', // circle.svg
+          architect: 'M464 48V464H48V48H464zM48 0H0V48 464v48H48 464h48V464 48 0H464 48z', // square-full.svg
+          sculptor: 'M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.6 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z', // star.svg
         };
 
         $.getJSON(jsonFilePath, function (data) {
           for (const region of data.regions) {
-            var name = region.region_attributes.name;
             var type = region.region_attributes.type;
-            let uniqueId = `marker-name-${region.shape_attributes.cx}--${region.shape_attributes.cy}`;
+            var text;
 
-            $("#churchContainer").append(`
+            if (type === "church" || type === "mainChurch"){
+              text = region.region_attributes.index
+            } else {
+              text = region.region_attributes.name
+            }
+
+            $(`#${idIconsGenerated}`).append(`
               <div class="svg-container">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2178 2121" preserveAspectRatio="none">
                   <defs>
@@ -250,15 +261,15 @@ $(document).ready(() => {
                     </symbol>
                   </defs>
                   <use xlink:href="#${type}" x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" width="40" height="40"/>
-                  <text x="${region.shape_attributes.cx + 10}" y="${region.shape_attributes.cy}" font-size="30">${region.region_attributes.index}</text>
+                  <text x="${region.shape_attributes.cx + 40}" y="${region.shape_attributes.cy + 40}" font-size="30">${text}</text>
                 </svg>
               </div>
             `);
           }
         });
 
-      } else if ($(this).prop("checked") === false) {
-        $("#churchContainer").empty();
+      }else if ($(this).prop("checked") === false) {
+          $(`#${idIconsGenerated}`).empty();
       }
     });
   }
@@ -282,20 +293,20 @@ $(document).ready(() => {
   mapIcons("plan15", "assets/data/map-annotation-1427-workshop.json");
   mapIcons("plan16", "assets/data/map-annotation-1431-workshop.json");
   mapIcons("plan17", "assets/data/map-annotation-1433-workshop.json");
+  mapChurches("plan18", "assets/data/map-annotation-renaissance.json");
 
 
   // Function which toggles the legends depending on which checkboxes are checked. Basic functionality written by ChatGPT, edited by me. 
   function mapLegend() {
     $(document).ready(function () {
-
-
       var $explanationDiv = $('#oldmap-explanation');
       var $regionInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Grenzen</span><br>Durchgehende Linie: Quartieri <br>Gestrichelte Linie: Gonfaloni</div>');
       var $iconInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Wohnungen</span><br>Dunkelblau: Straße bekannt<br>Hellblau: Nur Pfarrsprengel bekannt<br><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Stern: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
       var $iconInfoWorkshop = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Werkstätten</span><br>Dunkelblau: Meister<br>Hellblau: Assistent (Lehrling oder Gehilfe)<br><br>Kreis: Wandmaler<br>Quadrat: Möbelmaler<br>Kreis mit Punkt: Waffenmaler<br>Stern: Glasmaler<br>Lesezeichen: Miniaturist<br>N: Naibi<br>C: Ceri<br>S: Stoffmaler<br>Z: Zimmermaler<br>G: Gipsmaler<br>M: Steinmetz<br>H: Hobbymaler<br>U: Unspezifizierter Maler<br></div>');
       var $choroplethInfo = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Besitz</span><br><img src="assets/images/choroplethInfo.jpg"></div>');
+      var $iconInfoRenaissance = $('<div class="w3-cell"><span class="w3-tag w3-wide">Legende Renaissancekünstler</span><br>Kreis: Renaissancemaler<br>Quadrat: Renaissance-Architekt<br>Stern: Renaissance-Bildhauer<br></div>');
       var $churchInfo;
-      // Fetch the church list from a txt file to not have too long variables here
+      // Fetch the church list from a txt file to not have too long text here
       fetch('assets/data/churches.txt')
         .then(response => response.text())
         .then(data => {
@@ -325,6 +336,9 @@ $(document).ready(() => {
           }
           if ($checked.is('#choropleth')) {
             $explanationDiv.append($choroplethInfo).fadeIn('slow');
+          }
+          if ($checked.is('#plan18')) {
+            $explanationDiv.append($iconInfoRenaissance).fadeIn('slow');
           }
           $explanationDiv.show();
         }
