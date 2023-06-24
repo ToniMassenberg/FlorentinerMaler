@@ -1,0 +1,70 @@
+1: S. Reparata (Duomo) <br>
+2: S. Giovanni (Baptisterium) <br>
+3: S. Maria Novella <br>
+4: S. Croce <br>
+5: S. Spirito <br>
+6: S. Maria in Verzaia <br>
+7: S. Salvatore di Camaldoli <br>
+8: S. Maria del Carmine <br>
+9: S. Frediano <br>
+10: S. Pier Gattolini <br>
+11: S. Felice in Piazza <br>
+12: S. Iacopo oltr'Arno <br>
+13: S. Felicita <br>
+14: S. Maria sopr'Arno <br>
+15: S. Giorgio <br>
+16: S. Lucia de Magnoli <br>
+17: S. Gregorio <br>
+18: S. Niccolò oltr'Arno <br>
+19: S. Lucia sul Prato <br>
+20: Ognissanti <br>
+21: S. Paolo <br>
+22: S. Pancrazio <br>
+23: S. Trinita <br>
+24: SS. Apostoli <br>
+25: S. Maria sopra Porta <br>
+26: S. Maria degli Ughi <br>
+27: S. Miniato fra le Torri <br>
+28: S. Pier Buonconsiglio <br>
+29: S. Andrea <br>
+30: S. Donato de'Vecchietti <br>
+31: Orsanmichele <br>
+31: S. Michele Berteldi <br>
+32: S. Martino <br>
+33: S. Romolo <br>
+34: S. Cecilia <br>
+35: S. Stefano al Ponte <br>
+36: S. Pier Scheraggio <br>
+37: S. Remigio <br>
+38: S. Iacopo tra Fossi <br>
+39: Badia <br>
+40: S. Procolo <br>
+41: S. Apollinare <br>
+42: S. Firenze <br>
+43: S. Simone <br>
+44: S. Ambrogio <br>
+45: S. Pier Maggiore <br>
+46: S. Margherita <br>
+47: S. Bartolomeo al Corso <br>
+48: S. Maria Nipotecosa <br>
+49: S. Michele delle Trombe (S. Elisabetta) <br>
+50: S. Maria degli Alberighi <br>
+51: S. Tommaso <br>
+52: S. Maria in Campo <br>
+53: S. Benedetto <br>
+54: S. Pier Coelorum <br>
+55: S. Cristofano degli Adimari <br>
+56: S. Maria in Campidoglio <br>
+57: S. Leo <br>
+58: S. Salvatore <br>
+59: S. Ruffillo <br>
+60: S. Maria Maggiore <br>
+61: S. Egidio <br>
+62: S. Michele Visdomini <br>
+63: S. Pier Murrone <br>
+64: S. Lorenzo <br>
+65: S. Iacopo in Campo Corbolini <br>
+66: S. Barnaba in Campo Corbolini <br>
+67: S. Basilio <br>
+68: SS. Annunziata <br>
+69: S. Marco <br>

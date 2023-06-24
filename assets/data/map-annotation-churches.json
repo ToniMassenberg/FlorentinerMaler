@@ -9,6 +9,7 @@
                 "cy": 973
             },
             "region_attributes": {
+                "index": 1,
                 "name": "S. Reparata (Duomo)",
                 "type": "church"
             }
@@ -20,6 +21,7 @@
                 "cy": 966
             },
             "region_attributes": {
+                "index": 2,
                 "name": "S. Giovanni",
                 "type": "mainChurch"
             }
@@ -31,6 +33,7 @@
                 "cy": 846
             },
             "region_attributes": {
+                "index": 3,
                 "name": "S. Maria Novella",
                 "type": "mainChurch"
             }
@@ -42,6 +45,7 @@
                 "cy": 1364
             },
             "region_attributes": {
+                "index": 4,
                 "name": "S. Croce",
                 "type": "mainChurch"
             }
@@ -53,6 +57,7 @@
                 "cy": 1467
             },
             "region_attributes": {
+                "index": 5,
                 "name": "S. Spirito",
                 "type": "mainChurch"
             }
@@ -64,6 +69,7 @@
                 "cy": 1190
             },
             "region_attributes": {
+                "index": 6,
                 "name": "S. Maria in Verzaia",
                 "type": "church"
             }
@@ -75,6 +81,7 @@
                 "cy": 1400
             },
             "region_attributes": {
+                "index": 7,
                 "name": "S. Salvatore di Camaldoli",
                 "type": "church"
             }
@@ -86,6 +93,7 @@
                 "cy": 1390
             },
             "region_attributes": {
+                "index": 8,
                 "name": "S. Maria del Carmine",
                 "type": "church"
             }
@@ -97,6 +105,7 @@
                 "cy": 1345
             },
             "region_attributes": {
+                "index": 9,
                 "name": "S. Frediano",
                 "type": "church"
             }
@@ -108,6 +117,7 @@
                 "cy": 1798
             },
             "region_attributes": {
+                "index": 10,
                 "name": "S. Pier Gattolini",
                 "type": "church"
             }
@@ -119,6 +129,7 @@
                 "cy": 1640
             },
             "region_attributes": {
+                "index": 11,
                 "name": "S. Felice in Piazza",
                 "type": "church"
             }
@@ -130,6 +141,7 @@
                 "cy": 1376
             },
             "region_attributes": {
+                "index": 12,
                 "name": "S. Iacopo oltr'Arno",
                 "type": "church"
             }
@@ -141,6 +153,7 @@
                 "cy": 1496
             },
             "region_attributes": {
+                "index": 13,
                 "name": "S. Felicita",
                 "type": "church"
             }
@@ -152,6 +165,7 @@
                 "cy": 1475
             },
             "region_attributes": {
+                "index": 14,
                 "name": "S. Maria sopr'Arno",
                 "type": "church"
             }
@@ -163,6 +177,7 @@
                 "cy": 1628
             },
             "region_attributes": {
+                "index": 15,
                 "name": "S. Giorgio",
                 "type": "church"
             }
@@ -174,6 +189,7 @@
                 "cy": 1584
             },
             "region_attributes": {
+                "index": 16,
                 "name": "S. Lucia de Magnoli",
                 "type": "church"
             }
@@ -185,6 +201,7 @@
                 "cy": 1659
             },
             "region_attributes": {
+                "index": 17,
                 "name": "S. Gregorio",
                 "type": "church"
             }
@@ -196,6 +213,7 @@
                 "cy": 1691
             },
             "region_attributes": {
+                "index": 18,
                 "name": "S. Niccolò oltr'Arno",
                 "type": "church"
             }
@@ -207,6 +225,7 @@
                 "cy": 844
             },
             "region_attributes": {
+                "index": 19,
                 "name": "S. Lucia sul Prato",
                 "type": "church"
             }
@@ -218,6 +237,7 @@
                 "cy": 1007
             },
             "region_attributes": {
+                "index": 20,
                 "name": "Ognissanti",
                 "type": "church"
             }
@@ -229,6 +249,7 @@
                 "cy": 983
             },
             "region_attributes": {
+                "index": 21,
                 "name": "S. Paolo",
                 "type": "church"
             }
@@ -240,6 +261,7 @@
                 "cy": 1065
             },
             "region_attributes": {
+                "index": 22,
                 "name": "S. Pancrazio",
                 "type": "church"
             }
@@ -251,6 +273,7 @@
                 "cy": 1220
             },
             "region_attributes": {
+                "index": 23,
                 "name": "S. Trinita",
                 "type": "church"
             }
@@ -262,6 +285,7 @@
                 "cy": 1294
             },
             "region_attributes": {
+                "index": 24,
                 "name": "SS. Apostoli",
                 "type": "church"
             }
@@ -273,6 +297,7 @@
                 "cy": 1255
             },
             "region_attributes": {
+                "index": 25,
                 "name": "S. Maria sopra Porta",
                 "type": "church"
             }
@@ -284,6 +309,7 @@
                 "cy": 1140
             },
             "region_attributes": {
+                "index": 26,
                 "name": "S. Maria degli Ughi",
                 "type": "church"
             }
@@ -295,6 +321,7 @@
                 "cy": 1146
             },
             "region_attributes": {
+                "index": 27,
                 "name": "S. Miniato fra le Torri",
                 "type": "church"
             }
@@ -306,6 +333,7 @@
                 "cy": 1104
             },
             "region_attributes": {
+                "index": 28,
                 "name": "S. Pier Buonconsiglio",
                 "type": "church"
             }
@@ -317,6 +345,7 @@
                 "cy": 1121
             },
             "region_attributes": {
+                "index": 29,
                 "name": "S. Andrea",
                 "type": "church"
             }
@@ -328,6 +357,7 @@
                 "cy": 1073
             },
             "region_attributes": {
+                "index": 30,
                 "name": "S. Donato de'Vecchietti",
                 "type": "church"
             }
@@ -339,6 +369,7 @@
                 "cy": 1016
             },
             "region_attributes": {
+                "index": 31,
                 "name": "S. Michele Berteldi",
                 "type": "church"
             }
@@ -350,6 +381,7 @@
                 "cy": 1167
             },
             "region_attributes": {
+                "index": 31,
                 "name": "Orsanmichele",
                 "type": "church"
             }
@@ -361,6 +393,7 @@
                 "cy": 1172
             },
             "region_attributes": {
+                "index": 32,
                 "name": "S. Martino",
                 "type": "church"
             }
@@ -372,6 +405,7 @@
                 "cy": 1226
             },
             "region_attributes": {
+                "index": 33,
                 "name": "S. Romolo",
                 "type": "church"
             }
@@ -383,6 +417,7 @@
                 "cy": 1259
             },
             "region_attributes": {
+                "index": 34,
                 "name": "S. Cecilia",
                 "type": "church"
             }
@@ -394,6 +429,7 @@
                 "cy": 1338
             },
             "region_attributes": {
+                "index": 35,
                 "name": "S. Stefano al Ponte",
                 "type": "church"
             }
@@ -405,6 +441,7 @@
                 "cy": 1325
             },
             "region_attributes": {
+                "index": 36,
                 "name": "S. Pier Scheraggio",
                 "type": "church"
             }
@@ -416,6 +453,7 @@
                 "cy": 1383
             },
             "region_attributes": {
+                "index": 37,
                 "name": "S. Remigio",
                 "type": "church"
             }
@@ -427,6 +465,7 @@
                 "cy": 1409
             },
             "region_attributes": {
+                "index": 38,
                 "name": "S. Iacopo tra Fossi",
                 "type": "church"
             }
@@ -438,6 +477,7 @@
                 "cy": 1176
             },
             "region_attributes": {
+                "index": 39,
                 "name": "Badia",
                 "type": "church"
             }
@@ -449,6 +489,7 @@
                 "cy": 1179
             },
             "region_attributes": {
+                "index": 40,
                 "name": "S. Procolo",
                 "type": "church"
             }
@@ -460,6 +501,7 @@
                 "cy": 1237
             },
             "region_attributes": {
+                "index": 41,
                 "name": "S. Apollinare",
                 "type": "church"
             }
@@ -471,6 +513,7 @@
                 "cy": 1263
             },
             "region_attributes": {
+                "index": 42,
                 "name": "S. Firenze",
                 "type": "church"
             }
@@ -482,6 +525,7 @@
                 "cy": 1260
             },
             "region_attributes": {
+                "index": 43,
                 "name": "S. Simone",
                 "type": "church"
             }
@@ -493,6 +537,7 @@
                 "cy": 1111
             },
             "region_attributes": {
+                "index": 44,
                 "name": "S. Ambrogio",
                 "type": "church"
             }
@@ -504,6 +549,7 @@
                 "cy": 1129
             },
             "region_attributes": {
+                "index": 45,
                 "name": "S. Pier Maggiore",
                 "type": "church"
             }
@@ -515,6 +561,7 @@
                 "cy": 1127
             },
             "region_attributes": {
+                "index": 46,
                 "name": "S. Margherita",
                 "type": "church"
             }
@@ -526,6 +573,7 @@
                 "cy": 1133
             },
             "region_attributes": {
+                "index": 47,
                 "name": "S. Bartolomeo al Corso",
                 "type": "church"
             }
@@ -537,6 +585,7 @@
                 "cy": 1094
             },
             "region_attributes": {
+                "index": 48,
                 "name": "S. Maria Nipotecosa",
                 "type": "church"
             }
@@ -548,6 +597,7 @@
                 "cy": 1085
             },
             "region_attributes": {
+                "index": 49,
                 "name": "S. Michele delle Trombe (S. Elisabetta)",
                 "type": "church"
             }
@@ -559,6 +609,7 @@
                 "cy": 1105
             },
             "region_attributes": {
+                "index": 50,
                 "name": "S. Maria degli Alberighi",
                 "type": "church"
             }
@@ -570,6 +621,7 @@
                 "cy": 1078
             },
             "region_attributes": {
+                "index": 51,
                 "name": "S. Tommaso",
                 "type": "church"
             }
@@ -581,6 +633,7 @@
                 "cy": 1055
             },
             "region_attributes": {
+                "index": 52,
                 "name": "S. Maria in Campo",
                 "type": "church"
             }
@@ -592,6 +645,7 @@
                 "cy": 1039
             },
             "region_attributes": {
+                "index": 53,
                 "name": "S. Benedetto",
                 "type": "church"
             }
@@ -603,6 +657,7 @@
                 "cy": 1032
             },
             "region_attributes": {
+                "index": 54,
                 "name": "S. Pier Coelorum",
                 "type": "church"
             }
@@ -614,6 +669,7 @@
                 "cy": 1015
             },
             "region_attributes": {
+                "index": 55,
                 "name": "S. Cristofano degli Adimari",
                 "type": "church"
             }
@@ -625,6 +681,7 @@
                 "cy": 1063
             },
             "region_attributes": {
+                "index": 56,
                 "name": "S. Maria in Campidoglio",
                 "type": "church"
             }
@@ -636,6 +693,7 @@
                 "cy": 1022
             },
             "region_attributes": {
+                "index": 57,
                 "name": "S. Leo",
                 "type": "church"
             }
@@ -647,6 +705,7 @@
                 "cy": 974
             },
             "region_attributes": {
+                "index": 58,
                 "name": "S. Salvatore",
                 "type": "church"
             }
@@ -658,6 +717,7 @@
                 "cy": 968
             },
             "region_attributes": {
+                "index": 59,
                 "name": "S. Ruffillo",
                 "type": "church"
             }
@@ -669,6 +729,7 @@
                 "cy": 949
             },
             "region_attributes": {
+                "index": 60,
                 "name": "S. Maria Maggiore",
                 "type": "church"
             }
@@ -680,6 +741,7 @@
                 "cy": 957
             },
             "region_attributes": {
+                "index": 61,
                 "name": "S. Egidio",
                 "type": "church"
             }
@@ -691,6 +753,7 @@
                 "cy": 907
             },
             "region_attributes": {
+                "index": 62,
                 "name": "S. Michele Visdomini",
                 "type": "church"
             }
@@ -702,6 +765,7 @@
                 "cy": 825
             },
             "region_attributes": {
+                "index": 63,
                 "name": "S. Pier Murrone",
                 "type": "church"
             }
@@ -713,6 +777,7 @@
                 "cy": 825
             },
             "region_attributes": {
+                "index": 64,
                 "name": "S. Lorenzo",
                 "type": "church"
             }
@@ -724,6 +789,7 @@
                 "cy": 687
             },
             "region_attributes": {
+                "index": 65,
                 "name": "S. Iacopo in Campo Corbolini",
                 "type": "church"
             }
@@ -735,6 +801,7 @@
                 "cy": 567
             },
             "region_attributes": {
+                "index": 66,
                 "name": "S. Barnaba in Campo Corbolini",
                 "type": "church"
             }
@@ -746,6 +813,7 @@
                 "cy": 616
             },
             "region_attributes": {
+                "index": 67,
                 "name": "S. Basilio",
                 "type": "church"
             }
@@ -757,6 +825,7 @@
                 "cy": 643
             },
             "region_attributes": {
+                "index": 68,
                 "name": "SS. Annunziata",
                 "type": "church"
             }
@@ -768,6 +837,7 @@
                 "cy": 521
             },
             "region_attributes": {
+                "index": 69,
                 "name": "S. Marco",
                 "type": "church"
             }
