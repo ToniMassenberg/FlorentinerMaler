@@ -39,6 +39,12 @@
     #oldmap {
       opacity: 0.5; /* make the map SVG lighter */
     }
+
+
+    label {
+      font-size: smaller; /* smaller text for checkbox labels so they fit one line */
+    }
+
   </style>
 </head>
 
@@ -47,7 +53,8 @@
   <!-- Link border for site navigation -->
   <div class="w3-top">
     <div class="w3-row w3-padding w3-black">
-      <div class="w3-col s4"> <!-- w3.css uses a 12 column responsive fluid grid, s4 means that each row is 4/12th wide -->
+      <div class="w3-col s4">
+        <!-- w3.css uses a 12 column responsive fluid grid, s4 means that each row is 4/12th wide -->
         <a href="index.html" class="w3-button w3-block w3-black">Einführung</a>
       </div>
       <div class="w3-col s4">
@@ -146,7 +153,7 @@
             </div>
             <div class="w3-cell w3-cell-top">
               <span class="w3-wide">Kartenannotationen</span>
-              <form style="min-width:100px">
+              <form >
                 <input type="checkbox" id="plan1" name="plan1">
                 <label for="plan1"> Räumliche Entwicklung / Stadtkerngrenzen</label><br>
                 <input type="checkbox" id="plan2" name="plan2">
@@ -160,7 +167,7 @@
               </form><br>
 
               <span class="w3-wide">Catasto-Jahre</span>
-              <form style="min-width:100px">
+              <form >
                 <input type="checkbox" id="plan6" name="plan6">
                 <label for="plan6"> Wohnungen der Maler um 1400</label><br>
                 <input type="checkbox" id="plan7" name="plan7">
