@@ -261,7 +261,7 @@ $(document).ready(() => {
                     </symbol>
                   </defs>
                   <use xlink:href="#${type}" x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" width="40" height="40"/>
-                  <text x="${region.shape_attributes.cx + 40}" y="${region.shape_attributes.cy + 40}" font-size="30">${text}</text>
+                  <text text-anchor='middle' x="${region.shape_attributes.cx}" y="${region.shape_attributes.cy}" font-size="30">${text}</text>
                 </svg>
               </div>
             `);
