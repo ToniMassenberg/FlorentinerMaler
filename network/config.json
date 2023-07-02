@@ -1,7 +1,7 @@
 {
   "type": "network",
   "version": "1.0",
-  "data": "data.json",
+  "data": "florenz.gexf",
   "logo": {
     "file": "",
     "link": "",
@@ -46,7 +46,7 @@
       "maxArrowSize": 20,
       "minArrowSize":10,
       "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxNodeSize": 5
     },
     "mouseProperties": {
       "maxRatio": 20,
