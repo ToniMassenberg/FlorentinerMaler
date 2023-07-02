@@ -197,24 +197,24 @@ sigma.classes.EventDispatcher = function () {
                 },
                 f;
             for (f in b) switch (f) {
-            case "id":
-                break;
-            case "x":
-            case "y":
-            case "size":
-                a[f] = +b[f];
-                break;
-            case "fixed":
-            case "active":
-            case "hidden":
-                a[f] = !! b[f];
-                break;
-            case "color":
-            case "label":
-                a[f] = b[f];
-                break;
-            default:
-                a.attr[f] = b[f]
+                case "id":
+                    break;
+                case "x":
+                case "y":
+                case "size":
+                    a[f] = +b[f];
+                    break;
+                case "fixed":
+                case "active":
+                case "hidden":
+                    a[f] = !!b[f];
+                    break;
+                case "color":
+                case "label":
+                    a[f] = b[f];
+                    break;
+                default:
+                    a.attr[f] = b[f]
             }
             c.nodes.push(a);
             c.nodesIndex[d.toString()] = a;
@@ -236,24 +236,24 @@ sigma.classes.EventDispatcher = function () {
                 },
                 f;
             for (f in b) switch (f) {
-            case "id":
-                break;
-            case "x":
-            case "y":
-            case "size":
-                a[f] = +b[f];
-                break;
-            case "fixed":
-            case "active":
-            case "hidden":
-                a[f] = !! b[f];
-                break;
-            case "color":
-            case "label":
-                a[f] = b[f];
-                break;
-            default:
-                a.attr[f] = b[f]
+                case "id":
+                    break;
+                case "x":
+                case "y":
+                case "size":
+                    a[f] = +b[f];
+                    break;
+                case "fixed":
+                case "active":
+                case "hidden":
+                    a[f] = !!b[f];
+                    break;
+                case "color":
+                case "label":
+                    a[f] = b[f];
+                    break;
+                default:
+                    a.attr[f] = b[f]
             }
             c.nodesBG.push(a);
             c.nodesBGIndex[d.toString()] = a;
@@ -280,28 +280,28 @@ sigma.classes.EventDispatcher = function () {
             b.target.degree++;
             b.target.inDegree++;
             for (var h in f) switch (h) {
-            case "id":
-            case "source":
-            case "target":
-                break;
-            case "hidden":
-                b[h] = !! f[h];
-                break;
-            case "size":
-            case "weight":
-                b[h] = +f[h];
-                break;
-            case "color":
-                b[h] = f[h].toString();
-                break;
-            case "type":
-                b[h] = f[h].toString();
-                break;
-            case "label":
-                b[h] = f[h];
-                break;
-            default:
-                b.attr[h] = f[h]
+                case "id":
+                case "source":
+                case "target":
+                    break;
+                case "hidden":
+                    b[h] = !!f[h];
+                    break;
+                case "size":
+                case "weight":
+                    b[h] = +f[h];
+                    break;
+                case "color":
+                    b[h] = f[h].toString();
+                    break;
+                case "type":
+                    b[h] = f[h].toString();
+                    break;
+                case "label":
+                    b[h] = f[h];
+                    break;
+                default:
+                    b.attr[h] = f[h]
             }
             c.edges.push(b);
             c.edgesIndex[d.toString()] = b;
@@ -350,27 +350,27 @@ sigma.classes.EventDispatcher = function () {
                 var d = f[b],
                     j;
                 for (j in d) switch (j) {
-                case "id":
-                case "displaySize":
-                    break;
-                case "weight":
-                case "size":
-                    a[j] = +d[j];
-                    break;
-                case "source":
-                case "target":
-                    a[j] = c.nodesIndex[j] || a[j];
-                    break;
-                case "hidden":
-                    a[j] = !! d[j];
-                    break;
-                case "color":
-                case "label":
-                case "type":
-                    a[j] = (d[j] || "").toString();
-                    break;
-                default:
-                    a.attr[j] = d[j]
+                    case "id":
+                    case "displaySize":
+                        break;
+                    case "weight":
+                    case "size":
+                        a[j] = +d[j];
+                        break;
+                    case "source":
+                    case "target":
+                        a[j] = c.nodesIndex[j] || a[j];
+                        break;
+                    case "hidden":
+                        a[j] = !!d[j];
+                        break;
+                    case "color":
+                    case "label":
+                    case "type":
+                        a[j] = (d[j] || "").toString();
+                        break;
+                    default:
+                        a.attr[j] = d[j]
                 }
             });
             return c
@@ -385,31 +385,31 @@ sigma.classes.EventDispatcher = function () {
                 var d = f[b],
                     c;
                 for (c in d) switch (c) {
-                case "id":
-                case "attr":
-                case "degree":
-                case "inDegree":
-                case "outDegree":
-                case "displayX":
-                case "displayY":
-                case "displaySize":
-                    break;
-                case "x":
-                case "y":
-                case "size":
-                    a[c] = +d[c];
-                    break;
-                case "fixed":
-                case "active":
-                case "hidden":
-                    a[c] = !! d[c];
-                    break;
-                case "color":
-                case "label":
-                    a[c] = d[c].toString();
-                    break;
-                default:
-                    a.attr[c] = d[c]
+                    case "id":
+                    case "attr":
+                    case "degree":
+                    case "inDegree":
+                    case "outDegree":
+                    case "displayX":
+                    case "displayY":
+                    case "displaySize":
+                        break;
+                    case "x":
+                    case "y":
+                    case "size":
+                        a[c] = +d[c];
+                        break;
+                    case "fixed":
+                    case "active":
+                    case "hidden":
+                        a[c] = !!d[c];
+                        break;
+                    case "color":
+                    case "label":
+                        a[c] = d[c].toString();
+                        break;
+                    default:
+                        a.attr[c] = d[c]
                 }
             });
             return c
@@ -695,7 +695,7 @@ sigma.classes.EventDispatcher = function () {
             activeFontStyle: "",
             edgeColor: "source",
             defaultEdgeColor: "#aaa",
-            defaultEdgeType: "line",
+            defaultEdgeType: "arrow",
             defaultNodeColor: "#aaa",
             nodeHoverColor: "node",
             defaultNodeHoverColor: "#fff",
@@ -743,29 +743,66 @@ sigma.classes.EventDispatcher = function () {
                 var g = c.target.displayX,
                     m = c.target.displayY,
                     l = void 0;
-                   // l = c.attr.color ? c.attr.color : "rgba(255, 0, 0, .6)";
+                // l = c.attr.color ? c.attr.color : "rgba(255, 0, 0, .6)";
                 if (!l) switch (j.p.edgeColor) {
-                case "source":
-                    l = c.source.color || j.p.defaultNodeColor;
-                    break;
-                case "target":
-                    l = c.target.color || j.p.defaultNodeColor;
-                    break;
-                default:
-                    l = j.p.defaultEdgeColor
+                    case "source":
+                        l = c.source.color || j.p.defaultNodeColor;
+                        break;
+                    case "target":
+                        l = c.target.color || j.p.defaultNodeColor;
+                        break;
+                    default:
+                        l = j.p.defaultEdgeColor
                 }
                 var k = i;
                 k.strokeStyle = l;
                 k.lineWidth = c.attr.lineWidth ? c.attr.lineWidth : 0.2;
                 switch (c.type || j.p.defaultEdgeType) {
-                case "curve":
-                    k.beginPath();
-                    k.moveTo(d, h);
-                    k.quadraticCurveTo((d + g) / 2 + (m - h) / 4, (h + m) / 2 + (d - g) / 4, g, m);
-                    k.stroke();
-                    break;
-                default:
-                    k.beginPath(), k.moveTo(d, h), k.lineTo(g, m), k.stroke()
+                    case "curve":
+                        k.beginPath();
+                        k.moveTo(d, h);
+                        k.quadraticCurveTo((d + g) / 2 + (m - h) / 4, (h + m) / 2 + (d - g) / 4, g, m);
+                        k.stroke();
+                        break;
+                    default: //case "arrow": function from https://codepen.io/chanthy/pen/WxQoVG
+                        //variables to be used when creating the arrow
+                        var headlen = 10;
+                        var angle = Math.atan2(m - h, g - d);
+
+                        k.save();
+                        k.strokeStyle = 1;
+
+                        //starting path of the arrow from the start square to the end square
+                        //and drawing the stroke
+                        k.beginPath();
+                        k.moveTo(d, h);
+                        k.lineTo(g, m);
+                        k.lineWidth = c.attr.lineWidth ? c.attr.lineWidth : 0.2;
+                        k.stroke();
+
+                        //starting a new path from the head of the arrow to one of the sides of
+                        //the point
+                        k.beginPath();
+                        k.moveTo(g, m);
+                        k.lineTo(g - headlen * Math.cos(angle - Math.PI / 7),
+                            toy - headlen * Math.sin(angle - Math.PI / 7));
+
+                        //path from the side point of the arrow, to the other side point
+                        k.lineTo(g - headlen * Math.cos(angle + Math.PI / 7),
+                            m - headlen * Math.sin(angle + Math.PI / 7));
+
+                        //path from the side point back to the tip of the arrow, and then
+                        //again to the opposite side point
+                        k.lineTo(g, m);
+                        k.lineTo(g - headlen * Math.cos(angle - Math.PI / 7),
+                            m - headlen * Math.sin(angle - Math.PI / 7));
+
+                        //draws the paths created above
+                        k.stroke();
+                        k.restore();
+                    //default:
+                    //  k.beginPath(), k.moveTo(d, h), k.lineTo(g, m), k.stroke()
+
                 }
             }
             return j.currentEdgeIndex < b
@@ -796,14 +833,14 @@ sigma.classes.EventDispatcher = function () {
             var k = c * a.attr.deltaY / 100;
             switch (a.attr.position) {
                 default: c = b(f - l - c - i - 13);
-                l = b(h + k);
-                i = c;
-                m = l - 3;
-                f = b(f);
-                h = b(h + k);
-                break;
-            case "right":
-                c = b(f + l + a.displaySize + 8 + i), l = b(h + k), i = c - i, m = l - 3, f = b(f), h = b(h + k)
+                    l = b(h + k);
+                    i = c;
+                    m = l - 3;
+                    f = b(f);
+                    h = b(h + k);
+                    break;
+                case "right":
+                    c = b(f + l + a.displaySize + 8 + i), l = b(h + k), i = c - i, m = l - 3, f = b(f), h = b(h + k)
             }
             d.font = g + "px sans-serif";
             d.fillStyle = "#fff";
@@ -819,7 +856,7 @@ sigma.classes.EventDispatcher = function () {
         };
         this.drawNode = function (a) {
             var c = Math.round(10 * a.displaySize) / 10;
-            b.fillStyle = a.attr.color ? a.attr.color : "#ff0000"; 
+            b.fillStyle = a.attr.color ? a.attr.color : "#ff0000";
             b.strokeStyle = a.attr.strokeStyle ? a.attr.strokeStyle : "#000";
             a.attr.lineWidth && (b.lineWidth = a.attr.lineWidth);
             var d = 2 * Math.PI;
@@ -827,7 +864,7 @@ sigma.classes.EventDispatcher = function () {
             var f = a.displayX,
                 h = a.displayY,
                 i = 9 * c;
-                // m = b.createRadialGradient(f, h, i - 7, f, h, i);
+            // m = b.createRadialGradient(f, h, i - 7, f, h, i);
             // m.addColorStop(0, "#ff0000");
             //          m.addColorStop(1, "rgba(255, 255, 255, 0)");
             //g.fillStyle = m;
@@ -888,8 +925,8 @@ sigma.classes.EventDispatcher = function () {
             d.style.position = "absolute";
             d.setAttribute("id", "sigma_" + b + "_" + a.id);
             d.setAttribute("class", "sigma_" + b + "_" + c);
-	        d.setAttribute("width", a.width);
-	        d.setAttribute("height", a.height);
+            d.setAttribute("width", a.width);
+            d.setAttribute("height", a.height);
             a.domRoot.appendChild(d);
             "undefined" != typeof G_vmlCanvasManager && "canvas" == c && (d = G_vmlCanvasManager.initElement(d));
             a.domElements[b] = d;
@@ -1041,7 +1078,7 @@ sigma.classes.EventDispatcher = function () {
         var g = this;
         sigma.classes.EventDispatcher.call(this);
         this._core = b;
-        this.kill = function () {};
+        this.kill = function () { };
         this.getID = function () {
             return b.id
         };

@@ -43,8 +43,10 @@ Object.size = function(obj) {
     return size;
 };
 
+
+
 function initSigma(config) {
-	var data=config.data
+	var data=config.data;
 	
 	var drawProps, graphProps,mouseProps;
 	if (config.sigma && config.sigma.drawingProperties) 
@@ -57,7 +59,9 @@ function initSigma(config) {
         defaultHoverLabelBGColor: "#002147",
         defaultLabelHoverColor: "#fff",
         labelThreshold: 10,
-        defaultEdgeType: "curve",
+        defaultEdgeType: "arrow",
+        edgeShape: "arrow",
+        defaultEdgeArrow: "target",
         hoverFontStyle: "bold",
         fontStyle: "bold",
         activeFontStyle: "bold"

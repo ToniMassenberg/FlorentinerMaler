@@ -23,12 +23,13 @@
     "hoverBehavior": "default"
   },
   "informationPanel": {
-    "groupByEdgeDirection": false,
+    "groupByEdgeDirection": true,
     "imageAttribute": false
   },
   "sigma": {
     "drawingProperties": {
-      "defaultEdgeType": "straight",
+      "defaultEdgeType": "arrow",
+      "defaultArrowType": "triangle",
       "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
@@ -42,6 +43,8 @@
     "graphProperties": {
       "maxEdgeSize": 10,
       "minEdgeSize": 5,
+      "maxArrowSize": 20,
+      "minArrowSize":10,
       "minNodeSize": 1,
       "maxNodeSize": 7
     },
