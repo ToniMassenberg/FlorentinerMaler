@@ -289,7 +289,7 @@ function configSigmaElements(config) {
         maxWidth: 800,
         maxHeight: 600
     };//        minHeight: 300,
-    $("a.fb").fancybox(b);
+    //$("a.fb").fancybox(b);
     $("#zoom").find("div.z").each(function () {
         var a = $(this),
             b = a.attr("rel");

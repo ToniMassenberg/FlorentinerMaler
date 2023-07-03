@@ -14,9 +14,6 @@
 	clear: both;
 }
 
-.cf {
-	zoom: 1;
-}
 
 html,
 body {
@@ -520,8 +517,6 @@ canvas#sigma_bg_1 {
 	background-image: url('../images/sprite.png');
 	border: 1px solid #999;
 	display: inline-block;
-	*display: inline;
-	*zoom: 1;
 }
 
 #information .button span {
