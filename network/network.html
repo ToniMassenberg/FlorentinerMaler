@@ -26,14 +26,16 @@
 
 <style>
 
-  
+
 </style>
+
 <body class="w3-sand">
 
   <!-- Link border for site navigation -->
   <div class="w3-top">
     <div class="w3-row w3-padding w3-black">
-      <div class="w3-col s4"> <!-- w3.css uses a 12 column responsive fluid grid, s4 means that each row is 4/12th wide -->
+      <div class="w3-col s4">
+        <!-- w3.css uses a 12 column responsive fluid grid, s4 means that each row is 4/12th wide -->
         <a href="../index.html" class="w3-button w3-block w3-black">Einführung</a>
       </div>
       <div class="w3-col s4">
@@ -73,6 +75,16 @@
     </div>
   </div>
 
+  <div class="w3-container" id="network-select">
+    <div class="w3-content">
+      <form>
+        <input type="checkbox" id="regesten" name="regesten">
+        <label for="regesten"> Plan basierend auf den Regesten</label>
+        <input type="checkbox" id="chapter8" name="chapter8">
+        <label for="chapter8"> Plan basierend auf Kapitel 8</label><br>
+      </form>
+    </div>
+  </div>
 
   <!-- Container the network is generated into -->
   <div class="sigma-parent w3-content">
@@ -118,7 +130,7 @@
       <div id="information">
       </div>
     </div>
-    
+
     <!-- Side panel with further painter information -->
     <div id="attributepane" class="w3-content">
       <div class="text w3-padding-64">

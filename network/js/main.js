@@ -18,20 +18,53 @@ function GetQueryStringParams(sParam,defaultVal) {
     return defaultVal;
 }
 
-
-jQuery.getJSON(GetQueryStringParams("config","config.json"), function(data, textStatus, jqXHR) {
-	config=data;
-	
-	if (config.type!="network") {
-		//bad config
-		alert("Invalid configuration settings.")
-		return;
-	}
-	
-	//As soon as page is ready (and data ready) set up it
-	$(document).ready(setupGUI(config));
-});//End JSON Config load
-
+// The following function is a modified version of the function jQuery.getJSON(GetQueryStringParams("config", "config.json"), function(data, textStatus, jqXHR) from the SigmaJS v1.
+// It was modified using ChatGPT with instructions to change out the config.data file depending on which checkbox is checked.
+$(document).ready(function() {
+    var $sigmaCanvas = $("#sigma-canvas");
+  
+    // Set the initial configdata based on the default checkbox state
+    var initialConfigdata = "config1.json";
+    $("input[name='regesten']").prop("checked", true);
+  
+    // Load the initial config
+    loadConfig(initialConfigdata);
+  
+    // Checkbox change event listener
+    $("input[name='regesten']").change(function() {
+      if ($(this).prop("checked")) {
+        loadConfig("config1.json");
+        $("input[name='chapter8']").prop("checked", false);
+      }
+    });
+  
+    $("input[name='chapter8']").change(function() {
+      if ($(this).prop("checked")) {
+        loadConfig("config2.json");
+        $("input[name='regesten']").prop("checked", false);
+      }
+    });
+  
+    function loadConfig(configdata) {
+      // Empty the sigma-canvas container
+      $sigmaCanvas.empty();
+  
+      jQuery.getJSON(GetQueryStringParams("config", configdata), function(data, textStatus, jqXHR) {
+        config = data;
+  
+        if (config.type != "network") {
+          // Bad config
+          alert("Invalid configuration settings.");
+          return;
+        }
+  
+        // As soon as page is ready (and data ready) set up it
+        $(document).ready(setupGUI(config));
+      });
+    }
+  });
+  
+  
 
 // FUNCTION DECLARATIONS
 
