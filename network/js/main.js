@@ -24,7 +24,7 @@ $(document).ready(function() {
     var $sigmaCanvas = $("#sigma-canvas");
   
     // Set the initial configdata based on the default checkbox state
-    var initialConfigdata = "config1.json";
+    var initialConfigdata = "config-regesten.json";
     $("input[name='regesten']").prop("checked", true);
   
     // Load the initial config
@@ -33,14 +33,14 @@ $(document).ready(function() {
     // Checkbox change event listener
     $("input[name='regesten']").change(function() {
       if ($(this).prop("checked")) {
-        loadConfig("config1.json");
+        loadConfig("config-regesten.json");
         $("input[name='chapter8']").prop("checked", false);
       }
     });
   
     $("input[name='chapter8']").change(function() {
       if ($(this).prop("checked")) {
-        loadConfig("config2.json");
+        loadConfig("config-chapter8.json");
         $("input[name='regesten']").prop("checked", false);
       }
     });
