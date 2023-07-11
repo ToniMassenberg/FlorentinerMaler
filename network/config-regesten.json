@@ -13,8 +13,8 @@
     "title": "Florentiner Maler"
   },
   "legend": {
-    "edgeLabel": "Beziehung",
-    "colorLabel": "Berufsgruppe",
+    "edgeLabel": "<img height='100px' src='../assets/images/edgeColors-regesten.jpg'>",
+    "colorLabel": "<img height='200px' src='../assets/images/nodeColors-regesten.jpg'>",
     "nodeLabel": "Maler"
   },
   "features": {
