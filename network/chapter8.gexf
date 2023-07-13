@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
-  <meta lastmodifieddate="2023-07-09">
+  <meta lastmodifieddate="2023-07-13">
     <creator>Gephi 0.9.3</creator>
     <description></description>
   </meta>
   <graph defaultedgetype="directed" mode="static">
     <attributes class="node" mode="static">
       <attribute id="wikidata-qid" title="wikidata-qid" type="string"/>
-      <attribute id="gnd-id" title="GND-ID" type="string"/>
+      <attribute id="gnd-id" title="gnd-id" type="string"/>
       <attribute id="zuschreibungsfähig? (s. 207f)" title="zuschreibungsfähig? (s. 207f)" type="string"/>
       <attribute id="heute noch berühmt? (s.60)" title="heute noch berühmt? (s.60)" type="string"/>
       <attribute id="job" title="job" type="string"/>
@@ -40,8 +40,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="270-273"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="214.04036" y="-34.76434"/>
-        <viz:color r="99" g="194" b="206"/>
+        <viz:position x="229.67479" y="-11.832101"/>
+        <viz:color r="75" g="0" b="130"/>
       </node>
       <node id="40" label="Arcangelo di Cola di Giovanni da Camerino">
         <attvalues>
@@ -56,8 +56,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="240"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="231.34091" y="400.1305"/>
-        <viz:color r="243" g="151" b="0"/>
+        <viz:position x="213.08629" y="354.70395"/>
+        <viz:color r="26" g="215" b="0"/>
       </node>
       <node id="180" label="Giovanni di Gonsalvo da Portogallo">
         <attvalues>
@@ -69,8 +69,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="242"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="188.01819" y="456.15076"/>
-        <viz:color r="243" g="151" b="0"/>
+        <viz:position x="209.0096" y="419.7695"/>
+        <viz:color r="26" g="215" b="0"/>
       </node>
       <node id="45" label="Barnaba di Giovanni">
         <attvalues>
@@ -86,8 +86,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-304.09592" y="-107.11299"/>
-        <viz:color r="243" g="151" b="0"/>
+        <viz:position x="-253.98366" y="-154.5156"/>
+        <viz:color r="26" g="215" b="0"/>
       </node>
       <node id="250" label="Michele da Ungheria">
         <attvalues>
@@ -101,8 +101,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-393.7388" y="-96.60085"/>
-        <viz:color r="243" g="151" b="0"/>
+        <viz:position x="-344.48804" y="-137.4763"/>
+        <viz:color r="26" g="215" b="0"/>
       </node>
       <node id="143" label="Gentile di Niccolò di Giovanni di Tommaso (Massi) da Fabriano">
         <attvalues>
@@ -118,8 +118,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="240-242"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-359.3384" y="-90.9675"/>
-        <viz:color r="243" g="151" b="0"/>
+        <viz:position x="-309.9349" y="-136.09308"/>
+        <viz:color r="26" g="215" b="0"/>
       </node>
       <node id="239" label="Mariotto di Cristofano di Bonaccorso da San Giovanni Valdarno">
         <attvalues>
@@ -137,8 +137,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="251"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-15.076663" y="-55.30106"/>
-        <viz:color r="255" g="109" b="48"/>
+        <viz:position x="0.9210266" y="-41.64944"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="192" label="Gismirante di Rossello di Iacopo">
         <attvalues>
@@ -154,8 +154,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="248"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="27.10958" y="174.01784"/>
-        <viz:color r="255" g="109" b="48"/>
+        <viz:position x="-20.748432" y="182.89325"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="290" label="Rossello di Iacopo di Scolaio Franchi (del Rosso)">
         <attvalues>
@@ -173,8 +173,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="248-249"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-9.204048" y="165.44917"/>
-        <viz:color r="255" g="109" b="48"/>
+        <viz:position x="-51.13232" y="162.2677"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="198" label="Giunta di Iacopo di Scolaio Franchi">
         <attvalues>
@@ -190,8 +190,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="248"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="6.9429145" y="201.08966"/>
-        <viz:color r="255" g="109" b="48"/>
+        <viz:position x="-48.93413" y="200.70903"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="118" label="Filippo d'Andrea di Filippo di Borgo (Lippo d'Andrea)">
         <attvalues>
@@ -209,8 +209,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="249-250"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-51.41164" y="125.90616"/>
-        <viz:color r="255" g="109" b="48"/>
+        <viz:position x="-75.264786" y="109.37294"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="184" label="Giovanni di Marco di Giovanni (Giovanni dal Ponte)">
         <attvalues>
@@ -228,8 +228,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="247-248"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-92.826836" y="145.7464"/>
-        <viz:color r="255" g="109" b="48"/>
+        <viz:position x="-120.26558" y="112.25428"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="307" label="Ventura di Moro di Ventura">
         <attvalues>
@@ -246,8 +246,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="250"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-31.809334" y="225.18852"/>
-        <viz:color r="255" g="109" b="48"/>
+        <viz:position x="-92.810936" y="210.04721"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="238" label="Marco di Filippo di Giovanni">
         <attvalues>
@@ -263,8 +263,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="250"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-49.741024" y="257.1143"/>
-        <viz:color r="255" g="109" b="48"/>
+        <viz:position x="-119.85253" y="234.6419"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="196" label="Giuliano di Iacopo di Lorino di Cino">
         <attvalues>
@@ -280,8 +280,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="250"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-22.501839" y="268.72668"/>
-        <viz:color r="255" g="109" b="48"/>
+        <viz:position x="-98.178444" y="254.80173"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="277" label="Piero di Chellino di Lando di Chellino">
         <attvalues>
@@ -297,8 +297,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="251"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-20.947594" y="-118.73428"/>
-        <viz:color r="255" g="109" b="48"/>
+        <viz:position x="6.3149743" y="-105.15611"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="145" label="Gherardo di Iacopo Starna (Starnina)">
         <attvalues>
@@ -316,8 +316,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="228-229"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-208.96806" y="-309.57513"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="-446.10522" y="19.122637"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="38" label="Antonio di Vita da Pistoia">
         <attvalues>
@@ -332,8 +332,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="140.53831" y="-487.87628"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="149.41286" y="-465.23218"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="41" label="Arrigo di Niccolò di ser Cecco">
         <attvalues>
@@ -349,8 +349,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="230-231"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="459.62988" y="-147.95712"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="483.1622" y="-88.505066"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="115" label="Donato di Donato">
         <attvalues>
@@ -363,8 +363,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="233"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="439.45392" y="-29.221457"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="453.48962" y="39.411457"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="121" label="Filippo di Bonaccorso">
         <attvalues>
@@ -379,8 +379,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="233"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="472.47763" y="57.76602"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="461.4546" y="97.458405"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="190" label="Giovanni di Tano di Feo">
         <attvalues>
@@ -397,8 +397,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="231"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="316.48117" y="227.71245"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="244.12614" y="245.5064"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="220" label="Lapo di Francesco">
         <attvalues>
@@ -412,8 +412,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-310.26462" y="-355.99454"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="-258.0691" y="-362.89218"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="231" label="Lorenzo di Salvo da Magliano">
         <attvalues>
@@ -428,8 +428,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-84.96163" y="-506.05124"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="-62.047855" y="-498.4052"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="247" label="Matteo di Pello di Pello">
         <attvalues>
@@ -444,8 +444,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="259.39117" y="289.92838"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="201.84541" y="283.79144"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="287" label="Piero di Nello da Rabatta">
         <attvalues>
@@ -460,8 +460,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="231-233"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="478.86307" y="-72.42886"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="441.1422" y="-18.889606"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="55" label="Bartolomeo di Giovanni di Bartolomeo Cristiani da Pistoia">
         <attvalues>
@@ -477,8 +477,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="34.57187" y="71.53847"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="36.42285" y="89.949295"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="194" label="Giuliano d'Arrigo di Gioccolo Giochi (Pesello)">
         <attvalues>
@@ -496,8 +496,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="233"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="40.338646" y="-76.511536"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="61.3444" y="-57.640335"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="291" label="Scolaio di Giovanni di Scolaio">
         <attvalues>
@@ -515,8 +515,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-181.10255" y="128.73778"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="-194.73047" y="71.13845"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="286" label="Piero di Miniato di Meglio">
         <attvalues>
@@ -533,8 +533,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="229-230"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-291.0337" y="326.63794"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="-307.70834" y="313.83548"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="34" label="Antonio di Miniato di Meglio">
         <attvalues>
@@ -550,8 +550,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="230"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-309.46457" y="311.39838"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="-323.40872" y="295.75305"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="262" label="Niccolò d'Antonio di Paolo Cruoni">
         <attvalues>
@@ -567,8 +567,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="228+234"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-229.2367" y="-322.28445"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="-435.34222" y="40.292194"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="293" label="Smeraldo di Giovanni">
         <attvalues>
@@ -585,8 +585,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="234+247-248"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-110.655716" y="123.94275"/>
-        <viz:color r="0" g="222" b="255"/>
+        <viz:position x="-129.61607" y="85.80531"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="271" label="Paolo di Dono di Paolo di Dono (Paolo Uccello)">
         <attvalues>
@@ -604,8 +604,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="253+258-261"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="134.78108" y="-7.542549"/>
-        <viz:color r="0" g="206" b="114"/>
+        <viz:position x="148.99925" y="17.174068"/>
+        <viz:color r="7" g="186" b="176"/>
       </node>
       <node id="301" label="Tommaso di Cristofano di Fino (Masolino)">
         <attvalues>
@@ -622,8 +622,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="257"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="80.66011" y="-93.05734"/>
-        <viz:color r="0" g="206" b="114"/>
+        <viz:position x="99.39022" y="-73.32999"/>
+        <viz:color r="7" g="186" b="176"/>
       </node>
       <node id="175" label="Giovanni di Francesco Toscani">
         <attvalues>
@@ -642,8 +642,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="255"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="90.27744" y="431.60312"/>
-        <viz:color r="0" g="206" b="114"/>
+        <viz:position x="132.13715" y="364.2761"/>
+        <viz:color r="7" g="186" b="176"/>
       </node>
       <node id="104" label="Domenico di Francesco Toscani">
         <attvalues>
@@ -661,8 +661,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="256+267"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="67.78962" y="439.91483"/>
-        <viz:color r="0" g="206" b="114"/>
+        <viz:position x="120.528625" y="385.24933"/>
+        <viz:color r="7" g="186" b="176"/>
       </node>
       <node id="68" label="Benozzo di Lese di Sandro di Lese (Benozzo Gozzoli)">
         <attvalues>
@@ -680,8 +680,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="254"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="164.87971" y="-41.429306"/>
-        <viz:color r="99" g="194" b="206"/>
+        <viz:position x="180.98099" y="-18.167051"/>
+        <viz:color r="75" g="0" b="130"/>
       </node>
       <node id="126" label="Fra Filippo di Tommaso di Filippo (Fra Filippo Lippi)">
         <attvalues>
@@ -699,8 +699,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="275-277"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-224.91362" y="-128.10344"/>
-        <viz:color r="0" g="183" b="255"/>
+        <viz:position x="-174.71529" y="-177.22746"/>
+        <viz:color r="128" g="0" b="128"/>
       </node>
       <node id="174" label="Giovanni di Francesco di Giovanni del Cervelliera da Rovezzano">
         <attvalues>
@@ -718,8 +718,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="277-278"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-219.01927" y="-91.392746"/>
-        <viz:color r="0" g="183" b="255"/>
+        <viz:position x="-173.10352" y="-140.5343"/>
+        <viz:color r="128" g="0" b="128"/>
       </node>
       <node id="272" label="Paolo di Stefano (Paolo Schiavo)">
         <attvalues>
@@ -736,8 +736,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="266-267"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="38.205765" y="-491.1673"/>
-        <viz:color r="62" g="72" b="102"/>
+        <viz:position x="80.03457" y="-443.11093"/>
+        <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="179" label="Giovanni di ser Giovanni di Simone da San Giovanni Valdarno (Lo Scheggia)">
         <attvalues>
@@ -755,8 +755,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="265-266"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="9.061782" y="-4.555312"/>
-        <viz:color r="62" g="72" b="102"/>
+        <viz:position x="25.470802" y="8.387723"/>
+        <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="14" label="Andrea di Giusto di Giovanni Brugli">
         <attvalues>
@@ -775,8 +775,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="264-265"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-16.322638" y="-13.473517"/>
-        <viz:color r="62" g="72" b="102"/>
+        <viz:position x="-0.02332203" y="-0.0075616282"/>
+        <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="303" label="Tommaso di ser Giovanni di Simone da San Giovanni Valdarno (Masaccio)">
         <attvalues>
@@ -794,8 +794,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="261-264"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="10.096522" y="-35.481197"/>
-        <viz:color r="62" g="72" b="102"/>
+        <viz:position x="26.024431" y="-22.21103"/>
+        <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="263" label="Niccolò di ser Lapo di Giovanni">
         <attvalues>
@@ -809,8 +809,8 @@
           <attvalue for="verbindungen nach kapitel 8" value="Antonio di Matteo di Filippo Torelli arbeitete in seiner Werkstatt; ansonsten nicht berücksichtigt"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="270.79865" y="-252.88004"/>
-        <viz:color r="0" g="104" b="73"/>
+        <viz:position x="279.0297" y="-246.25116"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="62" label="Bastiano di Niccolò di Monte">
         <attvalues>
@@ -824,8 +824,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-104.31798" y="486.43396"/>
-        <viz:color r="0" g="104" b="73"/>
+        <viz:position x="-100.70752" y="460.86615"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="110" label="Domenico di Niccolò di Miniato">
         <attvalues>
@@ -839,8 +839,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="444.24554" y="183.44116"/>
-        <viz:color r="0" g="104" b="73"/>
+        <viz:position x="441.3517" y="169.86588"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="146" label="Giacomino (Giavachino) di Berto">
         <attvalues>
@@ -852,8 +852,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="393.03265" y="256.0247"/>
-        <viz:color r="0" g="104" b="73"/>
+        <viz:position x="376.4934" y="284.8126"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="129" label="Francesco d'Antonio di Bartolomeo">
         <attvalues>
@@ -871,8 +871,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="238-239"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="95.92542" y="-134.7954"/>
-        <viz:color r="0" g="104" b="73"/>
+        <viz:position x="113.33932" y="-115.74399"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="227" label="Don Lorenzo di Giovanni (Don Lorenzo Monaco)">
         <attvalues>
@@ -890,8 +890,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="236-238"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="128.03741" y="-205.31363"/>
-        <viz:color r="0" g="104" b="73"/>
+        <viz:position x="141.05228" y="-188.45857"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="142" label="Fra Gabriello">
         <attvalues>
@@ -904,8 +904,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="237"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="75.095566" y="-205.30222"/>
-        <viz:color r="0" g="104" b="73"/>
+        <viz:position x="88.20767" y="-188.27974"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="53" label="Bartolomeo di Fruosino di Fruosino">
         <attvalues>
@@ -920,8 +920,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="234-235"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="8.89482" y="-120.16921"/>
-        <viz:color r="0" g="104" b="73"/>
+        <viz:position x="36.26347" y="-104.03971"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="244" label="Matteo di Filippo Torelli">
         <attvalues>
@@ -936,8 +936,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="235-236"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="223.77904" y="-218.58492"/>
-        <viz:color r="0" g="104" b="73"/>
+        <viz:position x="234.1296" y="-208.94232"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="52" label="Bartolomeo di Filippo Torelli">
         <attvalues>
@@ -952,8 +952,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="235-236"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="212.43112" y="-242.94135"/>
-        <viz:color r="0" g="104" b="73"/>
+        <viz:position x="221.6278" y="-232.72688"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="64" label="Battista di Niccolò da Padova">
         <attvalues>
@@ -966,8 +966,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="268-269"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="29.28291" y="526.78406"/>
-        <viz:color r="255" g="120" b="255"/>
+        <viz:position x="18.014086" y="460.59686"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="163" label="Giovanni (Giannino) di Bernardo">
         <attvalues>
@@ -983,8 +983,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="268"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="143.27669" y="-232.71408"/>
-        <viz:color r="255" g="120" b="255"/>
+        <viz:position x="155.81242" y="-215.93895"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="173" label="Giovanni di Francesco di Giovanni (Giannino; Giovannino)">
         <attvalues>
@@ -999,8 +999,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="268"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="147.38641" y="-181.1851"/>
-        <viz:color r="255" g="120" b="255"/>
+        <viz:position x="160.79071" y="-164.74474"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="236" label="Marco di Bartolomeo Rustichi">
         <attvalues>
@@ -1016,8 +1016,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="268"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-401.78778" y="-312.84863"/>
-        <viz:color r="255" g="120" b="255"/>
+        <viz:position x="-336.82733" y="-328.9166"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="32" label="Antonio di Matteo di Filippo Torelli">
         <attvalues>
@@ -1032,8 +1032,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="268"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="259.64163" y="-230.515"/>
-        <viz:color r="255" g="120" b="255"/>
+        <viz:position x="268.9242" y="-223.35358"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="63" label="Battista di Biagio Sanguini">
         <attvalues>
@@ -1050,8 +1050,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="269-267"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="242.95885" y="-19.971613"/>
-        <viz:color r="255" g="120" b="255"/>
+        <viz:position x="258.64072" y="3.1709206"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="298" label="Stefano di Francesco di Stefano di Giovanni">
         <attvalues>
@@ -1065,8 +1065,8 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-184.34563" y="-143.37167"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="-132.82915" y="-187.87311"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="54" label="Bartolomeo di Giovanni Corradini da Urbino (Fra Carnevale)">
         <attvalues>
@@ -1083,8 +1083,8 @@
           <attvalue for="verbindungen nach kapitel 8" value="Mitarbeiter von Fra Filippo di Tommaso (Filippo Lippi)"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-189.90411" y="-113.55094"/>
-        <viz:color r="0" g="183" b="255"/>
+        <viz:position x="-141.36441" y="-158.90215"/>
+        <viz:color r="128" g="0" b="128"/>
       </node>
       <node id="98" label="Fra Diamante di Feo da Terranuova (Fra Diamante)">
         <attvalues>
@@ -1100,8 +1100,8 @@
           <attvalue for="verbindungen nach kapitel 8" value="Mitarbeiter von Fra Filippo di Tommaso (Filippo Lippi)"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-263.27533" y="-129.1999"/>
-        <viz:color r="0" g="183" b="255"/>
+        <viz:position x="-213.23494" y="-185.10838"/>
+        <viz:color r="128" g="0" b="128"/>
       </node>
       <node id="141" label="Fruosino di Piero">
         <attvalues>
@@ -1113,8 +1113,8 @@
           <attvalue for="verbindungen nach kapitel 8" value="Mitarbeiter von Fra Filippo di Tommaso (Filippo Lippi)"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-202.1022" y="-166.16107"/>
-        <viz:color r="0" g="183" b="255"/>
+        <viz:position x="-147.95503" y="-212.4195"/>
+        <viz:color r="128" g="0" b="128"/>
       </node>
       <node id="30" label="Antonio di Iacopo di Lorino di Cione">
         <attvalues>
@@ -1128,8 +1128,8 @@
           <attvalue for="verbindungen nach kapitel 8" value="Vater von Iacopo d’Antonio di Iacopo"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2.9140995" y="327.60245"/>
-        <viz:color r="255" g="109" b="48"/>
+        <viz:position x="-94.072365" y="320.02972"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="241" label="Mariotto di Nardo di Cione">
         <attvalues>
@@ -1147,8 +1147,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="215-217"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="76.22944" y="2.365196"/>
-        <viz:color r="169" g="64" b="55"/>
+        <viz:position x="90.21859" y="26.902454"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="90" label="Cione di Iacopo di Cione">
         <attvalues>
@@ -1164,8 +1164,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="215"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="41.249912" y="-28.994572"/>
-        <viz:color r="169" g="64" b="55"/>
+        <viz:position x="56.665756" y="-9.991603"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="268" label="Niccolò di Tommaso">
         <attvalues>
@@ -1182,8 +1182,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="212"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="116.25016" y="41.038475"/>
-        <viz:color r="169" g="64" b="55"/>
+        <viz:position x="124.85983" y="71.14702"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="210" label="Iacopo di Cione (Robiccia)">
         <attvalues>
@@ -1201,8 +1201,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="212-215"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="43.63801" y="-3.0342524"/>
-        <viz:color r="169" g="64" b="55"/>
+        <viz:position x="59.19872" y="16.055777"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="83" label="Bonaiuto di Giovanni di Bartolino Marini (Buto di Giovanni)">
         <attvalues>
@@ -1218,8 +1218,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="217+246"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="54.26182" y="35.93383"/>
-        <viz:color r="255" g="109" b="48"/>
+        <viz:position x="62.122894" y="58.94292"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="85" label="Buono di Marco di Buono">
         <attvalues>
@@ -1234,8 +1234,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="292"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-31.943306" y="41.113956"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="-28.123007" y="51.38767"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="193" label="Don Giuliano degli Amidei">
         <attvalues>
@@ -1249,8 +1249,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="290-291"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="330.71753" y="-193.03453"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="341.81863" y="-187.31903"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="311" label="Zanobi di Iacopo di Piero de’Machiavelli">
         <attvalues>
@@ -1267,8 +1267,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="290"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="318.41428" y="279.79495"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="291.5274" y="288.26535"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="310" label="Zanobi di Benedetto di Caroccio degli Strozzi">
         <attvalues>
@@ -1287,8 +1287,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="293-294"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="303.47" y="-196.7778"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="314.59732" y="-191.15833"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="159" label="Giovanni d'Antonio di Luca di Iacopo Varnucci">
         <attvalues>
@@ -1303,8 +1303,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="295"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="366.49692" y="145.84367"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="358.2184" y="194.83243"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="48" label="Bartolomeo d'Antonio di Luca di Iacopo Varnucci">
         <attvalues>
@@ -1319,8 +1319,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="295"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="344.7948" y="157.39084"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="337.18826" y="207.50862"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="264" label="Niccolò di Niccolò di Dello">
         <attvalues>
@@ -1336,8 +1336,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="291-292"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-65.44813" y="-379.7514"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="-39.55406" y="-384.85144"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="97" label="Dello di Niccolò di Dello (Dello Delli)">
         <attvalues>
@@ -1353,8 +1353,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="292"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-91.98453" y="-369.44534"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="-67.3956" y="-379.1832"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="138" label="Francesco di Stefano di Francesco (Pesellino)">
         <attvalues>
@@ -1372,8 +1372,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="278-280"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-184.99678" y="-40.843555"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="-146.42682" y="-87.30107"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="237" label="Marco di Buono di Marco Giamberti">
         <attvalues>
@@ -1391,8 +1391,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="287-288"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="57.909893" y="96.49423"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="47.061985" y="124.70215"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="312" label="Zanobi di Migliore">
         <attvalues>
@@ -1406,8 +1406,8 @@
           <attvalue for="verbindungen nach kapitel 8" value="Partner von Francesco di Stefano di Francesco (Pesellino)"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-205.86136" y="-26.660975"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="-169.81952" y="-78.03142"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="39" label="Appolonio di Giovanni di Tommaso">
         <attvalues>
@@ -1425,8 +1425,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="287-288"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="78.7497" y="110.92593"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="62.830482" y="144.59758"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="279" label="Piero di Donnino di Giovanni">
         <attvalues>
@@ -1442,8 +1442,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="291"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="348.5388" y="336.93356"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="320.37112" y="343.46713"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="124" label="Filippo di Matteo di Filippo Torelli">
         <attvalues>
@@ -1458,8 +1458,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="293-294"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="267.28534" y="-201.25563"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="278.35687" y="-194.67531"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="207" label="Iacopo d'Antonio di Iacopo di Lorino">
         <attvalues>
@@ -1475,8 +1475,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="284"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-7.299437" y="305.97937"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="-96.20585" y="296.2282"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="259" label="Neri di Bicci di Lorenzo">
         <attvalues>
@@ -1494,8 +1494,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="288-289"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-27.038736" y="71.13842"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="-25.195229" y="82.870316"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="5" label="Alesso di Baldovinetto d’Alesso de’ Baldovinetti">
         <attvalues>
@@ -1513,8 +1513,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="285-286"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="183.92145" y="54.69787"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="192.81825" y="81.50521"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="8" label="Andrea di Bartolomeo di Simone da Castagno (Andrea del Castagno)">
         <attvalues>
@@ -1532,8 +1532,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="283-284"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="162.09026" y="25.89267"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="173.6419" y="51.55843"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="289" label="Prete ser Riccardo di Giovanni da Castelfiorentino">
         <attvalues>
@@ -1546,8 +1546,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="294-295"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="273.09537" y="-171.3313"/>
-        <viz:color r="24" g="216" b="0"/>
+        <viz:position x="284.81412" y="-164.91556"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="103" label="Domenico di Francesco d'Antonio (Michelino)">
         <attvalues>
@@ -1562,8 +1562,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="286"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="266.45526" y="350.67056"/>
-        <viz:color r="255" g="95" b="154"/>
+        <viz:position x="258.63324" y="332.82193"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="101" label="Domenico di Bartolomeo da Venezia (Domenico Veneziano)">
         <attvalues>
@@ -1579,8 +1579,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="280-283"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="203.82663" y="79.51427"/>
-        <viz:color r="255" g="95" b="154"/>
+        <viz:position x="209.81635" y="108.02437"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="276" label="Piero di Benedetto di Piero Franceschi da Sansepolcro (Piero della Francesca)">
         <attvalues>
@@ -1596,8 +1596,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="281"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="219.11736" y="97.93449"/>
-        <viz:color r="255" g="95" b="154"/>
+        <viz:position x="222.72615" y="128.1681"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="6" label="Ambrogio di Baldese D’Ambrogio">
         <attvalues>
@@ -1616,8 +1616,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="220-221"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-110.95201" y="91.18634"/>
-        <viz:color r="161" g="187" b="0"/>
+        <viz:position x="-117.142586" y="56.006405"/>
+        <viz:color r="168" g="64" b="55"/>
       </node>
       <node id="88" label="Cenni di Francesco di ser Cenni">
         <attvalues>
@@ -1635,8 +1635,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="217"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="26.839651" y="16.803503"/>
-        <viz:color r="161" g="187" b="0"/>
+        <viz:position x="39.51611" y="33.59131"/>
+        <viz:color r="168" g="64" b="55"/>
       </node>
       <node id="274" label="Piero d'Antonio di Baldo (Piccinino)">
         <attvalues>
@@ -1652,8 +1652,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="101.28466" y="-249.75174"/>
-        <viz:color r="228" g="189" b="139"/>
+        <viz:position x="113.99753" y="-232.9302"/>
+        <viz:color r="0" g="183" b="253"/>
       </node>
       <node id="261" label="Niccolò d'Antonio di Baldo (Piccinino)">
         <attvalues>
@@ -1667,8 +1667,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="87.60433" y="-271.0213"/>
-        <viz:color r="228" g="189" b="139"/>
+        <viz:position x="100.59229" y="-254.37921"/>
+        <viz:color r="0" g="183" b="253"/>
       </node>
       <node id="309" label="Vittorio di Giovanni di Iacopo di Gherardo">
         <attvalues>
@@ -1684,8 +1684,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-199.8857" y="156.14511"/>
-        <viz:color r="228" g="189" b="139"/>
+        <viz:position x="-220.56296" y="92.307686"/>
+        <viz:color r="0" g="183" b="253"/>
       </node>
       <node id="144" label="Gherardo di Giovanni di Iacopo di Gherardo">
         <attvalues>
@@ -1701,8 +1701,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-212.37865" y="132.29074"/>
-        <viz:color r="228" g="189" b="139"/>
+        <viz:position x="-225.82693" y="66.052635"/>
+        <viz:color r="0" g="183" b="253"/>
       </node>
       <node id="164" label="Giovanni di Berto di Bartolo">
         <attvalues>
@@ -1718,8 +1718,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="74.09623" y="54.953777"/>
-        <viz:color r="228" g="189" b="139"/>
+        <viz:position x="78.095604" y="81.689606"/>
+        <viz:color r="0" g="183" b="253"/>
       </node>
       <node id="283" label="Piero di Lorenzo di Niccolò di Martino">
         <attvalues>
@@ -1735,8 +1735,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-156.72466" y="-57.874"/>
-        <viz:color r="228" g="189" b="139"/>
+        <viz:position x="-115.65842" y="-96.702835"/>
+        <viz:color r="0" g="183" b="253"/>
       </node>
       <node id="59" label="Bartolomeo di Piero di Niccolò di Martino">
         <attvalues>
@@ -1752,8 +1752,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-137.98154" y="-78.785965"/>
-        <viz:color r="228" g="189" b="139"/>
+        <viz:position x="-93.25866" y="-113.65663"/>
+        <viz:color r="0" g="183" b="253"/>
       </node>
       <node id="78" label="Bicci di Lorenzo di Bicci">
         <attvalues>
@@ -1771,8 +1771,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="242-245"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="6.183668" y="49.646954"/>
-        <viz:color r="166" g="158" b="255"/>
+        <viz:position x="9.141711" y="65.03593"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="295" label="Stefano d'Antonio di Giovanni di Guido">
         <attvalues>
@@ -1788,8 +1788,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="246"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-8.069273" y="22.805712"/>
-        <viz:color r="166" g="158" b="255"/>
+        <viz:position x="-1.3998793" y="36.36579"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="224" label="Lorenzo di Bicci da Nipozzano">
         <attvalues>
@@ -1806,8 +1806,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="226-227"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="4.1470113" y="77.63584"/>
-        <viz:color r="166" g="158" b="255"/>
+        <viz:position x="5.1382422" y="92.88049"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="80" label="Bindo di Niccolò di Piero Gerini">
         <attvalues>
@@ -1823,8 +1823,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="220"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-54.765438" y="-1.3510988"/>
-        <viz:color r="90" g="84" b="4"/>
+        <viz:position x="-40.569695" y="9.913937"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="228" label="Lorenzo di Niccolò di Martino">
         <attvalues>
@@ -1842,8 +1842,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="221-222"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-120.837906" y="-18.936426"/>
-        <viz:color r="90" g="84" b="4"/>
+        <viz:position x="-91.58408" y="-49.115875"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="265" label="Niccolò di Piero di Gero Gerini">
         <attvalues>
@@ -1861,8 +1861,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="217-220"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-89.67589" y="12.348179"/>
-        <viz:color r="90" g="84" b="4"/>
+        <viz:position x="-72.28474" y="-9.319154"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="202" label="Guasparre di Spinello di Luca da Arezzo (Parri Spinelli)">
         <attvalues>
@@ -1880,8 +1880,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="226"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-163.16267" y="32.34711"/>
-        <viz:color r="0" g="205" b="196"/>
+        <viz:position x="-146.73268" y="-13.078126"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="294" label="Spinello di Luca di Spinello di Forzore da Arezzo (Spinello Aretino)">
         <attvalues>
@@ -1899,8 +1899,8 @@
           <attvalue for="zuschreibungsdiskussion seite" value="222-226"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-137.08833" y="19.359"/>
-        <viz:color r="0" g="205" b="196"/>
+        <viz:position x="-117.98465" y="-17.72843"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="314" label="Agnolo di Taddeo Gaddi">
         <attvalues>
@@ -1909,7 +1909,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="209-210"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-6.402835" y="-93.898056"/>
+        <viz:position x="18.7294" y="-79.45471"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="315" label="Alvaro di Perez d’Evora">
@@ -1919,7 +1919,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="242"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-76.56349" y="-37.84428"/>
+        <viz:position x="-44.509224" y="-46.676025"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="316" label="Bartolo di Michele">
@@ -1929,7 +1929,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="252"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="117.74689" y="-59.665737"/>
+        <viz:position x="135.45415" y="-36.278854"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="317" label="Carlo di Lazzaro da Narni">
@@ -1938,7 +1938,7 @@
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete bei Don Lorenzo; ansonsten nicht in „Maler von Florenz“ berücksichtigt"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="243.29816" y="-52.13489"/>
+        <viz:position x="259.17606" y="-29.112053"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="318" label="Cennino d’Andrea da Colle">
@@ -1948,7 +1948,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-34.54901" y="-92.077415"/>
+        <viz:position x="-9.222232" y="-79.349754"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="319" label="Dante di Bernardo">
@@ -1958,7 +1958,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-361.57224" y="-55.135593"/>
+        <viz:position x="-308.0204" y="-100.39649"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="320" label="Domenico di Tommaso Bigordi (Ghirlandaio)">
@@ -1968,7 +1968,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="277"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-251.24838" y="-98.69115"/>
+        <viz:position x="-204.75876" y="-153.35976"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="321" label="Don Simone">
@@ -1978,7 +1978,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="236"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="99.11244" y="-204.14177"/>
+        <viz:position x="112.20942" y="-187.13596"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="322" label="Donato di Niccolò (Donatello)">
@@ -1988,7 +1988,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="253"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="61.747536" y="-49.923573"/>
+        <viz:position x="79.338234" y="-29.383923"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="323" label="Filippino Lippi">
@@ -1998,7 +1998,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="295"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-255.72191" y="-158.40257"/>
+        <viz:position x="-201.93164" y="-212.44052"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="324" label="Giacomo d’Antonio da Poli">
@@ -2008,7 +2008,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="273"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="213.13126" y="-63.933804"/>
+        <viz:position x="229.37173" y="-41.06866"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="325" label="Giovanni d’Antonio della Cecca da Firenze">
@@ -2018,7 +2018,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="273"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="215.30656" y="-2.550845"/>
+        <viz:position x="230.55884" y="20.438667"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="326" label="Giovanni da Imola">
@@ -2028,7 +2028,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-378.18832" y="-121.86298"/>
+        <viz:position x="-331.80182" y="-164.47034"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="327" label="Giusto d’Andrea">
@@ -2038,7 +2038,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="264"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-36.16385" y="-30.55205"/>
+        <viz:position x="-19.245522" y="-16.915258"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="328" label="Iacopo di Piero da Venezia">
@@ -2048,7 +2048,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-346.9784" y="-121.97661"/>
+        <viz:position x="-300.25644" y="-168.04433"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="329" label="Iacopo Rustighini da Frigoli">
@@ -2058,7 +2058,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-388.4263" y="-67.74979"/>
+        <viz:position x="-336.2156" y="-109.52343"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="330" label="Lorenzo di Cione Ghiberti">
@@ -2068,7 +2068,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="252-254"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="97.32185" y="-44.59815"/>
+        <viz:position x="114.471375" y="-21.988333"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="331" label="Nardo di Cione">
@@ -2078,7 +2078,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="210"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="99.31755" y="21.180056"/>
+        <viz:position x="110.52944" y="49.202156"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="332" label="Niccolò di Giovanni">
@@ -2088,7 +2088,7 @@
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-333.97098" y="-69.52243"/>
+        <viz:position x="-282.33862" y="-117.96535"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="333" label="Piermatteo da Amelia">
@@ -2097,7 +2097,7 @@
           <attvalue for="verbindungen nach kapitel 8" value="Mitarbeiter von Fra Filippo di Tommaso (Filippo Lippi); ansonsten nicht berücksichtigt"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-230.17166" y="-172.04866"/>
+        <viz:position x="-174.836" y="-221.91243"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
       <node id="334" label="Sansone di Niccolò">
@@ -2106,7 +2106,7 @@
           <attvalue for="verbindungen nach kapitel 8" value="Bruder Dello di Niccolò (Delli) und Niccolò di Niccolò; mit letzterem lebte er in Spanien zusammen. War nicht in Florenz als Maler tätig; daher nicht berücksichtigt."/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-85.91356" y="-397.3275"/>
+        <viz:position x="-56.74354" y="-405.64093"/>
         <viz:color r="173" g="179" b="175"/>
       </node>
     </nodes>
@@ -2124,7 +2124,7 @@
         </attvalues>
       </edge>
       <edge id="2" source="159" target="48" label="workedWith" weight="1.5">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
@@ -2166,7 +2166,7 @@
         </attvalues>
       </edge>
       <edge id="9" source="48" target="159" label="workedWith" weight="1.5">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
@@ -2219,14 +2219,14 @@
           <attvalue for="linetype" value="partnerOf"/>
         </attvalues>
       </edge>
-      <edge id="18" source="179" target="303" label="workedWith" weight="1.5" color="#af3417">
-        <viz:color r="49" g="255" b="45"/>
+      <edge id="18" source="179" target="303" label="workedWith" weight="1.5">
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="19" source="144" target="309" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
@@ -2286,13 +2286,13 @@
         </attvalues>
       </edge>
       <edge id="29" source="265" target="80" label="workedWith" weight="1.5">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="30" source="210" target="90" label="teacherOf" weight="2.5">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
@@ -2310,7 +2310,7 @@
         </attvalues>
       </edge>
       <edge id="33" source="294" target="202" label="workedWith" weight="1.5">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
@@ -2328,7 +2328,7 @@
         </attvalues>
       </edge>
       <edge id="36" source="78" target="259" label="teacherOf" weight="2.5">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
@@ -2340,7 +2340,7 @@
         </attvalues>
       </edge>
       <edge id="38" source="126" target="323" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
@@ -2412,181 +2412,181 @@
         </attvalues>
       </edge>
       <edge id="50" source="263" target="32" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="51" source="126" target="45" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="52" source="143" target="45" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="53" source="314" target="53" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="54" source="126" target="54" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="55" source="186" target="68" label="teacherOf" weight="2.5">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="56" source="330" target="68" label="teacherOf" weight="2.5">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="57" source="126" target="98" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="58" source="227" target="129" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="59" source="126" target="141" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="60" source="227" target="163" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="61" source="227" target="173" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="62" source="126" target="174" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="63" source="78" target="179" label="teacherOf" weight="2.5">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="64" source="196" target="207" label="otherFamily" weight="1.5">
-        <viz:color r="255" g="183" b="50"/>
+        <viz:color r="253" g="92" b="129"/>
         <attvalues>
           <attvalue for="linetype" value="otherFamily"/>
         </attvalues>
       </edge>
       <edge id="65" source="126" target="283" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="66" source="126" target="298" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="68" source="291" target="309" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="69" source="186" target="317" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="70" source="143" target="319" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="71" source="126" target="320" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="73" source="143" target="326" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="74" source="143" target="328" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="75" source="143" target="329" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="76" source="241" target="330" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="77" source="143" target="332" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="78" source="126" target="333" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="79" source="186" target="325" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="80" source="143" target="250" label="masterOf" weight="2.0">
-        <viz:color r="161" g="178" b="255"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="81" source="227" target="274" label="teacherOf" weight="2.5">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
@@ -2598,7 +2598,7 @@
         </attvalues>
       </edge>
       <edge id="84" source="303" target="239" label="otherFamily">
-        <viz:color r="255" g="183" b="50"/>
+        <viz:color r="253" g="92" b="129"/>
         <attvalues>
           <attvalue for="linetype" value="otherFamily"/>
         </attvalues>
@@ -2664,7 +2664,7 @@
         </attvalues>
       </edge>
       <edge id="101" source="265" target="228" label="teacherOf" weight="2.5">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
@@ -2748,307 +2748,307 @@
         </attvalues>
       </edge>
       <edge id="119" source="78" target="14" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="121" source="303" target="14" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="122" source="78" target="55" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="125" source="78" target="83" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="126" source="241" target="83" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="127" source="78" target="85" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="129" source="321" target="142" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="131" source="321" target="227" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="133" source="78" target="237" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="134" source="210" target="241" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="136" source="330" target="271" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="138" source="101" target="276" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="139" source="330" target="301" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="140" source="314" target="318" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="141" source="330" target="322" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="142" source="186" target="324" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="143" source="316" target="330" label="teacherOf" weight="3.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="144" source="124" target="289" label="teacherOf" weight="2.0">
-        <viz:color r="87" g="63" b="255"/>
+        <viz:color r="0" g="203" b="253"/>
         <attvalues>
           <attvalue for="linetype" value="teacherOf"/>
         </attvalues>
       </edge>
       <edge id="145" source="265" target="6" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="146" source="291" target="6" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="148" source="83" target="78" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="149" source="118" target="78" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="150" source="290" target="78" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="152" source="265" target="118" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="153" source="290" target="118" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="154" source="307" target="118" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="155" source="310" target="124" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="156" source="291" target="144" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="158" source="118" target="184" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="159" source="290" target="184" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="160" source="310" target="193" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="161" source="192" target="198" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="162" source="307" target="198" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="164" source="265" target="210" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="165" source="163" target="227" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="166" source="173" target="227" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="167" source="294" target="228" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="168" source="6" target="265" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="169" source="294" target="265" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="170" source="118" target="290" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="171" source="192" target="290" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="172" source="307" target="290" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="173" source="202" target="294" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="174" source="265" target="294" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="175" source="303" target="301" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="177" source="118" target="307" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="178" source="198" target="307" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="179" source="290" target="307" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="180" source="194" target="314" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="181" source="265" target="314" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>
       </edge>
       <edge id="182" source="265" target="315" label="workedWith">
-        <viz:color r="49" g="255" b="45"/>
+        <viz:color r="50" g="254" b="42"/>
         <attvalues>
           <attvalue for="linetype" value="workedWith"/>
         </attvalues>

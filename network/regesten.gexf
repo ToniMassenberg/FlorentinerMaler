@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
-  <meta lastmodifieddate="2023-07-02">
-    <creator>Gephi 0.10.1</creator>
-    <title></title>
+  <meta lastmodifieddate="2023-07-13">
+    <creator>Gephi 0.9.3</creator>
     <description></description>
   </meta>
   <graph defaultedgetype="directed" mode="static">
@@ -32,8 +31,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-51.75429" y="-292.81412"/>
-        <viz:color r="0" g="151" b="255"/>
+        <viz:position x="-17.442537" y="-235.65263"/>
+        <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="301" label="Tommaso di Cristofano di Fino (Masolino)">
         <attvalues>
@@ -47,8 +46,8 @@
           <attvalue for="todesjahr" value="nach 1423"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-68.2566" y="-285.88156"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-60.105453" y="-207.1315"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="274" label="Piero d’Antonio di Baldo (Piccinino)">
         <attvalues>
@@ -60,8 +59,8 @@
           <attvalue for="arte dei medici e speziali" value="1417"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="124.19036" y="553.722"/>
-        <viz:color r="246" g="109" b="0"/>
+        <viz:position x="131.94968" y="514.79944"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="215" label="Iacopo di Piero d’Antonio (Piccino)">
         <attvalues>
@@ -71,8 +70,8 @@
           <attvalue for="todesjahr" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="105.77437" y="484.3125"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="81.06468" y="421.17105"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="44" label="Baldo di Piero d’Antonio di Baldo">
         <attvalues>
@@ -83,8 +82,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="75.87414" y="486.22232"/>
-        <viz:color r="70" g="129" b="50"/>
+        <viz:position x="22.365976" y="406.12427"/>
+        <viz:color r="75" g="0" b="130"/>
       </node>
       <node id="242" label="Massaio di Iacopo di Massaio">
         <attvalues>
@@ -96,8 +95,8 @@
           <attvalue for="arte dei medici e speziali" value="1398"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="76.98925" y="290.23923"/>
-        <viz:color r="246" g="109" b="0"/>
+        <viz:position x="59.976536" y="258.73016"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="285" label="Piero di Massaio di Iacopo di Massaio">
         <attvalues>
@@ -109,8 +108,8 @@
           <attvalue for="arte dei medici e speziali" value="1439"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="93.490036" y="283.38467"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="122.14009" y="246.06978"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="261" label="Niccolò d’Antonio di Baldo (Piccinino)">
         <attvalues>
@@ -121,8 +120,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1425-1426"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="93.87623" y="557.3264"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-16.212421" y="542.93744"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="46" label="Barnaba di Michele di Borgo (Fattorino)">
         <attvalues>
@@ -133,8 +132,8 @@
           <attvalue for="arte dei medici e speziali" value="1406"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-251.74805" y="-148.46866"/>
-        <viz:color r="186" g="77" b="86"/>
+        <viz:position x="-213.38177" y="-139.89511"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="162" label="Giovanni di Barnaba di Michele">
         <attvalues>
@@ -145,8 +144,8 @@
           <attvalue for="arte dei medici e speziali" value="1420"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-259.72998" y="-132.3422"/>
-        <viz:color r="186" g="77" b="86"/>
+        <viz:position x="-238.20871" y="-93.75881"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="2" label="Agnolo di Filippo di Paolo (Agnolo di Lazzaro)">
         <attvalues>
@@ -157,8 +156,8 @@
           <attvalue for="arte dei medici e speziali" value="1407"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-253.70169" y="-302.41953"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="-267.6296" y="-217.66634"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="77" label="Biagio d’Agnolo di Filippo di Paolo">
         <attvalues>
@@ -169,8 +168,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-250.08824" y="-274.64154"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="-222.1715" y="-284.5691"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="161" label="Giovanni di Bandino">
         <attvalues>
@@ -181,8 +180,8 @@
           <attvalue for="arte dei medici e speziali" value="1378"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="435.06592" y="-212.01183"/>
-        <viz:color r="158" g="103" b="26"/>
+        <viz:position x="482.1055" y="-206.31073"/>
+        <viz:color r="128" g="0" b="128"/>
       </node>
       <node id="119" label="Filippo di Bandino">
         <attvalues>
@@ -192,8 +191,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="418.63303" y="-225.08582"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="279.23068" y="-152.61882"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="244" label="Matteo di Filippo Torelli">
         <attvalues>
@@ -204,8 +203,8 @@
           <attvalue for="arte dei medici e speziali" value="1388"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-554.7984" y="-493.11377"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="-440.67145" y="-257.9079"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="32" label="Antonio di Matteo di Filippo Torelli">
         <attvalues>
@@ -216,8 +215,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-513.55743" y="-527.6869"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="-292.59717" y="-373.26114"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="124" label="Filippo di Matteo di Filippo Torelli">
         <attvalues>
@@ -228,8 +227,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-505.2801" y="-488.45895"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="-324.08768" y="-254.76329"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="225" label="Lorenzo di Bindo di Filippo Roselli">
         <attvalues>
@@ -240,8 +239,8 @@
           <attvalue for="arte dei medici e speziali" value="1422"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="223.79784" y="203.5535"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="154.25967" y="144.32469"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="79" label="Bindo di Lorenzo di Bindo di Filippo Rosselli">
         <attvalues>
@@ -252,8 +251,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="236.84044" y="215.719"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="203.6721" y="173.2484"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="159" label="Giovanni d’Antonio di Luca di Iacopo Varnucci">
         <attvalues>
@@ -264,8 +263,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="101.48449" y="-482.98038"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="124.50561" y="-397.32965"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="48" label="Bartolomeo d’Antonio di Luca di Iacopo Varnucci">
         <attvalues>
@@ -276,8 +275,8 @@
           <attvalue for="arte dei medici e speziali" value="1440"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="83.54568" y="-472.3452"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="54.26662" y="-308.57306"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="52" label="Bartolomeo di Filippo Torelli">
         <attvalues>
@@ -288,8 +287,8 @@
           <attvalue for="arte dei medici e speziali" value="1402"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-554.3629" y="-526.51117"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="-427.14703" y="-392.58206"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="53" label="Bartolomeo di Fruosino di Fruosino">
         <attvalues>
@@ -300,8 +299,8 @@
           <attvalue for="arte dei medici e speziali" value="1402"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="335.11627" y="-329.7523"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="272.71176" y="-232.0493"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="177" label="Giovanni di Fruosino di Fruosino">
         <attvalues>
@@ -312,8 +311,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="319.0494" y="-343.17133"/>
-        <viz:color r="161" g="94" b="162"/>
+        <viz:position x="209.05643" y="-250.7037"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="73" label="Berto di ser Marco di Berto Sanguini">
         <attvalues>
@@ -324,8 +323,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="403.85712" y="231.68945"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="299.8554" y="204.01292"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="63" label="Battista di Biagio Sanguini">
         <attvalues>
@@ -338,8 +337,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="415.62872" y="214.40286"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="297.06094" y="127.80607"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="255" label="Michele di Giovanni Stracchi">
         <attvalues>
@@ -350,8 +349,8 @@
           <attvalue for="arte dei medici e speziali" value="1387"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="16.681412" y="-306.9362"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="31.412756" y="-199.13461"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="4" label="Alberto di Michele di Giovanni Stracchi">
         <attvalues>
@@ -362,8 +361,8 @@
           <attvalue for="arte dei medici e speziali" value="1440"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="18.474327" y="-324.68518"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="27.348658" y="-252.34529"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="106" label="Domenico di Guido di Bonaiuto">
         <attvalues>
@@ -375,8 +374,8 @@
           <attvalue for="andere zunft" value="1422 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="799.7984" y="-12.636084"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="434.63016" y="-49.13833"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="10" label="Andrea di Domenico di Guido">
         <attvalues>
@@ -388,8 +387,8 @@
           <attvalue for="andere zunft" value="vor 1422 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="834.53613" y="-35.619637"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="526.43634" y="-139.64198"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="205" label="Guido di Domenico di Guido">
         <attvalues>
@@ -400,8 +399,8 @@
           <attvalue for="arte dei medici e speziali" value="1400"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="827.887" y="25.915781"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="501.9315" y="155.26288"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="302" label="Tommaso di Domenico di Guido">
         <attvalues>
@@ -412,8 +411,8 @@
           <attvalue for="arte dei medici e speziali" value="1376"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="862.2111" y="-0.5775798"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="564.23193" y="15.010802"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="18" label="Andrea di Stagio di Dino Guiducci">
         <attvalues>
@@ -425,8 +424,8 @@
           <attvalue for="andere zunft" value="1422 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-338.68405" y="336.75687"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-273.6084" y="310.47037"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="20" label="Antonio d’Andrea di Stagio di Dino">
         <attvalues>
@@ -437,8 +436,8 @@
           <attvalue for="arte dei medici e speziali" value="1433"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-282.78992" y="302.07465"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-154.84734" y="232.36884"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="273" label="Piero d’Andrea">
         <attvalues>
@@ -449,8 +448,8 @@
           <attvalue for="arte dei medici e speziali" value="1403"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-347.31052" y="-49.089"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-208.45705" y="-21.119465"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="35" label="Antonio di Piero d’Andrea">
         <attvalues>
@@ -462,8 +461,8 @@
           <attvalue for="andere zunft" value="1437 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-361.34543" y="-66.81286"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-311.48105" y="-55.831978"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="61" label="Bartolomeo di Tommado di Domenico">
         <attvalues>
@@ -475,8 +474,8 @@
           <attvalue for="andere zunft" value="1444 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="765.90155" y="9.516113"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="421.80396" y="51.937016"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="237" label="Marco di Buono di Marco Giamberti">
         <attvalues>
@@ -490,8 +489,8 @@
           <attvalue for="arte dei medici e speziali" value="1426"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-455.6463" y="76.16427"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-383.62775" y="-0.30786172"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="85" label="Buono di Marco di Buono">
         <attvalues>
@@ -503,8 +502,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-474.0283" y="96.290855"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-461.04062" y="60.61209"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="16" label="Andrea di Nuto">
         <attvalues>
@@ -516,8 +515,8 @@
           <attvalue for="andere zunft" value="1422 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="405.19977" y="6.080653"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="248.9811" y="0.5182853"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="94" label="Cristofano d’Andrea di Nuto">
         <attvalues>
@@ -528,8 +527,8 @@
           <attvalue for="arte dei medici e speziali" value="1398"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="430.0003" y="-2.2080426"/>
-        <viz:color r="0" g="181" b="0"/>
+        <viz:position x="289.33224" y="29.121292"/>
+        <viz:color r="7" g="186" b="185"/>
       </node>
       <node id="216" label="Iacopo di Piero di Guido">
         <attvalues>
@@ -540,8 +539,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="294.99786" y="-1.776475"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="206.2832" y="24.47667"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="107" label="Domenico di Iacopo di Piero di Guido">
         <attvalues>
@@ -553,8 +552,8 @@
           <attvalue for="andere zunft" value="1422 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="293.48108" y="-19.614899"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="207.31993" y="-28.837004"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="201" label="Guasparre di Bonaccorso di Lapo">
         <attvalues>
@@ -565,8 +564,8 @@
           <attvalue for="arte dei medici e speziali" value="1402"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="368.5881" y="530.5644"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="292.16452" y="495.7502"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="181" label="Giovanni di Guasparre di Bonaccorso">
         <attvalues>
@@ -577,8 +576,8 @@
           <attvalue for="arte dei medici e speziali" value="1418"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="359.58188" y="494.20187"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="302.36838" y="356.27948"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="29" label="Antonio di Iacopo (Schiaccina)">
         <attvalues>
@@ -590,8 +589,8 @@
           <attvalue for="andere zunft" value="unbekannt"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-535.0776" y="-140.7121"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-390.39603" y="-77.59519"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="207" label="Iacopo d’Antonio di Iacopo di Lorino">
         <attvalues>
@@ -603,8 +602,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-574.5714" y="-149.51117"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-437.35083" y="-138.8767"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="208" label="Iacopo d’Antonio di Piero d’Andrea">
         <attvalues>
@@ -615,8 +614,8 @@
           <attvalue for="arte dei medici e speziali" value="1443"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-336.64987" y="-78.24682"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-250.59868" y="-48.38851"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="275" label="Piero di Benedetto di Benedetto">
         <attvalues>
@@ -627,8 +626,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-97.35305" y="790.3005"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-102.90764" y="608.16833"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="9" label="Andrea di Benedetto di Benedetto">
         <attvalues>
@@ -639,8 +638,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-73.07519" y="764.799"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="56.05669" y="592.3391"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="253" label="Michele di Benedetto di Benedetto (Michelino)">
         <attvalues>
@@ -651,8 +650,8 @@
           <attvalue for="arte dei medici e speziali" value="1404"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-109.00889" y="757.3357"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-164.69234" y="505.5869"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="219" label="Lapo di Bonaccorso di Lapo">
         <attvalues>
@@ -663,8 +662,8 @@
           <attvalue for="arte dei medici e speziali" value="1374"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="390.62875" y="514.4843"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="408.64905" y="446.67538"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="292" label="Silvestro di Dino di Giovanni di Dino Amici">
         <attvalues>
@@ -676,8 +675,8 @@
           <attvalue for="andere zunft" value="1421 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="76.94503" y="-799.42487"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-58.955296" y="-542.83246"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="69" label="Bernardo di Dino di Giovanni Amici">
         <attvalues>
@@ -688,8 +687,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="105.51885" y="-825.81116"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="75.379005" y="-582.25494"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="167" label="Giovanni di Dino di Giovanni Amici (Stampino)">
         <attvalues>
@@ -701,8 +700,8 @@
           <attvalue for="andere zunft" value="1435 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="126.51144" y="-793.08575"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="180.93626" y="-495.77"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="117" label="Donnino di Giovanni di Francesco">
         <attvalues>
@@ -714,8 +713,8 @@
           <attvalue for="andere zunft" value="1433 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="338.04315" y="-491.25546"/>
-        <viz:color r="70" g="129" b="50"/>
+        <viz:position x="267.57596" y="-360.7692"/>
+        <viz:color r="75" g="0" b="130"/>
       </node>
       <node id="171" label="Giovanni di Donnino di Giovanni">
         <attvalues>
@@ -726,8 +725,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="343.6866" y="-523.39594"/>
-        <viz:color r="70" g="129" b="50"/>
+        <viz:position x="284.02985" y="-465.29343"/>
+        <viz:color r="75" g="0" b="130"/>
       </node>
       <node id="279" label="Piero di Donnino di Giovanni">
         <attvalues>
@@ -739,8 +738,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="366.21326" y="-508.15396"/>
-        <viz:color r="70" g="129" b="50"/>
+        <viz:position x="380.99313" y="-437.49316"/>
+        <viz:color r="75" g="0" b="130"/>
       </node>
       <node id="140" label="Franco di Piero">
         <attvalues>
@@ -751,8 +750,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="542.2987" y="328.32147"/>
-        <viz:color r="70" g="129" b="50"/>
+        <viz:position x="487.07785" y="270.717"/>
+        <viz:color r="75" g="0" b="130"/>
       </node>
       <node id="176" label="Giovanni di Franco di Piero">
         <attvalues>
@@ -763,8 +762,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="506.04694" y="321.45996"/>
-        <viz:color r="70" g="129" b="50"/>
+        <viz:position x="353.933" y="259.88937"/>
+        <viz:color r="75" g="0" b="130"/>
       </node>
       <node id="136" label="Francesco di Piero">
         <attvalues>
@@ -775,8 +774,8 @@
           <attvalue for="arte dei medici e speziali" value="1384"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="527.86096" y="351.5344"/>
-        <viz:color r="70" g="129" b="50"/>
+        <viz:position x="410.75494" y="337.09973"/>
+        <viz:color r="75" g="0" b="130"/>
       </node>
       <node id="191" label="Giovanni di Tommaso">
         <attvalues>
@@ -785,8 +784,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-80.439316" y="497.0694"/>
-        <viz:color r="161" g="94" b="162"/>
+        <viz:position x="-69.66045" y="414.89752"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="199" label="Giusto di Tommaso">
         <attvalues>
@@ -796,8 +795,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1404-1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-60.779835" y="490.0123"/>
-        <viz:color r="161" g="94" b="162"/>
+        <viz:position x="-29.967224" y="339.8719"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="99" label="Dino di Giovanni Amici">
         <attvalues>
@@ -808,8 +807,8 @@
           <attvalue for="arte dei medici e speziali" value="1413"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="97.28625" y="-761.7186"/>
-        <viz:color r="255" g="49" b="153"/>
+        <viz:position x="37.767258" y="-446.2912"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="11" label="Andrea di Giovanni di Francesco Mangiabotti">
         <attvalues>
@@ -820,8 +819,8 @@
           <attvalue for="arte dei medici e speziali" value="1434"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-159.46782" y="251.65642"/>
-        <viz:color r="255" g="49" b="153"/>
+        <viz:position x="-136.8184" y="179.70038"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="128" label="Francesco d’Andrea di Giovanni Mangiabotti">
         <attvalues>
@@ -832,8 +831,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-142.85728" y="258.3475"/>
-        <viz:color r="255" g="49" b="153"/>
+        <viz:position x="-76.43637" y="188.9948"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="224" label="Lorenzo di Bicci da Nipozzano">
         <attvalues>
@@ -848,8 +847,8 @@
           <attvalue for="arte dei medici e speziali" value="ca.1359"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-457.1866" y="211.89539"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-327.62033" y="252.34491"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="78" label="Bicci di Lorenzo di Bicci">
         <attvalues>
@@ -864,8 +863,8 @@
           <attvalue for="arte dei medici e speziali" value="1398"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-492.6439" y="220.32166"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-305.75775" y="129.84914"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="265" label="Niccolò di Piero di Gero Gerini">
         <attvalues>
@@ -880,8 +879,8 @@
           <attvalue for="arte dei medici e speziali" value="1368"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="157.22195" y="-283.1561"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="135.41733" y="-242.34656"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="80" label="Bindo di Niccolò di Piero Gerini">
         <attvalues>
@@ -893,8 +892,8 @@
           <attvalue for="arte dei medici e speziali" value="1417"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="148.54205" y="-267.53305"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="108.361885" y="-187.94017"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="210" label="Iacopo di Cione (Robiccia)">
         <attvalues>
@@ -909,8 +908,8 @@
           <attvalue for="arte dei medici e speziali" value="1369"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="89.7847" y="-309.43683"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="80.37712" y="-238.94301"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="90" label="Cione di Iacopo di Cione">
         <attvalues>
@@ -922,8 +921,8 @@
           <attvalue for="arte dei medici e speziali" value="1404"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="84.67025" y="-292.30737"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="65.13225" y="-169.44536"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="290" label="Rossello di Iacopo di Scolaio Franchi (del Rosso)">
         <attvalues>
@@ -938,8 +937,8 @@
           <attvalue for="arte dei medici e speziali" value="1397"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-334.85922" y="551.29443"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-281.20892" y="494.65067"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="192" label="Gismirante di Rosello di Iacopo">
         <attvalues>
@@ -951,8 +950,8 @@
           <attvalue for="arte dei medici e speziali" value="1439 als Kaufmann"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-327.58273" y="515.0963"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-274.46243" y="401.553"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="294" label="Spinello di Luca di Spinello di Forzore da Arezzo (Spinello Aretino)">
         <attvalues>
@@ -967,8 +966,8 @@
           <attvalue for="arte dei medici e speziali" value="1386/1387"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="305.77954" y="84.0107"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="243.15639" y="80.51187"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="202" label="Guasparre di Spinello di Luca da Arezzo (Parri Spinelli)">
         <attvalues>
@@ -983,8 +982,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="291.61517" y="73.21093"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="184.73048" y="62.034885"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="259" label="Neri di Bicci di Lorenzo">
         <attvalues>
@@ -999,8 +998,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-398.49915" y="165.19383"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-212.5952" y="90.02954"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="228" label="Lorenzo di Niccolò di Martino">
         <attvalues>
@@ -1014,8 +1013,8 @@
           <attvalue for="arte dei medici e speziali" value="1392"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-102.83447" y="337.15216"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-100.2775" y="233.13896"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="283" label="Piero di Lorenzo di Niccolò di Martino">
         <attvalues>
@@ -1027,8 +1026,8 @@
           <attvalue for="arte dei medici e speziali" value="1422"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-92.17099" y="357.40326"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-77.199615" y="286.3467"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="175" label="Giovanni di Francesco Toscani">
         <attvalues>
@@ -1043,8 +1042,8 @@
           <attvalue for="andere zunft" value="1422 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="339.28885" y="329.9319"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="232.80928" y="226.3"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="104" label="Domenico di Francesco Toscani">
         <attvalues>
@@ -1058,8 +1057,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="323.61536" y="343.75757"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="206.0323" y="282.6059"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="309" label="Vittorio di Giovanni di Iacopo di Gherardo">
         <attvalues>
@@ -1071,8 +1070,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="195.03618" y="-435.51987"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="119.841" y="-317.4311"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="144" label="Gherardo di Giovanni di Iacopo di Gherardo">
         <attvalues>
@@ -1084,8 +1083,8 @@
           <attvalue for="arte dei medici e speziali" value="1426"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="210.13501" y="-421.06046"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="191.75896" y="-321.56656"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="196" label="Giuliano di Iacopo di Lorino di Cino">
         <attvalues>
@@ -1097,8 +1096,8 @@
           <attvalue for="arte dei medici e speziali" value="1431"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-647.8583" y="-140.63344"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-566.2241" y="-45.596184"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="30" label="Antonio di Iacopo di Lorino di Cione">
         <attvalues>
@@ -1109,8 +1108,8 @@
           <attvalue for="arte dei medici e speziali" value="1418"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-632.5707" y="-169.78363"/>
-        <viz:color r="0" g="181" b="0"/>
+        <viz:position x="-540.9016" y="-179.8443"/>
+        <viz:color r="7" g="186" b="185"/>
       </node>
       <node id="198" label="Giunta di Iacopo di Scolaio Franchi">
         <attvalues>
@@ -1122,8 +1121,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-358.0145" y="536.7358"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-393.5683" y="425.54956"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="286" label="Piero di Miniato di Meglio">
         <attvalues>
@@ -1136,8 +1135,8 @@
           <attvalue for="arte dei medici e speziali" value="1407"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-19.054487" y="-492.3763"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-6.847811" y="-353.1857"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="34" label="Antonio di Miniato di Meglio">
         <attvalues>
@@ -1149,8 +1148,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-39.651745" y="-495.87442"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-72.85865" y="-397.081"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="264" label="Niccolò di Niccolò di Dello">
         <attvalues>
@@ -1162,8 +1161,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="489.54025" y="110.814"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="346.85205" y="61.430798"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="97" label="Dello di Niccolò di Dello (Dello Delli)">
         <attvalues>
@@ -1175,8 +1174,8 @@
           <attvalue for="arte dei medici e speziali" value="1433"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="478.41794" y="128.49611"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="386.9619" y="157.64001"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="303" label="Tommaso di ser Giovanni di Simone da San Giovanni Valdarno (Masaccio)">
         <attvalues>
@@ -1191,8 +1190,8 @@
           <attvalue for="arte dei medici e speziali" value="1422"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-643.2645" y="240.40605"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-530.81714" y="251.79765"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="179" label="Giovanni di ser Giovanni di Simone da San Giovanni Valdarno (Lo Scheggia)">
         <attvalues>
@@ -1206,8 +1205,8 @@
           <attvalue for="arte dei medici e speziali" value="1433"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-659.63324" y="212.46074"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-569.92554" y="98.661514"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="272" label="Paolo di Stefano (Paolo Schiavo)">
         <attvalues>
@@ -1222,8 +1221,8 @@
           <attvalue for="arte dei medici e speziali" value="1429"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-195.823" y="446.1884"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-145.45001" y="312.689"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="151" label="Giovanni (Giovanni Schiavo)">
         <attvalues>
@@ -1234,8 +1233,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1448"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-181.56956" y="461.48444"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-157.3464" y="386.11945"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="59" label="Bartolomeo di Piero di Niccolò di Martino">
         <attvalues>
@@ -1247,8 +1246,8 @@
           <attvalue for="arte dei medici e speziali" value="1412"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-72.81024" y="345.49002"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-35.66213" y="234.46013"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="239" label="Mariotto di Cristofano di Bonaccorso da San Giovanni Valdarno">
         <attvalues>
@@ -1263,8 +1262,8 @@
           <attvalue for="andere zunft" value="1419 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-627.8143" y="207.62317"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-457.92087" y="142.31656"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="125" label="Filippo di Paolo">
         <attvalues>
@@ -1274,8 +1273,8 @@
           <attvalue for="todesjahr" value="nach 1407"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-231.4082" y="-299.39758"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-146.799" y="-203.11247"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="214" label="Iacopo di Lorino di Cione">
         <attvalues>
@@ -1286,8 +1285,8 @@
           <attvalue for="arte dei medici e speziali" value="1382"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-615.5699" y="-137.62056"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-458.38818" y="-24.35505"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="33" label="Antonio di Michele di Ventura">
         <attvalues>
@@ -1298,8 +1297,8 @@
           <attvalue for="arte dei medici e speziali" value="1384"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-156.94363" y="-245.47075"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-109.64955" y="-170.1612"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="49" label="Bartolomeo d’Antonio di Michele">
         <attvalues>
@@ -1310,8 +1309,8 @@
           <attvalue for="arte dei medici e speziali" value="1402"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-170.86223" y="-234.06522"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-141.36876" y="-133.0292"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="297" label="Stefano di Francesco Borgoli">
         <attvalues>
@@ -1322,8 +1321,8 @@
           <attvalue for="arte dei medici e speziali" value="1406"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-371.5123" y="-204.43306"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-334.92725" y="-143.42357"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="138" label="Francesco di Stefano di Francesco (Pesellino)">
         <attvalues>
@@ -1338,8 +1337,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-352.9752" y="-180.62001"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-265.16205" y="-122.82229"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="112" label="Domenico di Nuccio di Iacopo">
         <attvalues>
@@ -1350,8 +1349,8 @@
           <attvalue for="arte dei medici e speziali" value="1378"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="177.12523" y="258.82736"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="150.49568" y="200.20322"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="212" label="Iacopo di Domenico di Nuccio">
         <attvalues>
@@ -1362,8 +1361,8 @@
           <attvalue for="arte dei medici e speziali" value="1404 als Speziale"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="161.07285" y="251.12852"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="100.2797" y="175.63104"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="246" label="Matteo di Iacopo di Lapo di Guccio">
         <attvalues>
@@ -1374,8 +1373,8 @@
           <attvalue for="arte dei medici e speziali" value="1378"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-208.83629" y="-576.48944"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-138.0085" y="-470.48608"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="72" label="Berto di Iacopo di Lapo di Guccio">
         <attvalues>
@@ -1386,8 +1385,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-234.18962" y="-566.6056"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-240.45825" y="-522.8081"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="222" label="Leone di Lapo di Guccio">
         <attvalues>
@@ -1398,8 +1397,8 @@
           <attvalue for="arte dei medici e speziali" value="1378"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-211.08011" y="-543.7802"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-185.05054" y="-395.02103"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="299" label="Stefano di Lorenzo di Puccetto">
         <attvalues>
@@ -1410,8 +1409,8 @@
           <attvalue for="arte dei medici e speziali" value="1403"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="424.21597" y="-88.27371"/>
-        <viz:color r="0" g="181" b="0"/>
+        <viz:position x="287.57016" y="-89.91121"/>
+        <viz:color r="7" g="186" b="185"/>
       </node>
       <node id="139" label="Francesco di Stefano di Lorenzo">
         <attvalues>
@@ -1422,8 +1421,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="392.07892" y="-91.1318"/>
-        <viz:color r="0" g="181" b="0"/>
+        <viz:position x="237.26765" y="-64.81905"/>
+        <viz:color r="7" g="186" b="185"/>
       </node>
       <node id="211" label="Iacopo di Cristofano d’Andrea di Nuto">
         <attvalues>
@@ -1434,8 +1433,8 @@
           <attvalue for="arte dei medici e speziali" value="1421"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="451.60556" y="-30.177597"/>
-        <viz:color r="0" g="181" b="0"/>
+        <viz:position x="342.50473" y="-38.98507"/>
+        <viz:color r="7" g="186" b="185"/>
       </node>
       <node id="194" label="Giuliano d’Arrigo di Gioccolo Giochi (Pesello)">
         <attvalues>
@@ -1449,8 +1448,8 @@
           <attvalue for="arte dei medici e speziali" value="1385"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-356.70752" y="-230.9597"/>
-        <viz:color r="0" g="181" b="0"/>
+        <viz:position x="-265.93777" y="-188.4153"/>
+        <viz:color r="7" g="186" b="185"/>
       </node>
       <node id="91" label="Cipriano di Simone di Francesco">
         <attvalues>
@@ -1461,8 +1460,8 @@
           <attvalue for="arte dei medici e speziali" value="1421"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-327.10556" y="-225.81494"/>
-        <viz:color r="0" g="181" b="0"/>
+        <viz:position x="-192.87172" y="-179.35858"/>
+        <viz:color r="7" g="186" b="185"/>
       </node>
       <node id="203" label="Guccio d’Aghinetto">
         <attvalues>
@@ -1473,8 +1472,8 @@
           <attvalue for="arte dei medici e speziali" value="1377"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-224.3341" y="180.5316"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="-140.13945" y="125.62577"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="182" label="Giovanni di Guccio d’Aghinetto">
         <attvalues>
@@ -1485,8 +1484,8 @@
           <attvalue for="arte dei medici e speziali" value="1421"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-233.79771" y="165.1898"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="-158.08385" y="82.138916"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="1" label="Agnolo di Baldino di Michele">
         <attvalues>
@@ -1497,8 +1496,8 @@
           <attvalue for="arte dei medici e speziali" value="1401"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="264.82858" y="-184.99455"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="212.1359" y="-158.45564"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="251" label="Michele d’Agnolo di Baldino di Michele">
         <attvalues>
@@ -1509,8 +1508,8 @@
           <attvalue for="arte dei medici e speziali" value="1418"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="249.84521" y="-175.29187"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="156.13954" y="-106.95809"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="189" label="Giovanni di Scolaio">
         <attvalues>
@@ -1522,8 +1521,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="521.64026" y="-356.12744"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="415.15204" y="-350.8455"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="291" label="Scolaio di Giovanni di Scolaio">
         <attvalues>
@@ -1537,8 +1536,8 @@
           <attvalue for="arte dei medici e speziali" value="1402"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="500.0875" y="-326.0327"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="342.70404" y="-251.78703"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="114" label="Domenico di Stefano di Bartolo Giannuzzi">
         <attvalues>
@@ -1549,8 +1548,8 @@
           <attvalue for="arte dei medici e speziali" value="1384"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="5.414787" y="301.89767"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="9.367172" y="246.66966"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="296" label="Stefano di Domenico di Stefano di Bartolo Giannuzzi">
         <attvalues>
@@ -1561,8 +1560,8 @@
           <attvalue for="arte dei medici e speziali" value="1413"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-10.376304" y="293.48465"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="-22.766298" y="186.7291"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="137" label="Francesco di Scolaio">
         <attvalues>
@@ -1573,8 +1572,8 @@
           <attvalue for="arte dei medici e speziali" value="1368"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="536.3193" y="-333.0342"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="443.41635" y="-273.14636"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="5" label="Alesso di Baldovinetto d’Alesso de’ Baldovinetti">
         <attvalues>
@@ -1589,8 +1588,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="34.54248" y="117.83311"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="29.19179" y="77.903564"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="6" label="Ambrogio di Baldese D’Ambrogio">
         <attvalues>
@@ -1605,8 +1604,8 @@
           <attvalue for="andere zunft" value="1422 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="54.12439" y="-92.72627"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="28.392454" y="-44.855812"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="7" label="Ambrogio di Salario da Sardegna">
         <attvalues>
@@ -1616,8 +1615,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="bezeugt 1433 in Florenz"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="0.8749753" y="-116.705376"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="2.0709052" y="-76.57258"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="8" label="Andrea di Bartolomeo di Simone da Castagno (Andrea del Castagno)">
         <attvalues>
@@ -1632,8 +1631,8 @@
           <attvalue for="arte dei medici e speziali" value="1444"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-190.48042" y="43.047337"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-156.8982" y="37.44356"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="12" label="Andrea di Giovanni di Guiduccio">
         <attvalues>
@@ -1644,8 +1643,8 @@
           <attvalue for="arte dei medici e speziali" value="1375"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="135.98067" y="12.768534"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="100.45959" y="3.8870552"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="13" label="Andrea di Giuliano d’Andrea">
         <attvalues>
@@ -1656,8 +1655,8 @@
           <attvalue for="arte dei medici e speziali" value="1438"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="449.511" y="-64.81573"/>
-        <viz:color r="0" g="181" b="0"/>
+        <viz:position x="370.43552" y="-131.37732"/>
+        <viz:color r="7" g="186" b="185"/>
       </node>
       <node id="14" label="Andrea di Giusto di Giovanni Brugli">
         <attvalues>
@@ -1673,8 +1672,8 @@
           <attvalue for="andere zunft" value="1445 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-572.2284" y="236.03242"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-431.49707" y="236.55237"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="15" label="Andrea di Matteo">
         <attvalues>
@@ -1684,8 +1683,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1443"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-140.34697" y="17.1026"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-100.890976" y="4.5635257"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="17" label="Andrea di Sandro">
         <attvalues>
@@ -1695,8 +1694,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-367.04602" y="67.21737"/>
-        <viz:color r="0" g="181" b="0"/>
+        <viz:position x="-240.72868" y="30.864618"/>
+        <viz:color r="7" g="186" b="185"/>
       </node>
       <node id="3" label="Anolo di Giovanni">
         <attvalues>
@@ -1706,8 +1705,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-290.12985" y="331.56168"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-237.13953" y="354.4512"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="21" label="Antonio d’Antonio">
         <attvalues>
@@ -1718,8 +1717,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-93.52306" y="-3.4143026"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-55.01571" y="-0.21132883"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="19" label="Antonio dalla Mattonaia">
         <attvalues>
@@ -1729,8 +1728,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="45.81713" y="67.0682"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="23.362179" y="31.84308"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="22" label="Antonio di Cambio">
         <attvalues>
@@ -1741,8 +1740,8 @@
           <attvalue for="arte dei medici e speziali" value="1380"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-106.40265" y="-33.13647"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="-58.31512" y="-19.45867"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="23" label="Antonio di Dino d’Agnolo">
         <attvalues>
@@ -1753,8 +1752,8 @@
           <attvalue for="arte dei medici e speziali" value="1428"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-28.654423" y="-134.05724"/>
-        <viz:color r="186" g="77" b="86"/>
+        <viz:position x="-17.105677" y="-88.32815"/>
+        <viz:color r="0" g="128" b="128"/>
       </node>
       <node id="24" label="Antonio di Domenico di Neri di Lapino">
         <attvalues>
@@ -1766,8 +1765,8 @@
           <attvalue for="andere zunft" value="1436 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-135.72408" y="-88.73214"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-100.57603" y="-70.661995"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="25" label="Antonio di Francesco di Giovanni">
         <attvalues>
@@ -1778,8 +1777,8 @@
           <attvalue for="arte dei medici e speziali" value="1382"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-47.677288" y="99.54849"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-21.834595" y="66.50133"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="26" label="Antonio di Giovanni da Trebbio">
         <attvalues>
@@ -1790,8 +1789,8 @@
           <attvalue for="arte dei medici e speziali" value="1384"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="88.529205" y="28.6501"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="56.885544" y="25.211306"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="27" label="Antonio di Giovanni di ser Francesco Alfani">
         <attvalues>
@@ -1802,8 +1801,8 @@
           <attvalue for="arte dei medici e speziali" value="1434"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="25.925276" y="-134.94925"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="21.121756" y="-88.297554"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="28" label="Antonio di Giovanni di Tommaso">
         <attvalues>
@@ -1815,8 +1814,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="214.996" y="-239.33109"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="176.73268" y="-199.37181"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="31" label="Antonio di Lorenzo">
         <attvalues>
@@ -1827,8 +1826,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-389.52948" y="213.50488"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-256.38422" y="230.03497"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="36" label="Antonio di Piero di Francesco">
         <attvalues>
@@ -1838,8 +1837,8 @@
           <attvalue for="arte dei medici e speziali" value="1434"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="24.897676" y="-77.40197"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="10.731058" y="-39.334095"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="37" label="Antonio di Tommaso (Mazzingo)">
         <attvalues>
@@ -1850,8 +1849,8 @@
           <attvalue for="arte dei medici e speziali" value="1434"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-367.11166" y="184.31725"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-196.85666" y="140.38664"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="38" label="Antonio di Vita da Pistoia">
         <attvalues>
@@ -1863,8 +1862,8 @@
           <attvalue for="arte dei medici e speziali" value="1385"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-102.925224" y="93.00795"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-67.147644" y="67.446686"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="39" label="Appolonio di Giovanni di Tommaso">
         <attvalues>
@@ -1878,8 +1877,8 @@
           <attvalue for="arte dei medici e speziali" value="1442"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="49.00025" y="-65.49369"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="24.160128" y="-27.374863"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="40" label="Arcangelo di Cola di Giovanni da Camerino">
         <attvalues>
@@ -1892,8 +1891,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="in Florenz tätig 1420-1422"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="94.1857" y="165.24495"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="79.38374" y="145.62007"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="41" label="Arrigo di Niccolò di ser Cecco">
         <attvalues>
@@ -1906,8 +1905,8 @@
           <attvalue for="arte dei medici e speziali" value="1406"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="52.0939" y="-123.720276"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="32.199013" y="-65.77954"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="42" label="Baldassare di Giovanni d’Antonio">
         <attvalues>
@@ -1918,8 +1917,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-75.00822" y="-78.73526"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-45.99631" y="-60.479218"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="43" label="Baldo di Giovanni Galli">
         <attvalues>
@@ -1929,8 +1928,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1415-1423"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-56.794544" y="71.926926"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-34.159363" y="47.559696"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="45" label="Barnaba di Giovanni">
         <attvalues>
@@ -1942,8 +1941,8 @@
           <attvalue for="arte dei medici e speziali" value="1425"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="280.8364" y="153.11746"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="220.20601" y="126.593445"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="47" label="Bartolo (Pesello)">
         <attvalues>
@@ -1953,8 +1952,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-26.396957" y="-106.38155"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-22.431871" y="-67.22812"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="50" label="Bartolomeo di Bertozzo">
         <attvalues>
@@ -1965,8 +1964,8 @@
           <attvalue for="arte dei medici e speziali" value="1378"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="134.25615" y="-92.282005"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="92.418495" y="-72.352425"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="51" label="Bartolomeo di Donato di Filippo">
         <attvalues>
@@ -1978,8 +1977,8 @@
           <attvalue for="andere zunft" value="1437 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-1.2136751" y="81.17147"/>
-        <viz:color r="246" g="109" b="0"/>
+        <viz:position x="10.736332" y="42.196846"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="54" label="Bartolomeo di Giovanni Corradini da Urbino (Fra Carnevale)">
         <attvalues>
@@ -1993,8 +1992,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-154.91164" y="-369.25388"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-159.30946" y="-261.0299"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="55" label="Bartolomeo di Giovanni di Bartolomeo Cristiani da Pistoia">
         <attvalues>
@@ -2006,8 +2005,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-394.7617" y="306.93878"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-422.2672" y="335.97202"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="56" label="Bartolomeo di Giovanni di Guido">
         <attvalues>
@@ -2018,8 +2017,8 @@
           <attvalue for="arte dei medici e speziali" value="1379"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="36.934902" y="39.09051"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="21.02799" y="16.335987"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="57" label="Bartolomeo di Lorenzo di Gherardino">
         <attvalues>
@@ -2030,8 +2029,8 @@
           <attvalue for="arte dei medici e speziali" value="1384"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-167.18327" y="-91.507675"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-130.08655" y="-68.179535"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="58" label="Bartolomeo di Michele di Lapo del Corazza">
         <attvalues>
@@ -2042,8 +2041,8 @@
           <attvalue for="andere zunft" value="1404 Arte dei Vinattieri"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-177.99155" y="72.83373"/>
-        <viz:color r="158" g="103" b="26"/>
+        <viz:position x="-128.4931" y="50.92152"/>
+        <viz:color r="128" g="0" b="128"/>
       </node>
       <node id="60" label="Fra Bartolomeo di Tommaso">
         <attvalues>
@@ -2053,8 +2052,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1389-1431; keine Arte; ist Karmelitermönch in S. Maria del Carmine; später Priester in S. Croce sull’Arno (b. Fucecchio)"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="43.76109" y="-157.4654"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="22.031237" y="-112.25171"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="62" label="Bastiano di Niccolò di Monte">
         <attvalues>
@@ -2065,8 +2064,8 @@
           <attvalue for="arte dei medici e speziali" value="1394"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="122.71769" y="62.621967"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="75.02492" y="37.774364"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="64" label="Battista di Niccolò da Padova">
         <attvalues>
@@ -2077,8 +2076,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1425 in Siena; 1445-1452 in Florenz"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="24.799849" y="-48.216473"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="12.836847" y="-17.823198"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="65" label="Benci di Borazzo (Durazzo?)">
         <attvalues>
@@ -2088,8 +2087,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1404"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-58.79243" y="151.4202"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-46.501534" y="116.591675"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="66" label="Don Benedetto di Silvestro">
         <attvalues>
@@ -2099,8 +2098,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1445-1473; Priester am Baptisterium; Domkaplan; später Domherr in Fiesole"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-50.698673" y="24.025814"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="-24.278728" y="13.947589"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="67" label="Benedetto di Simone di Nese">
         <attvalues>
@@ -2111,8 +2110,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="108.44006" y="6.228553"/>
-        <viz:color r="255" g="49" b="153"/>
+        <viz:position x="54.44367" y="5.7865424"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="68" label="Benozzo di Lese di Sandro di Lese (Benozzo Gozzoli)">
         <attvalues>
@@ -2127,8 +2126,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="285.46655" y="-115.528175"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="202.92233" y="-104.47166"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="70" label="Bernardo di Francesco di Barnaba">
         <attvalues>
@@ -2139,8 +2138,8 @@
           <attvalue for="arte dei medici e speziali" value="1406"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-68.327385" y="46.24432"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="-36.76884" y="26.980495"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="71" label="Fra Bernardo di Stefano">
         <attvalues>
@@ -2151,8 +2150,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1415-1443; Dominikanermönch in S. Maria Novella"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="58.30134" y="20.88774"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="21.533892" y="2.8937092"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="74" label="Berto di Segna d’Andrea">
         <attvalues>
@@ -2163,8 +2162,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-47.246914" y="-65.49411"/>
-        <viz:color r="255" g="49" b="153"/>
+        <viz:position x="-23.357008" y="-30.023746"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="75" label="Bettino di Zanobi di Bettino">
         <attvalues>
@@ -2175,8 +2174,8 @@
           <attvalue for="arte dei medici e speziali" value="1411"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="114.17566" y="-71.10309"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="81.3847" y="-44.76119"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="76" label="Bettuccio di Matteo (Cannerino)">
         <attvalues>
@@ -2187,8 +2186,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-311.61966" y="293.72226"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-196.6473" y="189.47812"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="81" label="Bonaccorso di Bettino di Bonaccorso">
         <attvalues>
@@ -2199,8 +2198,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-47.388165" y="-155.49841"/>
-        <viz:color r="0" g="181" b="0"/>
+        <viz:position x="-31.971218" y="-109.655235"/>
+        <viz:color r="7" g="186" b="185"/>
       </node>
       <node id="83" label="Bonaiuto di Giovanni di Bartolino Marini (Buto di Giovanni)">
         <attvalues>
@@ -2212,8 +2211,8 @@
           <attvalue for="arte dei medici e speziali" value="1429"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-405.75986" y="98.51745"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-302.11728" y="18.027279"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="84" label="Braccio di Niccolò">
         <attvalues>
@@ -2224,8 +2223,8 @@
           <attvalue for="arte dei medici e speziali" value="1373"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-164.13396" y="-37.558605"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-139.47757" y="-41.74923"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="86" label="Calvano di Cristofano Calvanesi">
         <attvalues>
@@ -2236,8 +2235,8 @@
           <attvalue for="arte dei medici e speziali" value="1397"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="94.250336" y="-132.02962"/>
-        <viz:color r="0" g="181" b="0"/>
+        <viz:position x="70.52519" y="-91.78853"/>
+        <viz:color r="7" g="186" b="185"/>
       </node>
       <node id="88" label="Canni di Francesco di ser Cenni">
         <attvalues>
@@ -2251,8 +2250,8 @@
           <attvalue for="arte dei medici e speziali" value="1369"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="28.442173" y="-105.634705"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="13.751842" y="-58.363743"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="87" label="Carlo di Francesco d’Amerigo Zati">
         <attvalues>
@@ -2263,8 +2262,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-55.483833" y="181.45053"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="-35.48853" y="147.07425"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="89" label="Chimente di Lorenzo di Filippo Rosselli">
         <attvalues>
@@ -2276,8 +2275,8 @@
           <attvalue for="arte dei medici e speziali" value="1441"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-99.466576" y="43.83866"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-54.546535" y="23.542692"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="92" label="Cola d’Antonio di Chela">
         <attvalues>
@@ -2288,8 +2287,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-151.05487" y="-63.949444"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-107.58118" y="-45.380726"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="93" label="Contro di Giovanni">
         <attvalues>
@@ -2300,8 +2299,8 @@
           <attvalue for="arte dei medici e speziali" value="1393"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-51.852" y="-94.34887"/>
-        <viz:color r="246" g="109" b="0"/>
+        <viz:position x="-22.92458" y="-48.060055"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="96" label="Daddo di Iacopo">
         <attvalues>
@@ -2311,8 +2310,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1424"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="125.754295" y="-43.66932"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="89.72871" y="-22.446898"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="98" label="Fra Diamante di Feo da Terranuova (Fra Diamante)">
         <attvalues>
@@ -2326,8 +2325,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="1483 Prior von S. Pietro di Gello (b. Volterra)"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-125.33988" y="-361.69067"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-91.13885" y="-236.35832"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="100" label="Fra Domenico">
         <attvalues>
@@ -2337,8 +2336,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1404"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="148.18736" y="42.369587"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="97.974434" y="31.57139"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="101" label="Domenico di Bartolomeo da Venezia (Domenico Veneziano)">
         <attvalues>
@@ -2352,8 +2351,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="bezeugt in Florenz 1439-1461"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="202.92767" y="-226.15015"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="142.74121" y="-152.67758"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="102" label="Domenico di Bonaccorso">
         <attvalues>
@@ -2363,8 +2362,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1404-1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-111.64904" y="19.136795"/>
-        <viz:color r="255" g="49" b="153"/>
+        <viz:position x="-70.29542" y="12.411339"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="103" label="Domenico di Francesco d’Antonio (Michelino)">
         <attvalues>
@@ -2376,8 +2375,8 @@
           <attvalue for="arte dei medici e speziali" value="1444"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-34.31994" y="2.1622293"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-23.907534" y="-14.043536"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="105" label="Domenico di Giovanni">
         <attvalues>
@@ -2386,8 +2385,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-195.27628" y="-31.249731"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-174.07162" y="-43.57622"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="108" label="Domenico di Lazzaro di Niccolò di Giuliano">
         <attvalues>
@@ -2398,8 +2397,8 @@
           <attvalue for="arte dei medici e speziali" value="1444"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-1.8371937" y="-143.68155"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-2.9457204" y="-108.30936"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="109" label="Domenico di Matteo">
         <attvalues>
@@ -2409,8 +2408,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-2.1025531" y="-191.3831"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-12.107784" y="-176.04791"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="110" label="Domenico di Niccolò di Miniato">
         <attvalues>
@@ -2421,8 +2420,8 @@
           <attvalue for="arte dei medici e speziali" value="1384"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="118.66817" y="-117.1032"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="94.4242" y="-102.594215"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="111" label="Domenico di Niccolò di Piero">
         <attvalues>
@@ -2433,8 +2432,8 @@
           <attvalue for="arte dei medici e speziali" value="1434"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="117.695305" y="34.808308"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="76.47289" y="15.1434"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="113" label="Don Domenico di Piero da Pisa">
         <attvalues>
@@ -2444,8 +2443,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1434-1444; ist Prior von S.Sisto zu Pisa"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-37.956554" y="48.56103"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="-21.982677" y="33.102314"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="115" label="Donato di Donato">
         <attvalues>
@@ -2456,8 +2455,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1385-1406"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="155.15166" y="-38.69366"/>
-        <viz:color r="0" g="132" b="126"/>
+        <viz:position x="114.12303" y="-19.711739"/>
+        <viz:color r="230" g="230" b="250"/>
       </node>
       <node id="116" label="Donnino di Cino">
         <attvalues>
@@ -2468,8 +2467,8 @@
           <attvalue for="arte dei medici e speziali" value="1376"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="6.9348497" y="109.702965"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="0.26209038" y="79.40829"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="118" label="Filippo d’Andrea di Filippo di Borgo (Lippo d’Andrea)">
         <attvalues>
@@ -2483,8 +2482,8 @@
           <attvalue for="arte dei medici e speziali" value="1397"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="94.950356" y="55.87672"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="55.76954" y="50.514553"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="120" label="Filippo di Bartolo di Finaldo">
         <attvalues>
@@ -2496,8 +2495,8 @@
           <attvalue for="arte dei medici e speziali" value="1420"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="126.473694" y="414.28122"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="38.88099" y="310.04724"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="121" label="Filippo di Bonaccorso">
         <attvalues>
@@ -2509,8 +2508,8 @@
           <attvalue for="arte dei medici e speziali" value="1385"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="54.212646" y="95.59982"/>
-        <viz:color r="0" g="132" b="126"/>
+        <viz:position x="31.272015" y="51.75915"/>
+        <viz:color r="230" g="230" b="250"/>
       </node>
       <node id="122" label="Filippo di Gera">
         <attvalues>
@@ -2520,8 +2519,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1404-1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="82.87243" y="104.73916"/>
-        <viz:color r="255" g="49" b="153"/>
+        <viz:position x="50.74797" y="71.0074"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="123" label="Filippo di Marco di Simone">
         <attvalues>
@@ -2532,8 +2531,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-55.084724" y="-122.25277"/>
-        <viz:color r="70" g="129" b="50"/>
+        <viz:position x="-42.440533" y="-83.365715"/>
+        <viz:color r="75" g="0" b="130"/>
       </node>
       <node id="126" label="Fra Filippo di Tommaso di Filippo (Fra Filippo Lippi)">
         <attvalues>
@@ -2548,8 +2547,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-138.71558" y="-400.46393"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-100.01572" y="-308.3643"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="127" label="Fortino d’Amadore">
         <attvalues>
@@ -2560,8 +2559,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1404-1422"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-120.89056" y="-63.050243"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-79.79353" y="-31.114367"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="129" label="Francesco d’Antonio di Bartolomeo">
         <attvalues>
@@ -2575,8 +2574,8 @@
           <attvalue for="arte dei medici e speziali" value="1429"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="189.52736" y="415.2608"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="144.91249" y="299.5205"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="133" label="Francesco del Grasso">
         <attvalues>
@@ -2586,8 +2585,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="75.35125" y="-24.255178"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="40.243336" y="-13.363132"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="130" label="Francesco di Bartolomeo di Francesco (Magno)">
         <attvalues>
@@ -2598,8 +2597,8 @@
           <attvalue for="arte dei medici e speziali" value="1394"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-19.259382" y="24.991823"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-10.524072" y="6.1606617"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="131" label="Francesco di Gabriello di Nuccio">
         <attvalues>
@@ -2610,8 +2609,8 @@
           <attvalue for="arte dei medici e speziali" value="1406"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="146.02928" y="-66.078964"/>
-        <viz:color r="70" g="129" b="50"/>
+        <viz:position x="107.18822" y="-48.23846"/>
+        <viz:color r="75" g="0" b="130"/>
       </node>
       <node id="132" label="Francesco di Giovanni di Lapo di Bonaccorso (Lastra)">
         <attvalues>
@@ -2622,8 +2621,8 @@
           <attvalue for="arte dei medici e speziali" value="1415"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-118.33538" y="-110.9375"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="-87.67985" y="-93.28071"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="134" label="Francesco di Iacopo Arrighetti">
         <attvalues>
@@ -2636,8 +2635,8 @@
           <attvalue for="andere zunft" value="1422 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="61.183716" y="180.41742"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="59.157036" y="190.11475"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="135" label="Francesco di Lorenzo di Francesco">
         <attvalues>
@@ -2648,8 +2647,8 @@
           <attvalue for="arte dei medici e speziali" value="1444"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-75.96956" y="95.36515"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="-44.080406" y="68.38727"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="141" label="Fruosino di Piero">
         <attvalues>
@@ -2659,8 +2658,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1447"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-106.08872" y="-385.07614"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-33.71213" y="-286.16492"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="142" label="Fra Garbiello">
         <attvalues>
@@ -2670,8 +2669,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1407; Kamaldulensermönch in S.Maria degli Angeli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-146.42723" y="72.69437"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="-98.1063" y="53.07099"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="143" label="Gentile di Niccolò di Giovanni di Tommaso (Massi) da Fabriano">
         <attvalues>
@@ -2684,8 +2683,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt in Florenz 1420-1425"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="264.99326" y="144.92273"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="165.20546" y="100.92538"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="145" label="Gherardo di Iacopo Starna (Starnina)">
         <attvalues>
@@ -2700,8 +2699,8 @@
           <attvalue for="arte dei medici e speziali" value="1388"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-176.57968" y="-9.002238"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-153.04689" y="-15.093096"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="146" label="Giacomo (Giavachino) di Berto">
         <attvalues>
@@ -2711,8 +2710,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1388-1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="177.65788" y="-61.75304"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="136.04626" y="-39.053036"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="147" label="Giorgio da Durazzo">
         <attvalues>
@@ -2722,8 +2721,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-78.79372" y="-25.98876"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-37.90201" y="-6.102321"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="148" label="Giorgio di Giovanni da Pisa della Magna">
         <attvalues>
@@ -2733,8 +2732,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1436-1451"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="66.583824" y="-178.37877"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="41.881454" y="-139.42618"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="149" label="Giosuè di Santi di Gregorio">
         <attvalues>
@@ -2746,8 +2745,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="189.1989" y="1.8194307"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="164.04076" y="12.695893"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="150" label="Giovanni (Allegrino)">
         <attvalues>
@@ -2757,8 +2756,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1420"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="79.97348" y="-77.45095"/>
-        <viz:color r="255" g="49" b="153"/>
+        <viz:position x="49.28268" y="-50.65696"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="163" label="Giovanni (Giannino) di Bernardo">
         <attvalues>
@@ -2770,8 +2769,8 @@
           <attvalue for="arte dei medici e speziali" value="1405"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-138.57785" y="126.97969"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="-104.92017" y="111.864334"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="173" label="Giovanni di Francesco di Giovanni (Giannino; Giovannino)">
         <attvalues>
@@ -2782,8 +2781,8 @@
           <attvalue for="arte dei medici e speziali" value="1428"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="161.25081" y="395.1163"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="95.78486" y="286.75162"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="154" label="Giovanni d’Agnolo">
         <attvalues>
@@ -2793,8 +2792,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1401-1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-73.60798" y="-143.37993"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-59.774117" y="-106.66145"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="155" label="Giovanni d’Andrea di Lorenzo">
         <attvalues>
@@ -2804,8 +2803,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1438-1473"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="23.334534" y="-15.577499"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="10.944106" y="-4.4901276"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="156" label="Giovanni d’Antonio (1410)">
         <attvalues>
@@ -2815,8 +2814,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="51.264984" y="-5.9262395"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="8.5596285" y="8.409879"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="157" label="Giovanni d’Antonio (1422)">
         <attvalues>
@@ -2826,8 +2825,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1422"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="17.598995" y="59.32091"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="8.6164255" y="23.37561"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="158" label="Giovanni d’Antonio di ser Guglielmo">
         <attvalues>
@@ -2838,8 +2837,8 @@
           <attvalue for="arte dei medici e speziali" value="1420"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-10.059209" y="52.75663"/>
-        <viz:color r="255" g="49" b="153"/>
+        <viz:position x="-2.8299663" y="33.072636"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="160" label="Giovanni d’Antonio di ser Niccolò">
         <attvalues>
@@ -2850,8 +2849,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-80.61661" y="-107.252335"/>
-        <viz:color r="255" g="49" b="153"/>
+        <viz:position x="-66.19877" y="-77.07298"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="152" label="Giovanni da Cortona">
         <attvalues>
@@ -2861,8 +2860,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1404-1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-159.1125" y="46.716427"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-113.0706" y="28.152842"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="153" label="Giovanni da San Miniato">
         <attvalues>
@@ -2874,8 +2873,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1431"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-86.51894" y="68.38345"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-53.43338" y="44.1377"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="164" label="Giovanni di Berto di Bartolo">
         <attvalues>
@@ -2887,8 +2886,8 @@
           <attvalue for="arte dei medici e speziali" value="1402"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="15.13269" y="-166.3438"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="7.778009" y="-137.28862"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="165" label="Giovanni di Buono di Giovanni">
         <attvalues>
@@ -2899,8 +2898,8 @@
           <attvalue for="arte dei medici e speziali" value="1378"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-13.198644" y="133.40456"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="-4.551723" y="103.34484"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="166" label="Giovanni di Cristofano di Francesco">
         <attvalues>
@@ -2911,8 +2910,8 @@
           <attvalue for="arte dei medici e speziali" value="1418"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="66.30246" y="47.72511"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="37.189247" y="18.588959"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="168" label="Giovanni di Domenico di Giovanni Strimati">
         <attvalues>
@@ -2923,8 +2922,8 @@
           <attvalue for="arte dei medici e speziali" value="1440"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="26.48586" y="88.17831"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="16.332926" y="62.69268"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="169" label="Giovanni di Donnino (Nuccia)">
         <attvalues>
@@ -2935,8 +2934,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-85.98048" y="170.77953"/>
-        <viz:color r="0" g="151" b="255"/>
+        <viz:position x="-64.89299" y="154.21477"/>
+        <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="170" label="Giovanni di Donnino di Francesco da Brucianesi">
         <attvalues>
@@ -2948,8 +2947,8 @@
           <attvalue for="andere zunft" value="1419 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="185.15044" y="36.699703"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="148.04568" y="38.582138"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="174" label="Giovanni di Francesco di Giovanni del Cervelliera da Rovezzano">
         <attvalues>
@@ -2963,8 +2962,8 @@
           <attvalue for="arte dei medici e speziali" value="1442"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-69.86968" y="121.32943"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-49.939716" y="91.19967"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="178" label="Giovanni di Giovanni (Nanni)">
         <attvalues>
@@ -2974,8 +2973,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-80.50553" y="21.066977"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-39.48313" y="9.906965"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="180" label="Giovanni di Gonsalvo da Portogallo">
         <attvalues>
@@ -2985,8 +2984,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1436"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-103.00358" y="-87.07402"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-77.65676" y="-55.45181"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="183" label="Giovanni di Luca">
         <attvalues>
@@ -2996,8 +2995,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1407"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-24.035973" y="-77.91747"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-7.912402" y="-37.38756"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="184" label="Giovanni di Marco di Giovanni (Giovanni dal Ponte)">
         <attvalues>
@@ -3012,8 +3011,8 @@
           <attvalue for="arte dei medici e speziali" value="1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="163.56998" y="97.935814"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="122.636055" y="98.260605"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="185" label="Giovanni di Niccolò">
         <attvalues>
@@ -3024,8 +3023,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-130.88208" y="98.235306"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="-92.65498" y="79.38877"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="187" label="Giovanni di Piero da Traiecto (Utrecht?)">
         <attvalues>
@@ -3035,8 +3034,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1422"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="95.588425" y="-164.228"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="72.96325" y="-128.0326"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="186" label="Fra Giovanni di Piero dal Mugello (Fra Giovanni Angelico)">
         <attvalues>
@@ -3051,8 +3050,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="278.67435" y="-99.05916"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="164.84955" y="-60.101826"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="188" label="Giovanni di Pigello (Pella)">
         <attvalues>
@@ -3063,8 +3062,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-117.315125" y="68.45708"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-74.46286" y="44.655582"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="172" label="Giovanni di ser Francesco">
         <attvalues>
@@ -3074,8 +3073,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1436"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-168.51987" y="19.572056"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="-139.57355" y="15.160129"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="190" label="Giovanni di Tano di Feo">
         <attvalues>
@@ -3089,8 +3088,8 @@
           <attvalue for="arte dei medici e speziali" value="1386"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="69.944176" y="-146.04875"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="49.006023" y="-108.51022"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="193" label="Don Giuliano degli Amidei">
         <attvalues>
@@ -3102,8 +3101,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="Kamaldulensermönch in S.Benedetto fuori di Porta da Pinti"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="165.6682" y="-91.414635"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="124.41965" y="-72.72452"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="195" label="Giuliano di Borgo da Pisa">
         <attvalues>
@@ -3113,8 +3112,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1447"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="34.68088" y="-188.52922"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="18.343061" y="-163.2129"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="197" label="Giuliano di Michele">
         <attvalues>
@@ -3125,8 +3124,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="123.21059" y="-146.60832"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="102.44172" y="-138.05832"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="200" label="Gregorio di Benedetto">
         <attvalues>
@@ -3138,8 +3137,8 @@
           <attvalue for="andere zunft" value="1433 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="14.611545" y="138.41994"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="19.918158" y="100.22134"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="204" label="Guccio di Chimete">
         <attvalues>
@@ -3149,8 +3148,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1410"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-121.22831" y="-8.646213"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-78.175514" y="-8.00729"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="206" label="Don Guido di Niccolò da Pelago">
         <attvalues>
@@ -3160,8 +3159,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1438-1422; Pleban von S.Servazio zu Pelago und Kaplan von S. Pier Maggiore zu Florenz"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="76.596275" y="-109.736534"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="46.55745" y="-82.10163"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="209" label="Iacopo di Bonaccorso">
         <attvalues>
@@ -3172,8 +3171,8 @@
           <attvalue for="arte dei medici e speziali" value="ca.1343"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-149.47144" y="-118.02207"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-149.68542" y="-95.46072"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="213" label="Iacopo di Gherardo (Virghero)">
         <attvalues>
@@ -3184,8 +3183,8 @@
           <attvalue for="arte dei medici e speziali" value="1385"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="90.925735" y="133.84065"/>
-        <viz:color r="158" g="103" b="26"/>
+        <viz:position x="66.75248" y="117.60974"/>
+        <viz:color r="128" g="0" b="128"/>
       </node>
       <node id="217" label="Iacopo di Poggino di Luca (Paparello)">
         <attvalues>
@@ -3196,8 +3195,8 @@
           <attvalue for="arte dei medici e speziali" value="1422"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="143.25067" y="123.3792"/>
-        <viz:color r="70" g="129" b="50"/>
+        <viz:position x="94.37624" y="109.13676"/>
+        <viz:color r="75" g="0" b="130"/>
       </node>
       <node id="218" label="Lapo d’Andrea">
         <attvalues>
@@ -3207,8 +3206,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1431"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-29.69986" y="157.60791"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-20.498352" y="123.44639"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="220" label="Lapo di Francesco">
         <attvalues>
@@ -3219,8 +3218,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="38.60992" y="150.65189"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="33.52905" y="125.19175"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="221" label="Ser Lapo di Giovanni di Lapo">
         <attvalues>
@@ -3230,8 +3229,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1446-1482"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="100.79665" y="-95.579926"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="66.1101" y="-64.601875"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="226" label="Lorenzo di Filippo Mingozzi da Borgo San Lorenzo">
         <attvalues>
@@ -3242,8 +3241,8 @@
           <attvalue for="arte dei medici e speziali" value="1413"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-182.50288" y="-62.898834"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-172.30548" y="-74.11172"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="227" label="Don Lorenzo di Giovanni (Don Lorenzo Monaco)">
         <attvalues>
@@ -3259,8 +3258,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="Kamaldulensermönch in S.Maria degli Angeli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="173.3678" y="477.53793"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="205.67146" y="404.09424"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="229" label="Lorenzo di Piero di Martino Randelli">
         <attvalues>
@@ -3271,8 +3270,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="0.7964146" y="162.3064"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="7.6439056" y="131.19708"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="230" label="Lorenzo di Puccio di Piero">
         <attvalues>
@@ -3283,8 +3282,8 @@
           <attvalue for="arte dei medici e speziali" value="1443"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-130.18947" y="43.675865"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-87.057304" y="25.751842"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="231" label="Lorenzo di Salvo da Magliano">
         <attvalues>
@@ -3296,8 +3295,8 @@
           <attvalue for="arte dei medici e speziali" value="1387"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="97.29888" y="-49.729557"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="63.10152" y="-33.113407"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="232" label="Lorenzo di Spina di Lorenzo">
         <attvalues>
@@ -3308,8 +3307,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-20.40743" y="104.62715"/>
-        <viz:color r="255" g="49" b="153"/>
+        <viz:position x="-0.9768447" y="57.593643"/>
+        <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="233" label="Loro d’Antonio di Guido Rontini da Ronta">
         <attvalues>
@@ -3320,8 +3319,8 @@
           <attvalue for="arte dei medici e speziali" value="1427"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-71.30159" y="-175.25385"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="-53.522266" y="-135.75452"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="234" label="Luca di Giovanni">
         <attvalues>
@@ -3332,8 +3331,8 @@
           <attvalue for="arte dei medici e speziali" value="ca.1360"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-161.12494" y="100.99575"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-121.610664" y="82.12207"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="235" label="Luigi di Bartolomeo">
         <attvalues>
@@ -3344,8 +3343,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1446"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="131.50653" y="-15.735085"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="75.71597" y="-5.6894493"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="236" label="Marco di Bartolomeo Rustichi">
         <attvalues>
@@ -3357,8 +3356,8 @@
           <attvalue for="andere zunft" value="1420 Arte di Por S.Maria"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-26.433554" y="-46.58276"/>
-        <viz:color r="158" g="103" b="26"/>
+        <viz:position x="0.5565062" y="-12.000559"/>
+        <viz:color r="128" g="0" b="128"/>
       </node>
       <node id="238" label="Marco di Filippo di Giovanni">
         <attvalues>
@@ -3370,8 +3369,8 @@
           <attvalue for="arte dei medici e speziali" value="1431"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-106.166466" y="120.015274"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-74.855156" y="98.637825"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="240" label="Mariotto di Manno di Pace">
         <attvalues>
@@ -3383,8 +3382,8 @@
           <attvalue for="andere zunft" value="1433 Arte dei Legnaioli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-25.439837" y="186.76695"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-1.898443" y="158.46388"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="241" label="Mariotto di Nardo di Cione">
         <attvalues>
@@ -3398,8 +3397,8 @@
           <attvalue for="arte dei medici e speziali" value="1389"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-379.0981" y="92.51939"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-193.0047" y="42.778618"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="243" label="Matteo (Balzanello)">
         <attvalues>
@@ -3410,8 +3409,8 @@
           <attvalue for="arte dei medici e speziali" value="1355"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-198.71782" y="10.151016"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-178.08598" y="2.096476"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="245" label="Matteo di Giovanni Grimaldi">
         <attvalues>
@@ -3422,8 +3421,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="70.69988" y="-51.039654"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="41.98589" y="-30.68729"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="247" label="Matteo di Pello di Pello">
         <attvalues>
@@ -3435,8 +3434,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-100.3982" y="-160.49467"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-80.201935" y="-151.64996"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="248" label="Mercatino di Maestro Bartolo di Mercatino">
         <attvalues>
@@ -3447,8 +3446,8 @@
           <attvalue for="arte dei medici e speziali" value="1377"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-66.51057" y="-48.887596"/>
-        <viz:color r="158" g="103" b="26"/>
+        <viz:position x="-40.06051" y="-40.794918"/>
+        <viz:color r="128" g="0" b="128"/>
       </node>
       <node id="249" label="Fra Michele">
         <attvalues>
@@ -3458,8 +3457,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1437-1438"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="103.33296" y="84.75684"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="80.35561" y="61.364704"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="252" label="Michele d’Agnolo di Piero">
         <attvalues>
@@ -3470,8 +3469,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1422"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="154.90102" y="427.4194"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="129.1925" y="353.54572"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="250" label="Michele da Ungheria">
         <attvalues>
@@ -3482,8 +3481,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1423"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-18.815796" y="-166.04376"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-20.790232" y="-136.24994"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="254" label="Michele di Giovanni">
         <attvalues>
@@ -3494,8 +3493,8 @@
           <attvalue for="arte dei medici e speziali" value="1393"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="74.57363" y="75.91508"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="40.948074" y="36.044548"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="256" label="Michele di Giovanni del Tria">
         <attvalues>
@@ -3506,8 +3505,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-1.174239" y="-60.398792"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="2.092001" y="-26.202797"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="257" label="Michele di Giuliano di Rico">
         <attvalues>
@@ -3518,8 +3517,8 @@
           <attvalue for="arte dei medici e speziali" value="1399"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-62.633015" y="-2.550969"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-22.684645" y="0.02732451"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="258" label="Neri d’Antonio di Neri">
         <attvalues>
@@ -3532,8 +3531,8 @@
           <attvalue for="arte dei medici e speziali" value="1396"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-39.559418" y="-186.5782"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-40.256775" y="-162.865"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="260" label="Niccolò d’Andrea da Lucca (Lucchesino)">
         <attvalues>
@@ -3544,8 +3543,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-41.08724" y="128.05522"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="-24.735186" y="89.54814"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="262" label="Niccolò d’Antonio di Paolo Cruoni">
         <attvalues>
@@ -3557,8 +3556,8 @@
           <attvalue for="arte dei medici e speziali" value="1388"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-47.602776" y="-27.28726"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-39.907955" y="-22.890678"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="266" label="Niccolò di Piero Tedesco (Della Magna)">
         <attvalues>
@@ -3569,8 +3568,8 @@
           <attvalue for="arte dei medici e speziali" value="1402"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="177.69899" y="65.75224"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="137.62642" y="68.072205"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="267" label="Don Niccolò di Rossello">
         <attvalues>
@@ -3582,8 +3581,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="Kamaldulensermönch in S.Maria degli Angeli"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="163.44725" y="18.541754"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="123.428566" y="21.986832"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="263" label="Niccolò di ser Lapo di Giovanni">
         <attvalues>
@@ -3594,8 +3593,8 @@
           <attvalue for="arte dei medici e speziali" value="1402"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="112.33889" y="114.62921"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="73.619774" y="86.69581"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="268" label="Niccolò di Tommaso">
         <attvalues>
@@ -3608,8 +3607,8 @@
           <attvalue for="arte dei medici e speziali" value="1346"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="31.51293" y="178.97893"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="28.19974" y="165.9537"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="269" label="Nofri di Bardo">
         <attvalues>
@@ -3619,8 +3618,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1392-1404"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="160.11235" y="-10.512759"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="137.11552" y="-4.507994"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="270" label="Nofri di Maestro Felice">
         <attvalues>
@@ -3630,8 +3629,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1400"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="28.41493" y="11.682582"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="-2.1884458" y="14.988197"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="271" label="Paolo di Dono di Paolo di Dono (Paolo Uccello)">
         <attvalues>
@@ -3646,8 +3645,8 @@
           <attvalue for="arte dei medici e speziali" value="1415"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="61.154823" y="124.452324"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="47.375317" y="98.196144"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="276" label="Piero di Benedetto di Piero Franceschi da Sansepolcro (Piero della Francesca)">
         <attvalues>
@@ -3660,8 +3659,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt in Florenz 1439-1445"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-116.50919" y="150.31792"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-103.892685" y="150.88591"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="277" label="Piero di Chellino di Lando di Chellino">
         <attvalues>
@@ -3673,8 +3672,8 @@
           <attvalue for="arte dei medici e speziali" value="1406"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-19.824816" y="-18.785887"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-10.6588955" y="-6.438518"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="278" label="Piero di Cosimo">
         <attvalues>
@@ -3684,8 +3683,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1447"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-97.768745" y="-129.3032"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="-86.762955" y="-122.14682"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="280" label="Piero di Francesco di Martino">
         <attvalues>
@@ -3696,8 +3695,8 @@
           <attvalue for="arte dei medici e speziali" value="1425"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="80.34206" y="2.1228504"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="36.82548" y="2.5541282"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="281" label="Piero di Giovanni">
         <attvalues>
@@ -3708,8 +3707,8 @@
           <attvalue for="arte dei medici e speziali" value="1369"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-0.42496714" y="2.1160228"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="-10.821565" y="-20.220667"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="282" label="Piero di Giovanni di Fino">
         <attvalues>
@@ -3720,8 +3719,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="149.84041" y="70.442215"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="113.81433" y="52.373108"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
       <node id="284" label="Piero di Lorenzo di Pratese di Bartolo">
         <attvalues>
@@ -3733,8 +3732,8 @@
           <attvalue for="arte dei medici e speziali" value="1440"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-93.511185" y="-57.555805"/>
-        <viz:color r="0" g="181" b="0"/>
+        <viz:position x="-59.814087" y="-41.165127"/>
+        <viz:color r="7" g="186" b="185"/>
       </node>
       <node id="287" label="Piero di Nello da Rabatta">
         <attvalues>
@@ -3746,8 +3745,8 @@
           <attvalue for="arte dei medici e speziali" value="1382"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-28.671381" y="76.02297"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-14.015525" y="47.259296"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="82" label="Prete ser Bonaiuto di Corsino di Bonaiuto">
         <attvalues>
@@ -3759,8 +3758,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="zunächst bürgerlicher Maler; dann Priester"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-127.28145" y="-141.38466"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-115.828545" y="-106.56849"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="223" label="Prete ser Lorenzo d’Antonio da Pelago">
         <attvalues>
@@ -3770,8 +3769,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1441-1460; Kaplan von S.Pier Maggiore und Sakristan des Domes"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="2.1973207" y="-32.041386"/>
-        <viz:color r="0" g="182" b="239"/>
+        <viz:position x="0.003946922" y="-0.0078689335"/>
+        <viz:color r="0" g="128" b="0"/>
       </node>
       <node id="288" label="Puccio (di Filippo?)">
         <attvalues>
@@ -3782,8 +3781,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1411"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-148.64806" y="-10.663238"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-125.44585" y="-10.2927"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="289" label="Prete ser Riccardo di Giovanni da Castelfiorentino">
         <attvalues>
@@ -3792,8 +3791,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-423.54883" y="-410.0034"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="-256.16876" y="-295.97842"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="293" label="Smeraldo di Giovanni">
         <attvalues>
@@ -3806,8 +3805,8 @@
           <attvalue for="arte dei medici e speziali" value="1388"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="8.330652" y="30.606745"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-12.912083" y="21.722366"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="295" label="Stefano d’Antonio di Giovanni di Guido">
         <attvalues>
@@ -3819,8 +3818,8 @@
           <attvalue for="arte dei medici e speziali" value="1429"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-436.8999" y="185.55473"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="-325.1561" y="136.81573"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="298" label="Stefano di Francesco di Stefano di Giovanni">
         <attvalues>
@@ -3832,8 +3831,8 @@
           <attvalue for="arte dei medici e speziali" value="1444"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="185.37067" y="-30.719542"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="167.30553" y="-19.347746"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="300" label="Stefano di Nero di Nero">
         <attvalues>
@@ -3844,8 +3843,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="5.219375" y="190.71092"/>
-        <viz:color r="52" g="118" b="160"/>
+        <viz:position x="22.206694" y="199.90254"/>
+        <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="304" label="Tommaso di Matteo">
         <attvalues>
@@ -3856,8 +3855,8 @@
           <attvalue for="arte dei medici e speziali" value="1371"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-134.47676" y="-37.384563"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-102.330795" y="-21.468044"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="305" label="Tommaso di Stefano">
         <attvalues>
@@ -3869,8 +3868,8 @@
           <attvalue for="andere zunft" value="1385 Arte di Pietra e Legname"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="103.3788" y="-21.68908"/>
-        <viz:color r="161" g="94" b="162"/>
+        <viz:position x="57.928394" y="-14.021267"/>
+        <viz:color r="255" g="192" b="203"/>
       </node>
       <node id="306" label="Fra Ugolino di Domenico">
         <attvalues>
@@ -3880,8 +3879,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1415"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="66.86261" y="151.97882"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="51.127594" y="148.97733"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="307" label="Ventura di Moro di Ventura">
         <attvalues>
@@ -3895,8 +3894,8 @@
           <attvalue for="arte dei medici e speziali" value="1419"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="120.51" y="145.54933"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="116.32406" y="133.5378"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="308" label="Vittorio di Domenico">
         <attvalues>
@@ -3907,8 +3906,8 @@
           <attvalue for="arte dei medici e speziali" value="keine"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="47.160553" y="-33.40254"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="25.054506" y="-10.843618"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="310" label="Zanobi di Benedetto di Caroccio degli Strozzi">
         <attvalues>
@@ -3924,8 +3923,8 @@
           <attvalue for="andere zunft" value="Arte di Lana?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="-87.74949" y="141.73613"/>
-        <viz:color r="148" g="149" b="0"/>
+        <viz:position x="-77.415985" y="127.70173"/>
+        <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="311" label="Zanobi di Iacopo di Piero de’ Machiavelli">
         <attvalues>
@@ -3939,8 +3938,8 @@
           <attvalue for="arte dei medici e speziali" value="nach 1444?"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="131.86035" y="93.62001"/>
-        <viz:color r="0" g="174" b="131"/>
+        <viz:position x="102.03239" y="77.13761"/>
+        <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="312" label="Zanobi di Migliore">
         <attvalues>
@@ -3952,8 +3951,8 @@
           <attvalue for="genannt/nachgewiesen/weitere" value="genannt 1449-1475"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="0.80064595" y="-89.8089"/>
-        <viz:color r="224" g="105" b="254"/>
+        <viz:position x="-4.4188337" y="-55.056076"/>
+        <viz:color r="255" g="165" b="0"/>
       </node>
       <node id="313" label="Zucchero di Giovanni di Tino">
         <attvalues>
@@ -3964,115 +3963,115 @@
           <attvalue for="arte dei medici e speziali" value="1402"/>
         </attvalues>
         <viz:size value="4.0"/>
-        <viz:position x="148.73605" y="-120.42959"/>
-        <viz:color r="255" g="55" b="66"/>
+        <viz:position x="121.58911" y="-106.86741"/>
+        <viz:color r="255" g="127" b="80"/>
       </node>
     </nodes>
     <edges>
       <edge id="0" source="95" target="301">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="1" source="274" target="215">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="2" source="274" target="44">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="3" source="242" target="285">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="4" source="274" target="261">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="5" source="46" target="162">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="6" source="2" target="77">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="7" source="161" target="119">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="8" source="244" target="32">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="9" source="244" target="124">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="10" source="225" target="79">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="11" source="159" target="48">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="12" source="48" target="159">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="13" source="244" target="52">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="14" source="52" target="244">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="15" source="53" target="177">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="16" source="124" target="32">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="17" source="32" target="124">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
@@ -4090,211 +4089,211 @@
         </attvalues>
       </edge>
       <edge id="20" source="73" target="63">
-        <viz:color r="255" g="92" b="129"/>
+        <viz:color r="253" g="92" b="129"/>
         <attvalues>
           <attvalue for="linetype" value="otherFamily"/>
         </attvalues>
       </edge>
       <edge id="21" source="63" target="73">
-        <viz:color r="255" g="92" b="129"/>
+        <viz:color r="253" g="92" b="129"/>
         <attvalues>
           <attvalue for="linetype" value="otherFamily"/>
         </attvalues>
       </edge>
       <edge id="22" source="255" target="4">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="23" source="106" target="10">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="24" source="106" target="205">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="25" source="106" target="302">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="26" source="18" target="20">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="27" source="273" target="35">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="28" source="302" target="61">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="29" source="237" target="85">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="30" source="16" target="94">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="31" source="216" target="107">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="32" source="201" target="181">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="33" source="29" target="207">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="34" source="35" target="208">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="35" source="275" target="9">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="36" source="275" target="253">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="37" source="253" target="9">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="38" source="253" target="275">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="39" source="9" target="253">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="40" source="9" target="275">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="41" source="219" target="201">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="42" source="201" target="219">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="43" source="292" target="69">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="44" source="292" target="167">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="45" source="167" target="69">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="46" source="167" target="292">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="47" source="69" target="167">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="48" source="69" target="292">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="49" source="302" target="10">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="50" source="302" target="205">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="51" source="205" target="10">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="52" source="205" target="302">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="53" source="10" target="205">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="54" source="10" target="302">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
@@ -4318,43 +4317,43 @@
         </attvalues>
       </edge>
       <edge id="58" source="117" target="171">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="59" source="117" target="279">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="60" source="140" target="176">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="61" source="279" target="171">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="62" source="171" target="279">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="63" source="140" target="136">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="64" source="136" target="140">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
@@ -4366,169 +4365,169 @@
         </attvalues>
       </edge>
       <edge id="66" source="177" target="53">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="67" source="191" target="199">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="68" source="199" target="191">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="69" source="99" target="69">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="70" source="99" target="167">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="71" source="99" target="292">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="72" source="11" target="128">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="73" source="224" target="78">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="74" source="265" target="80">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="75" source="210" target="90">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="76" source="290" target="192">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="77" source="294" target="202">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="78" source="78" target="259">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="79" source="228" target="283">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="80" source="261" target="274">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="81" source="175" target="104">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="82" source="104" target="175">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="83" source="309" target="144">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="84" source="144" target="309">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="85" source="196" target="30">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="86" source="290" target="198">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="87" source="198" target="290">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="88" source="286" target="34">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="89" source="34" target="286">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="90" source="264" target="97">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="91" source="303" target="179">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="92" source="179" target="303">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="93" source="272" target="151">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
@@ -4564,61 +4563,61 @@
         </attvalues>
       </edge>
       <edge id="99" source="125" target="2">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="100" source="214" target="30">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="101" source="214" target="196">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="102" source="33" target="49">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="103" source="297" target="138">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="104" source="112" target="212">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="105" source="119" target="161">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="106" source="246" target="72">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="107" source="72" target="246">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="108" source="97" target="264">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
@@ -4636,25 +4635,25 @@
         </attvalues>
       </edge>
       <edge id="111" source="299" target="139">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="112" source="30" target="207">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="113" source="94" target="211">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="114" source="30" target="196">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
@@ -4666,49 +4665,49 @@
         </attvalues>
       </edge>
       <edge id="116" source="194" target="297">
-        <viz:color r="255" g="92" b="129"/>
+        <viz:color r="253" g="92" b="129"/>
         <attvalues>
           <attvalue for="linetype" value="otherFamily"/>
         </attvalues>
       </edge>
       <edge id="117" source="151" target="272">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="118" source="203" target="182">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="119" source="1" target="251">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="120" source="189" target="291">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="121" source="114" target="296">
-        <viz:color r="95" g="198" b="19"/>
+        <viz:color r="203" g="0" b="55"/>
         <attvalues>
           <attvalue for="linetype" value="fatherOf"/>
         </attvalues>
       </edge>
       <edge id="122" source="189" target="137">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
       </edge>
       <edge id="123" source="137" target="189">
-        <viz:color r="198" g="134" b="233"/>
+        <viz:color r="254" g="184" b="80"/>
         <attvalues>
           <attvalue for="linetype" value="brotherOf"/>
         </attvalues>
@@ -4744,7 +4743,7 @@
         </attvalues>
       </edge>
       <edge id="129" source="78" target="295" weight="2.0">
-        <viz:color r="46" g="144" b="114"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
@@ -4816,67 +4815,67 @@
         </attvalues>
       </edge>
       <edge id="141" source="18" target="55">
-        <viz:color r="46" g="144" b="114"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="142" source="227" target="252">
-        <viz:color r="46" g="144" b="114"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="143" source="227" target="274">
-        <viz:color r="46" g="144" b="114"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="144" source="143" target="45">
-        <viz:color r="46" g="144" b="114"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="145" source="303" target="14">
-        <viz:color r="46" g="144" b="114"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="146" source="186" target="68">
-        <viz:color r="46" g="144" b="114"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="147" source="126" target="141">
-        <viz:color r="46" g="144" b="114"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="148" source="78" target="83">
-        <viz:color r="46" g="144" b="114"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="149" source="78" target="31">
-        <viz:color r="46" g="144" b="114"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="151" source="78" target="55">
-        <viz:color r="46" g="144" b="114"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
       </edge>
       <edge id="152" source="124" target="289">
-        <viz:color r="46" g="144" b="114"/>
+        <viz:color r="27" g="47" b="255"/>
         <attvalues>
           <attvalue for="linetype" value="masterOf"/>
         </attvalues>
