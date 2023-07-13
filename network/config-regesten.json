@@ -13,8 +13,8 @@
     "title": "Florentiner Maler"
   },
   "legend": {
-    "edgeLabel": "<img height='100px' src='../assets/images/edgeColors-regesten.jpg'>",
-    "colorLabel": "<img height='200px' src='../assets/images/nodeColors-regesten.jpg'>",
+    "edgeLabel": "<img width='200px' src='../assets/images/edgeColors-regesten.jpg'>",
+    "colorLabel": "<img width='200px' src='../assets/images/nodeColors-regesten.jpg'>",
     "nodeLabel": "Maler"
   },
   "features": {
