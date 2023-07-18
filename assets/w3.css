@@ -2,7 +2,7 @@
 body,
     html {
       height: 100%;
-      font-family: "Inconsolata", sans-serif;
+      font-family: "Calibri", sans-serif;/* Inconsolata */
     }
 
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
@@ -239,27 +239,33 @@ html {
 }
 
 h1 {
-    font-size: 36px
+    font-size: 36px;
+    font-family: "Inconsolata", sans-serif
 }
 
 h2 {
-    font-size: 30px
+    font-size: 30px;
+    font-family: "Inconsolata", sans-serif
 }
 
 h3 {
-    font-size: 24px
+    font-size: 24px;
+    font-family: "Inconsolata", sans-serif
 }
 
 h4 {
-    font-size: 20px
+    font-size: 20px;
+    font-family: "Inconsolata", sans-serif
 }
 
 h5 {
-    font-size: 18px
+    font-size: 18px;
+    font-family: "Inconsolata", sans-serif
 }
 
 h6 {
-    font-size: 16px
+    font-size: 16px;
+    font-family: "Inconsolata", sans-serif
 }
 
 .w3-serif {
@@ -621,6 +627,7 @@ a {
 }
 
 .w3-block {
+    font-family: "Inconsolata", sans-serif;
     display: block;
     width: 100%
 }
@@ -1821,6 +1828,7 @@ a {
 
 .w3-text-black,
 .w3-hover-text-black:hover {
+    font-family: "Inconsolata", sans-serif;
     color: #000 !important
 }
 
