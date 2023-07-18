@@ -53,21 +53,105 @@
       <h5 class="w3-center w3-padding-64">
         <span class="w3-tag w3-wide">Netzwerk</span>
       </h5>
-      <button onclick="akkordion('explanation')" class="w3-btn w3-block w3-light-gray w3-left-align">Einführung zum
-        Netzwerk</button>
-      <div id="explanation" class="w3-container w3-hide">
+      <!-- Footnotes drop-down -->
+      <button onclick="akkordion('beziehungen')" class="w3-btn w3-block w3-light-gray w3-left-align">Beziehungen der
+        Florentiner Maler</button>
+      <div id="beziehungen" class="w3-container w3-hide">
         <div>
-          Hier kommt der Text zum Netzwerk.<a href="#footnote1" onclick="akkordion('footnotes')">[1]</a> Die Zahlen
-          basieren auf der bisher einzigen
-          umfassenden computergestützten Aufarbeitung des Catasto-Materials des Jahres 1427.
+          <p>Die in „Die Maler von Florenz“ <a href="#footnote1" onclick="akkordion('footnotes')">[1]</a> aufbereiteten Daten erlauben nicht nur einen Einblick in das finanzielle Leben der
+            Florentiner Maler, sondern auch in ihre Beziehungen untereinander. Die Catasto- und Prestanza-Listen detaillieren
+            die Familien- und Wohnverhältnisse, die bei der Berechnung der Steuer berücksichtigt wurden, aber über Verträge,
+            Zahlungsnotizen, bezeugte Urkunden und Werkstattbücher werden auch Hinweise auf nichtfamiliäre, entfernte und
+            temporäre Beziehungen überliefert.</p>
+        
+            <p>Zu wissen, welche Maler einander kannten, nachweislich miteinander agierten und arbeiteten oder befreundet waren
+            erlaubt es, den Zuschreibungsdiskussionen und Theorien zur Stilentwicklung eine menschliche Ebene hinzuzufügen und
+            Verbindungen mit einzubeziehen, die nicht auf den ersten Blick nahe liegen. Werner Jacobsen hat solche Verbindungen
+            in Kapitel 8 von „Die Maler von Florenz“ berücksichtigt, in dem er die Entwicklung von der spätmittelalterlichen
+            Malerei über die Internationale Gotik hin zur Renaissancemalerei anhand der Werke, die er anhand der
+            Archivmaterialien als gesichert anerkennt, nachvollzieht. Dabei handelt es sich nicht um eine stringente Erzählung,
+            die mit einem „Ereignis Masaccio“ <a href="#footnote1" onclick="akkordion('footnotes')">[2]</a> einen Wendepunkt hin zur Renaissance erfährt, sondern um eine multikausale
+            Entwicklung, die durch die spezifischen Interessen, Fähigkeiten, Reisen und eben Beziehungen der einzelnen Maler in
+            verschiedene Richtungen getrieben wurde. Daher ist es nicht möglich diese Entwicklung in einem einfachen Zeitstrahl
+            nachzuverfolgen, vielmehr soll die Multidimensionalität der Entwicklung als Netzwerk der persönlichen und
+            professionellen Verbindungen einzelner Maler repräsentiert werden.</p>
+        </div>
+      </div>
+      <!-- Visualisierung drop-down -->
+      <div class="w3-content  w3-padding-16">
+        <button onclick="akkordion('visualisierungen')" class="w3-btn w3-block w3-light-gray w3-left-align">Die Visualisierungen</button>
+        <div id="visualisierungen" class="w3-container w3-hide">
+          <p>Auf dieser Seite werden zwei Netzwerke gezeigt. Der auf den Regesten basierende Plan berücksichtigt als
+            Datengrundlage nur die Informationen, die Jacobsen in den einleitenden Kurztexten zu jedem Maler im Regestenteil von
+            „Die Maler von Florenz“ einbezieht. Das sind zumeist Angaben zu Familienmitgliedern, die ebenfalls Maler waren,
+            sowie über das Catasto-Material nachvollziehbare Lehr- und Arbeitgeberverhältnisse.<br>
+            Für die Umsetzung als Netzwerk wurden einerseits diese Angaben vereinheitlicht, indem die gerichteten Verbindungen
+            immer vom Vater zum Sohn, vom Onkel zum Neffen und vom Lehrer und Arbeitsgeber zum Schüler und Mitarbeiter
+            vereinheitlicht wurden; andererseits wurden stark implizierte Familienverbindungen wie die von Onkel zu Neffen oder
+            zwischen Brüdern, die im Regestenteil nur als zwei Söhne desselben Vaters vorkommen, ergänzt. Die Farben der Nodes
+            beziehen sich auf die primäre Berufsgruppe der Maler, die Farben der Verbindungen geben Hinweis auf die Art der
+            Beziehung. Bei Auswahl der Nodes können grundlegende Informationen zu den Malern eingesehen werden, die Details
+            lassen sich im alphabetisch geordneten Regestenteil von „Die Maler von Florenz“ unter mindestens einem der beiden
+            verbundenen Malern nachlesen.</p>
+        
+            <p>Das zweite Netzwerk basiert auf der Zuschreibungsdiskussion, die Jacobsen in Kapitel 8 vornimmt, und bezieht daher
+            auch Notizen zu temporärer Mitarbeit, Freundschaften und gemeinsamen Werken mit ein. Dabei ist zu betonen, dass
+            diese Angaben zwar auf Archivmaterialien basieren, aber in der Visualisierungsumsetzung vor allem Jacobsens
+            Einschätzung der Verbindung reflektieren. Die Farbe der Nodes bezieht sich hier auf den sozialen Kreis, in dessen
+            Kontext Jacobsen das Werk des jeweiligen Malers diskutiert, zumeist entweder den Umkreis einer einflussreichen
+            Werkstatt oder eine Generation. Gehört ein Maler zu mehreren dieser Gruppen, sind die weiteren Zuordnungen gemeinsam
+            mit anderen Informationen nach Auswahl des Nodes einsehbar, gemeinsam mit dem Verweis auf die jeweilige Seite in
+            „Maler von Florenz“. Die Kanten wurden in diesem Netzwerk gewichtet, um engere Beziehungen wie
+            Lehrer-Schüler-Verhältnisse als solche zu berücksichtigen.<br>
+            Darüber hinaus ist zu beachten, dass dieses zweite Netzwerk einige Personen einbezieht, die nicht an sich in „Maler
+            von Florenz“ vorkommen, weil es sich nicht primär um Maler handelte oder sie außerhalb des berücksichtigten
+            Zeitraums arbeiteten. Da sie aufgrund der komplexen Natur zwischenmenschlicher Beziehungen dennoch signifikante
+            Rollen im sozialen Gefüge einnehmen können, wurden sie im Netzwerk einbezogen, sofern Jacobsen ihnen in der
+            Diskussion einen starken Einfluss auf den Verlauf der Entwicklung Florentiner Malerei oder eine relevante Position
+            im Leben einzeln diskutierter Maler einräumt.</p>
+        
+            <p>In jedem Fall stellen diese Visualisierung eine Lektürehilfe und eine Annäherung an die Wahrheit dar, müssen aber im
+            Licht der Uneindeutigkeit historischer Daten gelesen werden – wer in den Archivmaterialien als „garzone“,
+            „discepolo“, „istà meco“ bezeichnet wird kann ein dem Meister fast gleichberechtigter Mitarbeiter sein, ein Geselle
+            oder Schüler, <a href="#footnote1" onclick="akkordion('footnotes')">[3]</a> die Zuschreibung der jeweiligen Beziehung als „gearbeitet mit“, „Lehrer von“ oder „Partner von“
+            erfolgt dann soweit möglich auf Basis anderer Faktoren wie der Höhe des Gehalts. Dazu kommt die zeitliche Dimension,
+            da angenommen werden kann, dass kurze Vertragszeiten und häufige Wechsel von Mitarbeitern und Schülern im Florenz
+            der Frührenaissance gängiger waren als langjährig gewachsene, stilprägende Werkstattverhältnisse.<a href="#footnote1" onclick="akkordion('footnotes')">[4]</a> Darüber hinaus
+            lebten und wirkten viele einflussreiche Maler nur für kurze Zeit in Florenz. Die Netzwerke stellen also nicht
+            Verbindungen zu einem bestimmten Zeitpunkt dar, sondern mögliche Bekanntschaften über den Verlauf eines halben
+            Jahrhunderts hinweg.</p>
+        
+            <p>Beide Netzwerke wurden über <a href="https://gephi.org/" target="_blank">Gephi 0.10.1</a> unter Verwendung des ForceAtlas2-Algorithmus erstellt.</p>
+        </div>
+      </div>
+      <!-- Möglichkeiten drop-down -->
+      <div class="w3-content  w3-padding-8">
+        <button onclick="akkordion('moeglichkeiten')" class="w3-btn w3-block w3-light-gray w3-left-align">Möglichkeiten der Arbeit mit diesen Daten</button>
+        <div id="moeglichkeiten" class="w3-container w3-hide">
+          <p>Die auf dieser Seite gezeigten Visualisierungen sind statisch, Sie können die Beziehungen nachvollziehen, weitere
+            Informationen einsehen und anhand der Verweise Details nachlesen. Das Suchfeld bietet die Möglichkeit nach einzelnen
+            Malern zu suchen und ihre Beziehungen im Detail zu betrachten.</p>
+        
+            <p>Um ausführlicher mit den Netzwerken zu interagieren und auch komplexere Beziehungen darstellbar zu machen, gibt es
+            zwei Möglichkeiten: Über GephiLite können Sie hier das <a href="https://gephi.org/gephi-lite/?gexf=https://tonimassenberg.github.io/FlorentinerMaler/network/regesten.gexf" target="_blank">Regesten-Netzwerk</a>
+             und hier
+            das <a href="https://gephi.org/gephi-lite/?gexf=https://tonimassenberg.github.io/FlorentinerMaler/network/chapter8.gexf" target="_blank">Kapitel-8-Netzwerk</a> in
+            interaktiver Form einsehen. Dort haben Sie die Möglichkeit ausführliche Filter zu nutzen und andere
+            Netzwerkalgorithmen auszuprobieren, um die Visualisierung für Sie und Ihre Zwecke nutzbarer zu machen.
+            Die andere Option ist, im GitHub Repository zu diesem Projekt die Netzwerkdateien im GEXF-, JSON- oder CSV-Format
+            herunterzuladen und über eine eigene lokale Netzwerksoftware wie Gephi zu öffnen. So stehen Ihnen die Möglichkeiten
+            der Netzwerkanalyse vollumfänglich zur Verfügung. Über diese Dateien ist auch transparent einsehbar, wie die
+            einzelnen Kanten erzeugt und gewichtet wurden.</p>
         </div>
       </div>
       <!-- Footnotes drop-down -->
       <div class="w3-content  w3-padding-16">
         <button onclick="akkordion('footnotes')" class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
         <div id="footnotes" class="w3-container w3-hide">
-          <p id="footnote1">[1] Jacobsen, Werner. „Die Maler von Florenz zu Beginn der Renaissance“. Deutscher
-            Kunstverlag, 2001. S. 28</p>
+          <p id="footnote1">[1] Jacobsen, Werner. „Die Maler von Florenz zu Beginn der Renaissance“, Deutscher Kunstverlag 2001. Auf dieser Seite beziehen sich die Daten auf den Regestenteil, S. 487-643, sowie auf die Zuschreibungsdiskussion in Kapitel 8, „Die Entwicklung der Florentiner Malerei 1400-1450“, S. 205-301.</p>
+<p id="footnote2">[2] Vgl. Jacobsen S. 239.</p>
+<p id="footnote3">[3] Vgl. Jacobsen S. 115.</p>
+<p id="footnote4">[4] Vgl. Jacobsen S. 137.</p>
         </div>
       </div>
     </div>
