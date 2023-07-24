@@ -376,6 +376,7 @@ a {
 
 .w3-btn,
 .w3-button {
+    font-family: "Inconsolata", sans-serif;
     border: none;
     display: inline-block;
     padding: 8px 16px;
@@ -422,6 +423,7 @@ a {
 
 .w3-badge,
 .w3-tag {
+    font-family: "Inconsolata", sans-serif;
     background-color: #000;
     color: #fff;
     display: inline-block;
@@ -1823,6 +1825,7 @@ a {
 
 .w3-text-white,
 .w3-hover-text-white:hover {
+    font-family: "Inconsolata", sans-serif;
     color: #fff !important
 }
 

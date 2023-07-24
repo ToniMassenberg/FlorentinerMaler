@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en" xmlns:og="http://opengraphprotocol.org/schema/"
+    xmlns:fb="http://www.facebook.com/2008/fbml" itemscope itemtype="http://schema.org/Map">
+
+<head>
+    <title>Florentiner Maler 1400-1450 - Netzwerk</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no" />
+</head>
+
+<body>
+
+    <!--Startseite-->
+    <p>„Erst von hier aus verstehen sich die Anfänge der Renaissancemalerei“, <a href="#footnote1" onclick="akkordion('footnotes')">[1]</a> schrieb Werner Jacobsen ganz
+    zum Ende von „Die Maler von Florenz zu Beginn der Renaissance“. Die Entwicklung von der Malerei des Spätmittelalters
+    zum Renaissancestil wird hier als Resultat der Lebenswirklichkeit der Maler <a href="#footnote2" onclick="akkordion('footnotes')">[2]</a> charakterisiert, weshalb es zur
+    kunsthistorischen Arbeit unerlässlich ist, Erkenntnisse zum Leben der Maler auf eine exakte Datengrundlage zu
+    beziehen. Dazu dienen hier die erhaltenen Unterlagen des von 1427 bis 1458 bestehenden Florentiner
+    Catasto-Steuersystems, das in für historische Daten ungewöhlichem Maße vollständige und verlässliche Daten erhob:
+    alle Haushaltsvorstände der Stadt waren gezwungen, zu einem Stichtag eine Erklärung über ihre Namen, Berufe, Besitz,
+    Gläubiger, Schuldner und Familienmitglieder abzulegen, damit aus diesen Angaben der abzugebene Steuerbetrag
+    errechnet werden konnte.<a href="#footnote3" onclick="akkordion('footnotes')">[3]</a></p>
+
+    <p>„Die Maler von Florenz“ erschien 2001 und ist die bisher einzige kunsthistorische Monographie, die das
+    Catasto-Material unter Einbezug anderer Archivdaten der Zeit systematisch aufarbeitet. Neben dem Text finden sich
+    in diesem Buch ein Bildteil, der den Anspruch hat ein Kompendium aller sicher zugeschriebenen Bilder der behandelten
+    Maler zu sein, sowie zahlreiche Tabellen zu Maßen, Währungen und anderen Aspekten des Lebens und einen Planteil,
+    der Informationen zum Florentiner Stadtgebiet sowie die Wohn- und Arbeitsorte der Maler illustriert. Das Herzstück
+    der Arbeit bilden 313 Regesten, die für jeden der behandelten Maler die jeweiligen Einträge in den Zunft- und
+    Gildenbüchern ab 1501 sowie aller Catasto-Erklärungen bis 1580 aufbereiten. Sie beinhalten Informationen zu den
+    Familienangehörigen, Besitztümern und Schulden, die für die Errechnung der Steuerabgaben relevant waren.</p>
+
+    <p>Große Datensätze sind spannend für die Forschung, aber sperrig zu verarbeiten. Es gab einzelne Versuche die
+    Catasto-Daten oder einen Teil davon zu digitalisieren, <a href="#footnote4" onclick="akkordion('footnotes')">[4]</a> jedoch existieren Jacobsens für den
+    kunsthistorischen Gebrauch aufbereiteten Regesten der Maler bisher nur in analoger Form. Eine Digitalisierung
+    erlaubt sowohl einen schnelleren Zugriff auf einzelne Informationen als auch die Erstellung verschiedener
+    Visualisierungen, die zur Übersichtlichkeit der Daten beitragen und damit neue Forschungsansätze ermöglichen.</p>
+
+    <p>Das vorliegende Projekt kann und will die Lektüre von „Die Maler von Florenz“ nicht ersetzen, doch es versucht, die
+    Catasto-Daten nach Jacobsens Aufarbeitung zugänglicher und für weitere Forschung nutzbarer zu machen sowie die
+    Lektüre durch Visualisierungen und eine digitale Nachschlagemöglichkeit zu stützen. Dazu wird einerseits der
+    Planteil des Buches auf der Unterseite <a href="map.html" target="_blank">Karten</a> in interaktiver Form wiedergegeben und durch weitere
+    Kartenvisualisierungen ergänzt, andererseits ermöglichen zwei <a href="network/network.html" target="_blank">Netzwerkvisualisierungen</a> eine neue Übersicht über
+    die sozialen Zusammenhänge in der Entwicklung Florentiner Malerei.<br>
+    Eine Tabelle mit den wichtigsten Angaben nach Jacobsen zu allen Florentiner Malern des Zeitraumes 1400-1450 kann auf
+    dieser Seite heruntergeladen werden. Die weiteren Datensätze und Codedateien, auf denen auch die Visualisierungen
+    basieren, steht im <a href="https://github.com/ToniMassenberg/FlorentinerMaler" target="_blank">GitHub-Repositorium dieses Projektes</a> auch zur Nutzung in weiteren Projekten zur Verfügung.</p>
+
+    <!--Grundbegriffe in diesem Projekt-->
+    <p>Auch wenn der Catasto-Datensatz eine ungewöhnlich detaillierte historische Quelle ist, sind dennoch die bei
+    historischen Daten üblichen Ungenauigkeiten zu beachten. Steuererklärungen spielen den tatsächlichen Besitz eher
+    herunter, verschiedene Zeitrechnungen und Sprachen werden vermischt, Terminologien wie der Unterschied zwischen
+    Lehrling, Gesellen und Mitarbeiter sind nicht eindeutig <a href="#footnote5" onclick="akkordion('footnotes')">[5]</a>, die Werkstattgemeinschaften konnten je
+    nach Gegebenheiten sehr unterschiedlich arrangiert sein <a href="#footnote6" onclick="akkordion('footnotes')">[6]</a>. Die 313 berücksichtigten Maler in
+    diesem Zeitraum beinhalten auch Personen, die möglicherweise schon verstorben waren oder nur aus Verwaltungsgründen
+    in der Zunft immatrikuliert waren, ohne selbst als Maler zu arbeiten. Die berufliche Mobilität und Doppeltätigkeit
+    in mehreren Berufen erschweren das Festlegen der behandelten Personen zusätzlich. <a href="#footnote7" onclick="akkordion('footnotes')">[7]</a>
+    Alle eine Werkstatt leitenden Meister in Florenz mussten einer Zunft anzugehören, im Falle der Maler der Arte dei
+    Medici e Speziali. Die Zünfte dienten nicht nur der Berufsorganisation, sondern waren auch die Grundlage des
+    politischen Lebens und Voraussetzung für Teilhabe an politischen Ämtern. <a href="#footnote8" onclick="akkordion('footnotes')">[8]</a> Zur Immatrikulation als
+    Meister mussten mindestens drei Lehrjahre und drei Gesellenjahre nachgewiesen werden, außerdem war eine
+    Immatrikulationsgebür zu entrichten, die entfiel, wenn Bruder oder Vater des neuen Immatrikulanten bereits der Zunft
+    angehörten, weshalb die fast vollständig erhaltenen Zunftbücher mitunter auf Rückschlüsse über den Beruf der
+    Verwandten eines Malers erlauben. <a href="#footnote9" onclick="akkordion('footnotes')">[9]</a> Manche Maler waren auch in mehreren Zünften immatrikuliert, zumeist
+    Möbelmaler, die je nach eigenem Selbstverständnis auch als Tischler der Arte dei Legnaioli angehören konnten.
+    <a href="#footnote10" onclick="akkordion('footnotes')">[10]</a> Einzige Ausnahme dieses Zunftzwanges waren die Mönchsmaler, auch wenn sie Werkstätten außerhalb der
+    Konvente unterhielten. <a href="#footnote11" onclick="akkordion('footnotes')">[11]</a></p>
+
+    <p>Frauen war der Zunftbeitritt grundsätzlich erlaubt, aber es gibt keine Beispiele von Malerinnen im hier primär
+    behandelten Zeitraum. Möglicherweise gab es Frauen die in den Malerwerkstätten ihrer Verwandten mitarbeiten, die
+    nicht Werkstattinhaberinnen und damit nicht immatrikuliert waren, und da Frauen nicht Familienoberhäupter waren
+    mussten sie keine Catasto abgeben – in jedem Fall bleiben sie nicht nachweisbar. <a href="#footnote12" onclick="akkordion('footnotes')">[12]</a></p>
+
+    <p>Jacobsen grenzt seinen Begriff des Malers dabei stark von den im 16. Jahrhundert entstandenen Begriff des Künstlers
+    ab. Maler des frühen 15. Jahrhunderts seien reine Handwerker gewesen und es gebe keinerlei Erwartung ‚künstlerischen
+    Anspruchs und künstlerischer Freiheit‘. <a href="#footnote13" onclick="akkordion('footnotes')">[13]</a><br>
+    Zur genaueren Beschreibung der eigentlichen Tätigkeiten werden die Maler in 13 Berufsgruppen unterteilt, deren
+    Definitionen auf den eigenen Angaben zur Spezialisierung der Maler in den Zunftbüchern sowie in ihren
+    Catasto-Deklarationen zurückgehen; für die Erkenntnisse, was die eigentlichen Aufgabengebiete der Spezialisten
+    waren, wurde das Malereitraktat des Cennino d’Andrea di Cennino da Colle di Val d’Elsa herangezogen. <a href="#footnote14" onclick="akkordion('footnotes')">[14]</a> <br>
+    a) Wand- und Tafelmaler produzierten je nach Auftragslage figürliche Wandgemälde und die Ausgestaltung ganzer Räume
+    oder einzelne Tafeln. <a href="#footnote14" onclick="akkordion('footnotes')">[15]</a> <br>
+    b) Das Mosaikhandwerk galt zu der Zeit als fast ausgestorben, Mosaizisten kümmerten sich vor allem um die
+    Restauration vorhandener Mosaiken. <a href="#footnote14" onclick="akkordion('footnotes')">[16]</a> <br>
+    c) Die Möbelmaler (Forzerinai) bemalten vor allem Truhen, besonders Hochzeitstruhen (Cassone) als Aussteuer, aber
+    auch „deschi“ (Holzteller für Wöchnerinnen), Bänke, Betten, Schachbretter und andere Gebrauchsgegenstände. <a href="#footnote14" onclick="akkordion('footnotes')">[17]</a> <br>
+    d) Waffenmaler bemalten neben repräsentativen Waffen auch militärisch-repräsentative Gegenstände, Fahnen,
+    Turnierbedarf und Zierrat für das städtische Orchester. Diese Gruppe war hoch angesehen und gut bezahlt, da
+    repräsentatives Zierwerk hochwertig sein musste; es handelte sich also um fähige Spezialisten, nicht um einen
+    Nebenerwerb der Tafelmaler. <a href="#footnote14" onclick="akkordion('footnotes')">[18]</a> <br>
+    f) Die Tätigkeiten und Fähigkeiten der Glasmaler sind getrennt von den anderen Berufsgruppen zu betrachten, da sie
+    völlig anderer Techniken, Werkstattausstattung und Materialien benötigten. Sie schufen Kirchenfenster und Reliquiare
+    für ausschließlich kirchliche Aufträge, nach der Fertistellung des Doms gab es in den 1430ern in dieser Berufsgruppe
+    eine große Arbeitslosigkeit und Abwanderung vor allem nach Rom. <a href="#footnote14" onclick="akkordion('footnotes')">[19]</a> <br>
+    g) Miniaturisten waren Buchmaler, die vor allem liturgische Bücher für kirchliche Auftraggeber schufen, aber auch
+    Lesebücher für private Sammler. Sie arbeiteten eng mit den Papierherstellern (cartolai) zusammen, oft auch ohne
+    Werkstatt in Heimarbeit. Die Papierlagen wurden erst beschrieben, dann an die Miniaturisten geliefert, bevor das
+    Buch gebunden wurde, weshalb mehrere Miniaturisten zeitgleich am selben Buch arbeiten konnten. <a href="#footnote14" onclick="akkordion('footnotes')">[20]</a> <br>
+    h) Spielkartenmaler (Naibi) waren oft ursprünglich Möbelmaler, weil Spielkarten auf hölzernen Druckstöcken basierten
+    und in Schachteln aufbewahrt wurden. Der Besitz der Druckstöcke war die notwendige und definierende Eigenschaft der
+    Naibi. <a href="#footnote14" onclick="akkordion('footnotes')">[21]</a> <br>
+    i) Ceri-Maler, also Kerzenmaler, schufen zwar wohl Wachskerzen und Osterkerzen, für ihr Hauptarbeitsgebiet hält
+    Jacobsen aber „tabernakelförmige Gebilde“ aus Pappmaché und Wachs, auf denen beim Johannisfest Figuren angebracht
+    waren und die das Baptisterium schmückten. <a href="#footnote14" onclick="akkordion('footnotes')">[22]</a> <br>
+    j) Stoffmaler waren in der Regel Handwerker aus stoffverarbeitenden Gewerben wie Weber oder Schneider, die sich auf
+    z.B. Vorhänge, Wandbehänge oder Kleidung mit Bemalung spezialisierten und daher auch oder hauptsächlich als Maler
+    immatrikuliert waren. <a href="#footnote14" onclick="akkordion('footnotes')">[23]</a> <br>
+    k) Zimmermaler besorgten alles vom einfachen Anstrich bis dekorative Malerei, eher einfach und „unterstes Niveau der
+    Florentiner Maler“. <a href="#footnote14" onclick="akkordion('footnotes')">[24]</a> <br>
+    l) Als „Hersteller von Gipstafeln“ bezeichnet Jacobsen nicht professionelle Grundierer, sondern Hersteller von
+    gipsernen Andachtsbildern als Massenware-Abgüsse, die auch anspruchsvoll sein konnten, sowie Rechentafeln. <a href="#footnote14" onclick="akkordion('footnotes')">[25]</a> <br>
+    m) Steinmetze als Maler stellen eine seltene Doppeltätigkeit dar, die berücksichtigt wird, weil es im Hausgebrauch
+    der Dombauhütte zu entsprechenden Einzelfällen kam. <a href="#footnote14" onclick="akkordion('footnotes')">[26]</a> <br>
+    n) Hobbymaler schließlich haben eigentlich Berufe außerhalb der Malerei, sie sind Ärzte oder Händler die als
+    Privatvergnügen malen; berücksichtigt werden sie, wenn sie als Maler genannt werden und/oder in der Lukasgilde
+    eingeschrieben waren. <a href="#footnote14" onclick="akkordion('footnotes')">[27]</a></p>
+    <p id="footnote1">[1] Jacobsen, Werner. „Die Maler von Florenz zu Beginn der Renaissance“. Deutscher Kunstverlag, 2001. S. 202</p>
+<p id="footnote2">[2] „Maler“ ist in dieser Arbeit nicht im generischen Maskulinum zu verstehen, es handelt sich an diesem Ort zu diesem Zeitpunkt um eine rein männliche Gruppe.</p>
+<p id="footnote3">[3] Vgl. Jacobsen S. 12 sowie 23f.</p>
+<p id="footnote4">[4] Bemerkenswert in diesem Kontext ist der Online-Catasto, eine
+    SQL-Datenbank zur Durchsuchung des ganzen Catasto-Datensatzes von 1427 auf Basis von Daten, die David Herlihy mit
+    den Büchern im Achivio di Strato in Florenz erarbeitete hatte. Version 1.3. Florentine Renaissance Resources/Online Catasto: STG, Brown University, Providence, R.I., 2002. 
+    https://cds.library.brown.edu/projects/catasto/.</p>
+<p id="footnote5">[5] Vgl. Jacobsen S. 115.</p>
+<p id="footnote6">[6] Vgl. Jacobsen S. 135.</p>
+<p id="footnote7">[7] Vgl. Jacobsen S. 61f.</p>
+<p id="footnote8">[8] Vgl. Jacobsen S. 19, 35.</p>
+<p id="footnote9">[9] Vgl. Jacobsen S. 41.</p>
+<p id="footnote10">[10] Vgl. Jacobsen S. 42.</p>
+<p id="footnote11">[11] Vgl. Jacobsen S. 43f, 145.</p>
+<p id="footnote12">[12] Vgl. Zur Situation von Frauen vgl. Jacobsen S. 30, 47, 76f.</p>
+<p id="footnote13">[13] Vgl. Jacobsen S. 39.</p>
+<p id="footnote14">[14] Vgl. Jacobsen S. 49.</p>
+<p id="footnote15">[15] Vgl. Jacobsen S. 51.</p>
+<p id="footnote16">[16] Vgl. Jacobsen S. 51, 190f.</p>
+<p id="footnote17">[17] Vgl. Jacobsen S. 51f.</p>
+<p id="footnote18">[18] Vgl. Jacobsen S. 53.</p>
+<p id="footnote19">[19] Vgl. Jacobsen S. 53f.</p>
+<p id="footnote20">[20] Vgl. Jacobsen S. 54, 294.</p>
+<p id="footnote21">[21] Vgl. Jacobsen S. 55.</p>
+<p id="footnote22">[22] Vgl. Jacobsen S. 56.</p>
+<p id="footnote23">[23] Vgl. Jacobsen S. 57.</p>
+<p id="footnote24">[24] Vgl. Jacobsen S. 57.</p>
+<p id="footnote25">[25] Vgl. Jacobsen S. 58.</p>
+<p id="footnote26">[26] Vgl. Jacobsen S. 59.</p>
+<p id="footnote27">[27] Vgl. Jacobsen S. 59f.</p>
+
+
+
+    <!--Planteil-->
+    <!--Einführung zur Karte-->
+    <p>Wenn es darum gehen soll, wie Maler lebten und arbeiteten, stellt sich die Frage, <i>wo</i> sie lebten und
+    arbeiteten. In ihren Steuererklärungen gaben die Bürger von Florenz an, wie viel Miete sie für ihre Wohnungen und
+    Werkstätten zahlen oder wie hoch der jeweilige Kaufpreis ausfiel, wobei auch die Lage der fraglichen Immobilie
+    angegeben wird. Zur Identifizierung der Orte sind meist der Straßenname, manchmal auch nur der Pfarrsprengel oder
+    die nächstliegende Kirche angegeben.</p>
+
+    Grundsätzlich befanden sich Wohnung und Werkstatt nicht im selben Haus. <a href="#footnote1" onclick="akkordion('footnotes')">[1]</a> Erstere verteilten sich
+    im gesamten Stadtgebiet, vor allem Außenbezirken, letztere konzentrieren sich im Zentrum der Stadt. <a href="#footnote2" onclick="akkordion('footnotes')">[2]</a> 
+    Auch bei Inhaberwechsel blieben diese Gebäude oft über Generationen hinweg Malerwerkstätten, weil die
+    Ausstattung mit der Werkstatt verkauft oder gepachtet wurden.<br>
+    Häuser und Wohnungen wurden in der Regel mit der ganzen Familie in mehreren Generationen bewohnt, was zu räumlicher
+    Enge, aber auch sozialer Absicherung durch die Familie führte. <a href="#footnote3" onclick="akkordion('footnotes')">[3]</a> Werkstätten konnten verschiedene
+    Größen annehmen, vom Einzelbetrieb oder Familienbetrieb zwischen Vater und Sohn oder Brüdern <a href="#footnote4" onclick="akkordion('footnotes')">[4]</a>
+    bis zur Partnerschaft zwischen zünftigen Malern <a href="#footnote5" onclick="akkordion('footnotes')">[5]</a>. Während es bei Kupfergießern auch Großwerkstätten gab, waren
+    Malerwerkstätten eher klein, man kann bei den erfolgreichsten Werkstätten von bis zu fünf Mitarbeitern (Gesellen und
+    Lehrlinge) ausgehen. <a href="#footnote6" onclick="akkordion('footnotes')">[6]</a> Auch geistliche Maler mieteten mitunter Wohnungen und Werkstätten auf dem feien Markt,
+    teilweise aber auch in Klausuren.<a href="#footnote7" onclick="akkordion('footnotes')">[7]</a> Wegen kurzer Vertragszeiten, großer Mobilität und häufiger Mitarbeiterwechsel
+    lehnt Jacobsen die Idee über lange Zeit gewachsener Werkstätten mit einem stilprägenden Meister für Florenz in
+    diesem Zeitraum eher ab. <a href="#footnote8" onclick="akkordion('footnotes')">[8]</a></p>
+
+    Der Planteil von „Die Maler von Florenz“ verwertet die Informationen zur Lage der Wohnungen und Werkstätten, indem
+    auf einem Stadtplan des Florentiner Stadtgebietes, der Città, <a href="#footnote9" onclick="akkordion('footnotes')">[9]</a> die Wohn- und Werkstätten der Florentiner Maler eingezeichnet wurden. Dabei sind die Maler
+    nach ihrer Berufsgruppe und dem Jahr der Steuererhebung (die Prestanzen von 1400 und 1412 und die Catasto-Erhebungen
+    von 1427 bis 1458) aufgeschlüsselt.</p>
+
+    Wie die Karte in „Maler von Florenz“ basiert die Karte in diesem Projekt auf einem Kupferstich des Stadtplans des
+    Ruggero Ricci von 1831, ergänzt um wenige Änderungen, um die baulichen Veränderungen des 15. und 16. Jahrhunderts zu
+    verschleiern.
+    Zusätzlich bietet der Planteil von „Die Maler von Florenz“ Markierungen zur räumlichen Entwicklung der Stadt im
+    Laufe ihrer Geschichte, zu den Grenzen der städtischen Viertel (Quartieri) und Nachbarschaften (Gonfaloni) und zu
+    der kirchlichen Einteilung der Stadt. Für das vorliegende Projekt ergänzt wurde eine Einfärbung der Gonfaloni nach
+    Steueraufkommen im Jahr 1427, das im Buch in einer Tabelle wiedergegeben wird.
+    <a href="#footnote10" onclick="akkordion('footnotes')">[10]</a> Die Zahlen basieren auf der bisher einzigen umfassenden
+    computergestützten Aufarbeitung des Catasto-Materials des Jahres 1427.<a href="#footnote11"
+    onclick="akkordion('footnotes')">[11]</a> 
+    <a href="#footnote12" onclick="akkordion('footnotes')">[12]</a>
+    </p>
+
+    <p id="footnote1">[1] Jacobsen, Werner. „Die Maler von Florenz zu Beginn der Renaissance“. Deutscher Kunstverlag, 2001. S. 202.</p>
+<p id="footnote2">[2] Vgl. Jacobsen S. 138f.</p>
+<p id="footnote3">[3] Vgl. Jacobsen S. 74.</p>
+<p id="footnote4">[4] Vgl. Jacobsen S. 131f.</p>
+<p id="footnote5">[5] Vgl. Jacobsen S. 132f.</p>
+<p id="footnote6">[6] Vgl. Jacobsen S. 131.</p>
+<p id="footnote7">[7] Vgl. Jacobsen S. 144.</p>
+<p id="footnote8">[8] Vgl. Jacobsen S. 137.</p>
+<p id="footnote9">[9] Zur Einteilung und Eigenheiten der Florentiner Gebiete vgl. Jacobsen S. 24.</p>
+<p id="footnote10">[10] Vgl. Jacobsen S. 28.</p>
+<p id="footnote11">[11] Version 1.3. Florentine Renaissance Resources/Online Catasto: STG, Brown University, Providence, R.I., 2002. https://cds.library.brown.edu/projects/catasto/.</p>
+<p id="footnote12">[12] Das Farbschema der Choropleth-Karte wurde generiert mit folgendem Tool: Brewer, Cynthia A. „ColorBrewer: Color Advice for Maps“. Zugegriffen 12. Mai 2023. https://colorbrewer2.org/.</p>
+
+
+
+    <!--Netzwerk-->
+    <!--Beziehungen der Florentiner Maler-->
+    <p>Die in „Die Maler von Florenz“ <a href="#footnote1" onclick="akkordion('footnotes')">[1]</a> aufbereiteten Daten erlauben nicht nur einen Einblick in das finanzielle Leben der
+    Florentiner Maler, sondern auch in ihre Beziehungen untereinander. Die Catasto- und Prestanza-Listen detaillieren
+    die Familien- und Wohnverhältnisse, die bei der Berechnung der Steuer berücksichtigt wurden, aber über Verträge,
+    Zahlungsnotizen, bezeugte Urkunden und Werkstattbücher werden auch Hinweise auf nichtfamiliäre, entfernte und
+    temporäre Beziehungen überliefert.</p>
+
+    <p>Zu wissen, welche Maler einander kannten, nachweislich miteinander agierten und arbeiteten oder befreundet waren
+    erlaubt es, den Zuschreibungsdiskussionen und Theorien zur Stilentwicklung eine menschliche Ebene hinzuzufügen und
+    Verbindungen mit einzubeziehen, die nicht auf den ersten Blick nahe liegen. Werner Jacobsen hat solche Verbindungen
+    in Kapitel 8 von „Die Maler von Florenz“ berücksichtigt, in dem er die Entwicklung von der spätmittelalterlichen
+    Malerei über die Internationale Gotik hin zur Renaissancemalerei anhand der Werke, die er anhand der
+    Archivmaterialien als gesichert anerkennt, nachvollzieht. Dabei handelt es sich nicht um eine stringente Erzählung,
+    die mit einem „Ereignis Masaccio“ <a href="#footnote1" onclick="akkordion('footnotes')">[2]</a> einen Wendepunkt hin zur Renaissance erfährt, sondern um eine multikausale
+    Entwicklung, die durch die spezifischen Interessen, Fähigkeiten, Reisen und eben Beziehungen der einzelnen Maler in
+    verschiedene Richtungen getrieben wurde. Daher ist es nicht möglich diese Entwicklung in einem einfachen Zeitstrahl
+    nachzuverfolgen, vielmehr soll die Multidimensionalität der Entwicklung als Netzwerk der persönlichen und
+    professionellen Verbindungen einzelner Maler repräsentiert werden.</p>
+
+
+    <!--Die Visualisierungen-->
+    <p>Auf dieser Seite werden zwei Netzwerke gezeigt. Der auf den Regesten basierende Plan berücksichtigt als
+    Datengrundlage nur die Informationen, die Jacobsen in den einleitenden Kurztexten zu jedem Maler im Regestenteil von
+    „Die Maler von Florenz“ einbezieht. Das sind zumeist Angaben zu Familienmitgliedern, die ebenfalls Maler waren,
+    sowie über das Catasto-Material nachvollziehbare Lehr- und Arbeitgeberverhältnisse.<br>
+    Für die Umsetzung als Netzwerk wurden einerseits diese Angaben vereinheitlicht, indem die gerichteten Verbindungen
+    immer vom Vater zum Sohn, vom Onkel zum Neffen und vom Lehrer und Arbeitsgeber zum Schüler und Mitarbeiter
+    vereinheitlicht wurden; andererseits wurden stark implizierte Familienverbindungen wie die von Onkel zu Neffen oder
+    zwischen Brüdern, die im Regestenteil nur als zwei Söhne desselben Vaters vorkommen, ergänzt. Die Farben der Nodes
+    beziehen sich auf die primäre Berufsgruppe der Maler, die Farben der Verbindungen geben Hinweis auf die Art der
+    Beziehung. Bei Auswahl der Nodes können grundlegende Informationen zu den Malern eingesehen werden, die Details
+    lassen sich im alphabetisch geordneten Regestenteil von „Die Maler von Florenz“ unter mindestens einem der beiden
+    verbundenen Malern nachlesen.</p>
+
+    <p>Das zweite Netzwerk basiert auf der Zuschreibungsdiskussion, die Jacobsen in Kapitel 8 vornimmt, und bezieht daher
+    auch Notizen zu temporärer Mitarbeit, Freundschaften und gemeinsamen Werken mit ein. Dabei ist zu betonen, dass
+    diese Angaben zwar auf Archivmaterialien basieren, aber in der Visualisierungsumsetzung vor allem Jacobsens
+    Einschätzung der Verbindung reflektieren. Die Farbe der Nodes bezieht sich hier auf den sozialen Kreis, in dessen
+    Kontext Jacobsen das Werk des jeweiligen Malers diskutiert, zumeist entweder den Umkreis einer einflussreichen
+    Werkstatt oder eine Generation. Gehört ein Maler zu mehreren dieser Gruppen, sind die weiteren Zuordnungen gemeinsam
+    mit anderen Informationen nach Auswahl des Nodes einsehbar, gemeinsam mit dem Verweis auf die jeweilige Seite in
+    „Maler von Florenz“. Die Kanten wurden in diesem Netzwerk gewichtet, um engere Beziehungen wie
+    Lehrer-Schüler-Verhältnisse als solche zu berücksichtigen.<br>
+    Darüber hinaus ist zu beachten, dass dieses zweite Netzwerk einige Personen einbezieht, die nicht an sich in „Maler
+    von Florenz“ vorkommen, weil es sich nicht primär um Maler handelte oder sie außerhalb des berücksichtigten
+    Zeitraums arbeiteten. Da sie aufgrund der komplexen Natur zwischenmenschlicher Beziehungen dennoch signifikante
+    Rollen im sozialen Gefüge einnehmen können, wurden sie im Netzwerk einbezogen, sofern Jacobsen ihnen in der
+    Diskussion einen starken Einfluss auf den Verlauf der Entwicklung Florentiner Malerei oder eine relevante Position
+    im Leben einzeln diskutierter Maler einräumt.</p>
+
+    <p>In jedem Fall stellen diese Visualisierung eine Lektürehilfe und eine Annäherung an die Wahrheit dar, müssen aber im
+    Licht der Uneindeutigkeit historischer Daten gelesen werden – wer in den Archivmaterialien als „garzone“,
+    „discepolo“, „istà meco“ bezeichnet wird kann ein dem Meister fast gleichberechtigter Mitarbeiter sein, ein Geselle
+    oder Schüler, <a href="#footnote1" onclick="akkordion('footnotes')">[3]</a> die Zuschreibung der jeweiligen Beziehung als „gearbeitet mit“, „Lehrer von“ oder „Partner von“
+    erfolgt dann soweit möglich auf Basis anderer Faktoren wie der Höhe des Gehalts. Dazu kommt die zeitliche Dimension,
+    da angenommen werden kann, dass kurze Vertragszeiten und häufige Wechsel von Mitarbeitern und Schülern im Florenz
+    der Frührenaissance gängiger waren als langjährig gewachsene, stilprägende Werkstattverhältnisse.<a href="#footnote1" onclick="akkordion('footnotes')">[4]</a> Darüber hinaus
+    lebten und wirkten viele einflussreiche Maler nur für kurze Zeit in Florenz. Die Netzwerke stellen also nicht
+    Verbindungen zu einem bestimmten Zeitpunkt dar, sondern mögliche Bekanntschaften über den Verlauf eines halben
+    Jahrhunderts hinweg.</p>
+
+    <p>Beide Netzwerke wurden über <a href="https://gephi.org/" target="_blank">Gephi 0.10.1</a> unter Verwendung des ForceAtlas2-Algorithmus erstellt.</p>
+
+    <!--Möglichkeiten der Arbeit mit diesen Daten-->
+    <p>Die auf dieser Seite gezeigten Visualisierungen sind statisch, Sie können die Beziehungen nachvollziehen, weitere
+    Informationen einsehen und anhand der Verweise Details nachlesen. Das Suchfeld bietet die Möglichkeit nach einzelnen
+    Malern zu suchen und ihre Beziehungen im Detail zu betrachten.</p>
+
+    <p>Um ausführlicher mit den Netzwerken zu interagieren und auch komplexere Beziehungen darstellbar zu machen, gibt es
+    zwei Möglichkeiten: Über GephiLite können Sie hier das <a href="https://gephi.org/gephi-lite/?gexf=https://tonimassenberg.github.io/FlorentinerMaler/network/regesten.gexf" target="_blank">Regesten-Netzwerk</a>
+     und hier
+    das <a href="https://gephi.org/gephi-lite/?gexf=https://tonimassenberg.github.io/FlorentinerMaler/network/chapter8.gexf" target="_blank">Kapitel-8-Netzwerk</a> in
+    interaktiver Form einsehen. Dort haben Sie die Möglichkeit ausführliche Filter zu nutzen und andere
+    Netzwerkalgorithmen auszuprobieren, um die Visualisierung für Sie und Ihre Zwecke nutzbarer zu machen.
+    Die andere Option ist, im GitHub Repository zu diesem Projekt die Netzwerkdateien im GEXF-, JSON- oder CSV-Format
+    herunterzuladen und über eine eigene lokale Netzwerksoftware wie Gephi zu öffnen. So stehen Ihnen die Möglichkeiten
+    der Netzwerkanalyse vollumfänglich zur Verfügung. Über diese Dateien ist auch transparent einsehbar, wie die
+    einzelnen Kanten erzeugt und gewichtet wurden.</p>
+
+
+
+</body>
+
+</html>

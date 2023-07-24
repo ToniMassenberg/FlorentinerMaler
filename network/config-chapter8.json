@@ -13,8 +13,8 @@
     "title": "Florentiner Maler"
   },
   "legend": {
-    "edgeLabel": "<img width='200px' src='../assets/images/edgeColors-chapter8.jpg'>",
-    "colorLabel": "<img width='200px' src='../assets/images/nodeColors-chapter8.jpg'>",
+    "edgeLabel": "Beziehungen der Maler <img width='200px' src='../assets/images/edgeColors-chapter8.jpg'>",
+    "colorLabel": "Sozialer Kreis <img width='200px' src='../assets/images/nodeColors-chapter8.jpg'>",
     "nodeLabel": "Maler"
   },
   "features": {
