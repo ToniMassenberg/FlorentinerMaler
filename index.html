@@ -12,8 +12,8 @@
     .bgimg {
       background-position: center;
       background-size: cover;
-      background-image: url("assets/images/firenze-openstreetmap.jpg");
-      min-height: 75%;
+      background-image: url("assets/images/Paolo_di_Dono_Die_Schlacht_von_San_Romano.jpg");
+      height: 50%;
     }
   </style>
 </head>
@@ -39,7 +39,7 @@
   <!-- Header with image -->
   <header class="bgimg w3-display-container w3-grayscale-min" id="home">
     <div class="w3-display-middle w3-center">
-      <span class="w3-text-black" style="font-size:80px">Florentiner Maler <br> 1400-1450</span>
+      <span class="w3-text-white" style="font-size:80px">Florentiner Maler <br> 1400-1450</span>
     </div>
   </header>
 
@@ -52,7 +52,7 @@
         <h5 class="w3-center w3-padding-16">
           <span class="w3-tag w3-wide">Einführung zum Projekt</span>
         </h5>
-        <div>
+        <div class="w3-justify"> 
           <p>„Erst von hier aus verstehen sich die Anfänge der Renaissancemalerei“, <a href="#footnote1"
               onclick="akkordion('footnotes')">[1]</a> schrieb Werner Jacobsen ganz
             zum Ende von „Die Maler von Florenz zu Beginn der Renaissance“. Die Entwicklung von der Malerei des
@@ -72,7 +72,7 @@
           <p>„Die Maler von Florenz“ erschien 2001 und ist die bisher einzige kunsthistorische Monographie, die das
             Catasto-Material unter Einbezug anderer Archivdaten der Zeit systematisch aufarbeitet. Neben dem Text finden
             sich
-            in diesem Buch ein Bildteil, der den Anspruch hat ein Kompendium aller sicher zugeschriebenen Bilder der
+            in diesem Buch ein Bildteil, der den Anspruch hat, ein Kompendium aller sicher zugeschriebenen Bilder der
             behandelten
             Maler zu sein, sowie zahlreiche Tabellen zu Maßen, Währungen und anderen Aspekten des Lebens und einen
             Planteil,
@@ -84,7 +84,7 @@
             den
             Familienangehörigen, Besitztümern und Schulden, die für die Errechnung der Steuerabgaben relevant waren.</p>
 
-          <p>Große Datensätze sind spannend für die Forschung, aber sperrig zu verarbeiten. Es gab einzelne Versuche die
+          <p>Große Datensätze sind spannend für die Forschung, aber sperrig zu verarbeiten. Es gab einzelne Versuche, die
             Catasto-Daten oder einen Teil davon zu digitalisieren, <a href="#footnote4"
               onclick="akkordion('footnotes')">[4]</a> jedoch existieren Jacobsens für den
             kunsthistorischen Gebrauch aufbereiteten Regesten der Maler bisher nur in analoger Form. Eine
@@ -117,7 +117,7 @@
       <div class="w3-content  w3-padding-16">
         <button onclick="akkordion('grundbegriffe')" class="w3-btn w3-block w3-light-gray w3-left-align">Grundbegriffe
           in diesem Projekt</button>
-        <div id="grundbegriffe" class="w3-container w3-hide">
+        <div id="grundbegriffe" class="w3-container w3-hide w3-justify">
           <p>Auch wenn der Catasto-Datensatz eine ungewöhnlich detaillierte historische Quelle ist, sind dennoch die <b>bei
             historischen Daten üblichen Ungenauigkeiten</b> zu beachten. Steuererklärungen spielen den tatsächlichen Besitz
             eher
@@ -125,8 +125,8 @@
             zwischen
             Lehrling, Gesellen und Mitarbeiter sind nicht eindeutig <a href="#footnote5"
               onclick="akkordion('footnotes')">[5]</a>, die Werkstattgemeinschaften konnten je
-            nach Gegebenheiten sehr unterschiedlich arrangiert sein <a href="#footnote6"
-              onclick="akkordion('footnotes')">[6]</a>. Die 313 berücksichtigten Maler in
+            nach Gegebenheiten sehr unterschiedlich arrangiert sein. <a href="#footnote6"
+              onclick="akkordion('footnotes')">[6]</a> Die 313 berücksichtigten Maler in
             diesem Zeitraum beinhalten auch Personen, die möglicherweise schon verstorben waren oder nur aus
             Verwaltungsgründen
             in der Zunft immatrikuliert waren, ohne selbst als Maler zu arbeiten. Die berufliche Mobilität und
@@ -141,7 +141,7 @@
             Meister mussten mindestens drei Lehrjahre und drei Gesellenjahre nachgewiesen werden, außerdem war eine
             Immatrikulationsgebür zu entrichten, die entfiel, wenn Bruder oder Vater des neuen Immatrikulanten bereits
             der Zunft
-            angehörten, weshalb die fast vollständig erhaltenen Zunftbücher mitunter auf Rückschlüsse über den Beruf der
+            angehörten, weshalb die fast vollständig erhaltenen Zunftbücher mitunter auch Rückschlüsse über den Beruf der
             Verwandten eines Malers erlauben. <a href="#footnote9" onclick="akkordion('footnotes')">[9]</a> Manche Maler
             waren auch in mehreren Zünften immatrikuliert, zumeist
             Möbelmaler, die je nach eigenem Selbstverständnis auch als Tischler der Arte dei Legnaioli angehören
@@ -151,13 +151,10 @@
             Konvente unterhielten. <a href="#footnote11" onclick="akkordion('footnotes')">[11]</a>
           </p>
 
-          <p><b>Frauen</b> war der Zunftbeitritt grundsätzlich erlaubt, aber es gibt keine Beispiele von Malerinnen im hier
-            primär
-            behandelten Zeitraum. Möglicherweise gab es Frauen die in den Malerwerkstätten ihrer Verwandten mitarbeiten,
-            die
-            nicht Werkstattinhaberinnen und damit nicht immatrikuliert waren, und da Frauen nicht Familienoberhäupter
-            waren
-            mussten sie keine Catasto abgeben – in jedem Fall bleiben sie nicht nachweisbar. <a href="#footnote12"
+          <p><b>Frauen</b> war der Zunftbeitritt grundsätzlich erlaubt, aber es gibt keine Beispiele von Malerinnen im hier primär
+            behandelten Zeitraum. Möglicherweise gab es Frauen, die in den Malerwerkstätten ihrer Verwandten mitarbeiten,
+            die nicht Werkstattinhaberinnen und damit nicht immatrikuliert waren. Da Frauen nicht Familienoberhäupter
+            waren mussten sie keine Catasto abgeben – in jedem Fall ist ihre Mitarbeit nicht nachweisbar. <a href="#footnote12"
               onclick="akkordion('footnotes')">[12]</a></p>
 
           <p>Jacobsen grenzt seinen <b>Begriff des Malers</b> dabei stark von den im 16. Jahrhundert entstandenen Begriff des
@@ -241,6 +238,7 @@
       <div class="w3-content  w3-padding-16">
         <button onclick="akkordion('footnotes')" class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
         <div id="footnotes" class="w3-container w3-hide">
+          <p>Header-Bild: Paolo di Dono (Paolo Uccello), Die Schlacht von San Romano, ca. 1435-1440. &copy; La Gallerie degli Uffizi, https://www.uffizi.it/en/artworks/battle-of-san-romano.</p>
           <p id="footnote1">[1] Jacobsen, Werner. „Die Maler von Florenz zu Beginn der Renaissance“. Deutscher
             Kunstverlag, 2001. S. 202</p>
           <p id="footnote2">[2] „Maler“ ist in dieser Arbeit nicht im generischen Maskulinum zu verstehen, es handelt
