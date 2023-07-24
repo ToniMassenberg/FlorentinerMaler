@@ -565,7 +565,7 @@ function nodeActive(a) {
 
 	if (groupByDirection) {
 		size=Object.size(mutual);
-		f.push("<h2>Mututal (" + size + ")</h2>");
+		f.push("<h2>Mutual (" + size + ")</h2>");
 		(size>0)? f=f.concat(createList(mutual)) : f.push("No mutual links<br>");
 		size=Object.size(incoming);
 		f.push("<h2>Incoming (" + size + ")</h2>");
