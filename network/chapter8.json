@@ -6,7 +6,7 @@
             "y": -18.167051315307617,
             "id": "37",
             "attributes": {
-                "gnd-id": "118696831",
+                "GND-ID": "118696831",
                 "Death": "1498",
                 "Seite der Zuschreibungsdiskussion": "254",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -15,7 +15,7 @@
                 "Gruppen nach Kapitel 8": "Ghiberti-Werkstatt; Angelico-Werkstatt; späte Maler",
                 "Heute noch berühmt?": "1",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q248615",
+                "Wikidata-QID": "Q248615",
                 "Arte dei Medici e Speziali": "nach 1444?",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Angelico-Werkstatt"
             },
@@ -41,7 +41,7 @@
             "id": "6",
             "attributes": {
                 "andere zunftzugehörigkeit": "Arte dei Legnaioli 1419",
-                "gnd-id": "1173288430",
+                "GND-ID": "1173288430",
                 "Death": "1457",
                 "Seite der Zuschreibungsdiskussion": "251",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -49,7 +49,7 @@
                 "Gruppen nach Kapitel 8": "Bicci-Umkreis",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q3293694",
+                "Wikidata-QID": "Q3293694",
                 "Arte dei Medici e Speziali": "keine",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Bicci-Umkreis"
             },
@@ -79,7 +79,7 @@
             "y": -185.10838317871094,
             "id": "62",
             "attributes": {
-                "gnd-id": "143434217",
+                "GND-ID": "143434217",
                 "Death": "nach 1498",
                 "Zuschreibungsfähigkeit": "ü.dok.",
                 "Verbindungen nach Kapitel 8": "Mitarbeiter von Fra Filippo di Tommaso (Filippo Lippi)",
@@ -112,7 +112,7 @@
             "y": 71.14701843261719,
             "id": "67",
             "attributes": {
-                "gnd-id": "123045177",
+                "GND-ID": "123045177",
                 "Death": "1405?",
                 "Seite der Zuschreibungsdiskussion": "212",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -133,7 +133,7 @@
             "y": 65.03592681884766,
             "id": "101",
             "attributes": {
-                "gnd-id": "122312902",
+                "GND-ID": "122312902",
                 "Death": "1452",
                 "Seite der Zuschreibungsdiskussion": "242-245",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -142,7 +142,7 @@
                 "Gruppen nach Kapitel 8": "Werkstatt Bicci di Lorenzo",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q856749",
+                "Wikidata-QID": "Q856749",
                 "Arte dei Medici e Speziali": "1398",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Werkstatt Bicci di Lorenzo"
             },
@@ -175,7 +175,7 @@
             "y": -177.2274627685547,
             "id": "38",
             "attributes": {
-                "gnd-id": "118728539",
+                "GND-ID": "118728539",
                 "Death": "1469",
                 "Seite der Zuschreibungsdiskussion": "275-277",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -184,7 +184,7 @@
                 "Gruppen nach Kapitel 8": "Lippi-Werkstatt",
                 "Heute noch berühmt?": "1",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q205148",
+                "Wikidata-QID": "Q205148",
                 "Arte dei Medici e Speziali": "keine",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Lippi-Werkstatt"
             },
@@ -217,7 +217,7 @@
             "y": -11.832100868225098,
             "id": "0",
             "attributes": {
-                "gnd-id": "118503081",
+                "GND-ID": "118503081",
                 "Death": "1455",
                 "Seite der Zuschreibungsdiskussion": "270-273",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -226,7 +226,7 @@
                 "Gruppen nach Kapitel 8": "Angelico-Werkstatt",
                 "Heute noch berühmt?": "1",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q5664",
+                "Wikidata-QID": "Q5664",
                 "Arte dei Medici e Speziali": "keine",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Angelico-Werkstatt"
             },
@@ -271,7 +271,7 @@
             "y": 162.2677001953125,
             "id": "8",
             "attributes": {
-                "gnd-id": "130615536",
+                "GND-ID": "130615536",
                 "Death": "1456",
                 "Seite der Zuschreibungsdiskussion": "248-249",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -280,7 +280,7 @@
                 "Gruppen nach Kapitel 8": "Bicci-Umkreis",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q3442826",
+                "Wikidata-QID": "Q3442826",
                 "Arte dei Medici e Speziali": "1397",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Bicci-Umkreis"
             },
@@ -306,7 +306,7 @@
             "y": 16.055776596069336,
             "id": "68",
             "attributes": {
-                "gnd-id": "121753271",
+                "GND-ID": "121753271",
                 "Death": "nach 1410",
                 "Seite der Zuschreibungsdiskussion": "212-215",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -315,7 +315,7 @@
                 "Gruppen nach Kapitel 8": "Orcagna-Werkstatt; vermittelnde Altmeister",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q2258950",
+                "Wikidata-QID": "Q2258950",
                 "Arte dei Medici e Speziali": "1369",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Orcagna-Werkstatt"
             },
@@ -328,7 +328,7 @@
             "y": -22.211029052734375,
             "id": "43",
             "attributes": {
-                "gnd-id": "118578618",
+                "GND-ID": "118578618",
                 "Death": "1429 / 1430",
                 "Seite der Zuschreibungsdiskussion": "261-264",
                 "Zuschreibungsfähigkeit": "ü.dok.",
@@ -337,7 +337,7 @@
                 "Gruppen nach Kapitel 8": "Masaccio-Werkstatt/Umfeld",
                 "Heute noch berühmt?": "1",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q5811",
+                "Wikidata-QID": "Q5811",
                 "Arte dei Medici e Speziali": "1422",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Masaccio-Werkstatt/Umfeld"
             },
@@ -434,7 +434,7 @@
             "y": 33.59130859375,
             "id": "93",
             "attributes": {
-                "gnd-id": "133211061",
+                "GND-ID": "133211061",
                 "Death": "1414",
                 "Seite der Zuschreibungsdiskussion": "217",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -443,7 +443,7 @@
                 "Gruppen nach Kapitel 8": "vermittelnde Altmeister",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q2260399",
+                "Wikidata-QID": "Q2260399",
                 "Arte dei Medici e Speziali": "1369",
                 "Gruppe nach Kapitel 8 (eindeutig)": "vermittelnde Altmeister"
             },
@@ -531,10 +531,10 @@
                 "Birth": "1412",
                 "Gruppen nach Kapitel 8": "späte Maler",
                 "Heute noch berühmt?": "2",
-                "wikidata-qid": "Q1284002",
+                "Wikidata-QID": "Q1284002",
                 "Arte dei Medici e Speziali": "keine",
                 "andere zunftzugehörigkeit": "Arte di Lana?",
-                "gnd-id": "123549345",
+                "GND-ID": "123549345",
                 "Seite der Zuschreibungsdiskussion": "293-294",
                 "Eindeutige Berufsgruppe": "miniaturist",
                 "Gruppe nach Kapitel 8 (eindeutig)": "späte Maler"
@@ -568,7 +568,7 @@
             "y": 124.7021484375,
             "id": "79",
             "attributes": {
-                "gnd-id": "124533051",
+                "GND-ID": "124533051",
                 "Death": "1489",
                 "Seite der Zuschreibungsdiskussion": "287-288",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -577,7 +577,7 @@
                 "Gruppen nach Kapitel 8": "späte Maler",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "moebelmaler",
-                "wikidata-qid": "Q17510972",
+                "Wikidata-QID": "Q17510972",
                 "Arte dei Medici e Speziali": "1426",
                 "Gruppe nach Kapitel 8 (eindeutig)": "späte Maler"
             },
@@ -590,7 +590,7 @@
             "y": 81.50521087646484,
             "id": "86",
             "attributes": {
-                "gnd-id": "118859471",
+                "GND-ID": "118859471",
                 "Death": "1499",
                 "Seite der Zuschreibungsdiskussion": "285-286",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -599,7 +599,7 @@
                 "Gruppen nach Kapitel 8": "späte Maler",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q472073",
+                "Wikidata-QID": "Q472073",
                 "Arte dei Medici e Speziali": "nach 1444",
                 "Gruppe nach Kapitel 8 (eindeutig)": "späte Maler"
             },
@@ -612,7 +612,7 @@
             "y": 112.25428009033203,
             "id": "11",
             "attributes": {
-                "gnd-id": "136822517",
+                "GND-ID": "136822517",
                 "Death": "1437",
                 "Seite der Zuschreibungsdiskussion": "247-248",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -621,7 +621,7 @@
                 "Gruppen nach Kapitel 8": "Bicci-Umkreis",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q2749321",
+                "Wikidata-QID": "Q2749321",
                 "Arte dei Medici e Speziali": "1410",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Bicci-Umkreis"
             },
@@ -639,7 +639,7 @@
                 "Gruppen nach Kapitel 8": "späte Maler",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "moebelmaler",
-                "wikidata-qid": "Q98110583",
+                "Wikidata-QID": "Q98110583",
                 "Arte dei Medici e Speziali": "keine",
                 "Gruppe nach Kapitel 8 (eindeutig)": "späte Maler"
             },
@@ -652,7 +652,7 @@
             "y": -443.1109313964844,
             "id": "40",
             "attributes": {
-                "gnd-id": "124729193",
+                "GND-ID": "124729193",
                 "Death": "1478",
                 "Seite der Zuschreibungsdiskussion": "266-267",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -660,7 +660,7 @@
                 "Gruppen nach Kapitel 8": "Masaccio-Werkstatt/Umfeld",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q3615166",
+                "Wikidata-QID": "Q3615166",
                 "Arte dei Medici e Speziali": "1429",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Masaccio-Werkstatt/Umfeld"
             },
@@ -673,7 +673,7 @@
             "y": 51.55842971801758,
             "id": "87",
             "attributes": {
-                "gnd-id": "118638653",
+                "GND-ID": "118638653",
                 "Death": "1457",
                 "Seite der Zuschreibungsdiskussion": "283-284",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -682,7 +682,7 @@
                 "Gruppen nach Kapitel 8": "späte Maler",
                 "Heute noch berühmt?": "1",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q240737",
+                "Wikidata-QID": "Q240737",
                 "Arte dei Medici e Speziali": "1444",
                 "Gruppe nach Kapitel 8 (eindeutig)": "späte Maler"
             },
@@ -695,13 +695,13 @@
             "y": 354.7039489746094,
             "id": "1",
             "attributes": {
-                "gnd-id": "124836801",
+                "GND-ID": "124836801",
                 "Seite der Zuschreibungsdiskussion": "240",
                 "Zuschreibungsfähigkeit": "er.sign.",
                 "Gruppen nach Kapitel 8": "Ausländische Wandmaler",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q2859943",
+                "Wikidata-QID": "Q2859943",
                 "Arte dei Medici e Speziali": "1420",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Ausländische Wandmaler"
             },
@@ -714,7 +714,7 @@
             "y": -158.9021453857422,
             "id": "61",
             "attributes": {
-                "gnd-id": "129168661",
+                "GND-ID": "129168661",
                 "Death": "1484",
                 "Zuschreibungsfähigkeit": "ü.dok.",
                 "Verbindungen nach Kapitel 8": "Mitarbeiter von Fra Filippo di Tommaso (Filippo Lippi)",
@@ -722,7 +722,7 @@
                 "Gruppen nach Kapitel 8": "Lippi-Werkstatt",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q2245140",
+                "Wikidata-QID": "Q2245140",
                 "Arte dei Medici e Speziali": "keine",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Lippi-Werkstatt"
             },
@@ -755,7 +755,7 @@
             "y": 92.8804931640625,
             "id": "103",
             "attributes": {
-                "gnd-id": "131771841",
+                "GND-ID": "131771841",
                 "Death": "1427",
                 "Seite der Zuschreibungsdiskussion": "226-227",
                 "Zuschreibungsfähigkeit": "ü.dok.",
@@ -763,7 +763,7 @@
                 "Gruppen nach Kapitel 8": "Werkstatt Bicci di Lorenzo; vermittelnde Altmeister",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q2254738",
+                "Wikidata-QID": "Q2254738",
                 "Arte dei Medici e Speziali": "ca.1359",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Werkstatt Bicci di Lorenzo"
             },
@@ -828,7 +828,7 @@
             "y": 26.902454376220703,
             "id": "65",
             "attributes": {
-                "gnd-id": "120960095",
+                "GND-ID": "120960095",
                 "Death": "1424 / 1426",
                 "Seite der Zuschreibungsdiskussion": "215-217",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -837,7 +837,7 @@
                 "Gruppen nach Kapitel 8": "Orcagna-Werkstatt",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q1645722",
+                "Wikidata-QID": "Q1645722",
                 "Arte dei Medici e Speziali": "1389",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Orcagna-Werkstatt"
             },
@@ -898,7 +898,7 @@
             "y": 3.1709206104278564,
             "id": "59",
             "attributes": {
-                "gnd-id": "12426915X",
+                "GND-ID": "12426915X",
                 "Death": "1451",
                 "Seite der Zuschreibungsdiskussion": "269-267",
                 "Verbindungen nach Kapitel 8": "vertraut mit Fra Giovanni (empfahl diesen) und stilistisch ähnlich",
@@ -906,7 +906,7 @@
                 "Gruppen nach Kapitel 8": "Miniaturisten 20er",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "miniaturist",
-                "wikidata-qid": "Q963010",
+                "Wikidata-QID": "Q963010",
                 "Arte dei Medici e Speziali": "keine",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Miniaturisten 20er"
             },
@@ -919,7 +919,7 @@
             "y": 82.87031555175781,
             "id": "85",
             "attributes": {
-                "gnd-id": "128387009",
+                "GND-ID": "128387009",
                 "Death": "1493",
                 "Seite der Zuschreibungsdiskussion": "288-289",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -928,7 +928,7 @@
                 "Gruppen nach Kapitel 8": "späte Maler",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q1452198",
+                "Wikidata-QID": "Q1452198",
                 "Arte dei Medici e Speziali": "nach 1444?",
                 "Gruppe nach Kapitel 8 (eindeutig)": "späte Maler"
             },
@@ -941,14 +941,14 @@
             "y": 108.02436828613281,
             "id": "90",
             "attributes": {
-                "gnd-id": "119028514",
+                "GND-ID": "119028514",
                 "Seite der Zuschreibungsdiskussion": "280-283",
                 "Zuschreibungsfähigkeit": "er.sign.",
                 "Verbindungen nach Kapitel 8": "hatte Schüler Piero di Benedetto da Sansepolcro und unidentifizierbarer Antonio di Giovanni",
                 "Gruppen nach Kapitel 8": "Veneziano-Werkstatt und Umfeld",
                 "Heute noch berühmt?": "1",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q368546",
+                "Wikidata-QID": "Q368546",
                 "Arte dei Medici e Speziali": "keine",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Veneziano-Werkstatt und Umfeld"
             },
@@ -1049,7 +1049,7 @@
             "y": 288.2653503417969,
             "id": "72",
             "attributes": {
-                "gnd-id": "1018282270",
+                "GND-ID": "1018282270",
                 "Death": "1479",
                 "Seite der Zuschreibungsdiskussion": "290",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -1057,7 +1057,7 @@
                 "Gruppen nach Kapitel 8": "späte Maler",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q2054380",
+                "Wikidata-QID": "Q2054380",
                 "Arte dei Medici e Speziali": "nach 1444?",
                 "Gruppe nach Kapitel 8 (eindeutig)": "späte Maler"
             },
@@ -1070,7 +1070,7 @@
             "y": 385.24932861328125,
             "id": "36",
             "attributes": {
-                "gnd-id": "137461550",
+                "GND-ID": "137461550",
                 "Death": "1423 / 1427",
                 "Seite der Zuschreibungsdiskussion": "256+267",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -1079,7 +1079,7 @@
                 "Gruppen nach Kapitel 8": "Ghiberti-Werkstatt",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q1526455",
+                "Wikidata-QID": "Q1526455",
                 "Arte dei Medici e Speziali": "keine",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Ghiberti-Werkstatt"
             },
@@ -1164,10 +1164,10 @@
                 "Birth": "um 1410",
                 "Gruppen nach Kapitel 8": "Masaccio-Werkstatt/Umfeld",
                 "Heute noch berühmt?": "1",
-                "wikidata-qid": "Q1150089",
+                "Wikidata-QID": "Q1150089",
                 "Arte dei Medici e Speziali": "1428",
                 "andere zunftzugehörigkeit": "Arte dei Legnaioli 1445",
-                "gnd-id": "137430671",
+                "GND-ID": "137430671",
                 "Seite der Zuschreibungsdiskussion": "264-265",
                 "Eindeutige Berufsgruppe": "tafelmaler",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Masaccio-Werkstatt/Umfeld"
@@ -1271,7 +1271,7 @@
             "y": 8.387722969055176,
             "id": "41",
             "attributes": {
-                "gnd-id": "121716619",
+                "GND-ID": "121716619",
                 "Death": "1486",
                 "Seite der Zuschreibungsdiskussion": "265-266",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -1280,7 +1280,7 @@
                 "Gruppen nach Kapitel 8": "Masaccio-Werkstatt/Umfeld",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q2738832",
+                "Wikidata-QID": "Q2738832",
                 "Arte dei Medici e Speziali": "1433",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Masaccio-Werkstatt/Umfeld"
             },
@@ -1331,7 +1331,7 @@
             "y": 17.174068450927734,
             "id": "33",
             "attributes": {
-                "gnd-id": "118763350",
+                "GND-ID": "118763350",
                 "Death": "1475",
                 "Seite der Zuschreibungsdiskussion": "253+258-261",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -1340,7 +1340,7 @@
                 "Gruppen nach Kapitel 8": "Ghiberti-Werkstatt",
                 "Heute noch berühmt?": "1",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q192488",
+                "Wikidata-QID": "Q192488",
                 "Arte dei Medici e Speziali": "1415",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Ghiberti-Werkstatt"
             },
@@ -1353,7 +1353,7 @@
             "y": -140.5343017578125,
             "id": "39",
             "attributes": {
-                "gnd-id": "119027720",
+                "GND-ID": "119027720",
                 "Death": "1459",
                 "Seite der Zuschreibungsdiskussion": "277-278",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -1362,7 +1362,7 @@
                 "Gruppen nach Kapitel 8": "Lippi-Werkstatt; späte Maler",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q1918707",
+                "Wikidata-QID": "Q1918707",
                 "Arte dei Medici e Speziali": "1442",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Lippi-Werkstatt"
             },
@@ -1415,7 +1415,7 @@
                 "Gruppen nach Kapitel 8": "Generation 1380",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q16853804",
+                "Wikidata-QID": "Q16853804",
                 "Arte dei Medici e Speziali": "1407",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Generation 1380"
             },
@@ -1530,7 +1530,7 @@
                 "Gruppen nach Kapitel 8": "Miniaturisten 20er",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "miniaturist",
-                "wikidata-qid": "Q117425078",
+                "Wikidata-QID": "Q117425078",
                 "Arte dei Medici e Speziali": "nach 1444?",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Miniaturisten 20er"
             },
@@ -1543,7 +1543,7 @@
             "y": -9.319153785705566,
             "id": "106",
             "attributes": {
-                "gnd-id": "122901592",
+                "GND-ID": "122901592",
                 "Death": "1414?",
                 "Seite der Zuschreibungsdiskussion": "217-220",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -1552,7 +1552,7 @@
                 "Gruppen nach Kapitel 8": "Werkstatt Niccolò di Piero Gerini; vermittelnde Altmeister",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q1077403",
+                "Wikidata-QID": "Q1077403",
                 "Arte dei Medici e Speziali": "1368",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Werkstatt Niccolò di Piero Gerini"
             },
@@ -1571,10 +1571,10 @@
                 "Birth": "um 1380",
                 "Gruppen nach Kapitel 8": "Ghiberti-Werkstatt",
                 "Heute noch berühmt?": "nein",
-                "wikidata-qid": "Q1526455",
+                "Wikidata-QID": "Q1526455",
                 "Arte dei Medici e Speziali": "keine",
                 "andere zunftzugehörigkeit": "Arte dei Legnaioli 1422",
-                "gnd-id": "137461550",
+                "GND-ID": "137461550",
                 "Seite der Zuschreibungsdiskussion": "255",
                 "Eindeutige Berufsgruppe": "tafelmaler",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Ghiberti-Werkstatt"
@@ -1671,10 +1671,10 @@
                 "Birth": "1352",
                 "Gruppen nach Kapitel 8": "vermittelnde Altmeister",
                 "Heute noch berühmt?": "nein",
-                "wikidata-qid": "Q2842361",
+                "Wikidata-QID": "Q2842361",
                 "Arte dei Medici e Speziali": "1372",
                 "andere zunftzugehörigkeit": "Arte dei Legnaioli 1422",
-                "gnd-id": "129128252",
+                "GND-ID": "129128252",
                 "Seite der Zuschreibungsdiskussion": "220-221",
                 "Eindeutige Berufsgruppe": "tafelmaler",
                 "Gruppe nach Kapitel 8 (eindeutig)": "vermittelnde Altmeister"
@@ -1708,7 +1708,7 @@
             "y": 245.5063934326172,
             "id": "21",
             "attributes": {
-                "gnd-id": "124707998",
+                "GND-ID": "124707998",
                 "Death": "nach 1407",
                 "Seite der Zuschreibungsdiskussion": "231",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -1716,7 +1716,7 @@
                 "Gruppen nach Kapitel 8": "Generation 1380",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q21850531",
+                "Wikidata-QID": "Q21850531",
                 "Arte dei Medici e Speziali": "1386",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Generation 1380"
             },
@@ -1737,7 +1737,7 @@
                 "Gruppen nach Kapitel 8": "Bicci-Umkreis",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q3555632",
+                "Wikidata-QID": "Q3555632",
                 "Arte dei Medici e Speziali": "1419",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Bicci-Umkreis"
             },
@@ -1767,7 +1767,7 @@
             "y": -13.078125953674316,
             "id": "107",
             "attributes": {
-                "gnd-id": "121174468",
+                "GND-ID": "121174468",
                 "Death": "1453",
                 "Seite der Zuschreibungsdiskussion": "226",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -1776,7 +1776,7 @@
                 "Gruppen nach Kapitel 8": "Werkstatt Spinello di Luca da Arezzo",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q2718358",
+                "Wikidata-QID": "Q2718358",
                 "Arte dei Medici e Speziali": "keine",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Werkstatt Spinello di Luca da Arezzo"
             },
@@ -1789,7 +1789,7 @@
             "y": 71.1384506225586,
             "id": "28",
             "attributes": {
-                "gnd-id": "1025455525",
+                "GND-ID": "1025455525",
                 "Death": "nach 1433",
                 "Seite der Zuschreibungsdiskussion": "234",
                 "Zuschreibungsfähigkeit": "ü.Cat.",
@@ -1798,7 +1798,7 @@
                 "Gruppen nach Kapitel 8": "Generation 1380",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q16185854",
+                "Wikidata-QID": "Q16185854",
                 "Arte dei Medici e Speziali": "1402",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Generation 1380"
             },
@@ -1850,7 +1850,7 @@
             "y": -88.50506591796875,
             "id": "18",
             "attributes": {
-                "gnd-id": "101187573X",
+                "GND-ID": "101187573X",
                 "Death": "nach 1445",
                 "Seite der Zuschreibungsdiskussion": "230-231",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -1870,14 +1870,14 @@
             "y": -136.09307861328125,
             "id": "5",
             "attributes": {
-                "gnd-id": "118716832",
+                "GND-ID": "118716832",
                 "Seite der Zuschreibungsdiskussion": "240-242",
                 "Zuschreibungsfähigkeit": "er.sign.",
                 "Verbindungen nach Kapitel 8": "Gehilfen Michele da Ungheria; Iacopo Rustighini da Frigoli; Iacopo di Piero da Venezia; Dante di Bernardo; Niccolò di Giovanni; Giovanni da Imola; Barnaba di Giovanni",
                 "Gruppen nach Kapitel 8": "Ausländische Wandmaler",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q312393",
+                "Wikidata-QID": "Q312393",
                 "Arte dei Medici e Speziali": "1422",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Ausländische Wandmaler"
             },
@@ -1890,7 +1890,7 @@
             "y": -188.4585723876953,
             "id": "49",
             "attributes": {
-                "gnd-id": "118729071",
+                "GND-ID": "118729071",
                 "Death": "1423 / 1426",
                 "Seite der Zuschreibungsdiskussion": "236-238",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -1899,7 +1899,7 @@
                 "Gruppen nach Kapitel 8": "Miniaturisten \u0026 Angeli Generation 1380",
                 "Heute noch berühmt?": "1",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q155376",
+                "Wikidata-QID": "Q155376",
                 "Arte dei Medici e Speziali": "keine",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Miniaturisten \u0026 Angeli Generation 1380"
             },
@@ -1912,7 +1912,7 @@
             "y": -57.64033508300781,
             "id": "27",
             "attributes": {
-                "gnd-id": "1080667814",
+                "GND-ID": "1080667814",
                 "Death": "1446",
                 "Seite der Zuschreibungsdiskussion": "233",
                 "Zuschreibungsfähigkeit": "ü.dok.",
@@ -1921,7 +1921,7 @@
                 "Gruppen nach Kapitel 8": "Generation 1380",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "waffenmaler",
-                "wikidata-qid": "Q1773802",
+                "Wikidata-QID": "Q1773802",
                 "Arte dei Medici e Speziali": "1385",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Generation 1380"
             },
@@ -1961,7 +1961,7 @@
                 "Gruppen nach Kapitel 8": "Generation 1380; Bicci-Umkreis",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q109886876",
+                "Wikidata-QID": "Q109886876",
                 "Arte dei Medici e Speziali": "1388",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Generation 1380"
             },
@@ -2045,7 +2045,7 @@
             "y": 109.37294006347656,
             "id": "10",
             "attributes": {
-                "gnd-id": "123881838",
+                "GND-ID": "123881838",
                 "Death": "1447 / 51",
                 "Seite der Zuschreibungsdiskussion": "249-250",
                 "Zuschreibungsfähigkeit": "ü.dok.",
@@ -2054,7 +2054,7 @@
                 "Gruppen nach Kapitel 8": "Bicci-Umkreis",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q18627228",
+                "Wikidata-QID": "Q18627228",
                 "Arte dei Medici e Speziali": "1397",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Bicci-Umkreis"
             },
@@ -2100,7 +2100,7 @@
             "y": 19.122636795043945,
             "id": "16",
             "attributes": {
-                "gnd-id": "118616854",
+                "GND-ID": "118616854",
                 "Death": "1409/1413",
                 "Seite der Zuschreibungsdiskussion": "228-229",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -2109,7 +2109,7 @@
                 "Gruppen nach Kapitel 8": "Generation 1380; Ausländische Wandmaler",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q2254774",
+                "Wikidata-QID": "Q2254774",
                 "Arte dei Medici e Speziali": "1388",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Generation 1380"
             },
@@ -2173,7 +2173,7 @@
             "y": -379.1831970214844,
             "id": "77",
             "attributes": {
-                "gnd-id": "130427764",
+                "GND-ID": "130427764",
                 "Death": "nach 1446",
                 "Seite der Zuschreibungsdiskussion": "292",
                 "Verbindungen nach Kapitel 8": "Bruder Niccolò di Niccolò und Sansone di Niccolò",
@@ -2212,7 +2212,7 @@
             "y": -73.32998657226562,
             "id": "34",
             "attributes": {
-                "gnd-id": "118869205",
+                "GND-ID": "118869205",
                 "Death": "nach 1423",
                 "Seite der Zuschreibungsdiskussion": "257",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -2221,7 +2221,7 @@
                 "Gruppen nach Kapitel 8": "Ghiberti-Werkstatt",
                 "Heute noch berühmt?": "1",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q318117",
+                "Wikidata-QID": "Q318117",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Ghiberti-Werkstatt"
             },
             "color": "rgb(7,186,176)",
@@ -2233,7 +2233,7 @@
             "y": -87.30107116699219,
             "id": "78",
             "attributes": {
-                "gnd-id": "103126414",
+                "GND-ID": "103126414",
                 "Death": "1457",
                 "Seite der Zuschreibungsdiskussion": "278-280",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -2242,7 +2242,7 @@
                 "Gruppen nach Kapitel 8": "späte Maler",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q930831",
+                "Wikidata-QID": "Q930831",
                 "Arte dei Medici e Speziali": "nach 1444",
                 "Gruppe nach Kapitel 8 (eindeutig)": "späte Maler"
             },
@@ -2287,7 +2287,7 @@
             "y": -115.74398803710938,
             "id": "48",
             "attributes": {
-                "gnd-id": "129091502",
+                "GND-ID": "129091502",
                 "Death": "nach 1430",
                 "Seite der Zuschreibungsdiskussion": "238-239",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -2296,7 +2296,7 @@
                 "Gruppen nach Kapitel 8": "Miniaturisten \u0026 Angeli Generation 1380",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q3750864",
+                "Wikidata-QID": "Q3750864",
                 "Arte dei Medici e Speziali": "1429",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Miniaturisten \u0026 Angeli Generation 1380"
             },
@@ -2344,7 +2344,7 @@
             "y": 144.5975799560547,
             "id": "81",
             "attributes": {
-                "gnd-id": "124255140",
+                "GND-ID": "124255140",
                 "Death": "1465",
                 "Seite der Zuschreibungsdiskussion": "287-288",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -2353,7 +2353,7 @@
                 "Gruppen nach Kapitel 8": "späte Maler",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "moebelmaler",
-                "wikidata-qid": "Q2858468",
+                "Wikidata-QID": "Q2858468",
                 "Arte dei Medici e Speziali": "1442",
                 "Gruppe nach Kapitel 8 (eindeutig)": "späte Maler"
             },
@@ -2366,7 +2366,7 @@
             "y": -49.115875244140625,
             "id": "105",
             "attributes": {
-                "gnd-id": "133613321",
+                "GND-ID": "133613321",
                 "Death": "nach 1411",
                 "Seite der Zuschreibungsdiskussion": "221-222",
                 "Zuschreibungsfähigkeit": "er.dok.",
@@ -2375,7 +2375,7 @@
                 "Gruppen nach Kapitel 8": "Werkstatt Niccolò di Piero Gerini; Generation 1380",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q3259520",
+                "Wikidata-QID": "Q3259520",
                 "Arte dei Medici e Speziali": "1392",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Werkstatt Niccolò di Piero Gerini"
             },
@@ -2408,7 +2408,7 @@
             "y": -17.728429794311523,
             "id": "108",
             "attributes": {
-                "gnd-id": "118798278",
+                "GND-ID": "118798278",
                 "Death": "1411",
                 "Seite der Zuschreibungsdiskussion": "222-226",
                 "Zuschreibungsfähigkeit": "er.sign.",
@@ -2417,7 +2417,7 @@
                 "Gruppen nach Kapitel 8": "Werkstatt Spinello di Luca da Arezzo; vermittelnde Altmeister",
                 "Heute noch berühmt?": "2",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q287934",
+                "Wikidata-QID": "Q287934",
                 "Arte dei Medici e Speziali": "1386/1387",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Werkstatt Spinello di Luca da Arezzo"
             },
@@ -2461,14 +2461,14 @@
             "y": 128.16810607910156,
             "id": "91",
             "attributes": {
-                "gnd-id": "118524577",
+                "GND-ID": "118524577",
                 "Seite der Zuschreibungsdiskussion": "281",
                 "Zuschreibungsfähigkeit": "er.sign.",
                 "Verbindungen nach Kapitel 8": "lernte bei Domenico di Bartolomeo da Venezia",
                 "Gruppen nach Kapitel 8": "Veneziano-Werkstatt und Umfeld",
                 "Heute noch berühmt?": "nein",
                 "Eindeutige Berufsgruppe": "tafelmaler",
-                "wikidata-qid": "Q5822",
+                "Wikidata-QID": "Q5822",
                 "Arte dei Medici e Speziali": "keine",
                 "Gruppe nach Kapitel 8 (eindeutig)": "Veneziano-Werkstatt und Umfeld"
             },
