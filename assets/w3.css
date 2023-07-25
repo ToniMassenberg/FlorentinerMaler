@@ -390,10 +390,6 @@ a {
     white-space: nowrap
 }
 
-.w3-btn:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-
 .w3-btn,
 .w3-button {
     -webkit-touch-callout: none;
@@ -1513,7 +1509,8 @@ a {
     float: right !important
 }
 
-.w3-button:hover {
+.w3-button:hover,
+.w3-btn:hover {
     color: #000 !important;
     background-color: #ccc !important
 }
