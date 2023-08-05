@@ -24,13 +24,14 @@ Die Annotationen in den JSON-Dateien wurden im [VGG Image Annotator](https://www
 
 ## Nutzung der Netzwerkdaten
 Alle zur Generierung der Netzwerke notwendigen Daten finden sich im Ordner ```network```.
-Sie basieren auf [SigmaJS] (https://github.com/jacomyal/sigma.js/) V1, exportiert aus Gephi. Sowohl die JavaScript- als auch die CSS-Dateien wurden für das vorliegende Projekt verändert, die Abwandlungen sind im Code dokumentiert.
+Sie basieren auf [SigmaJS](https://github.com/jacomyal/sigma.js/) V1, exportiert aus Gephi. Sowohl die JavaScript- als auch die CSS-Dateien wurden für das vorliegende Projekt verändert, die Abwandlungen sind im Code dokumentiert.
 Die Daten unter dem Namen ```regesten``` basieren auf den Regestenteil in "Die Maler von Florenz", die Dateien unter ```chapter8``` entsprechen Jacobsens Herleitung in Kapitel 8 des Buches.
 Die .config-Dateien bestimmen die Dateiherkunft und Darstellung der beiden Netzwerke. Die jeweiligen JSON-Dateien enthalten die Knoten- und Kanteninformationen, auf denen die Netzwerke basieren. Durch die GEXF-Dateien können Sie die Netzwerke direkt in Gephi importieren oder sie auf GephiLite ([Regesten-Netzwerk](https://gephi.org/gephi-lite/?gexf=https://tonimassenberg.github.io/FlorentinerMaler/network/regesten.gexf), [Kapitel8-Netzwerk](https://gephi.org/gephi-lite/?gexf=https://tonimassenberg.github.io/FlorentinerMaler/network/chapter8.gexf)) bearbeiten.
 
 ## Lizenz
 
 [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
+
 Bitte beachten Sie, dass zur vollständigen Urheberangabe dieser Daten auch die Zitation nach Werner Jacobsen, "Die Maler von Florenz zu Beginn der Renaissance", München 2001 gehört.
 
 Bild Paolo_di_Dono_Die_Schlacht_von_San_Romano.jpg: Paolo Uccello, "Die Schlacht von San Romano", &copy; [Uffizi Galleries](https://www.uffizi.it/en/professional-services/wewef).
