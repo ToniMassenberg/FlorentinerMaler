@@ -3,10 +3,6 @@
 	margin: 0px;
 }
 
-.cf {
-	zoom: 1;
-}
-
 .cf:before,
 .cf:after {
 	content: "";
