@@ -388,7 +388,8 @@ a {
     background-color: inherit;
     text-align: center;
     cursor: pointer;
-    white-space: nowrap
+    white-space: nowrap;
+    z-index: 7000
 }
 
 .w3-btn,

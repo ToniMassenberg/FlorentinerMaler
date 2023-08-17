@@ -5,7 +5,7 @@ var config={};
 
 //For debug allow a config=file.json parameter to specify the config
 function GetQueryStringParams(sParam,defaultVal) {
-    var sPageURL = ""+window.location;//.search.substring(1);//This might be causing error in Safari?
+    var sPageURL = ""+window.location;
     if (sPageURL.indexOf("?")==-1) return defaultVal;
     sPageURL=sPageURL.substr(sPageURL.indexOf("?")+1);    
     var sURLVariables = sPageURL.split('&');
@@ -58,7 +58,7 @@ $(document).ready(function() {
           return;
         }
   
-        // As soon as page is ready (and data ready) set up it
+        // As soon as page is ready (and data ready) set it up
         $(document).ready(setupGUI(config));
       });
     }

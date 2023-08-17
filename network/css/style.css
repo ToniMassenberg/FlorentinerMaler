@@ -172,7 +172,7 @@ canvas#sigma_bg_1 {
 .left-close {
 	background-image: url('../images/fancy_sprite.png');
 	margin-left: -37px;
-	z-index: 99999;
+	z-index: 4;
 	cursor: pointer;
 	padding-left: 31px;
 	line-height: 36px;
