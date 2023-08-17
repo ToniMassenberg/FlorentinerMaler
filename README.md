@@ -44,4 +44,6 @@ Die Knotentabelle zu Kapitel 8 beinhaltet darüber hinaus 21 Personen, die über
 
 Bitte beachten Sie, dass zur vollständigen Urheberangabe dieser Daten auch die Zitation nach Werner Jacobsen, "Die Maler von Florenz zu Beginn der Renaissance", München 2001 gehört.
 
-Bild Paolo_di_Dono_Die_Schlacht_von_San_Romano.jpg: Paolo Uccello, "Die Schlacht von San Romano", &copy; [Uffizi Galleries](https://www.uffizi.it/en/professional-services/wewef).
+Der Ordner ```network``` enthält Code von [SigmaJS](https://github.com/jacomyal/sigma.js/), veröffentlicht unter der MIT License.
+
+Bild Paolo_di_Dono_Die_Schlacht_von_San_Romano.jpg: Paolo Uccello, "Die Schlacht von San Romano", ca. 1435-1440, &copy; [Uffizi Galleries](https://www.uffizi.it/en/artworks/battle-of-san-romano), [Lizenz](https://www.uffizi.it/en/professional-services/wewef).
