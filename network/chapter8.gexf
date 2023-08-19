@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
-  <meta lastmodifieddate="2023-07-13">
-    <creator>Gephi 0.9.3</creator>
+  <meta lastmodifieddate="2023-08-19">
+    <creator>Gephi 0.10.1</creator>
+    <title></title>
     <description></description>
   </meta>
   <graph defaultedgetype="directed" mode="static">
@@ -19,6 +20,33 @@
       <attribute id="gruppen nach kapitel 8" title="gruppen nach kapitel 8" type="string"/>
       <attribute id="verbindungen nach kapitel 8" title="verbindungen nach kapitel 8" type="string"/>
       <attribute id="zuschreibungsdiskussion seite" title="zuschreibungsdiskussion seite" type="string"/>
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
     </attributes>
     <attributes class="edge" mode="static">
       <attribute id="linetype" title="linetype" type="string"/>
@@ -38,6 +66,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Angelico-Werkstatt"/>
           <attvalue for="verbindungen nach kapitel 8" value="hatte Gehilfen Benozzo di Lese; Giovanni d’Antonio della Cecca da Firenze; Carlo di Lazzaro da Narni; hatte Schüler Giacomo d’Antonio da Poli"/>
           <attvalue for="zuschreibungsdiskussion seite" value="270-273"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="4.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="229.67479" y="-11.832101"/>
@@ -54,6 +91,15 @@
           <attvalue for="group" value="Ausländische Wandmaler"/>
           <attvalue for="gruppen nach kapitel 8" value="Ausländische Wandmaler"/>
           <attvalue for="zuschreibungsdiskussion seite" value="240"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="213.08629" y="354.70395"/>
@@ -67,6 +113,15 @@
           <attvalue for="group" value="Ausländische Wandmaler"/>
           <attvalue for="gruppen nach kapitel 8" value="Ausländische Wandmaler"/>
           <attvalue for="zuschreibungsdiskussion seite" value="242"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="209.0096" y="419.7695"/>
@@ -84,6 +139,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Ausländische Wandmaler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Gehilfe des Gentile di Niccolò da Fabriano"/>
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-253.98366" y="-154.5156"/>
@@ -99,6 +163,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Ausländische Wandmaler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Gehilfe des Gentile di Niccolò da Fabriano; sonst nicht nachweisbar"/>
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-344.48804" y="-137.4763"/>
@@ -116,6 +189,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Ausländische Wandmaler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Gehilfen Michele da Ungheria; Iacopo Rustighini da Frigoli; Iacopo di Piero da Venezia; Dante di Bernardo; Niccolò di Giovanni; Giovanni da Imola; Barnaba di Giovanni"/>
           <attvalue for="zuschreibungsdiskussion seite" value="240-242"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="7"/>
+          <attvalue for="degree" value="7"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-309.9349" y="-136.09308"/>
@@ -135,6 +217,15 @@
           <attvalue for="group" value="Bicci-Umkreis"/>
           <attvalue for="gruppen nach kapitel 8" value="Bicci-Umkreis"/>
           <attvalue for="zuschreibungsdiskussion seite" value="251"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="0.9210266" y="-41.64944"/>
@@ -152,6 +243,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Bicci-Umkreis"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete mit Rosello di Iacopo und Giunta di Iacopo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="248"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.23497267759562843"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.29656699889258015"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="1.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-20.748432" y="182.89325"/>
@@ -171,6 +271,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Bicci-Umkreis"/>
           <attvalue for="verbindungen nach kapitel 8" value="eng mit Bruder Giunta di Iacopo; arbeitete einmal mit Bicci di Lorenzo; Giovanni di Marco und Filippo d’Andrea; arbeitete einmal mit Ventura di Moro"/>
           <attvalue for="zuschreibungsdiskussion seite" value="248-249"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="6"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.3028169014084507"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.41710963455149497"/>
+          <attvalue for="betweenesscentrality" value="114.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="0.23333333432674408"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-51.13232" y="162.2677"/>
@@ -188,6 +297,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Bicci-Umkreis"/>
           <attvalue for="verbindungen nach kapitel 8" value="eng mit Bruder Rosello di Iacopo; arbeitete einmal mit Ventura di Moro"/>
           <attvalue for="zuschreibungsdiskussion seite" value="248"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.2388888888888889"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3062569213732004"/>
+          <attvalue for="betweenesscentrality" value="2.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="0.6666666865348816"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-48.93413" y="200.70903"/>
@@ -207,6 +325,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Bicci-Umkreis"/>
           <attvalue for="verbindungen nach kapitel 8" value="Juniorpartner Ambrogio di Baldese; arbeitete einmal mit Bicci di Lorenzo; Giovanni di Marco und Rosello di Iacopo; einmal mit Ventura di Moro"/>
           <attvalue for="zuschreibungsdiskussion seite" value="249-250"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.3412698412698413"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4306201550387596"/>
+          <attvalue for="betweenesscentrality" value="346.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="0.20000000298023224"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-75.264786" y="109.37294"/>
@@ -226,6 +353,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Bicci-Umkreis"/>
           <attvalue for="verbindungen nach kapitel 8" value="langjährige Partner Smeraldo di Giovanni"/>
           <attvalue for="zuschreibungsdiskussion seite" value="247-248"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.1829787234042553"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.21184939091915836"/>
+          <attvalue for="betweenesscentrality" value="15.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="0.3333333432674408"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-120.26558" y="112.25428"/>
@@ -244,6 +380,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Bicci-Umkreis"/>
           <attvalue for="verbindungen nach kapitel 8" value="langjähriger Partner von Giuliano di Iacopo und Marco di Filippo; arbeitete einmal mit Filippo d’Andrea; arbeitete einmal mit Rosello di Iacopo und Giunta di Iacopo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="250"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2721518987341772"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3643964562569213"/>
+          <attvalue for="betweenesscentrality" value="137.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="0.30000001192092896"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-92.810936" y="210.04721"/>
@@ -261,6 +406,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Bicci-Umkreis"/>
           <attvalue for="verbindungen nach kapitel 8" value="langjähriger Partner von Giuliano di Iacopo und Ventura di Moro"/>
           <attvalue for="zuschreibungsdiskussion seite" value="250"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.21717171717171718"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2746954595791804"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="1.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-119.85253" y="234.6419"/>
@@ -278,6 +432,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Bicci-Umkreis"/>
           <attvalue for="verbindungen nach kapitel 8" value="langjähriger Partner von Marco di Filippo und Ventura di Moro"/>
           <attvalue for="zuschreibungsdiskussion seite" value="250"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.2182741116751269"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2863233665559246"/>
+          <attvalue for="betweenesscentrality" value="16.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="0.3333333432674408"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-98.178444" y="254.80173"/>
@@ -295,6 +458,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Bicci-Umkreis"/>
           <attvalue for="verbindungen nach kapitel 8" value="möglicherweise mit Agnolo di Taddeo Gaddi gelernt"/>
           <attvalue for="zuschreibungsdiskussion seite" value="251"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.6"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.6666666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="35"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="6.3149743" y="-105.15611"/>
@@ -314,6 +486,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380; Ausländische Wandmaler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Partner Niccolò d’Antonio di Paolo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="228-229"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="14"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-446.10522" y="19.122637"/>
@@ -330,6 +511,15 @@
           <attvalue for="group" value="Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="149.41286" y="-465.23218"/>
@@ -347,6 +537,15 @@
           <attvalue for="group" value="Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="zuschreibungsdiskussion seite" value="230-231"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="483.1622" y="-88.505066"/>
@@ -361,6 +560,15 @@
           <attvalue for="group" value="Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="zuschreibungsdiskussion seite" value="233"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="453.48962" y="39.411457"/>
@@ -377,6 +585,15 @@
           <attvalue for="group" value="Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="zuschreibungsdiskussion seite" value="233"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="7"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="461.4546" y="97.458405"/>
@@ -395,6 +612,15 @@
           <attvalue for="group" value="Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="zuschreibungsdiskussion seite" value="231"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="244.12614" y="245.5064"/>
@@ -410,6 +636,15 @@
           <attvalue for="group" value="Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-258.0691" y="-362.89218"/>
@@ -426,6 +661,15 @@
           <attvalue for="group" value="Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="10"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-62.047855" y="-498.4052"/>
@@ -442,6 +686,15 @@
           <attvalue for="group" value="Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="11"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="201.84541" y="283.79144"/>
@@ -458,6 +711,15 @@
           <attvalue for="group" value="Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="zuschreibungsdiskussion seite" value="231-233"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="12"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="441.1422" y="-18.889606"/>
@@ -475,6 +737,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete bei Andrea di Stagio und Bicci di Lorenzo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="36.42285" y="89.949295"/>
@@ -494,6 +765,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete mit Agnolo di Taddeo Gaddi; baute mit Brunellesco; Ghiberi und Battista d’Antonio die Domkuppel;"/>
           <attvalue for="zuschreibungsdiskussion seite" value="233"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.26744186046511625"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.36780538302277443"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="35"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="61.3444" y="-57.640335"/>
@@ -513,6 +793,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete mit Ambrogio di Baldese und später Gherardo di Giovanni"/>
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.22660098522167488"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2815734989648034"/>
+          <attvalue for="betweenesscentrality" value="88.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="0.3333333432674408"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-194.73047" y="71.13845"/>
@@ -531,6 +820,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="Bruder und Mitarbeiter Antonio di Miniato"/>
           <attvalue for="zuschreibungsdiskussion seite" value="229-230"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="13"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-307.70834" y="313.83548"/>
@@ -548,6 +846,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="Bruder und Mitarbeiter Piero di Miniato"/>
           <attvalue for="zuschreibungsdiskussion seite" value="230"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="13"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-323.40872" y="295.75305"/>
@@ -565,6 +872,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="Partner Gherardo di Iacopo Starna (Starnina)"/>
           <attvalue for="zuschreibungsdiskussion seite" value="228+234"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="14"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-435.34222" y="40.292194"/>
@@ -583,6 +899,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Generation 1380; Bicci-Umkreis"/>
           <attvalue for="verbindungen nach kapitel 8" value="Werkstattpartner Ambrogio di Baldese; langjährige Partner Giovanni di Marco (dal Ponte)"/>
           <attvalue for="zuschreibungsdiskussion seite" value="234+247-248"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.22279792746113988"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2674972314507199"/>
+          <attvalue for="betweenesscentrality" value="42.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-129.61607" y="85.80531"/>
@@ -602,6 +927,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Ghiberti-Werkstatt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Lehrling bei Lorenzo di Cione Ghiberti"/>
           <attvalue for="zuschreibungsdiskussion seite" value="253+258-261"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="148.99925" y="17.174068"/>
@@ -620,6 +954,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Ghiberti-Werkstatt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Sohn des Anstreichers Cristofano di Fino; Schüler in der Ghiberti-Werkstatt; lebte mit Bernardo di Piero Ciuttagni; reiste vermutlich mit Francesco d’Antonio"/>
           <attvalue for="zuschreibungsdiskussion seite" value="257"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="32.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="99.39022" y="-73.32999"/>
@@ -640,6 +983,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Ghiberti-Werkstatt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Werkstatt mit Bruder Domenico di Francesco"/>
           <attvalue for="zuschreibungsdiskussion seite" value="255"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="16"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="132.13715" y="364.2761"/>
@@ -659,6 +1011,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Ghiberti-Werkstatt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Werkstatt mit Bruder Giovanni di Francesco Toscani"/>
           <attvalue for="zuschreibungsdiskussion seite" value="256+267"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="16"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="120.528625" y="385.24933"/>
@@ -678,6 +1039,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Ghiberti-Werkstatt; Angelico-Werkstatt; späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Gehilfe bei Lorenzo di Cione Ghiberti; Schüler und Mitarbeiter bei Fra Giovanni/Angelico"/>
           <attvalue for="zuschreibungsdiskussion seite" value="254"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="180.98099" y="-18.167051"/>
@@ -697,6 +1067,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Lippi-Werkstatt"/>
           <attvalue for="verbindungen nach kapitel 8" value="hatte Gehilfen Giovanni di Francesco; Fra Diamante di Feo da Terranuova Valdarno; Fra Carnevale; sowie unabhängige Maler Piero di Lorenzo; Fruosino di Piero; Barnaba di Giovanni und Stefano di Francesco; Domenico di Tommaso Bigordi (Ghirlandaio); Sohn Filippino; Piermatteo da Amelia"/>
           <attvalue for="zuschreibungsdiskussion seite" value="275-277"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="10"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.9166666666666666"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.9545454545454546"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-174.71529" y="-177.22746"/>
@@ -716,6 +1095,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Lippi-Werkstatt; späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="war Geselle bei Fra Filippo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="277-278"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-173.10352" y="-140.5343"/>
@@ -734,6 +1122,15 @@
           <attvalue for="group" value="Masaccio-Werkstatt/Umfeld"/>
           <attvalue for="gruppen nach kapitel 8" value="Masaccio-Werkstatt/Umfeld"/>
           <attvalue for="zuschreibungsdiskussion seite" value="266-267"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="18"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="80.03457" y="-443.11093"/>
@@ -753,6 +1150,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Masaccio-Werkstatt/Umfeld"/>
           <attvalue for="verbindungen nach kapitel 8" value="Lehrling bei Bicci di Lorenzo; arbeitete bei Bruder Masaccio"/>
           <attvalue for="zuschreibungsdiskussion seite" value="265-266"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.4666666666666667"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5238095238095238"/>
+          <attvalue for="betweenesscentrality" value="96.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="25.470802" y="8.387723"/>
@@ -773,6 +1179,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Masaccio-Werkstatt/Umfeld"/>
           <attvalue for="verbindungen nach kapitel 8" value="Schüler Masaccios; Lehrling bei Bicci di Lorenzo; Kontakt zu Mariotto di Manno; Vater des Giusto d’Andrea"/>
           <attvalue for="zuschreibungsdiskussion seite" value="264-265"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="32.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-0.02332203" y="-0.0075616282"/>
@@ -792,6 +1207,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Masaccio-Werkstatt/Umfeld"/>
           <attvalue for="verbindungen nach kapitel 8" value="verschwägert mit Mariotto di Cristofano; arbeitete mit Tommaso di Cristofano; vertrautes Verhältnis zu Donato di Niccolò"/>
           <attvalue for="zuschreibungsdiskussion seite" value="261-264"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.75"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"/>
+          <attvalue for="betweenesscentrality" value="72.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="26.024431" y="-22.21103"/>
@@ -807,6 +1231,15 @@
           <attvalue for="group" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="Antonio di Matteo di Filippo Torelli arbeitete in seiner Werkstatt; ansonsten nicht berücksichtigt"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.5"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.611111111111111"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="28"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="279.0297" y="-246.25116"/>
@@ -822,6 +1255,15 @@
           <attvalue for="group" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-100.70752" y="460.86615"/>
@@ -837,6 +1279,15 @@
           <attvalue for="group" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="20"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="441.3517" y="169.86588"/>
@@ -850,6 +1301,15 @@
           <attvalue for="group" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="21"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="376.4934" y="284.8126"/>
@@ -869,6 +1329,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="Geselle bei Don Lorenzo; befreundet mit Tommaso di Cristofano"/>
           <attvalue for="zuschreibungsdiskussion seite" value="238-239"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="6.0"/>
+          <attvalue for="modularity_class" value="22"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="113.33932" y="-115.74399"/>
@@ -888,6 +1357,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="hatte Gehilfen Giovanni di Bernardo; Giovanni di Francesco; Piero d’Antonio; Francesco di Giovanni; Michele d’Agnolo di Piero"/>
           <attvalue for="zuschreibungsdiskussion seite" value="236-238"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.75"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"/>
+          <attvalue for="betweenesscentrality" value="28.0"/>
+          <attvalue for="modularity_class" value="22"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="141.05228" y="-188.45857"/>
@@ -902,6 +1380,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="Schüler des Don Simone"/>
           <attvalue for="zuschreibungsdiskussion seite" value="237"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="22"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="88.20767" y="-188.27974"/>
@@ -918,6 +1405,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="Werkstatt Agnolo di Taddeo Gaddi"/>
           <attvalue for="zuschreibungsdiskussion seite" value="234-235"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="35"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="36.26347" y="-104.03971"/>
@@ -934,6 +1430,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="Werkstatt mit Bruder Bartolomeo di Filippo Torelli; Umkreis Don Lorenzo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="235-236"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.55"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.6515151515151515"/>
+          <attvalue for="betweenesscentrality" value="10.0"/>
+          <attvalue for="modularity_class" value="28"/>
+          <attvalue for="clustering" value="0.1666666716337204"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="234.1296" y="-208.94232"/>
@@ -950,6 +1455,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten &amp; Angeli Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="Werkstatt mit Bruder Matteo di Filippo Torelli"/>
           <attvalue for="zuschreibungsdiskussion seite" value="235-236"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.36666666666666664"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4242424242424242"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="28"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="221.6278" y="-232.72688"/>
@@ -964,6 +1478,15 @@
           <attvalue for="group" value="Miniaturisten 20er"/>
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten 20er"/>
           <attvalue for="zuschreibungsdiskussion seite" value="268-269"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="23"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="18.014086" y="460.59686"/>
@@ -981,6 +1504,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten 20er"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete mit Don Lorenzo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="268"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.46153846153846156"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5277777777777778"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="22"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="155.81242" y="-215.93895"/>
@@ -997,6 +1529,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten 20er"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete mit Don Lorenzo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="268"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.46153846153846156"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5277777777777778"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="22"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="160.79071" y="-164.74474"/>
@@ -1014,6 +1555,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten 20er"/>
           <attvalue for="verbindungen nach kapitel 8" value="Hobbymaler"/>
           <attvalue for="zuschreibungsdiskussion seite" value="268"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="24"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-336.82733" y="-328.9166"/>
@@ -1030,6 +1580,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten 20er"/>
           <attvalue for="verbindungen nach kapitel 8" value="Sohn des Matteo di Filippo Torelli; arbeitete in der Werkstatt des Niccolò di ser Lapo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="268"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"/>
+          <attvalue for="betweenesscentrality" value="2.0"/>
+          <attvalue for="modularity_class" value="28"/>
+          <attvalue for="clustering" value="0.1666666716337204"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="268.9242" y="-223.35358"/>
@@ -1048,6 +1607,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Miniaturisten 20er"/>
           <attvalue for="verbindungen nach kapitel 8" value="vertraut mit Fra Giovanni (empfahl diesen) und stilistisch ähnlich"/>
           <attvalue for="zuschreibungsdiskussion seite" value="269-267"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.5555555555555556"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.6"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="258.64072" y="3.1709206"/>
@@ -1063,6 +1631,15 @@
           <attvalue for="arte dei medici e speziali" value="1444"/>
           <attvalue for="group" value="späte Maler"/>
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-132.82915" y="-187.87311"/>
@@ -1081,6 +1658,15 @@
           <attvalue for="group" value="Lippi-Werkstatt"/>
           <attvalue for="gruppen nach kapitel 8" value="Lippi-Werkstatt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Mitarbeiter von Fra Filippo di Tommaso (Filippo Lippi)"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-141.36441" y="-158.90215"/>
@@ -1098,6 +1684,15 @@
           <attvalue for="group" value="Lippi-Werkstatt"/>
           <attvalue for="gruppen nach kapitel 8" value="Lippi-Werkstatt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Mitarbeiter von Fra Filippo di Tommaso (Filippo Lippi)"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-213.23494" y="-185.10838"/>
@@ -1111,6 +1706,15 @@
           <attvalue for="group" value="Lippi-Werkstatt"/>
           <attvalue for="gruppen nach kapitel 8" value="Lippi-Werkstatt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Mitarbeiter von Fra Filippo di Tommaso (Filippo Lippi)"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-147.95503" y="-212.4195"/>
@@ -1126,6 +1730,15 @@
           <attvalue for="group" value="Bicci-Umkreis"/>
           <attvalue for="gruppen nach kapitel 8" value="Bicci-Umkreis"/>
           <attvalue for="verbindungen nach kapitel 8" value="Vater von Iacopo d’Antonio di Iacopo"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-94.072365" y="320.02972"/>
@@ -1145,6 +1758,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Orcagna-Werkstatt"/>
           <attvalue for="verbindungen nach kapitel 8" value="enge Beziehung unbekannter Art (Neffe?) von Iacopo di Cione; hat Gehilfen Lorenzo di Cione Ghiberti"/>
           <attvalue for="zuschreibungsdiskussion seite" value="215-217"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.3584905660377358"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4271929824561403"/>
+          <attvalue for="betweenesscentrality" value="201.0"/>
+          <attvalue for="modularity_class" value="25"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="90.21859" y="26.902454"/>
@@ -1162,6 +1784,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Orcagna-Werkstatt; Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="Schüler/Sohn des Iacopo di Cione"/>
           <attvalue for="zuschreibungsdiskussion seite" value="215"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="25"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="56.665756" y="-9.991603"/>
@@ -1180,6 +1811,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Orcagna-Werkstatt; vermittelnde Altmeister"/>
           <attvalue for="verbindungen nach kapitel 8" value="Freundeskreis Nardo di Cione; eigenständiger Meister; weit bekannt"/>
           <attvalue for="zuschreibungsdiskussion seite" value="212"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.22340425531914893"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2695011337868481"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="25"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="124.85983" y="71.14702"/>
@@ -1199,6 +1839,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Orcagna-Werkstatt; vermittelnde Altmeister"/>
           <attvalue for="verbindungen nach kapitel 8" value="Leiter der Orcagna-Werkstatt; Tafel gemeinsam mit unidentifizierbaren Simone und Niccolaio; hat Schüler Sohn Cione di Iacopo und Mariotto di Nardo di Cione"/>
           <attvalue for="zuschreibungsdiskussion seite" value="212-215"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.28378378378378377"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.353968253968254"/>
+          <attvalue for="betweenesscentrality" value="141.0"/>
+          <attvalue for="modularity_class" value="25"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="59.19872" y="16.055777"/>
@@ -1216,6 +1865,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Orcagna-Werkstatt; Werkstatt Bicci di Lorenzo"/>
           <attvalue for="verbindungen nach kapitel 8" value="Lehrling bei Mariotto di Nardo; ging dann zu Bicci di Lorenzo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="217+246"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.36585365853658536"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.43"/>
+          <attvalue for="betweenesscentrality" value="111.0"/>
+          <attvalue for="modularity_class" value="25"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="62.122894" y="58.94292"/>
@@ -1232,6 +1890,15 @@
           <attvalue for="group" value="späte Maler"/>
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="zuschreibungsdiskussion seite" value="292"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-28.123007" y="51.38767"/>
@@ -1247,6 +1914,15 @@
           <attvalue for="group" value="späte Maler"/>
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="zuschreibungsdiskussion seite" value="290-291"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="28"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="341.81863" y="-187.31903"/>
@@ -1265,6 +1941,15 @@
           <attvalue for="group" value="späte Maler"/>
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="zuschreibungsdiskussion seite" value="290"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="27"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="291.5274" y="288.26535"/>
@@ -1285,6 +1970,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete einmal mit Filippo di Matteo Torelli und Fra Giuliano"/>
           <attvalue for="zuschreibungsdiskussion seite" value="293-294"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="28"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="314.59732" y="-191.15833"/>
@@ -1301,6 +1995,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete mit Bruder Bartolomeo d’Antonio Varnucci"/>
           <attvalue for="zuschreibungsdiskussion seite" value="295"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="29"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="358.2184" y="194.83243"/>
@@ -1317,6 +2020,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete mit Bruder Giovanni d’Antonio Varnucci"/>
           <attvalue for="zuschreibungsdiskussion seite" value="295"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="29"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="337.18826" y="207.50862"/>
@@ -1334,6 +2046,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Bruder Dello di Niccolò (Delli) und Sansone di Niccolò; mit letzterem lebte er in Spanien zusammen"/>
           <attvalue for="zuschreibungsdiskussion seite" value="291-292"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="30"/>
+          <attvalue for="clustering" value="1.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-39.55406" y="-384.85144"/>
@@ -1351,6 +2072,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Bruder Niccolò di Niccolò und Sansone di Niccolò"/>
           <attvalue for="zuschreibungsdiskussion seite" value="292"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="30"/>
+          <attvalue for="clustering" value="1.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-67.3956" y="-379.1832"/>
@@ -1370,6 +2100,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Enkel von Giuliano d’Arrigo; Partner von Piero di Lorenzo di Pratese und Zanobi di Migliore"/>
           <attvalue for="zuschreibungsdiskussion seite" value="278-280"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.75"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"/>
+          <attvalue for="betweenesscentrality" value="2.0"/>
+          <attvalue for="modularity_class" value="34"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-146.42682" y="-87.30107"/>
@@ -1389,6 +2128,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="lernte bei Bicci di Lorenzo; Partner von Apollonio di Giovanni"/>
           <attvalue for="zuschreibungsdiskussion seite" value="287-288"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="30.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="47.061985" y="124.70215"/>
@@ -1404,6 +2152,15 @@
           <attvalue for="group" value="späte Maler"/>
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Partner von Francesco di Stefano di Francesco (Pesellino)"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.5"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.611111111111111"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="34"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-169.81952" y="-78.03142"/>
@@ -1423,6 +2180,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Partner von Marco di Buono"/>
           <attvalue for="zuschreibungsdiskussion seite" value="287-288"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="62.830482" y="144.59758"/>
@@ -1440,6 +2206,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Sohn des Donnino di Giovanni"/>
           <attvalue for="zuschreibungsdiskussion seite" value="291"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="31"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="320.37112" y="343.46713"/>
@@ -1456,6 +2231,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Sohn und Schüler des Matteo di Filippo Torelli; hatte vielleicht Schüler Prete der Rissardo di Giovanni da Castelfiorentino"/>
           <attvalue for="zuschreibungsdiskussion seite" value="293-294"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="6.0"/>
+          <attvalue for="modularity_class" value="28"/>
+          <attvalue for="clustering" value="0.0833333358168602"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="278.35687" y="-194.67531"/>
@@ -1473,6 +2257,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Sohn von Antonio di Iacopo di Lorino und Neffe von Giuliano di Iacopo; arbeitete in Giuliano di Iacopos Werkstatt"/>
           <attvalue for="zuschreibungsdiskussion seite" value="284"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-96.20585" y="296.2282"/>
@@ -1492,6 +2285,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="Sohn von Bicci di Lorenzo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="288-289"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-25.195229" y="82.870316"/>
@@ -1511,6 +2313,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="stellte ein Bild von Andrea di Bartolomeo da Castagno und Domenico di Bartolomeo da Venezia fertig"/>
           <attvalue for="zuschreibungsdiskussion seite" value="285-286"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="33"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="192.81825" y="81.50521"/>
@@ -1530,6 +2341,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="vage Verbindung zu Paolo di Dono"/>
           <attvalue for="zuschreibungsdiskussion seite" value="283-284"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="1.0"/>
+          <attvalue for="modularity_class" value="33"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="173.6419" y="51.55843"/>
@@ -1544,6 +2364,15 @@
           <attvalue for="gruppen nach kapitel 8" value="späte Maler"/>
           <attvalue for="verbindungen nach kapitel 8" value="vielleicht Schüler von Filippo di Matteo Torelli; auf jeden Fall bekannter Maler"/>
           <attvalue for="zuschreibungsdiskussion seite" value="294-295"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="28"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="284.81412" y="-164.91556"/>
@@ -1560,6 +2389,15 @@
           <attvalue for="group" value="Veneziano-Werkstatt und Umfeld"/>
           <attvalue for="gruppen nach kapitel 8" value="Veneziano-Werkstatt und Umfeld"/>
           <attvalue for="zuschreibungsdiskussion seite" value="286"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="32"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="258.63324" y="332.82193"/>
@@ -1577,6 +2415,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Veneziano-Werkstatt und Umfeld"/>
           <attvalue for="verbindungen nach kapitel 8" value="hatte Schüler Piero di Benedetto da Sansepolcro und unidentifizierbarer Antonio di Giovanni"/>
           <attvalue for="zuschreibungsdiskussion seite" value="280-283"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="1.0"/>
+          <attvalue for="modularity_class" value="33"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="209.81635" y="108.02437"/>
@@ -1594,6 +2441,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Veneziano-Werkstatt und Umfeld"/>
           <attvalue for="verbindungen nach kapitel 8" value="lernte bei Domenico di Bartolomeo da Venezia"/>
           <attvalue for="zuschreibungsdiskussion seite" value="281"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="33"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="222.72615" y="128.1681"/>
@@ -1614,6 +2470,15 @@
           <attvalue for="gruppen nach kapitel 8" value="vermittelnde Altmeister"/>
           <attvalue for="verbindungen nach kapitel 8" value="mit Niccolò di Piero Gerini; aber nicht aus derselben Werkstatt"/>
           <attvalue for="zuschreibungsdiskussion seite" value="220-221"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.27388535031847133"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3143410852713178"/>
+          <attvalue for="betweenesscentrality" value="330.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="0.0833333358168602"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-117.142586" y="56.006405"/>
@@ -1633,6 +2498,15 @@
           <attvalue for="gruppen nach kapitel 8" value="vermittelnde Altmeister"/>
           <attvalue for="verbindungen nach kapitel 8" value="vollendete von Iacopo di Cione begonnenes Werk"/>
           <attvalue for="zuschreibungsdiskussion seite" value="217"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.22916666666666666"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.27997835497835505"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="25"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="39.51611" y="33.59131"/>
@@ -1650,6 +2524,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Weitere Maler 20er"/>
           <attvalue for="verbindungen nach kapitel 8" value="Bruder des Niccolò d’Antonio di Baldo; Schüler von Don Lorenzo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="6.0"/>
+          <attvalue for="modularity_class" value="22"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="113.99753" y="-232.9302"/>
@@ -1665,6 +2548,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Weitere Maler 20er"/>
           <attvalue for="verbindungen nach kapitel 8" value="Bruder des Piero d’Antonio di Baldo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="22"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="100.59229" y="-254.37921"/>
@@ -1682,6 +2574,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Weitere Maler 20er"/>
           <attvalue for="verbindungen nach kapitel 8" value="Bruder und Geselle von Gherardo di Giovanni"/>
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.15753424657534246"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.18511042097998626"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="1.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-220.56296" y="92.307686"/>
@@ -1699,6 +2600,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Weitere Maler 20er"/>
           <attvalue for="verbindungen nach kapitel 8" value="Juniorpartner des Scolaio di Giovanni; deren gemeinsamer Geselle war Bruder Vittorio di Giovanni"/>
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.1862348178137652"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2277432712215321"/>
+          <attvalue for="betweenesscentrality" value="45.0"/>
+          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="clustering" value="0.5"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-225.82693" y="66.052635"/>
@@ -1716,6 +2626,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Weitere Maler 20er"/>
           <attvalue for="verbindungen nach kapitel 8" value="kurzfristiger Partner des Bonaiuto di Giovanni"/>
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.2807017543859649"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.334375"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="25"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="78.095604" y="81.689606"/>
@@ -1733,6 +2652,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Weitere Maler 20er"/>
           <attvalue for="verbindungen nach kapitel 8" value="Vetter und Partner von Bartolomeo di Piero di Niccolò; Sohn der Gerini-Partners Lorenzo di Niccolò"/>
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="20.0"/>
+          <attvalue for="modularity_class" value="34"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-115.65842" y="-96.702835"/>
@@ -1750,6 +2678,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Weitere Maler 20er"/>
           <attvalue for="verbindungen nach kapitel 8" value="Vetter und Partner von Piero di Lorenzo di Niccolò"/>
           <attvalue for="zuschreibungsdiskussion seite" value="267"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="34"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-93.25866" y="-113.65663"/>
@@ -1769,6 +2706,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Werkstatt Bicci di Lorenzo"/>
           <attvalue for="verbindungen nach kapitel 8" value="Lehrer von Lo Scheggia; Andrea di Giusto; Antonio di Tommaso; Bartolomeo di Giovanni; Stefano d’Antonio; Bonaiuto di Giovanni; Neri di Bicci; Buono di Marco; Antonio di Lorenzo"/>
           <attvalue for="zuschreibungsdiskussion seite" value="242-245"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="8"/>
+          <attvalue for="degree" value="13"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.5555555555555556"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.7166666666666667"/>
+          <attvalue for="betweenesscentrality" value="365.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0181818176060915"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="9.141711" y="65.03593"/>
@@ -1786,6 +2732,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Werkstatt Bicci di Lorenzo"/>
           <attvalue for="verbindungen nach kapitel 8" value="Partner von Bicci di Lorenzo; sehr eng"/>
           <attvalue for="zuschreibungsdiskussion seite" value="246"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.36585365853658536"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.42999999999999994"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-1.3998793" y="36.36579"/>
@@ -1804,6 +2759,15 @@
           <attvalue for="group" value="Werkstatt Bicci di Lorenzo"/>
           <attvalue for="gruppen nach kapitel 8" value="Werkstatt Bicci di Lorenzo; vermittelnde Altmeister"/>
           <attvalue for="zuschreibungsdiskussion seite" value="226-227"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.37209302325581395"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.43437499999999996"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="5.1382422" y="92.88049"/>
@@ -1821,6 +2785,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Werkstatt Niccolò di Piero Gerini; Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete mit Vater Niccolò di Piero Gerini"/>
           <attvalue for="zuschreibungsdiskussion seite" value="220"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="34"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-40.569695" y="9.913937"/>
@@ -1840,6 +2813,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Werkstatt Niccolò di Piero Gerini; Generation 1380"/>
           <attvalue for="verbindungen nach kapitel 8" value="langfristiger Werkstattpartner des Niccolo di Piero Gerini und dort ausgebildet"/>
           <attvalue for="zuschreibungsdiskussion seite" value="221-222"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.28104575163398693"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3356589147286822"/>
+          <attvalue for="betweenesscentrality" value="32.0"/>
+          <attvalue for="modularity_class" value="34"/>
+          <attvalue for="clustering" value="0.3333333432674408"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-91.58408" y="-49.115875"/>
@@ -1859,6 +2841,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Werkstatt Niccolò di Piero Gerini; vermittelnde Altmeister"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete mit Iacopo di Cione; Ambrogo di Baldese; Agnolo di Taddeo Gaddi; Lorenzo di Niccolò; Spinello di Luca da Arezzo; später Alvaro di Perez; Filippo d’Andrea; und Sohn Bindo di Niccolò"/>
           <attvalue for="zuschreibungsdiskussion seite" value="217-220"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="8"/>
+          <attvalue for="degree" value="11"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.3739130434782609"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.47441860465116287"/>
+          <attvalue for="betweenesscentrality" value="476.0"/>
+          <attvalue for="modularity_class" value="34"/>
+          <attvalue for="clustering" value="0.0357142873108387"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-72.28474" y="-9.319154"/>
@@ -1878,6 +2869,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Werkstatt Spinello di Luca da Arezzo"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete mit Vater Spinello di Luca"/>
           <attvalue for="zuschreibungsdiskussion seite" value="226"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.22164948453608246"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.25586932447397565"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="34"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-146.73268" y="-13.078126"/>
@@ -1897,6 +2897,15 @@
           <attvalue for="gruppen nach kapitel 8" value="Werkstatt Spinello di Luca da Arezzo; vermittelnde Altmeister"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete mit Sohn Guasparre; arbeitete mit Niccolò di Piero Gerini und Lorenzo di Niccolò"/>
           <attvalue for="zuschreibungsdiskussion seite" value="222-226"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.28289473684210525"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3472868217054264"/>
+          <attvalue for="betweenesscentrality" value="57.0"/>
+          <attvalue for="modularity_class" value="34"/>
+          <attvalue for="clustering" value="0.3333333432674408"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-117.98465" y="-17.72843"/>
@@ -1907,6 +2916,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="lebte 1333-1396; Sohn des Giotto-Schülers Taddeo di Gaddo di Zanobi; sonst in „Maler von Florenz“ nicht berücksichtigt da er vor dem Zeitraum lebte"/>
           <attvalue for="zuschreibungsdiskussion seite" value="209-210"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="38.0"/>
+          <attvalue for="modularity_class" value="35"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="18.7294" y="-79.45471"/>
@@ -1917,6 +2935,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="sonst in „Maler von Florenz“ nicht berücksichtigt da er nur kurz in Florenz war"/>
           <attvalue for="zuschreibungsdiskussion seite" value="242"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="34"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-44.509224" y="-46.676025"/>
@@ -1927,6 +2954,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Stiefvater und Lehrer von Lorenzo di Cione Ghiberti; als Goldschmied ansonsten nicht in „Maler von Florenz“ berücksichtigt."/>
           <attvalue for="zuschreibungsdiskussion seite" value="252"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.24691358024691357"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3229761904761906"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="135.45415" y="-36.278854"/>
@@ -1936,6 +2972,15 @@
         <attvalues>
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete bei Don Lorenzo; ansonsten nicht in „Maler von Florenz“ berücksichtigt"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="259.17606" y="-29.112053"/>
@@ -1946,6 +2991,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Schüler des Agnolo di Taddeo Gaddi; wanderte bald nach 1390 nach Padua aus und ist daher nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="zuschreibungsdiskussion seite" value="234"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="35"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-9.222232" y="-79.349754"/>
@@ -1956,6 +3010,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Gehilfe des Gentile di Niccolò da Fabriano; sonst nicht nachweisbar und nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-308.0204" y="-100.39649"/>
@@ -1966,6 +3029,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="vermutlich Mitarbeiter von Fra Filippo di Tommaso (Filippo Lippi); wirkte später als der behandelte Zeitraum und ist daher nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="zuschreibungsdiskussion seite" value="277"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-204.75876" y="-153.35976"/>
@@ -1976,6 +3048,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Lehrerfigur der Miniaturisten der Angeli: Fra Gabriello und Don Lorenzo. Aktiv 1380-1389; daher in „Maler von Florenz“ nicht berücksichtigt."/>
           <attvalue for="zuschreibungsdiskussion seite" value="236"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.5"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5833333333333333"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="22"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="112.20942" y="-187.13596"/>
@@ -1986,6 +3067,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="lernte bei Ghiberti; sonst in „Maler von Florenz“ nicht berücksichtigt da er primär Bildhauer war"/>
           <attvalue for="zuschreibungsdiskussion seite" value="253"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="79.338234" y="-29.383923"/>
@@ -1996,6 +3086,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Mitarbeiter und Sohn von Fra Filippo di Tommaso (Filippo Lippi); sonst in „Maler von Florenz“ nicht berücksichtigt da er erst später tätig war"/>
           <attvalue for="zuschreibungsdiskussion seite" value="295"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-201.93164" y="-212.44052"/>
@@ -2006,6 +3105,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="hatte Lehrer Don Angelico; ansonsten nicht berücksichtigt"/>
           <attvalue for="zuschreibungsdiskussion seite" value="273"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="229.37173" y="-41.06866"/>
@@ -2016,6 +3124,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="arbeitete bei Don Angelico; ansonsten nicht berücksichtigt"/>
           <attvalue for="zuschreibungsdiskussion seite" value="273"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="230.55884" y="20.438667"/>
@@ -2026,6 +3143,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Gehilfe des Gentile di Niccolò da Fabriano; sonst nicht nachweisbar"/>
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-331.80182" y="-164.47034"/>
@@ -2036,6 +3162,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Sohn des Andrea di Giusto; war erst nach dem berüchtigten Zeitraum aktiv"/>
           <attvalue for="zuschreibungsdiskussion seite" value="264"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="26"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-19.245522" y="-16.915258"/>
@@ -2046,6 +3181,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Gehilfe des Gentile di Niccolò da Fabriano; sonst nicht nachweisbar"/>
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-300.25644" y="-168.04433"/>
@@ -2056,6 +3200,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Gehilfe des Gentile di Niccolò da Fabriano; sonst nicht nachweisbar"/>
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-336.2156" y="-109.52343"/>
@@ -2066,6 +3219,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Zentrum des wichtigsten Innovationszentrums Florentiner Kunst; als Maler eigentlich nicht berücksichtigt da er Bronzegießer war; ausgebildet bei Stiefvater Bartolo di Michele; reiste mit Mariotto di Nardo; Lehrer von Paolo di Dono; Benozzo di Lese; Donato di Niccolò"/>
           <attvalue for="zuschreibungsdiskussion seite" value="252-254"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.3114754098360656"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4657894736842104"/>
+          <attvalue for="betweenesscentrality" value="127.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="114.471375" y="-21.988333"/>
@@ -2076,6 +3238,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Bruder von Andrea di Cione „Orcagna“; Vater von Cione di Nardo und Freund von Niccolò di Tommaso; vor dem berücksichtigten Zeitraum tätig und daher sonst nicht berücksichtigt"/>
           <attvalue for="zuschreibungsdiskussion seite" value="210"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.273972602739726"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.32166666666666666"/>
+          <attvalue for="betweenesscentrality" value="20.0"/>
+          <attvalue for="modularity_class" value="25"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="110.52944" y="49.202156"/>
@@ -2086,6 +3257,15 @@
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Gehilfe des Gentile di Niccolò da Fabriano; sonst nicht nachweisbar"/>
           <attvalue for="zuschreibungsdiskussion seite" value="241"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-282.33862" y="-117.96535"/>
@@ -2095,6 +3275,15 @@
         <attvalues>
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Mitarbeiter von Fra Filippo di Tommaso (Filippo Lippi); ansonsten nicht berücksichtigt"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="clustering" value="0.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-174.836" y="-221.91243"/>
@@ -2104,6 +3293,15 @@
         <attvalues>
           <attvalue for="group" value="nicht in „Maler von Florenz“ berücksichtigt"/>
           <attvalue for="verbindungen nach kapitel 8" value="Bruder Dello di Niccolò (Delli) und Niccolò di Niccolò; mit letzterem lebte er in Spanien zusammen. War nicht in Florenz als Maler tätig; daher nicht berücksichtigt."/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="30"/>
+          <attvalue for="clustering" value="1.0"/>
         </attvalues>
         <viz:size value="10.0"/>
         <viz:position x="-56.74354" y="-405.64093"/>
