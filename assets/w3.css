@@ -1,11 +1,13 @@
-/* Addition to the W3 framework based on the "Café" Template: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cafe */
+/* Template from W3Schools. "W3.CSS Home." Accessed August 4, 2023. https://www.w3schools.com/w3css/. Small changes were made. */
+
+/* Addition to the W3.CSS framework based on the "Café" Template: W3Schools. "W3.CSS Templates". w3schools.com, accessed 4. August 2023. https://www.w3schools.com/w3css/w3css_templates.asp. */
 body,
     html {
       height: 100%;
       font-family: "Calibri", sans-serif;/* Inconsolata */
     }
 
-/* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+/* W3.CSS 4. 15 December 2020 by Jan Egil and Borge Refsnes */
 html {
     box-sizing: border-box
 }
