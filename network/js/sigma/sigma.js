@@ -1,3 +1,4 @@
+// File was generated and downloaded per Gephi 0.9, Plugin SigmaExporter: Oxford Internet Institute, "sigmaExporter", https://github.com/oxfordinternetinstitute/gephi-plugins/tree/sigmaexporter-plugin/modules/sigmaExporter
 /* sigmajs.org - an open-source light-weight JavaScript graph drawing library - Facenuke - Author:  Alexis Jacomy - License: MIT */
 var sigma = {
     tools: {},

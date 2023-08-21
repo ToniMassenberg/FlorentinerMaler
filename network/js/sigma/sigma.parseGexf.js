@@ -1,4 +1,6 @@
-// Mathieu Jacomy @ Sciences Po Médialab & WebAtlas
+// File was generated and downloaded per Gephi 0.9, Plugin SigmaExporter: Oxford Internet Institute, "sigmaExporter", https://github.com/oxfordinternetinstitute/gephi-plugins/tree/sigmaexporter-plugin/modules/sigmaExporter
+
+// Mathieu Jacomy @ Sciences Po Mï¿½dialab & WebAtlas
 // (requires sigma.js to be loaded)
 sigma.publicPrototype.parseGexf = function(gexfPath,callback) {
   // Load XML file:

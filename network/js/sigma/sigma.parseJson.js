@@ -1,6 +1,8 @@
+// File was generated and downloaded per Gephi 0.9, Plugin SigmaExporter: Oxford Internet Institute, "sigmaExporter", https://github.com/oxfordinternetinstitute/gephi-plugins/tree/sigmaexporter-plugin/modules/sigmaExporter
+
 // Scott Hale (Oxford Internet Institute)
 // Requires sigma.js and jquery to be loaded
-// based on parseGexf from Mathieu Jacomy @ Sciences Po Médialab & WebAtlas
+// based on parseGexf from Mathieu Jacomy @ Sciences Po Mï¿½dialab & WebAtlas
 
 sigma.publicPrototype.parseJson = function(jsonPath,callback) {
 	var sigmaInstance = this;
