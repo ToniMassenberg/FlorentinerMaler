@@ -3,7 +3,7 @@ Ein Onlinetool mit Datenvisualisierungen über Florentiner Maler des 15. Jahrhun
 
 Dies ist das Repositorium für meine Masterarbeit im [MA Cultural Data Studies](https://www.uni-marburg.de/de/mcdci/studium/ma-cds) am [Marburg Center for Digital Culture and Infrastructure](https://www.uni-marburg.de/de/mcdci). 
 
-Anmerkungen und Fehlermeldungen bitte an Toni Massenberg, Antonia.Massenberg@students.uni-marburg.de.
+Anmerkungen und Fehlermeldungen bitte an Toni Massenberg, Antonia.Massenberg@uni-marburg.de.
 
 
 ## Inhalt
@@ -28,9 +28,9 @@ Pläne 6-17 zeigen die Wohnorte der Florentiner Maler, Plan 18 zeigt in beschrif
 
 ## Nutzung der Netzwerkdaten
 Alle zur Generierung der Netzwerke notwendigen Daten finden sich im Ordner ```network```.
-Sie basieren auf [SigmaJS](https://github.com/jacomyal/sigma.js/) V1, exportiert aus Gephi. Sowohl die JavaScript- als auch die CSS-Dateien wurden für das vorliegende Projekt verändert, die Abwandlungen sind im Code dokumentiert.
-Die Daten unter dem Namen ```regesten``` basieren auf den Regestenteil in "Die Maler von Florenz", die Dateien unter ```chapter8``` entsprechen Jacobsens Herleitung in Kapitel 8 des Buches.
-Die .config-Dateien bestimmen die Dateiherkunft und Darstellung der beiden Netzwerke. Die jeweiligen JSON-Dateien enthalten die Knoten- und Kanteninformationen, auf denen die Netzwerke basieren. Durch die GEXF-Dateien können Sie die Netzwerke direkt in Gephi importieren oder sie auf GephiLite ([Regesten-Netzwerk](https://gephi.org/gephi-lite/?gexf=https://tonimassenberg.github.io/FlorentinerMaler/network/regesten.gexf), [Kapitel8-Netzwerk](https://gephi.org/gephi-lite/?gexf=https://tonimassenberg.github.io/FlorentinerMaler/network/chapter8.gexf)) bearbeiten.
+Die grundlegende Netzwerkfunktionalität wurde über das Plugin [sigmaExporter](https://github.com/oxfordinternetinstitute/gephi-plugins/tree/sigmaexporter-plugin/modules/sigmaExporter) aus Gephi 0.9.4 generiert. Sowohl die JavaScript- als auch die CSS-Dateien wurden für das vorliegende Projekt stark modifiziert, die Herkunft der jeweiligen Dateien und die Abwandlungen sind im Code dokumentiert.
+Die Daten unter dem Namen ```regesten``` basieren auf den Regestenteil in "Die Maler von Florenz", die Dateien unter ```chapter8``` entsprechen Jacobsens Erläuterungen in Kapitel 8 von "Die Maler von Florenz".
+Die .config-Dateien bestimmen die Dateiherkunft und Darstellung der beiden Netzwerke. Die jeweiligen JSON-Dateien enthalten die Knoten- und Kanteninformationen, auf denen die Netzwerke basieren. Durch die GEXF- und gephi-Dateien können Sie die Netzwerke direkt in Gephi importieren (über diesen Weg lassen sich auch alle Netzwerkverbindungen im CSV-Format exportieren) oder sie explorativ auf GephiLite ([Regesten-Netzwerk](https://gephi.org/gephi-lite/?gexf=https://tonimassenberg.github.io/FlorentinerMaler/network/regesten.gexf), [Kapitel8-Netzwerk](https://gephi.org/gephi-lite/?gexf=https://tonimassenberg.github.io/FlorentinerMaler/network/chapter8.gexf)) bearbeiten. 
 
 Aus den einleitenden Kurztexten im Regestenteil lassen sich für 119 Maler Familienmitglieder (Väter, Onkel, Brüder, Schwager oder unbestimmte Verwandschaftsverhältnisse) ableiten, professionelle Verbindungen sind für 37 Maler angegeben. In der Aufbereitung für dieses Netzwerk wurden wechselseitige Beziehungen, die Jacobsen bei einem der Beteiligten angibt, sowie implizierte Verhältnisse (wie die Onkel-Neffe-Beziehungen, die implizit aus den Vater-Sohn- sowie Bruderverhältnissen hervorgehen) ebenfalls berücksichtigt. Dieses Netzwerk visualisiert die nachweisbaren, im Regestenteil aufgeführten Verbindungen sowie die impliziten Verbindungen, die sich direkt daraus ergeben und die daher verlässlich sind. 
 
