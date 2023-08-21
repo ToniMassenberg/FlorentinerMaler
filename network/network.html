@@ -5,11 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- Scripts for network functionality from SigmaJS v1: Sciences-Po médialab and OuestWare, "SigmaJS", https://www.sigmajs.org/ -->
+  <!-- Generated and downloaded per Gephi 0.9, Plugin SigmaExporter: Oxford Internet Institute, "sigmaExporter", https://github.com/oxfordinternetinstitute/gephi-plugins/tree/sigmaexporter-plugin/modules/sigmaExporter -->
   <script src="js/sigma/sigma.min.js"></script>
   <script src="js/sigma/sigma.parseJson.js"></script>
   <script src="js/main.js"></script>
   <link rel="stylesheet" href="css/style.css">
-  <!-- Stylesheet for W3 (responsive design framework) -->
+  <!-- Stylesheet for W3.CSS (responsive design framework) -->
   <link rel="stylesheet" href="../assets/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 </head>
@@ -39,11 +41,11 @@
         <span class="w3-tag w3-wide">Netzwerk</span>
       </h5>
       <!-- Footnotes drop-down -->
-      <button onclick="akkordion('beziehungen')" class="w3-btn w3-block w3-light-gray w3-left-align">Beziehungen der
+      <button onclick="accordion('beziehungen')" class="w3-btn w3-block w3-light-gray w3-left-align">Beziehungen der
         Florentiner Maler</button>
       <div id="beziehungen" class="w3-container w3-hide w3-justify">
         <div>
-          <p>Die in „Die Maler von Florenz“ <a href="#footnote1" onclick="akkordion('footnotes')">[1]</a> aufbereiteten
+          <p>Die in „Die Maler von Florenz“ <a href="#footnote1" onclick="accordion('footnotes')">[1]</a> aufbereiteten
             Daten erlauben nicht nur einen Einblick in das finanzielle Leben der
             Florentiner Maler, sondern auch in ihre Beziehungen untereinander. Die Catasto- und Prestanza-Listen
             detaillieren
@@ -64,7 +66,7 @@
             Malerei über die Internationale Gotik hin zur Renaissancemalerei anhand der Werke, die er als gesichert
             anerkennt, nachvollzieht. Dabei handelt es sich nicht um eine stringente
             Erzählung,
-            die mit einem „Ereignis Masaccio“ <a href="#footnote1" onclick="akkordion('footnotes')">[2]</a> einen
+            die mit einem „Ereignis Masaccio“ <a href="#footnote1" onclick="accordion('footnotes')">[2]</a> einen
             Wendepunkt hin zur Renaissance erfährt, sondern um eine multikausale
             Entwicklung, die durch die spezifischen Interessen, Fähigkeiten, Reisen und eben Beziehungen der einzelnen
             Maler in
@@ -76,7 +78,7 @@
       </div>
       <!-- Visualisierung drop-down -->
       <div class="w3-content  w3-padding-16">
-        <button onclick="akkordion('visualisierungen')" class="w3-btn w3-block w3-light-gray w3-left-align">Die
+        <button onclick="accordion('visualisierungen')" class="w3-btn w3-block w3-light-gray w3-left-align">Die
           Visualisierungen</button>
         <div id="visualisierungen" class="w3-container w3-hide w3-justify">
           <p>Auf dieser Seite werden zwei Netzwerke gezeigt. Der auf den Regesten basierende Plan berücksichtigt als
@@ -133,14 +135,14 @@
             Licht der Uneindeutigkeit historischer Daten gelesen werden. Wer in den Archivmaterialien als „garzone“,
             „discepolo“, „istà meco“ bezeichnet wird, kann ein dem Meister fast gleichberechtigter Mitarbeiter sein, ein
             Geselle
-            oder Schüler, <a href="#footnote1" onclick="akkordion('footnotes')">[3]</a> die Zuschreibung der jeweiligen
+            oder Schüler, <a href="#footnote1" onclick="accordion('footnotes')">[3]</a> die Zuschreibung der jeweiligen
             Beziehung als „gearbeitet mit“, „Lehrer von“ oder „Partner von“
             erfolgt dann soweit möglich auf Basis anderer Faktoren wie der Höhe des Gehalts. Dazu kommt die zeitliche
             Dimension,
             da angenommen werden kann, dass kurze Vertragszeiten und häufige Wechsel von Mitarbeitern und Schülern im
             Florenz
             der Frührenaissance gängiger waren als langjährig gewachsene, stilprägende Werkstattverhältnisse.<a
-              href="#footnote1" onclick="akkordion('footnotes')">[4]</a> Darüber hinaus
+              href="#footnote1" onclick="accordion('footnotes')">[4]</a> Darüber hinaus
             lebten und wirkten viele einflussreiche Maler nur für kurze Zeit in Florenz. Die Netzwerke stellen also
             nicht
             Verbindungen zu einem bestimmten Zeitpunkt dar, sondern mögliche Bekanntschaften über den Verlauf eines
@@ -153,7 +155,7 @@
       </div>
       <!-- Möglichkeiten drop-down -->
       <div class="w3-content  w3-padding-8">
-        <button onclick="akkordion('moeglichkeiten')" class="w3-btn w3-block w3-light-gray w3-left-align">Möglichkeiten
+        <button onclick="accordion('moeglichkeiten')" class="w3-btn w3-block w3-light-gray w3-left-align">Möglichkeiten
           der Arbeit mit diesen Daten</button>
         <div id="moeglichkeiten" class="w3-container w3-hide w3-justify">
           <p>Die auf dieser Seite gezeigten Visualisierungen sind statisch, Sie können die Beziehungen nachvollziehen,
@@ -184,7 +186,7 @@
       </div>
       <!-- Footnotes drop-down -->
       <div class="w3-content  w3-padding-16">
-        <button onclick="akkordion('footnotes')" class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
+        <button onclick="accordion('footnotes')" class="w3-btn w3-block w3-light-gray w3-left-align">Fußnoten</button>
         <div id="footnotes" class="w3-container w3-hide">
           <p>Die Zuschreibungsfähigkeit richtet sich nach der Tabelle bei Jacobsen S. 207f, die Einschätzung heutiger
             Berühmtheit nach Jacobsen S. 60.</p>
@@ -209,6 +211,9 @@
       </form>
     </div>
   </div>
+
+  <!-- The following code (until line 275) is an edited version of the HTML template generated and downloaded per the Gephi 0.9 Plugin SigmaExporter 
+  See Oxford Internet Institute, "sigmaExporter", https://github.com/oxfordinternetinstitute/gephi-plugins/tree/sigmaexporter-plugin/modules/sigmaExporter -->
 
   <!-- Container the network is generated into -->
   <div class="sigma-parent w3-content">
@@ -252,7 +257,7 @@
 
     <!-- Side panel with further painter information -->
     <div id="attributepane" class="w3-content">
-      <div class="text w3-padding-64">
+      <div class="text">
         <div title="Close" class="left-close returntext">
           <div class="c cf"><span>Zurück zum Netzwerk</span></div>
         </div>
@@ -274,7 +279,8 @@
   <footer class="w3-light-grey w3-padding-48 w3-large">
     <div class="w3-auto w3-row w3-bar">
       <div class="w3-col s6 w3-center w3-bar-item w3-mobile">
-        <a href="https://www.uni-marburg.de/de/mcdci/" target="_blank"><img src="../assets/images/mcdci_master_02.svg" alt="Logo des Marburg Center for Digital Culture and Infrastructure"></a>
+        <a href="https://www.uni-marburg.de/de/mcdci/" target="_blank"><img src="../assets/images/mcdci_master_02.svg"
+            alt="Logo des Marburg Center for Digital Culture and Infrastructure"></a>
       </div>
       <div class="w3-col s6 w3-left w3-bar-item w3-mobile">
         Website zur Masterarbeit im <a href="https://www.uni-marburg.de/de/mcdci/studium/ma-cds"
